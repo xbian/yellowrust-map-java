@@ -92,26 +92,6 @@
         ga('send', 'pageview');
 
     </script>
-    <style type="text/css">
-        .site-name a {
-            font-family: 'Fredericka the Great', cursive;
-            font-size: 3.5em;
-            color: #dd9933 !important;
-            line-height: 1.1em;
-        }
-        .site-name a:hover {
-            text-decoration: none;
-            color: #dd9933 !important;
-        }
-        #logo .site-description {
-            display:block;
-            font-size:14px;
-            margin:10px 33px 0 0;
-            text-align: right;
-            color: #dd9933 !important;
-        }
-    </style>
-    <link href="http://fonts.googleapis.com/css?family=Fredericka+the+Great" type="text/css" rel="stylesheet">
 </head>
 <body>
 
@@ -119,6 +99,5 @@
 
     <!-- Fixed navbar -->
     <div id="logo">
-        <span class="site-name"><a rel="home" title="Wheat Yellow Rust Genomics " href="http://yellowrust.com/">Wheat Yellow Rust Genomics </a></span>
-        <span class="site-description">Comparative genomic analysis of Puccinia striiformis f.sp. tritici</span>
+        <img src="<c:url value='/images/yrhead-wide.png'/>">
     </div>
