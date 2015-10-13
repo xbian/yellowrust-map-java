@@ -8,14 +8,14 @@
     <groupId>uk.ac.tgac.wis</groupId>
     <version>0.0.1</version>
   </parent>
-  <groupId>grassroots-portal</groupId>
-  <artifactId>grassroots-portal</artifactId>
+  <groupId>yellowrust-map</groupId>
+  <artifactId>yellowrust-map</artifactId>
   <version>0.0.1</version>
   <packaging>war</packaging>
-  <name>grassroots-portal</name>
+  <name>yellowrust-map</name>
 
   <build>
-    <finalName>ROOT</finalName>
+    <finalName>yellowrust-map</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
