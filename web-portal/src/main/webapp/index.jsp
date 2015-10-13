@@ -6,8 +6,7 @@
 
 <script src="<c:url value='/scripts/yrdata.js'/>" type="text/javascript"></script>
 
-<article id="post-36" class="post-36 page type-page status-publish hentry">
-    <header><h1>Yellow Rust Map</h1></header>
+    <h2>Yellow Rust Map</h2>
 
     <div class="post-entry">
         <div id="map"></div>
@@ -36,7 +35,6 @@
 
         <a href="<c:url value='/yellowrust-map/phenotype'/>">Phenotype Data</a>
     </div>
-</article>
 
 <script type="text/javascript">
 

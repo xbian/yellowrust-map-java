@@ -6,8 +6,7 @@
 <script src="<c:url value='/scripts/yrdata.js'/>" type="text/javascript"></script>
 
 
-<article id="post-36" class="post-36 page type-page status-publish hentry">
-    <header><h1>Yellow Rust Phenotype Data</h1></header>
+    <h2>Yellow Rust Phenotype Data</h2>
 
     <div class="post-entry">
 
@@ -15,7 +14,6 @@
             <table id="resultTable" class="phenotype"></table>
         </div>
     </div>
-</article>
 <script type="text/javascript">
     jQuery(document).ready(function () {
         jQuery('#resultTable').dataTable({
@@ -433,5 +431,7 @@
     }
 
 </script>
+
+</div>
 
 <%@ include file="footer.jsp" %>
