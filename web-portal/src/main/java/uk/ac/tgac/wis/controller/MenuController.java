@@ -44,37 +44,37 @@ public class MenuController implements ServletContextAware {
     this.servletContext = servletContext;
   }
 
-
-  @RequestMapping("/about")
-  public String about() {
-    return "/about.jsp";
-  }
-
-  @RequestMapping("/contact")
-  public String contact() {
-    return "/contact.jsp";
-  }
-
-  @RequestMapping("/indexer")
-  public String indexer() {
-    return "/indexer.jsp";
-  }
-
-  @RequestMapping("/services")
-  public String services() {
-    return "/services.jsp";
-  }
-
-
-  @RequestMapping("/blast")
-  public String grassRootBlast() {
-    return "/blast.jsp";
-  }
-
-  @RequestMapping("/yellowrustmap")
-  public String yellowRustMap() {
-    return "/geo.jsp";
-  }
+//
+//  @RequestMapping("/about")
+//  public String about() {
+//    return "/about.jsp";
+//  }
+//
+//  @RequestMapping("/contact")
+//  public String contact() {
+//    return "/contact.jsp";
+//  }
+//
+//  @RequestMapping("/indexer")
+//  public String indexer() {
+//    return "/indexer.jsp";
+//  }
+//
+//  @RequestMapping("/services")
+//  public String services() {
+//    return "/services.jsp";
+//  }
+//
+//
+//  @RequestMapping("/blast")
+//  public String grassRootBlast() {
+//    return "/blast.jsp";
+//  }
+//
+//  @RequestMapping("/yellowrustmap")
+//  public String yellowRustMap() {
+//    return "/geo.jsp";
+//  }
 
   @RequestMapping("/phenotype")
   public String phenotype() {

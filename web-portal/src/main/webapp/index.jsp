@@ -6,17 +6,17 @@
 
 <script src="<c:url value='/scripts/yrdata.js'/>" type="text/javascript"></script>
 
-<div class="container center-block">
+<article id="post-36" class="post-36 page type-page status-publish hentry">
+    <header><h1>Yellow Rust Map</h1></header>
 
-    <h2>Yellow Rust Map</h2>
+    <div class="post-entry">
+        <div id="map"></div>
+        <br/>
 
-    <div id="map"></div>
-    <br/>
+        <div class="row">
+            <div class="col-lg-6">
 
-    <div class="row">
-        <div class="col-lg-6">
-
-            <div class="input-group">
+                <div class="input-group">
                <span class="input-group-btn">
                    <button type="button" class="btn btn-default"
                            onclick="mapFitBounds([[49.781264,-7.910156],[61.100789, -0.571289]]);">Zoom UK
@@ -25,17 +25,18 @@
                            onclick="mapFitBounds([[36.738884,-14.765625],[56.656226, 32.34375]]);">Zoom Europe
                    </button>
                </span>
+                </div>
             </div>
         </div>
-    </div>
-    <br/>
+        <br/>
 
-    <div id="tableWrapper">
-        <table id="resultTable"></table>
-    </div>
+        <div id="tableWrapper">
+            <table id="resultTable"></table>
+        </div>
 
-    <a href="<c:url value='/grassroots-portal/phenotype'/>">Phenotype Data</a>
-</div>
+        <a href="<c:url value='/yellowrust-map/phenotype'/>">Phenotype Data</a>
+    </div>
+</article>
 
 <script type="text/javascript">
 

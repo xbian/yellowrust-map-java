@@ -5,15 +5,17 @@
 <link href="<c:url value='/scripts/jquery/datatables/css/jquery.dataTables.css'/>" rel="stylesheet" type="text/css">
 <script src="<c:url value='/scripts/yrdata.js'/>" type="text/javascript"></script>
 
-<div class="container center-block" style="width:95%!important;">
 
-    <h2>Yellow Rust Phenotype Data</h2>
+<article id="post-36" class="post-36 page type-page status-publish hentry">
+    <header><h1>Yellow Rust Phenotype Data</h1></header>
 
+    <div class="post-entry">
 
-    <div id="tableWrapper">
-        <table id="resultTable" class="phenotype"></table>
+        <div id="tableWrapper">
+            <table id="resultTable" class="phenotype"></table>
+        </div>
     </div>
-</div>
+</article>
 <script type="text/javascript">
     jQuery(document).ready(function () {
         jQuery('#resultTable').dataTable({

@@ -15,7 +15,7 @@
     <%-- timestamp to force browser to reload javascript --%>
     <jsp:useBean id="timestamp" class="java.util.Date" scope="request"/>
 
-    <title>Wheat Information System Portal <c:if test="${not empty title}">- ${title}</c:if></title>
+    <title>Yellow Rust Map - Powered by Grassroots API</title>
     <script type="text/javascript" src="<c:url value='/scripts/scriptaculous/prototype.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/fluxion-ajax/fluxion-ajax-compiled.js?ts=${timestamp.time}'/>"></script>
 
@@ -93,31 +93,114 @@
 
     </script>
 
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif:regular,bold">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Fredericka+the+Great">
+    <style type="text/css">
+        NAV DIV UL LI A {
+            font-size: 14px !important;
+            color: #00475c !important;
+        }
+        PICK ELEMENT FIRST! {
+            font-size: 20px !important;
+            color: #222 !important;
+        }
+        .site-name a {
+            font-family: 'Fredericka the Great', cursive;
+            font-size: 3.5em;
+            color: #dd9933 !important;
+            line-height: 1.1em;
+        }
+        .site-name a:hover {
+            text-decoration: none;
+            color: #dd9933 !important;
+        }
+        #logo .site-description {
+            display:block;
+            font-size:14px;
+            margin:10px 33px 0 0;
+            text-align: right;
+            color: #dd9933 !important;
+        }
+    </style>
+
 </head>
-<body>
+<body class="page page-id-36 page-template-default" style="zoom: 1;">
+<div id="container" class="hentry">
+    <div id="header">
 
-<!-- Fixed navbar -->
-<nav class="navbar navbar-default navbar-static-top" role="navigation" style="background-color:white!important;">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Grassroots Infrastructure</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li ><a href="<c:url value='/'/>">Home</a></li>
-                <li><a href="<c:url value='/grassroots-portal/services'/>">Services</a></li>
-                <li><a href="<c:url value='/grassroots-portal/indexer'/>">Search</a></li>
-                <li><a href="<c:url value='/grassroots-portal/contact'/>">Contact</a></li>
-                <li><a href="http://wheatis.tgac.ac.uk/grassroots/api/">Grassroots API</a></li>
-            </ul>
-            <img class ="navbar-nav navbar-right" style="height:50px;" src="<c:url value='/images/tgac_logo.png'/>"/>
-        </div>
-    </div>
-</nav>
+        <div id="logo">
+            <span class="site-name"><a href="http://yellowrust.com/" title="Wheat Yellow Rust Genomics " rel="home">Wheat Yellow Rust Genomics </a></span>
+            <span class="site-description">Comparative genomic analysis of Puccinia striiformis f.sp. tritici</span>
+        </div><!-- end of #logo -->
 
+        <!-- Primary Navigation Menu -->
+        <nav id="access">
+            <div class="menu-custom-menu-container"><ul id="menu-custom-menu" class="menu"><li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://yellowrust.com/?page_id=19">Yellow rust</a>
+                <ul class="sub-menu">
+                    <li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="http://yellowrust.com/?page_id=10">What is Puccinia striiformis?</a></li>
+                    <li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a href="http://yellowrust.com/?page_id=38">What is comparative genomics?</a></li>
+                </ul>
+            </li>
+                <li id="menu-item-395" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-395"><a href="http://yellowrust.com/?page_id=394">Projects</a>
+                    <ul class="sub-menu">
+                        <li id="menu-item-398" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-398"><a href="http://yellowrust.com/?page_id=397">SCPRID grant</a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-354" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-354"><a href="http://yellowrust.com/?page_id=353">Latest News</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-157"><a href="http://yellowrust.com/?page_id=155">Blog posts</a></li>
+                                        <li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-356"><a href="http://yellowrust.com/?page_id=355">Press and Media</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-403"><a href="http://yellowrust.com/?page_id=401">Field pathogenomics</a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-198"><a href="http://yellowrust.com/?page_id=197">Get involved</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-36 current_page_item menu-item-37"><a href="http://yellowrust.com/?page_id=36">Tools</a>
+                    <ul class="sub-menu">
+                        <li id="menu-item-217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-217"><a href="http://yellowrust.com/?page_id=215">TGAC browser</a></li>
+                        <li id="menu-item-382" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-382"><a href="http://yellowrust.com/?page_id=380">TSL GeeFu</a></li>
+                    </ul>
+                </li>
+                <li id="menu-item-283" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-283"><a href="http://yellowrust.com/?page_id=281">Protocols</a>
+                    <ul class="sub-menu">
+                        <li id="menu-item-285" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-285"><a href="http://yellowrust.com/?page_id=284">DNA extraction</a></li>
+                    </ul>
+                </li>
+                <li id="menu-item-369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-369"><a href="http://yellowrust.com/?page_id=368">Published data</a>
+                    <ul class="sub-menu">
+                        <li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a href="http://yellowrust.com/?page_id=84">Isolates sequenced</a></li>
+                        <li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="http://yellowrust.com/?page_id=28">Genomes</a></li>
+                        <li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="http://yellowrust.com/?page_id=104">Predicted gene models</a></li>
+                        <li id="menu-item-103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103"><a href="http://yellowrust.com/?page_id=101">Predicted proteomes</a></li>
+                        <li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15"><a href="http://yellowrust.com/?page_id=12">Raw reads</a></li>
+                    </ul>
+                </li>
+                <li id="menu-item-371" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-371"><a href="http://yellowrust.com/?page_id=370">Unpublished data</a>
+                    <ul class="sub-menu">
+                        <li id="menu-item-298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-298"><a href="http://yellowrust.com/?page_id=296">PST isolates raw data</a></li>
+                        <li id="menu-item-365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365"><a href="http://yellowrust.com/?page_id=363">Phenotypic data</a></li>
+                    </ul>
+                </li>
+                <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="http://yellowrust.com/?page_id=31">Publications</a></li>
+                <li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="http://yellowrust.com/?page_id=33">Contact Us</a></li>
+            </ul></div>    <select><option selected="selected" value="">Go to...</option><option value="http://yellowrust.com/?page_id=19">Yellow rust</option><option value="http://yellowrust.com/?page_id=10">What is Puccinia striiformis?</option><option value="http://yellowrust.com/?page_id=38">What is comparative genomics?</option><option value="http://yellowrust.com/?page_id=394">Projects</option><option value="http://yellowrust.com/?page_id=397">SCPRID grant</option><option value="http://yellowrust.com/?page_id=353">Latest News</option><option value="http://yellowrust.com/?page_id=155">Blog posts</option><option value="http://yellowrust.com/?page_id=355">Press and Media</option><option value="http://yellowrust.com/?page_id=401">Field pathogenomics</option><option value="http://yellowrust.com/?page_id=197">Get involved</option><option value="http://yellowrust.com/?page_id=36">Tools</option><option value="http://yellowrust.com/?page_id=215">TGAC browser</option><option value="http://yellowrust.com/?page_id=380">TSL GeeFu</option><option value="http://yellowrust.com/?page_id=281">Protocols</option><option value="http://yellowrust.com/?page_id=284">DNA extraction</option><option value="http://yellowrust.com/?page_id=368">Published data</option><option value="http://yellowrust.com/?page_id=84">Isolates sequenced</option><option value="http://yellowrust.com/?page_id=28">Genomes</option><option value="http://yellowrust.com/?page_id=104">Predicted gene models</option><option value="http://yellowrust.com/?page_id=101">Predicted proteomes</option><option value="http://yellowrust.com/?page_id=12">Raw reads</option><option value="http://yellowrust.com/?page_id=370">Unpublished data</option><option value="http://yellowrust.com/?page_id=296">PST isolates raw data</option><option value="http://yellowrust.com/?page_id=363">Phenotypic data</option><option value="http://yellowrust.com/?page_id=31">Publications</option><option value="http://yellowrust.com/?page_id=33">Contact Us</option></select></nav>
+    </div><!-- end of #header -->
+
+    <div id="wrapper" class="clearfix">
+
+        <div id="content-full" class="row span12" role="main">
+
+
+
+
+
+
+
+
+<%--</body>--%>
