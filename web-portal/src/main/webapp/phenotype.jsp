@@ -6,18 +6,73 @@
 <script src="<c:url value='/scripts/yrdata.js'/>" type="text/javascript"></script>
 
 
-    <h2>Yellow Rust Phenotype Data</h2>
+<h2>Yellow Rust Phenotype Data</h2>
 
-    <div class="post-entry">
+<%--<div>--%>
+    <%--Toggle column:--%>
+    <%--<a data-column="4" class="toggle-vis">Chinese 166</a> ---%>
+    <%--<a data-column="5" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="6" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="7" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="8" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="9" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="10" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="11" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="12" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="13" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="14" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="15" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="16" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="17" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="18" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="19" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="20" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="21" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="22" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="23" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="24" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="25" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="26" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="27" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="28" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="29" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="30" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="31" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="32" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="33" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="34" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="35" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="36" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="37" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="38" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="39" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="40" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="41" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="42" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="43" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="44" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="45" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="46" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="47" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="48" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="49" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="50" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="51" class="toggle-vis">Salary</a> ---%>
+    <%--<a data-column="52" class="toggle-vis">Salary</a>--%>
+<%--</div>--%>
 
-        <div id="tableWrapper">
-            <table id="resultTable" class="phenotype"></table>
-        </div>
-    </div>
+<p>Scroll left/right for more columns</p>
+<div id="tableWrapper">
+    <table id="resultTable" class="phenotype"></table>
+</div>
+
 <script type="text/javascript">
     jQuery(document).ready(function () {
-        jQuery('#resultTable').dataTable({
+        var phenotype_table = jQuery('#resultTable').dataTable({
             data: sample_phenotyping,
+            "scrollX": "1150px",
+//            "scrollY": "600px",
+//            paging: false,
             "columns": [
                 {data: "Batch", title: "Batch", "sDefaultContent": ""},
                 {data: "No of isols tested", title: "No of isols tested", "sDefaultContent": ""},
@@ -413,6 +468,17 @@
                 }
             ]
         });
+
+//        jQuery('a.toggle-vis').on('click', function (e) {
+//            e.preventDefault();
+//
+//            console.info(phenotype_table.columns());
+//            // Get the column API object
+//            var column = phenotype_table.column(jQuery(this).attr('data-column'));
+//
+//            // Toggle the visibility
+//            column.visible(!column.visible());
+//        });
     });
 
     function color_coding(cellData, cell) {
