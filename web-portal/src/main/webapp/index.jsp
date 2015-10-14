@@ -57,6 +57,7 @@
                 {data: "Date collected", title: "Date collected", "sDefaultContent": ""},
                 {data: "Host", title: "Host", "sDefaultContent": ""},
                 {data: "RNA-seq? (Selected/In progress/Completed/Failed)", title: "RNA-seq", "sDefaultContent": ""},
+                {data: "phenotype", title: "Phenotype Data", "sDefaultContent": ""},
                 {data: "Further Location information", title: "Further Location info", "sDefaultContent": ""},
                 {data: "Postal code", title: "Postal code", "sDefaultContent": ""},
                 {
@@ -106,11 +107,16 @@
     }
 
     function phenotype_html(id, phenotype) {
-        if (phenotype) {
-            return '<u onclick="phenotype_colorbox(\'' + id + '\');" style="cursor: pointer;">' + id + '</u>'
+        if (id != undefined){
+
+            if (phenotype) {
+                return '<u onclick="phenotype_colorbox(\'' + id + '\');" style="cursor: pointer;">' + id + '</u>';
+            } else {
+                return id;
+            }
         }
         else {
-            return id;
+            return "Unknown";
         }
 
     }
