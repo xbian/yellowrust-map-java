@@ -23,14 +23,15 @@
         <div class="col-lg-6">
 
             <div class="input-group">
-               <span class="input-group-btn pull-right">
-                   <button type="button" class="btn btn-default"
-                           onclick="ukcpvs_only();">UKCPVS Only
-                   </button>
-                   <button type="button" class="btn btn-default"
-                           onclick="all();">ALL
-                   </button>
-               </span>
+               <%--<span class="input-group-btn pull-right">--%>
+                   <%--<div id="yrselect"></div>--%>
+                   <%--<button type="button" class="btn btn-default"--%>
+                           <%--onclick="ukcpvs_only();">UKCPVS Only--%>
+                   <%--</button>--%>
+                   <%--<button type="button" class="btn btn-default"--%>
+                           <%--onclick="all();">ALL--%>
+                   <%--</button>--%>
+               <%--</span>--%>
             </div>
         </div>
     </div>
@@ -79,33 +80,53 @@
                     }
                 }
             ]
+//                ,
+//                initComplete: function () {
+////                    this.api().columns().every(function () {
+//                        var column = this.column(3);
+//                        var select = $('<select><option value=""></option></select>')
+//                                .appendTo($('#yrselect').empty())
+//                                .on('change', function () {
+//                                        var val = $.fn.dataTable.util.escapeRegex(
+//                                                $(this).val()
+//                                        );
+//
+//                                        column
+//                                                .search(val ? '^' + val + '$' : '', true, false)
+//                                                .draw();
+//                                    });
+//
+//                        column.data().unique().sort().each(function (d, j) {
+//                            select.append('<option value="' + d + '">' + d + '</option>')
+//                        });
+////                    });
+//                }
 
         });
 
         jQuery('#resultTable').on('search.dt', function () {
             removePointers();
-            var filteredData = yrtable.rows( { filter: 'applied' } ).data().toArray();
-            console.info(filteredData);
+            var filteredData = yrtable.rows({filter: 'applied'}).data().toArray();
             displayYRLocations(filteredData);
         });
 
-//        // Apply the search
-//        yrtable.columns().every( function () {
-//            var that = this;
+//            // Apply the search
+//            yrtable.columns().every(function () {
+//                var that = this;
 //
-//            $( 'input', this.footer() ).on( 'keyup change', function () {
-//                if ( that.search() !== this.value ) {
-//                    that
-//                            .search( this.value )
-//                            .draw();
-//                }
-//            } );
-//        } );
+//                $('input', this.footer()).on('keyup change', function () {
+//                    if (that.search() !== this.value) {
+//                        that
+//                                .search(this.value)
+//                                .draw();
+//                    }
+//                });
+//            });
     });
 
-    function ukcpvs_only(){
+    function ukcpvs_only() {
         yrtable
-                .columns( 3 )
+                .columns(3)
                 .search("Unknown")
                 .draw();
     }
@@ -143,10 +164,11 @@
     }
 
     function phenotype_html_ukid(id, phenotype) {
-        if (id != undefined){
+        if (id != undefined) {
             if (phenotype) {
                 return '<u onclick="phenotype_colorbox(\'' + id + '\');" style="cursor: pointer;">' + id + '</u>';
-            } else {
+            }
+            else {
                 return id;
             }
         }
@@ -156,10 +178,11 @@
     }
 
     function phenotype_html(id, phenotype) {
-        if (id != undefined){
+        if (id != undefined) {
             if (phenotype) {
                 return '<u onclick="phenotype_colorbox(\'' + id + '\');" style="cursor: pointer;">' + id + '</u>';
-            } else {
+            }
+            else {
                 return "N/A";
             }
         }

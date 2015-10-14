@@ -15,19 +15,19 @@
     <a data-column="12" class="toggle-vis">Av x Yr7 NIL</a> -
     <a data-column="13" class="toggle-vis">Compair</a> -
     <a data-column="14" class="toggle-vis">Kavkaz x 4 Fed</a> -
-    <a data-column="15" class="toggle-vis">Clement</a> - <br/>
+    <a data-column="15" class="toggle-vis">Clement</a> -
     <a data-column="16" class="toggle-vis">AVS x Yr 15</a> -
     <a data-column="17" class="toggle-vis">VPM 1</a> -
     <a data-column="18" class="toggle-vis">Rendezvous</a> -
-    <a data-column="19" class="toggle-vis">Av x Yr17</a> -
+    <a data-column="19" class="toggle-vis">Av x Yr17</a> - <br/>
     <a data-column="20" class="toggle-vis">Carstens V</a> -
     <a data-column="21" class="toggle-vis">Talon</a> -
     <a data-column="22" class="toggle-vis">Av x Yr32</a> -
     <a data-column="23" class="toggle-vis">Spaldings Prolific</a> -
     <a data-column="24" class="toggle-vis">Robigus</a> -
-    <a data-column="25" class="toggle-vis">Solstice</a> -  <br/>
+    <a data-column="25" class="toggle-vis">Solstice</a> -
     <a data-column="26" class="toggle-vis">Timber</a> -
-    <a data-column="27" class="toggle-vis">Warrior</a> -
+    <a data-column="27" class="toggle-vis">Warrior</a> -  <br/>
     <a data-column="28" class="toggle-vis">KWS-Sterling</a> -
     <a data-column="29" class="toggle-vis">Cadenza</a> -
     <a data-column="30" class="toggle-vis">Claire</a> -
@@ -35,8 +35,8 @@
     <a data-column="32" class="toggle-vis">Ambition</a> -
     <a data-column="33" class="toggle-vis">Heines VII</a> -
     <a data-column="34" class="toggle-vis">Suwon Omar</a> -
-    <a data-column="35" class="toggle-vis">Avocet Yr5</a> -  <br/>
-    <a data-column="36" class="toggle-vis">Avocet Yr6</a> -
+    <a data-column="35" class="toggle-vis">Avocet Yr5</a> -
+    <a data-column="36" class="toggle-vis">Avocet Yr6</a> -  <br/>
     <a data-column="37" class="toggle-vis">Moro</a> -
     <a data-column="38" class="toggle-vis">Avocet Yr24</a> -
     <a data-column="39" class="toggle-vis">Opata</a> -
