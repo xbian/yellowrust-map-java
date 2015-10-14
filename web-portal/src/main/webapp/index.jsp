@@ -49,7 +49,7 @@
                 {
                     title: "UKCPVS ID",
                     "render": function (data, type, full, meta) {
-                        return phenotype_html(full['UKCPVS ID'], full['phenotype']);
+                        return phenotype_html_ukid(full['UKCPVS ID'], full['phenotype']);
                     }
                 },
                 {data: "Rust (YR/SR/LR)", title: "Rust (YR/SR/LR)", "sDefaultContent": "Unknown"},
@@ -57,7 +57,12 @@
                 {data: "Date collected", title: "Date collected", "sDefaultContent": ""},
                 {data: "Host", title: "Host", "sDefaultContent": ""},
                 {data: "RNA-seq? (Selected/In progress/Completed/Failed)", title: "RNA-seq", "sDefaultContent": ""},
-                {data: "phenotype", title: "Phenotype Data", "sDefaultContent": ""},
+                {
+                    title: "Phenotype Data",
+                    "render": function (data, type, full, meta) {
+                        return phenotype_html(full['UKCPVS ID'], full['phenotype']);
+                    }
+                },
                 {data: "Further Location information", title: "Further Location info", "sDefaultContent": ""},
                 {data: "Postal code", title: "Postal code", "sDefaultContent": ""},
                 {
@@ -106,9 +111,8 @@
         }
     }
 
-    function phenotype_html(id, phenotype) {
+    function phenotype_html_ukid(id, phenotype) {
         if (id != undefined){
-
             if (phenotype) {
                 return '<u onclick="phenotype_colorbox(\'' + id + '\');" style="cursor: pointer;">' + id + '</u>';
             } else {
@@ -118,7 +122,19 @@
         else {
             return "Unknown";
         }
+    }
 
+    function phenotype_html(id, phenotype) {
+        if (id != undefined){
+            if (phenotype) {
+                return '<u onclick="phenotype_colorbox(\'' + id + '\');" style="cursor: pointer;">' + id + '</u>';
+            } else {
+                return "N/A";
+            }
+        }
+        else {
+            return "N/A";
+        }
     }
 
     function phenotype_colorbox(id) {
