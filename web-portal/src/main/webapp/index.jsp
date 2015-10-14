@@ -1,11 +1,5 @@
 <%@ include file="header.jsp" %>
 
-
-<script src="<c:url value='/scripts/jquery/datatables/js/jquery.dataTables.min.js'/>" type="text/javascript"></script>
-<link href="<c:url value='/scripts/jquery/datatables/css/jquery.dataTables.css'/>" rel="stylesheet" type="text/css">
-
-<script src="<c:url value='/scripts/yrdata.js'/>" type="text/javascript"></script>
-
 <h2>Yellow Rust Map</h2>
 
 <div class="post-entry">
@@ -26,6 +20,19 @@
                </span>
             </div>
         </div>
+        <div class="col-lg-6">
+
+            <div class="input-group">
+               <span class="input-group-btn pull-right">
+                   <button type="button" class="btn btn-default"
+                           onclick="ukcpvs_only();">UKCPVS Only
+                   </button>
+                   <button type="button" class="btn btn-default"
+                           onclick="all();">ALL
+                   </button>
+               </span>
+            </div>
+        </div>
     </div>
     <br/>
 
@@ -37,11 +44,11 @@
 </div>
 
 <script type="text/javascript">
-
+    var yrtable;
     jQuery(document).ready(function () {
         makeYRJSON();
         displayYRLocations(sample_list);
-        var yrtable = jQuery('#resultTable').dataTable({
+        yrtable = jQuery('#resultTable').DataTable({
             data: sample_list,
             "columns": [
                 {data: "ID", title: "ID"},
@@ -72,13 +79,35 @@
                     }
                 }
             ]
+
         });
+
         jQuery('#resultTable').on('search.dt', function () {
             removePointers();
             var filteredData = yrtable._('tr', {"filter": "applied"});
             displayYRLocations(filteredData);
         });
+
+        // Apply the search
+        yrtable.columns().every( function () {
+            var that = this;
+
+            $( 'input', this.footer() ).on( 'keyup change', function () {
+                if ( that.search() !== this.value ) {
+                    that
+                            .search( this.value )
+                            .draw();
+                }
+            } );
+        } );
     });
+
+    function ukcpvs_only(){
+        yrtable
+                .columns( 3 )
+                .search("Unknown")
+                .draw();
+    }
 
 
     var markers = new Array();
@@ -98,12 +127,13 @@
             var lo = array[i]['location']['longitude'];
             var note = '<b>ID: </b>' + array[i]['ID'] + '<br/>'
                        + '<b>Country: </b>' + array[i]['Country'] + '<br/>'
-                       + '<b>UKCPVS ID: </b>' + phenotype_html(array[i]['UKCPVS ID'], array[i]['phenotype']) + '<br/>'
+                       + '<b>UKCPVS ID: </b>' + phenotype_html_ukid(array[i]['UKCPVS ID'], array[i]['phenotype']) + '<br/>'
                        + '<b>Rust (YR/SR/LR): </b>' + array[i]['Rust (YR/SR/LR)'] + '<br/>'
                        + '<b>Name/Collector: </b>' + array[i]['Name/Collector'] + '<br/>'
                        + '<b>Date collected: </b>' + array[i]['Date collected'] + '<br/>'
                        + '<b>Host: </b>' + array[i]['Host'] + '<br/>'
                        + '<b>RNA-seq: </b>' + array[i]['RNA-seq? (Selected/In progress/Completed/Failed)'] + '<br/>'
+                       + '<b>Phenotype: </b>' + phenotype_html(array[i]['UKCPVS ID'], array[i]['phenotype']) + '<br/>'
                        + '<b>Coordinates: </b>' + array[i]['location']['latitude'] + ', ' + array[i]['location']['longitude'] + '<br/>'
                        + '<b>Postal code: </b>' + array[i]['Postal code'] + '<br/>'
                        + '<b>Further Location info: </b>' + array[i]['Further Location information'];
