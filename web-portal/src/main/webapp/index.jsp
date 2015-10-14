@@ -48,7 +48,7 @@
     jQuery(document).ready(function () {
         makeYRJSON();
         displayYRLocations(sample_list);
-        yrtable = jQuery('#resultTable').DataTable({
+        yrtable = $('#resultTable').DataTable({
             data: sample_list,
             "columns": [
                 {data: "ID", title: "ID"},
@@ -84,22 +84,23 @@
 
         jQuery('#resultTable').on('search.dt', function () {
             removePointers();
-            var filteredData = yrtable._('tr', {"filter": "applied"});
+            var filteredData = yrtable.rows( { filter: 'applied' } ).data().toArray();
+            console.info(filteredData);
             displayYRLocations(filteredData);
         });
 
-        // Apply the search
-        yrtable.columns().every( function () {
-            var that = this;
-
-            $( 'input', this.footer() ).on( 'keyup change', function () {
-                if ( that.search() !== this.value ) {
-                    that
-                            .search( this.value )
-                            .draw();
-                }
-            } );
-        } );
+//        // Apply the search
+//        yrtable.columns().every( function () {
+//            var that = this;
+//
+//            $( 'input', this.footer() ).on( 'keyup change', function () {
+//                if ( that.search() !== this.value ) {
+//                    that
+//                            .search( this.value )
+//                            .draw();
+//                }
+//            } );
+//        } );
     });
 
     function ukcpvs_only(){
