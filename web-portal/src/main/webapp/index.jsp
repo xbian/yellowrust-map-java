@@ -23,15 +23,15 @@
         <div class="col-lg-6">
 
             <div class="input-group">
-                   <div id="yrselect"></div>
-                <%--<span class="input-group-btn pull-right">--%>
-                   <%--<button type="button" class="btn btn-default"--%>
-                           <%--onclick="ukcpvs_only();">UKCPVS Only--%>
-                   <%--</button>--%>
-                   <%--<button type="button" class="btn btn-default"--%>
-                           <%--onclick="all();">ALL--%>
-                   <%--</button>--%>
-               <%--</span>--%>
+                <div id="yrselect"></div>
+                <span class="input-group-btn ">
+                <button type="button" class="btn btn-default"
+                        onclick="ukcpvs_only();">UKCPVS Only
+                </button>
+                <button type="button" class="btn btn-default"
+                        onclick="ukcpvs_and_all();">ALL
+                </button>
+                </span>
             </div>
         </div>
     </div>
@@ -80,27 +80,25 @@
                     }
                 }
             ]
-                ,
-                initComplete: function () {
-//                    this.api().columns().every(function () {
-                        var column = this.api().column(3);
-                        var select = $('<select class="form-control"><option value="">Select Rust Type</option></select>')
-                                .appendTo($('#yrselect').empty())
-                                .on('change', function () {
-                                        var val = $.fn.dataTable.util.escapeRegex(
-                                                $(this).val()
-                                        );
+            ,
+            initComplete: function () {
+                var column = this.api().column(3);
+                var select = $('<select class="form-control"><option value="">Select Rust Type</option></select>')
+                        .appendTo($('#yrselect').empty())
+                        .on('change', function () {
+                                var val = $.fn.dataTable.util.escapeRegex(
+                                        $(this).val()
+                                );
 
-                                        column
-                                                .search(val ? '^' + val + '$' : '', true, false)
-                                                .draw();
-                                    });
+                                column
+                                        .search(val ? '^' + val + '$' : '', true, false)
+                                        .draw();
+                            });
 
-                        column.data().unique().sort().each(function (d, j) {
-                            select.append('<option value="' + d + '">' + d + '</option>')
-                        });
-//                    });
-                }
+                column.data().unique().sort().each(function (d, j) {
+                    select.append('<option value="' + d + '">' + d + '</option>')
+                });
+            }
 
         });
 
@@ -110,25 +108,17 @@
             displayYRLocations(filteredData);
         });
 
-//            // Apply the search
-//            yrtable.columns().every(function () {
-//                var that = this;
-//
-//                $('input', this.footer()).on('keyup change', function () {
-//                    if (that.search() !== this.value) {
-//                        that
-//                                .search(this.value)
-//                                .draw();
-//                    }
-//                });
-//            });
+
     });
 
     function ukcpvs_only() {
-        yrtable
-                .columns(3)
-                .search("Unknown")
-                .draw();
+        var column = yrtable.column(2);
+        column.search('^((?!Unknown).)*$',true,false).draw();
+    }
+
+    function ukcpvs_and_all() {
+        var column = yrtable.column(2);
+        column.search('').draw();
     }
 
 
