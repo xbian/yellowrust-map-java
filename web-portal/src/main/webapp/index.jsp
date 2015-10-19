@@ -74,8 +74,6 @@
                         return phenotype_html(full['UKCPVS ID'], full['phenotype']);
                     }
                 },
-//                {data: "Further Location information", title: "Further Location info", "sDefaultContent": ""},
-//                {data: "Postal code", title: "Postal code", "sDefaultContent": ""},
                 {data: "Company", title: "Company", "sDefaultContent": ""},
                 {data: "Town", title: "Town", "sDefaultContent": ""},
                 {
@@ -86,12 +84,6 @@
                                + ((full["Postal code"] == 'undefined') || full["Postal code"] == undefined? '' : full["Postal code"]);
                     }
                 }
-//                {
-//                    title: "Coordinates",
-//                    "render": function (data, type, full, meta) {
-//                        return full.location.latitude + ', ' + full.location.longitude;
-//                    }
-//                }
             ]
             ,
             initComplete: function () {
@@ -160,7 +152,8 @@
                        + '<b>Host: </b>' + array[i]['Host'] + '<br/>'
                        + '<b>RNA-seq: </b>' + array[i]['RNA-seq? (Selected/In progress/Completed/Failed)'] + '<br/>'
                        + '<b>Phenotype: </b>' + phenotype_html(array[i]['UKCPVS ID'], array[i]['phenotype']) + '<br/>'
-                       + '<b>Coordinates: </b>' + array[i]['location']['latitude'] + ', ' + array[i]['location']['longitude'] + '<br/>'
+                       + '<b>Company: </b>' + array[i]['Company'] + '<br/>'
+                       + '<b>Town: </b>' + array[i]['Town'] + '<br/>'
                        + '<b>Postal code: </b>' + array[i]['Postal code'] + '<br/>'
                        + '<b>Further Location info: </b>' + array[i]['Further Location information'];
             addPointer(la, lo, note);
