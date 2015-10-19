@@ -4,55 +4,57 @@
 
 <div>
     Toggle column:
-    <a data-column="4" class="toggle-vis">Chinese 166</a> -
-    <a data-column="5" class="toggle-vis">Kalyansona</a> -
-    <a data-column="6" class="toggle-vis">Vilmorin 23</a> -
-    <a data-column="7" class="toggle-vis">Nord Desprez</a> -
-    <a data-column="8" class="toggle-vis">Hybrid 46</a> -
-    <a data-column="9" class="toggle-vis">Heines Kolben</a> -
-    <a data-column="10" class="toggle-vis">Heines Peko</a> -
-    <a data-column="11" class="toggle-vis">Lee</a> -  <br/>
-    <a data-column="12" class="toggle-vis">Av x Yr7 NIL</a> -
-    <a data-column="13" class="toggle-vis">Compair</a> -
-    <a data-column="14" class="toggle-vis">Kavkaz x 4 Fed</a> -
-    <a data-column="15" class="toggle-vis">Clement</a> -
-    <a data-column="16" class="toggle-vis">AVS x Yr 15</a> -
-    <a data-column="17" class="toggle-vis">VPM 1</a> -
-    <a data-column="18" class="toggle-vis">Rendezvous</a> -
-    <a data-column="19" class="toggle-vis">Av x Yr17</a> - <br/>
-    <a data-column="20" class="toggle-vis">Carstens V</a> -
-    <a data-column="21" class="toggle-vis">Talon</a> -
-    <a data-column="22" class="toggle-vis">Av x Yr32</a> -
-    <a data-column="23" class="toggle-vis">Spaldings Prolific</a> -
-    <a data-column="24" class="toggle-vis">Robigus</a> -
-    <a data-column="25" class="toggle-vis">Solstice</a> -
-    <a data-column="26" class="toggle-vis">Timber</a> -
-    <a data-column="27" class="toggle-vis">Warrior</a> -  <br/>
-    <a data-column="28" class="toggle-vis">KWS-Sterling</a> -
-    <a data-column="29" class="toggle-vis">Cadenza</a> -
-    <a data-column="30" class="toggle-vis">Claire</a> -
-    <a data-column="31" class="toggle-vis">Crusoe</a> -
-    <a data-column="32" class="toggle-vis">Ambition</a> -
-    <a data-column="33" class="toggle-vis">Heines VII</a> -
-    <a data-column="34" class="toggle-vis">Suwon Omar</a> -
-    <a data-column="35" class="toggle-vis">Avocet Yr5</a> -
-    <a data-column="36" class="toggle-vis">Avocet Yr6</a> -  <br/>
-    <a data-column="37" class="toggle-vis">Moro</a> -
-    <a data-column="38" class="toggle-vis">Avocet Yr24</a> -
-    <a data-column="39" class="toggle-vis">Opata</a> -
-    <a data-column="40" class="toggle-vis">Strubes Dickkopf</a> -
-    <a data-column="41" class="toggle-vis">Avocet Yr27</a> -
-    <a data-column="42" class="toggle-vis">Apache</a> -
-    <a data-column="43" class="toggle-vis">Vuka</a> -
-    <a data-column="44" class="toggle-vis">Grenado</a> -
-    <a data-column="45" class="toggle-vis">Benetto</a> -  <br/>
-    <a data-column="46" class="toggle-vis">Tradiro</a> -
-    <a data-column="47" class="toggle-vis">Tribeca</a> -
-    <a data-column="48" class="toggle-vis">Tulus</a> -
-    <a data-column="49" class="toggle-vis">Dublet</a> -
-    <a data-column="50" class="toggle-vis">KWS Fido</a> -
-    <a data-column="51" class="toggle-vis">Brigadier</a> -
-    <a data-column="52" class="toggle-vis">Stigg</a>
+    <select  multiple="multiple" class="toggle-vis-select">
+    <option value="4 " class="toggle-vis" selected="selected">Chinese 166</option>
+    <option value="5 " class="toggle-vis" selected="selected">Kalyansona</option>
+    <option value="6 " class="toggle-vis" selected="selected">Vilmorin 23</option>
+    <option value="7 " class="toggle-vis" selected="selected">Nord Desprez</option>
+    <option value="8 " class="toggle-vis" selected="selected">Hybrid 46</option>
+    <option value="9 " class="toggle-vis" selected="selected">Heines Kolben</option>
+    <option value="10 " class="toggle-vis" selected="selected">Heines Peko</option>
+    <option value="11 " class="toggle-vis" selected="selected">Lee</option>
+    <option value="12 " class="toggle-vis" selected="selected">Av x Yr7 NIL</option>
+    <option value="13 " class="toggle-vis" selected="selected">Compair</option>
+    <option value="14 " class="toggle-vis" selected="selected">Kavkaz x 4 Fed</option>
+    <option value="15 " class="toggle-vis" selected="selected">Clement</option>
+    <option value="16 " class="toggle-vis" selected="selected">AVS x Yr 15</option>
+    <option value="17 " class="toggle-vis" selected="selected">VPM 1</option>
+    <option value="18 " class="toggle-vis" selected="selected">Rendezvous</option>
+    <option value="19 " class="toggle-vis" selected="selected">Av x Yr17</option>
+    <option value="20 " class="toggle-vis" selected="selected">Carstens V</option>
+    <option value="21 " class="toggle-vis" selected="selected">Talon</option>
+    <option value="22 " class="toggle-vis" selected="selected">Av x Yr32</option>
+    <option value="23 " class="toggle-vis" selected="selected">Spaldings Prolific</option>
+    <option value="24 " class="toggle-vis" selected="selected">Robigus</option>
+    <option value="25 " class="toggle-vis" selected="selected">Solstice</option>
+    <option value="26 " class="toggle-vis" selected="selected">Timber</option>
+    <option value="27 " class="toggle-vis" selected="selected">Warrior</option>
+    <option value="28 " class="toggle-vis" selected="selected">KWS-Sterling</option>
+    <option value="29 " class="toggle-vis" selected="selected">Cadenza</option>
+    <option value="30 " class="toggle-vis" selected="selected">Claire</option>
+    <option value="31 " class="toggle-vis" selected="selected">Crusoe</option>
+    <option value="32 " class="toggle-vis" selected="selected">Ambition</option>
+    <option value="33 " class="toggle-vis" selected="selected">Heines VII</option>
+    <option value="34 " class="toggle-vis" selected="selected">Suwon Omar</option>
+    <option value="35 " class="toggle-vis" selected="selected">Avocet Yr5</option>
+    <option value="36 " class="toggle-vis" selected="selected">Avocet Yr6</option>
+    <option value="37 " class="toggle-vis" selected="selected">Moro</option>
+    <option value="38 " class="toggle-vis" selected="selected">Avocet Yr24</option>
+    <option value="39 " class="toggle-vis" selected="selected">Opata</option>
+    <option value="40 " class="toggle-vis" selected="selected">Strubes Dickkopf</option>
+    <option value="41 " class="toggle-vis" selected="selected">Avocet Yr27</option>
+    <option value="42 " class="toggle-vis" selected="selected">Apache</option>
+    <option value="43 " class="toggle-vis" selected="selected">Vuka</option>
+    <option value="44 " class="toggle-vis" selected="selected">Grenado</option>
+    <option value="45 " class="toggle-vis" selected="selected">Benetto</option>
+    <option value="46 " class="toggle-vis" selected="selected">Tradiro</option>
+    <option value="47 " class="toggle-vis" selected="selected">Tribeca</option>
+    <option value="48 " class="toggle-vis" selected="selected">Tulus</option>
+    <option value="49 " class="toggle-vis" selected="selected">Dublet</option>
+    <option value="50 " class="toggle-vis" selected="selected">KWS Fido</option>
+    <option value="51 " class="toggle-vis" selected="selected">Brigadier</option>
+    <option value="52 " class="toggle-vis" selected="selected">Stigg</option>
+    </select>
 </div>
 <br/>
 <p>Scroll left/right for more columns</p>
@@ -66,7 +68,8 @@
         phenotype_table = jQuery('#resultTable').DataTable({
             data: sample_phenotyping,
             "scrollX": "1150px",
-//            "scrollY": "600px",
+//            "scrollY": "100%",
+//            scrollCollapse: true,
 //            paging: false,
             "columns": [
                 {data: "Batch", title: "Batch", "sDefaultContent": ""},
@@ -461,24 +464,37 @@
                         color_coding(cellData, cell);
                     }
                 }
-            ]
+            ],
+            fixedColumns:   {
+                leftColumns: 2
+            }
         });
 
-        jQuery('a.toggle-vis').on('click', function (e) {
-            e.preventDefault();
+        jQuery('.toggle-vis-select').change(function () {
+            $( "select.toggle-vis-select option:not(:selected)" ).each(function() {
+                hide_column(jQuery(this).val());
 
-            // Get the column API object
-            var column = phenotype_table.column(jQuery(this).attr('data-column'));
-
-            // Toggle the visibility
-            column.visible(!column.visible());
+            });
+            $( "select.toggle-vis-select option:selected" ).each(function() {
+                show_column(jQuery(this).val());
+            });
         });
         hide_column(0);
     });
 
-    function hide_column(index){
+    function toggle_column(index){
         var column = phenotype_table.column(index);
         column.visible(!column.visible());
+    }
+
+    function hide_column(index){
+        var column = phenotype_table.column(index);
+        column.visible(false);
+    }
+
+    function show_column(index){
+        var column = phenotype_table.column(index);
+        column.visible(true);
     }
 
     function color_coding(cellData, cell) {
