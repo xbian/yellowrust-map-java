@@ -81,7 +81,9 @@
                 {
                     title: "Location info",
                     "render": function (data, type, full, meta) {
-                        return full["Further Location information"]+ ' ' + full["Postal code"];
+                        return ((full["Further Location information"] == 'undefined' || full["Further Location information"] == undefined) ? '' : full["Further Location information"])
+                               + ' '
+                               + ((full["Postal code"] == 'undefined') || full["Postal code"] == undefined? '' : full["Postal code"]);
                     }
                 }
 //                {
