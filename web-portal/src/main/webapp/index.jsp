@@ -17,6 +17,9 @@
                    <button type="button" class="btn btn-default"
                            onclick="mapFitBounds([[36.738884,-14.765625],[56.656226, 32.34375]]);">Zoom Europe
                    </button>
+                   <button type="button" class="btn btn-default"
+                           onclick="location.href='yellowrust-map/yellowrust-map/phenotype';">Phenotype Data
+                   </button>
                </span>
             </div>
         </div>
@@ -41,7 +44,7 @@
         <table id="resultTable"></table>
     </div>
 
-    <a href="<c:url value='/yellowrust-map/phenotype'/>">Phenotype Data</a>
+    <%--<a href="<c:url value='/yellowrust-map/phenotype'/>">Phenotype Data</a>--%>
 </div>
 
 <script type="text/javascript">
@@ -71,14 +74,22 @@
                         return phenotype_html(full['UKCPVS ID'], full['phenotype']);
                     }
                 },
-                {data: "Further Location information", title: "Further Location info", "sDefaultContent": ""},
-                {data: "Postal code", title: "Postal code", "sDefaultContent": ""},
+//                {data: "Further Location information", title: "Further Location info", "sDefaultContent": ""},
+//                {data: "Postal code", title: "Postal code", "sDefaultContent": ""},
+                {data: "Company", title: "Company", "sDefaultContent": ""},
+                {data: "Town", title: "Town", "sDefaultContent": ""},
                 {
-                    title: "Coordinates",
+                    title: "Location info",
                     "render": function (data, type, full, meta) {
-                        return full.location.latitude + ', ' + full.location.longitude;
+                        return full["Further Location information"]+ ' ' + full["Postal code"];
                     }
                 }
+//                {
+//                    title: "Coordinates",
+//                    "render": function (data, type, full, meta) {
+//                        return full.location.latitude + ', ' + full.location.longitude;
+//                    }
+//                }
             ]
             ,
             initComplete: function () {
@@ -108,6 +119,7 @@
             displayYRLocations(filteredData);
         });
 
+        ukcpvs_only();
 
     });
 

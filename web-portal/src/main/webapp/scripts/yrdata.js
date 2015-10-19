@@ -3106,7 +3106,7 @@ var sample_list = [
       "$oid": "55f052a76ca5bb47f62bdd02"
     },
     "Library name": "LIB10868",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Novosevovie",
     "ID": "14.0001",
     "Date collected": 20140521,
@@ -3123,7 +3123,7 @@ var sample_list = [
     "Private comments": "vaclav.sklenar@basf.com ZZS Kujavy",
     "Library name": "LIB10870",
     "Variety": "Tilman",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Tilman - B",
     "ID": "14.0003",
     "Date collected": 20140612,
@@ -3141,7 +3141,7 @@ var sample_list = [
     },
     "Library name": "LIB10871",
     "Variety": "Glasgow",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "J-C Talbourdet",
     "ID": "14.0004",
     "Date collected": 20140616,
@@ -3159,7 +3159,7 @@ var sample_list = [
     },
     "Library name": "LIB10872",
     "Variety": "Trapez",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "J-C Talbourdet",
     "ID": "14.0005",
     "Date collected": 20140616,
@@ -3177,7 +3177,7 @@ var sample_list = [
     },
     "Library name": "LIB10873",
     "Variety": "Bergoumo",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "J-C Talbourdet",
     "ID": "14.0006",
     "Date collected": 20140616,
@@ -3196,7 +3196,7 @@ var sample_list = [
     "Private comments": "Peu virulent",
     "Library name": "LIB10874",
     "Variety": "Trapez",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "BRIARD",
     "ID": "14.0007",
     "Date collected": 20140610,
@@ -3216,7 +3216,7 @@ var sample_list = [
     "Private comments": "via Alison NIAB",
     "Library name": "LIB10875",
     "Variety": "Sax",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Susanne Kirchmaier",
     "ID": "14.0008",
     "Host": "Wheat",
@@ -3234,7 +3234,7 @@ var sample_list = [
     "Private comments": "via Alison NIAB",
     "Library name": "LIB10876",
     "Variety": "Sax",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Susanne Kirchmaier",
     "ID": "14.0009",
     "Host": "Wheat",
@@ -3251,7 +3251,7 @@ var sample_list = [
     },
     "Private comments": "via Alison NIAB",
     "Library name": "LIB10877",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Zofia Banaszak",
     "ID": "14.0010",
     "Date collected": 20140522,
@@ -3266,7 +3266,7 @@ var sample_list = [
       "$oid": "55f052ac6ca5bb47f62bdd14"
     },
     "Library name": "LIB10878",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Alison Bentley",
     "ID": "14.0011",
     "Host": "Wheat",
@@ -3281,7 +3281,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052ac6ca5bb47f62bdd16"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Alison Bentley",
     "ID": "14.0012",
     "Host": "Wheat",
@@ -3295,7 +3295,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052ac6ca5bb47f62bdd18"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Alison Bentley",
     "ID": "14.0013",
     "Host": "Wheat",
@@ -3310,7 +3310,7 @@ var sample_list = [
     },
     "Library name": "LIB10879",
     "Variety": "Altigo",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "GRELLIER",
     "ID": "14.0014",
     "Host": "Wheat",
@@ -3328,7 +3328,7 @@ var sample_list = [
     },
     "Library name": "LIB10880",
     "Variety": "expert",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "GRELLIER",
     "ID": "14.0015",
     "Host": "Wheat",
@@ -3344,7 +3344,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052b76ca5bb47f62bdd5a"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Ruth Bryant",
     "ID": "14.0051",
     "Date collected": 20140626,
@@ -3360,7 +3360,7 @@ var sample_list = [
     },
     "Library name": "LIB10881",
     "Variety": "Alixan",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "GRELLIER",
     "ID": "14.0016",
     "Host": "Wheat",
@@ -3379,7 +3379,7 @@ var sample_list = [
     "Private comments": "14/18",
     "Library name": "LIB10882",
     "Variety": "Victo",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Amelia Hubbard",
     "ID": "14.0017",
     "UKCPVS ID": "14/18",
@@ -3397,7 +3397,7 @@ var sample_list = [
     "Private comments": "14/19",
     "Library name": "LIB10883",
     "Variety": "Oakley",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Amelia Hubbard",
     "ID": "14.0018",
     "UKCPVS ID": "14/19",
@@ -3414,7 +3414,7 @@ var sample_list = [
     },
     "Library name": "LIB10888",
     "Variety": "Kobra",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Marcin Lanski",
     "ID": "14.0024",
     "Host": "Wheat",
@@ -3432,7 +3432,7 @@ var sample_list = [
     },
     "Library name": "LIB10889",
     "Variety": "Arkadia",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Marcin Lanski",
     "ID": "14.0025",
     "Host": "Wheat",
@@ -3450,7 +3450,7 @@ var sample_list = [
     },
     "Library name": "LIB10890",
     "Variety": "Legenda",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Szymon Laczny",
     "ID": "14.0026",
     "Host": "Wheat",
@@ -3468,7 +3468,7 @@ var sample_list = [
     },
     "Library name": "LIB10891",
     "Variety": "Princeps",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Szymon Laczny",
     "ID": "14.0027",
     "Host": "Wheat",
@@ -3485,7 +3485,7 @@ var sample_list = [
       "$oid": "55f052b16ca5bb47f62bdd2c"
     },
     "Variety": "Naridana",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Szymon Laczny",
     "ID": "14.0028",
     "Host": "Wheat",
@@ -3503,7 +3503,7 @@ var sample_list = [
     },
     "Private comments": "Dave: 2A. Sequencing id: 1",
     "Variety": "Line?",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Dave Hodson",
     "ID": "14.0029",
     "RNA-seq? (Selected/In progress/Completed/Failed)": "Complete",
@@ -3520,7 +3520,7 @@ var sample_list = [
     },
     "Private comments": "Dave: 2B. Sequencing id: 2",
     "Variety": "Line?",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Dave Hodson",
     "ID": "14.0030",
     "RNA-seq? (Selected/In progress/Completed/Failed)": "Complete",
@@ -3537,7 +3537,7 @@ var sample_list = [
     },
     "Private comments": "Dave: 1A. Sequencing id: 3",
     "Variety": "Kingbird",
-    "Rust (YR/SR/LR)": "SR",
+    "Rust (YR/SR/LR)": "Stem Rust",
     "Name/Collector": "Dave Hodson",
     "ID": "14.0031",
     "RNA-seq? (Selected/In progress/Completed/Failed)": "Complete",
@@ -3554,7 +3554,7 @@ var sample_list = [
     },
     "Private comments": "Dave: 1B. Sequencing id: 4",
     "Variety": "Kingbird",
-    "Rust (YR/SR/LR)": "SR",
+    "Rust (YR/SR/LR)": "Stem Rust",
     "Name/Collector": "Dave Hodson",
     "ID": "14.0032",
     "RNA-seq? (Selected/In progress/Completed/Failed)": "Complete",
@@ -3571,7 +3571,7 @@ var sample_list = [
     },
     "Private comments": "Dave: 3. Sequencing id: 5",
     "Variety": "Digalu",
-    "Rust (YR/SR/LR)": "SR",
+    "Rust (YR/SR/LR)": "Stem Rust",
     "Name/Collector": "Dave Hodson",
     "ID": "14.0033",
     "RNA-seq? (Selected/In progress/Completed/Failed)": "Complete",
@@ -3587,7 +3587,7 @@ var sample_list = [
       "$oid": "55f052b36ca5bb47f62bdd38"
     },
     "Private comments": "Sequencing id: 6",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Novosevovie",
     "ID": "14.0034",
     "Date collected": 20140521,
@@ -3603,7 +3603,7 @@ var sample_list = [
     },
     "Library name": "LIB10892",
     "Variety": "Aktuer",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow: Rosie Bryson",
     "ID": "14.0035",
     "Date collected": 20140610,
@@ -3621,7 +3621,7 @@ var sample_list = [
     },
     "Library name": "LIB10893",
     "Variety": "JB Asano",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow: Rosie Bryson",
     "ID": "14.0036",
     "Date collected": 20140613,
@@ -3639,7 +3639,7 @@ var sample_list = [
     },
     "Library name": "LIB10894",
     "Variety": "Kometus",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow: Rosie Bryson",
     "ID": "14.0037",
     "Date collected": 20140613,
@@ -3657,7 +3657,7 @@ var sample_list = [
     },
     "Library name": "LIB10895",
     "Variety": "Akteur",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow: Rosie Bryson",
     "ID": "14.0038",
     "Date collected": 20140613,
@@ -3675,7 +3675,7 @@ var sample_list = [
     },
     "Library name": "LIB10896",
     "Variety": "Opal",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow: Rosie Bryson",
     "ID": "14.0039",
     "Date collected": 20140616,
@@ -3693,7 +3693,7 @@ var sample_list = [
     },
     "Library name": "LIB10897",
     "Variety": "Akteur",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow: Rosie Bryson",
     "ID": "14.0040",
     "Date collected": 20140616,
@@ -3711,7 +3711,7 @@ var sample_list = [
     },
     "Library name": "LIB10898",
     "Variety": "Contur",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow: Rosie Bryson",
     "ID": "14.0041",
     "Date collected": 20140616,
@@ -3729,7 +3729,7 @@ var sample_list = [
     },
     "Library name": "LIB10899",
     "Variety": "Loft",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow: Rosie Bryson",
     "ID": "14.0042",
     "Date collected": 20140617,
@@ -3747,7 +3747,7 @@ var sample_list = [
     },
     "Library name": "LIB10900",
     "Variety": "JB Asano",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow: Rosie Bryson",
     "ID": "14.0043",
     "Date collected": 20140623,
@@ -3765,7 +3765,7 @@ var sample_list = [
     },
     "Library name": "LIB10901",
     "Variety": "Akteur",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow: Rosie Bryson",
     "ID": "14.0044",
     "Date collected": 20140623,
@@ -3783,7 +3783,7 @@ var sample_list = [
     },
     "Library name": "LIB10902",
     "Variety": "Bohemia",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Slezak",
     "ID": "14.0045",
     "Host": "Wheat",
@@ -3801,7 +3801,7 @@ var sample_list = [
     },
     "Library name": "LIB10903",
     "Variety": "Hysun",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Hamon",
     "ID": "14.0046",
     "Host": "Wheat",
@@ -3819,7 +3819,7 @@ var sample_list = [
     },
     "Library name": "LIB10904",
     "Variety": "Karur",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Hamon",
     "ID": "14.0047",
     "Host": "Wheat",
@@ -3836,7 +3836,7 @@ var sample_list = [
       "$oid": "55f052b66ca5bb47f62bdd54"
     },
     "Library name": "LIB10905",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "1",
     "ID": "14.0048",
     "Host": "Wheat",
@@ -3853,7 +3853,7 @@ var sample_list = [
     },
     "Library name": "LIB14890",
     "Variety": "Zeppelin",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "2",
     "ID": "14.0049",
     "Host": "Wheat",
@@ -3868,7 +3868,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052b66ca5bb47f62bdd58"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "3",
     "ID": "14.0050",
     "Date collected": 20140615,
@@ -3882,7 +3882,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052b76ca5bb47f62bdd5c"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Ruth Bryant",
     "ID": "14.0052",
     "Date collected": 20140623,
@@ -3898,7 +3898,7 @@ var sample_list = [
     },
     "Library name": "LIB14885",
     "Variety": "Tobak/Estivus cross",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Ruth Bryant",
     "ID": "14.0053",
     "Date collected": 20140704,
@@ -3915,7 +3915,7 @@ var sample_list = [
     },
     "Library name": "LIB14891",
     "Variety": "Robigus",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Ruth Bryant",
     "ID": "14.0054",
     "Date collected": 20140626,
@@ -3931,7 +3931,7 @@ var sample_list = [
       "$oid": "55f052b86ca5bb47f62bdd62"
     },
     "Variety": "Accroc",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Ruth Bryant",
     "ID": "14.0055",
     "Date collected": 20140626,
@@ -3945,7 +3945,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052b86ca5bb47f62bdd64"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Ruth Bryant",
     "ID": "14.0056",
     "Date collected": 20140704,
@@ -3960,7 +3960,7 @@ var sample_list = [
       "$oid": "55f052b86ca5bb47f62bdd66"
     },
     "Variety": "KWS Crosby",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Ruth Bryant",
     "ID": "14.0057",
     "Date collected": 20140626,
@@ -3976,7 +3976,7 @@ var sample_list = [
     },
     "Library name": "LIB14886",
     "Variety": "Warrior",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Ruth Bryant",
     "ID": "14.0058",
     "Date collected": 20140626,
@@ -3993,7 +3993,7 @@ var sample_list = [
     },
     "Library name": "LIB12419",
     "Variety": "Perenial grass",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Ruth Bryant",
     "ID": "14.0059",
     "Date collected": 20140619,
@@ -4010,7 +4010,7 @@ var sample_list = [
     },
     "Library name": "LIB12420",
     "Variety": "NIC08-108",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Ruth Bryant",
     "ID": "14.0060",
     "Date collected": 20140619,
@@ -4027,7 +4027,7 @@ var sample_list = [
     },
     "Library name": "LIB14887",
     "Variety": "Turandot/ Baryton cross",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Ruth Bryant",
     "ID": "14.0061",
     "Date collected": 20140619,
@@ -4043,7 +4043,7 @@ var sample_list = [
       "$oid": "55f052b96ca5bb47f62bdd70"
     },
     "Library name": "LIB12422",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Ruth Bryant",
     "ID": "14.0062",
     "Date collected": 20140623,
@@ -4058,7 +4058,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052b96ca5bb47f62bdd72"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Ruth Bryant",
     "ID": "14.0063",
     "Date collected": 20140623,
@@ -4072,7 +4072,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052b96ca5bb47f62bdd74"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Ruth Bryant",
     "ID": "14.0064",
     "Date collected": 20140626,
@@ -4087,7 +4087,7 @@ var sample_list = [
     },
     "Private comments": "CAME ON DRY ICE!!!",
     "Variety": "Asano",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Bosdiyk",
     "ID": "14.0065",
     "Date collected": 20140616,
@@ -4103,7 +4103,7 @@ var sample_list = [
     },
     "Private comments": "CAME ON DRY ICE",
     "Variety": "expert",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Bergmay",
     "ID": "14.0066",
     "Date collected": 20140616,
@@ -4119,7 +4119,7 @@ var sample_list = [
     },
     "Private comments": "CAME ON DRY ICE",
     "Variety": "Asano",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "I Westhoff",
     "ID": "14.0067",
     "Date collected": 20140613,
@@ -4135,7 +4135,7 @@ var sample_list = [
     },
     "Private comments": "CAME ON DRY ICE",
     "Variety": "expert",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "II Westhoff",
     "ID": "14.0068",
     "Date collected": 20140613,
@@ -4151,7 +4151,7 @@ var sample_list = [
     },
     "Library name": "LIB12429",
     "Variety": "Massari",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "A. Resweber",
     "ID": "14.0076",
     "Host": "Wheat",
@@ -4169,7 +4169,7 @@ var sample_list = [
     },
     "Library name": "LIB14892",
     "Variety": "Irnerio",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "A. Resweber",
     "ID": "14.0077",
     "Host": "Wheat",
@@ -4187,7 +4187,7 @@ var sample_list = [
     },
     "Library name": "LIB12431",
     "Variety": "Victo",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "A. Resweber",
     "ID": "14.0078",
     "Host": "Wheat",
@@ -4205,7 +4205,7 @@ var sample_list = [
     },
     "Library name": "LIB12432",
     "Variety": "Volunteer wheat - unknown",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "A. Resweber",
     "ID": "14.0079",
     "Host": "Wheat",
@@ -4223,7 +4223,7 @@ var sample_list = [
     },
     "Library name": "LIB12433",
     "Variety": "Victo",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "A. Resweber",
     "ID": "14.0080",
     "Date collected": 20140617,
@@ -4240,7 +4240,7 @@ var sample_list = [
     },
     "Library name": "LIB12434",
     "Variety": "JB Asano",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow",
     "ID": "14.0081",
     "Date collected": 20140513,
@@ -4257,7 +4257,7 @@ var sample_list = [
     },
     "Library name": "LIB14893",
     "Variety": "Primus",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow",
     "ID": "14.0082",
     "Date collected": 20140513,
@@ -4274,7 +4274,7 @@ var sample_list = [
     },
     "Library name": "LIB12436",
     "Variety": "Akteur",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow",
     "ID": "14.0083",
     "Date collected": 20140528,
@@ -4291,7 +4291,7 @@ var sample_list = [
     },
     "Library name": "LIB14894",
     "Variety": "Kometus",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow",
     "ID": "14.0084",
     "Date collected": 20140528,
@@ -4308,7 +4308,7 @@ var sample_list = [
     },
     "Library name": "LIB12438",
     "Variety": "Akteur",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow",
     "ID": "14.0085",
     "Date collected": 20140603,
@@ -4325,7 +4325,7 @@ var sample_list = [
     },
     "Library name": "LIB12439",
     "Variety": "Ritmo",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow",
     "ID": "14.0086",
     "Date collected": 20140603,
@@ -4342,7 +4342,7 @@ var sample_list = [
     },
     "Library name": "LIB12440",
     "Variety": "JB Asano",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow",
     "ID": "14.0087",
     "Date collected": 20140603,
@@ -4359,7 +4359,7 @@ var sample_list = [
     },
     "Library name": "LIB12441",
     "Variety": "Akteur",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow",
     "ID": "14.0088",
     "Date collected": 20140603,
@@ -4376,7 +4376,7 @@ var sample_list = [
     },
     "Library name": "LIB12442",
     "Variety": "Kometus",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow",
     "ID": "14.0089",
     "Date collected": 20140604,
@@ -4393,7 +4393,7 @@ var sample_list = [
     },
     "Library name": "LIB12443",
     "Variety": "Hermann",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow",
     "ID": "14.0090",
     "Date collected": 20140605,
@@ -4410,7 +4410,7 @@ var sample_list = [
     },
     "Library name": "LIB12444",
     "Variety": "Kometus",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Prochnow",
     "ID": "14.0091",
     "Date collected": 20140605,
@@ -4427,7 +4427,7 @@ var sample_list = [
     },
     "Private comments": "via Alison NIAB: RBA Viglas - Pstrusa",
     "Library name": "LIB12445",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Andrea Hankova",
     "ID": "14.0092",
     "Date collected": 20140526,
@@ -4441,7 +4441,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052c36ca5bb47f62bddc6"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Viktor",
     "ID": "14.0114",
     "Date collected": 20140701,
@@ -4457,7 +4457,7 @@ var sample_list = [
     },
     "Private comments": "via Alison NIAB: RBA Viglas - Pstrusa",
     "Library name": "LIB12446",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Andrea Hankova",
     "ID": "14.0093",
     "Date collected": 20140526,
@@ -4473,7 +4473,7 @@ var sample_list = [
     },
     "Library name": "LIB12447",
     "Variety": "Rosario",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Bazelaine",
     "ID": "14.0094",
     "Date collected": 20140603,
@@ -4490,7 +4490,7 @@ var sample_list = [
     },
     "Library name": "LIB12448",
     "Variety": "JB Asano",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Yves Decroos",
     "ID": "14.0095",
     "Host": "Wheat",
@@ -4508,7 +4508,7 @@ var sample_list = [
     },
     "Library name": "LIB12449",
     "Variety": "JB Asano",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Yves Decroos",
     "ID": "14.0096",
     "Host": "Wheat",
@@ -4526,7 +4526,7 @@ var sample_list = [
     },
     "Library name": "LIB12450",
     "Variety": "JB Asano",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Yves Decroos",
     "ID": "14.0097",
     "Host": "Wheat",
@@ -4544,7 +4544,7 @@ var sample_list = [
     },
     "Library name": "LIB12451",
     "Variety": "Torch",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Yves Decroos",
     "ID": "14.0098",
     "Host": "Wheat",
@@ -4562,7 +4562,7 @@ var sample_list = [
     },
     "Private comments": "Received leaves - we then put them in RNA later. Two samples taken - this is sample 1: Alison NIAB contact?",
     "Library name": "LIB12453",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Dario",
     "ID": "14.0101",
     "Date collected": 20140524,
@@ -4577,7 +4577,7 @@ var sample_list = [
       "$oid": "55f052c06ca5bb47f62bddae"
     },
     "Private comments": "Above - this is sample 2",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Dario",
     "ID": "14.0102",
     "Date collected": 20140524,
@@ -4592,7 +4592,7 @@ var sample_list = [
     },
     "Private comments": "Received leaves - we then put them in RNA later. 28 samples taken, this is sample 1: Alison NIAB contact? Had 14 sets of leaves just selected two samples from two different leaf sets but have the remainder in RNA later. SRB1",
     "Library name": "LIB12454",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Dario",
     "ID": "14.0103",
     "Date collected": 20140524,
@@ -4607,7 +4607,7 @@ var sample_list = [
       "$oid": "55f052c16ca5bb47f62bddb2"
     },
     "Private comments": "Above. This is sample 2. SRB2",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Dario",
     "ID": "14.0104",
     "Date collected": 20140524,
@@ -4623,7 +4623,7 @@ var sample_list = [
     "Private comments": "Three samples were taken from the same wheat plant brough in by James. This had previously been fungicide treated and then had recovered. Rep. 1",
     "Library name": "LIB12455",
     "Variety": "Kranich",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "James Brown",
     "ID": "14.0105",
     "Date collected": 20140613,
@@ -4640,7 +4640,7 @@ var sample_list = [
     },
     "Private comments": "Rep. 2",
     "Variety": "Kranich",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "James Brown",
     "ID": "14.0106",
     "Date collected": 20140613,
@@ -4656,7 +4656,7 @@ var sample_list = [
     },
     "Private comments": "Rep. 3",
     "Variety": "Kranich",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "James Brown",
     "ID": "14.0107",
     "Date collected": 20140613,
@@ -4672,7 +4672,7 @@ var sample_list = [
     },
     "Library name": "LIB12456",
     "Variety": "Luminur",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Claude Pope",
     "ID": "14.0108",
     "Date collected": 20140611,
@@ -4688,7 +4688,7 @@ var sample_list = [
       "$oid": "55f052c26ca5bb47f62bddbc"
     },
     "Variety": "Luminur",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Claude Pope",
     "ID": "14.0109",
     "Date collected": 20140611,
@@ -4703,7 +4703,7 @@ var sample_list = [
       "$oid": "55f052c26ca5bb47f62bddbe"
     },
     "Variety": "Luminur",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Claude Pope",
     "ID": "14.0110",
     "Date collected": 20140611,
@@ -4718,7 +4718,7 @@ var sample_list = [
       "$oid": "55f052c26ca5bb47f62bddc0"
     },
     "Variety": "Luminur",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Claude Pope",
     "ID": "14.0111",
     "Date collected": 20140611,
@@ -4733,7 +4733,7 @@ var sample_list = [
       "$oid": "55f052c36ca5bb47f62bddc2"
     },
     "Variety": "Luminur",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Claude Pope",
     "ID": "14.0112",
     "Date collected": 20140611,
@@ -4748,7 +4748,7 @@ var sample_list = [
       "$oid": "55f052c36ca5bb47f62bddc4"
     },
     "Variety": "Luminur",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Claude Pope",
     "ID": "14.0113",
     "Date collected": 20140611,
@@ -4764,7 +4764,7 @@ var sample_list = [
     },
     "Private comments": "repeat of above",
     "Library name": "LIB12457",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Viktor",
     "ID": "14.0115",
     "Date collected": 20140701,
@@ -4780,7 +4780,7 @@ var sample_list = [
       "$oid": "55f052c36ca5bb47f62bddca"
     },
     "Private comments": "repeat of above",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Viktor",
     "ID": "14.0116",
     "Date collected": 20140701,
@@ -4795,7 +4795,7 @@ var sample_list = [
       "$oid": "55f052c46ca5bb47f62bddcc"
     },
     "Private comments": "repeat of above",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Viktor",
     "ID": "14.0117",
     "Date collected": 20140701,
@@ -4810,7 +4810,7 @@ var sample_list = [
       "$oid": "55f052c46ca5bb47f62bddce"
     },
     "Private comments": "repeat of above",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Viktor",
     "ID": "14.0118",
     "Date collected": 20140701,
@@ -4825,7 +4825,7 @@ var sample_list = [
       "$oid": "55f052c46ca5bb47f62bddd0"
     },
     "Private comments": "repeat of above",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Viktor",
     "ID": "14.0119",
     "Date collected": 20140701,
@@ -4841,7 +4841,7 @@ var sample_list = [
     },
     "Private comments": "repeat of above",
     "Library name": "LIB12458",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Viktor",
     "ID": "14.0120",
     "Date collected": 20140701,
@@ -4857,7 +4857,7 @@ var sample_list = [
       "$oid": "55f052c46ca5bb47f62bddd4"
     },
     "Private comments": "repeat of above",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Viktor",
     "ID": "14.0121",
     "Date collected": 20140701,
@@ -4872,7 +4872,7 @@ var sample_list = [
       "$oid": "55f052c56ca5bb47f62bddd6"
     },
     "Private comments": "repeat of above",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Viktor",
     "ID": "14.0122",
     "Date collected": 20140701,
@@ -4887,7 +4887,7 @@ var sample_list = [
       "$oid": "55f052c56ca5bb47f62bddd8"
     },
     "Private comments": "repeat of above",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Viktor",
     "ID": "14.0123",
     "Date collected": 20140701,
@@ -4902,7 +4902,7 @@ var sample_list = [
       "$oid": "55f052c56ca5bb47f62bddda"
     },
     "Private comments": "repeat of above",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Viktor",
     "ID": "14.0124",
     "Date collected": 20140701,
@@ -4917,7 +4917,7 @@ var sample_list = [
       "$oid": "55f052c56ca5bb47f62bdddc"
     },
     "Private comments": "repeat of above",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Viktor",
     "ID": "14.0125",
     "Date collected": 20140701,
@@ -4935,7 +4935,7 @@ var sample_list = [
     "Further Location information": "Llampha Farm, Bridgend",
     "Library name": "LIB12459",
     "Variety": "Vuka",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0126",
     "UKCPVS ID": "14/601",
     "Date collected": 20140601,
@@ -4962,7 +4962,7 @@ var sample_list = [
     "County": "East Yorkshire",
     "Library name": "LIB12461",
     "Variety": "Vuka",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -4981,7 +4981,7 @@ var sample_list = [
     "County": "Norfolk",
     "Library name": "LIB12464",
     "Variety": "Solstice",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -4997,7 +4997,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Norfolk",
     "Variety": "KWS Cashel",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -5015,7 +5015,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "East Lothian",
     "Variety": "Icon",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -5033,7 +5033,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Oxfordshire",
     "Variety": "Viscount",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -5054,7 +5054,7 @@ var sample_list = [
     "County": "East Lothian",
     "Library name": "LIB12468",
     "Variety": "KWS Kielder",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -5071,7 +5071,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "East Lothian",
     "Variety": "Panorama",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -5088,7 +5088,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Norfolk",
     "Variety": "JB Diego",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -5108,7 +5108,7 @@ var sample_list = [
     "County": "Norfolk",
     "Library name": "LIB12472",
     "Variety": "Jorvik",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -5128,7 +5128,7 @@ var sample_list = [
     "County": "East Lothian",
     "Library name": "LIB12473",
     "Variety": "LGW65 (Energise)",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -5147,7 +5147,7 @@ var sample_list = [
     "County": "Norfolk",
     "Library name": "LIB12474",
     "Variety": "KWS Santiago",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -5167,7 +5167,7 @@ var sample_list = [
     "County": "East Lothian",
     "Library name": "LIB12475",
     "Variety": "JB Diego",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -5183,7 +5183,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Norfolk",
     "Variety": "KWS Cashel",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -5201,7 +5201,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Oxfordshire",
     "Variety": "Cougar",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -5211,7 +5211,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/30",
     "Library name": "LIB12477",
     "Variety": "Solstice",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0145",
     "UKCPVS ID": "14/30",
     "Date collected": 20140428,
@@ -5229,7 +5229,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/29",
     "Library name": "LIB12478",
     "Variety": "KWS Kielder",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0146",
     "UKCPVS ID": "14/29",
     "Date collected": 20140428,
@@ -5246,7 +5246,7 @@ var sample_list = [
     },
     "Private comments": "NIAB: TS14/1",
     "Variety": "Divimar",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0147",
     "UKCPVS ID": "TS14/1",
     "Date collected": 20140404,
@@ -5261,7 +5261,7 @@ var sample_list = [
     },
     "Private comments": "NIAB: 14/26 Repeat",
     "Variety": "Victo",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0149",
     "UKCPVS ID": "14/26",
     "Date collected": 20140401,
@@ -5277,7 +5277,7 @@ var sample_list = [
     },
     "Private comments": "NIAB: 14/05",
     "Variety": "JB Diego",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0150",
     "UKCPVS ID": "14/05",
     "Date collected": 20131201,
@@ -5294,7 +5294,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/15",
     "Library name": "LIB14888",
     "Variety": "Oakley",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0151",
     "UKCPVS ID": "14/15",
     "Date collected": 20140123,
@@ -5312,7 +5312,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/16",
     "Library name": "LIB14889",
     "Variety": "Victo",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0152",
     "UKCPVS ID": "14/16",
     "Date collected": 20140123,
@@ -5330,7 +5330,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/11",
     "Library name": "LIB12484",
     "Variety": "Claire",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0153",
     "UKCPVS ID": "14/11",
     "Date collected": 20140113,
@@ -5347,7 +5347,7 @@ var sample_list = [
     },
     "Private comments": "NIAB 14/08 2 of 2",
     "Variety": "Hereward",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0154",
     "UKCPVS ID": "14/08",
     "Date collected": 20131201,
@@ -5364,7 +5364,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/07",
     "Library name": "LIB12486",
     "Variety": "KWS Kielder",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0155",
     "UKCPVS ID": "14/07",
     "Date collected": 20131201,
@@ -5381,7 +5381,7 @@ var sample_list = [
     },
     "Private comments": "NIAB: 14/08 1 of 2",
     "Variety": "Hereward",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0157",
     "UKCPVS ID": "14/08",
     "Date collected": 20131201,
@@ -5398,7 +5398,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/06",
     "Library name": "LIB12488",
     "Variety": "Solstice",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0158",
     "UKCPVS ID": "14/06",
     "Date collected": 20131201,
@@ -5416,7 +5416,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/14",
     "Library name": "LIB12489",
     "Variety": "Claire",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0159",
     "UKCPVS ID": "14/14",
     "Date collected": 20140123,
@@ -5434,7 +5434,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/13",
     "Library name": "LIB12490",
     "Variety": "Robigus",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0160",
     "UKCPVS ID": "14/13",
     "Date collected": 20140123,
@@ -5451,7 +5451,7 @@ var sample_list = [
     },
     "Private comments": "NIAB: 14/17",
     "Variety": "Solstice",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0161",
     "UKCPVS ID": "14/17",
     "Date collected": 20140123,
@@ -5468,7 +5468,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/12",
     "Library name": "LIB12492",
     "Variety": "Timber",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0162",
     "UKCPVS ID": "14/12",
     "Date collected": 20140123,
@@ -5496,7 +5496,7 @@ var sample_list = [
     "County": "Kent",
     "Library name": "LIB12493",
     "Variety": "Cordiale",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -5512,7 +5512,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "North Yorkshire",
     "Variety": "Victo",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -5532,7 +5532,7 @@ var sample_list = [
     "County": "Kent",
     "Library name": "LIB12494",
     "Variety": "Solstice",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -5541,7 +5541,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/40",
     "Library name": "LIB12495",
     "Variety": "Solstice",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0166",
     "UKCPVS ID": "14/40",
     "Date collected": 20140506,
@@ -5559,7 +5559,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/39",
     "Library name": "LIB12496",
     "Variety": "Robigus",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0167",
     "UKCPVS ID": "14/39",
     "Date collected": 20140506,
@@ -5584,7 +5584,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Kent",
     "Variety": "Timber",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -5601,7 +5601,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Kent",
     "Variety": "Victo",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -5611,7 +5611,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/46",
     "Library name": "LIB12498",
     "Variety": "KWS Kielder",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0171",
     "UKCPVS ID": "14/46",
     "Date collected": 20140516,
@@ -5639,7 +5639,7 @@ var sample_list = [
     "County": "Hertfordshire",
     "Library name": "LIB12499",
     "Variety": "Scout",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -5658,7 +5658,7 @@ var sample_list = [
     "County": "Dorset",
     "Library name": "LIB12501",
     "Variety": "Solstice",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -5677,7 +5677,7 @@ var sample_list = [
     "County": "Kent",
     "Library name": "LIB12502",
     "Variety": "Claire",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -5696,7 +5696,7 @@ var sample_list = [
     "County": "Lincolnshire",
     "Library name": "LIB12503",
     "Variety": "Belvoir",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -5705,7 +5705,7 @@ var sample_list = [
     "Private comments": "NIAB: T14/4 2 of 2",
     "Postal code": "SO21 3NE",
     "Variety": "Grenado",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0177",
     "UKCPVS ID": "T14/4",
     "Date collected": 20140501,
@@ -5721,7 +5721,7 @@ var sample_list = [
     "Postal code": "SO21 3NE",
     "Library name": "LIB12504",
     "Variety": "Grenado",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0178",
     "UKCPVS ID": "T14/4",
     "Date collected": 20140501,
@@ -5747,7 +5747,7 @@ var sample_list = [
     "County": "Kent",
     "Library name": "LIB12505",
     "Variety": "KWS Sterling",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -5766,7 +5766,7 @@ var sample_list = [
     "County": "Kent",
     "Library name": "LIB12506",
     "Variety": "Robigus",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -5785,7 +5785,7 @@ var sample_list = [
     "County": "North Yorkshire",
     "Library name": "LIB12507",
     "Variety": "Oakley",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -5804,7 +5804,7 @@ var sample_list = [
     "County": "Cambridgeshire",
     "Library name": "LIB14054",
     "Variety": "Oakley",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -5823,7 +5823,7 @@ var sample_list = [
     "County": "Kent",
     "Library name": "LIB14873",
     "Variety": "Oakley",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -5839,7 +5839,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Cambridgeshire",
     "Variety": "unknown",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -5850,7 +5850,7 @@ var sample_list = [
     "Further Location information": "Up Sydling, Nr Dorchester",
     "Library name": "LIB14874",
     "Variety": "Divimar",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0186",
     "UKCPVS ID": "14/2",
     "Date collected": 20140516,
@@ -5867,7 +5867,7 @@ var sample_list = [
     "Private comments": "NIAB: TS 14/2 (duplicate of above???)",
     "Further Location information": "Up Sydling, Nr Dorchester",
     "Variety": "Divimar",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0187",
     "UKCPVS ID": "14/2",
     "Date collected": 20140501,
@@ -5890,7 +5890,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Dorset",
     "Variety": "Solstice",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -5910,7 +5910,7 @@ var sample_list = [
     "County": "Kent",
     "Library name": "LIB14876",
     "Variety": "Warrior",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -5920,7 +5920,7 @@ var sample_list = [
     "Further Location information": "Caythorpe",
     "Library name": "LIB14877",
     "Variety": "Oakley",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0191",
     "UKCPVS ID": "14/41",
     "Date collected": 20140506,
@@ -5937,7 +5937,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/42",
     "Further Location information": "Caythorpe",
     "Variety": "Victo",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0192",
     "UKCPVS ID": "14/42",
     "Date collected": 20140506,
@@ -5963,7 +5963,7 @@ var sample_list = [
     "County": "Kent",
     "Library name": "LIB14878",
     "Variety": "Relay",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -5972,7 +5972,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/69",
     "Library name": "LIB14061",
     "Variety": "Galiant",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0195",
     "UKCPVS ID": "14/69",
     "Date collected": 20140501,
@@ -5990,7 +5990,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/87",
     "Further Location information": "Noon folly - plot 4",
     "Variety": "unknown breeding line SPRING WHEAT",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0196",
     "UKCPVS ID": "14/87",
     "Date collected": 20140605,
@@ -6014,7 +6014,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Hampshire",
     "Variety": "Timber",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -6023,7 +6023,7 @@ var sample_list = [
     },
     "Private comments": "NIAB: 14/79",
     "Variety": "Delphi (prob rogue)",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0198",
     "UKCPVS ID": "14/79",
     "Date collected": 20140602,
@@ -6038,7 +6038,7 @@ var sample_list = [
     },
     "Private comments": "NIAB: 14/86",
     "Further Location information": "plot 3/NLT2",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0199",
     "UKCPVS ID": "14/86",
     "Date collected": 20140606,
@@ -6061,7 +6061,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Cambridgeshire",
     "Variety": "Benetto",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Triticale"
   },
   {
@@ -6079,7 +6079,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Hampshire",
     "Variety": "Victo",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -6100,7 +6100,7 @@ var sample_list = [
     "County": "Hampshire",
     "Library name": "LIB14879",
     "Variety": "KWS Sterling",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -6117,7 +6117,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Norfolk",
     "Variety": "Panacea",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -6137,7 +6137,7 @@ var sample_list = [
     "County": "Norfolk",
     "Library name": "LIB14880",
     "Variety": "Solstice",
-    "Rust (YR/SR/LR)": "YR"
+    "Rust (YR/SR/LR)": "Yellow Rust"
   },
   {
     "_id": {
@@ -6146,7 +6146,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/501, Re-isolate from our inoculated tunnel trial",
     "Further Location information": "F36, tunnels",
     "Variety": "Crusoe",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0206",
     "UKCPVS ID": "14/501",
     "Date collected": 20140602,
@@ -6169,7 +6169,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Cambridgeshire",
     "Variety": "Benetto",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Triticale"
   },
   {
@@ -6187,7 +6187,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Hampshire",
     "Variety": "Cordiale",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -6205,7 +6205,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Hampshire",
     "Variety": "Relay",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -6215,7 +6215,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/84",
     "Library name": "LIB14881",
     "Variety": "Relay",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0210",
     "UKCPVS ID": "14/84",
     "Date collected": 20140602,
@@ -6232,7 +6232,7 @@ var sample_list = [
     },
     "Private comments": "NIAB: 14/61 B",
     "Variety": "Timber",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0211",
     "UKCPVS ID": "14/61",
     "Date collected": 20140501,
@@ -6257,7 +6257,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Hampshire",
     "Variety": "Claire",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -6266,7 +6266,7 @@ var sample_list = [
     },
     "Private comments": "NIAB: 14/61 A",
     "Variety": "Timber",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0214",
     "UKCPVS ID": "14/61",
     "Date collected": 20140501,
@@ -6283,7 +6283,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/60",
     "Library name": "LIB14895",
     "Variety": "Warrior",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0215",
     "UKCPVS ID": "14/60",
     "Date collected": 20140501,
@@ -6301,7 +6301,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/65",
     "Library name": "LIB14070",
     "Variety": "Oakley",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0216",
     "UKCPVS ID": "14/65",
     "Date collected": 20140501,
@@ -6327,7 +6327,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Oxfordshire",
     "Variety": "Cocoon",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -6345,7 +6345,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Hampshire",
     "Variety": "Warrior",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -6355,7 +6355,7 @@ var sample_list = [
     "Private comments": "NIAB: 14/85",
     "Further Location information": "Birchanger??",
     "Variety": "unknown (not Relay)",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0220",
     "UKCPVS ID": "14/85",
     "Date collected": 20140603,
@@ -6370,7 +6370,7 @@ var sample_list = [
     },
     "Private comments": "NIAB: 14/81",
     "Variety": "Timber",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0221",
     "UKCPVS ID": "14/81",
     "Date collected": 20140602,
@@ -6393,7 +6393,7 @@ var sample_list = [
     "Company": "NIAB",
     "County": "Norfolk",
     "Variety": "Robigus",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Host": "Wheat"
   },
   {
@@ -6401,7 +6401,7 @@ var sample_list = [
       "$oid": "55f052db6ca5bb47f62bde84"
     },
     "Variety": "AC Barrie",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Rosemary Bayles",
     "Postal code": "LD8 2NT",
     "ID": "14.0223",
@@ -6416,7 +6416,7 @@ var sample_list = [
       "$oid": "55f052db6ca5bb47f62bde86"
     },
     "Variety": "AC Barrie",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Rosemary Bayles",
     "Postal code": "LD8 2NT",
     "ID": "14.0224",
@@ -6445,7 +6445,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052db6ca5bb47f62bde8a"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0228a",
     "Country": "Germany",
     "Date collected": 20140506,
@@ -6455,7 +6455,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052db6ca5bb47f62bde8c"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0229",
     "Country": "Germany",
     "Date collected": 20140506,
@@ -6465,7 +6465,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052dc6ca5bb47f62bde8e"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0230",
     "Country": "Germany",
     "Date collected": 20140506,
@@ -6475,7 +6475,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052dc6ca5bb47f62bde90"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0231",
     "Country": "Germany",
     "Date collected": 20140506,
@@ -6486,7 +6486,7 @@ var sample_list = [
       "$oid": "55f052dc6ca5bb47f62bde92"
     },
     "Library name": "LIB14884",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0232",
     "Country": "Germany",
     "Date collected": 20140506,
@@ -6497,7 +6497,7 @@ var sample_list = [
       "$oid": "55f052dc6ca5bb47f62bde94"
     },
     "Library name": "LIB14083",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0233",
     "Country": "Germany",
     "Date collected": 20140506,
@@ -6507,7 +6507,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052dc6ca5bb47f62bde96"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0234",
     "Country": "Germany",
     "Date collected": 20140506,
@@ -6517,7 +6517,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052dd6ca5bb47f62bde98"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "ID": "14.0235",
     "Country": "Germany",
     "Date collected": 20140506,
@@ -6528,7 +6528,7 @@ var sample_list = [
       "$oid": "55f052dd6ca5bb47f62bde9a"
     },
     "Library name": "LIB14655",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Dave Hodson",
     "ID": "14.0236",
     "Date collected": 20141201,
@@ -6544,7 +6544,7 @@ var sample_list = [
     },
     "Library name": "LIB14656",
     "Variety": "Digalu",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Dave Hodson",
     "ID": "14.0237",
     "Date collected": 20141209,
@@ -6561,7 +6561,7 @@ var sample_list = [
     },
     "Library name": "LIB14657",
     "Variety": "Hidasse",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Dave Hodson",
     "ID": "14.0238",
     "Date collected": 20141201,
@@ -6579,7 +6579,7 @@ var sample_list = [
     "Further Location information": "Sinanars",
     "Library name": "LIB14658",
     "Variety": "Henkolo",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Dave Hodson",
     "ID": "14.0239",
     "Date collected": 20141201,
@@ -6595,7 +6595,7 @@ var sample_list = [
     "Further Location information": "Sinanars",
     "Library name": "LIB14659",
     "Variety": "Sanate",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Dave Hodson",
     "ID": "14.0240",
     "Date collected": 20141201,
@@ -6609,7 +6609,7 @@ var sample_list = [
       "$oid": "55f052de6ca5bb47f62bdea4"
     },
     "Variety": "Malt",
-    "Rust (YR/SR/LR)": "SR",
+    "Rust (YR/SR/LR)": "Stem Rust",
     "Name/Collector": "Dave Hodson",
     "ID": "14.0241",
     "Date collected": 20141202,
@@ -6623,7 +6623,7 @@ var sample_list = [
       "$oid": "55f052de6ca5bb47f62bdea6"
     },
     "Variety": "Food",
-    "Rust (YR/SR/LR)": "SR",
+    "Rust (YR/SR/LR)": "Stem Rust",
     "Name/Collector": "Dave Hodson",
     "ID": "14.0242",
     "Date collected": 20141202,
@@ -6638,7 +6638,7 @@ var sample_list = [
     },
     "Further Location information": "Ali",
     "Variety": "Kakasa",
-    "Rust (YR/SR/LR)": "SR",
+    "Rust (YR/SR/LR)": "Stem Rust",
     "Name/Collector": "Dave Hodson",
     "ID": "14.0243",
     "Date collected": 20141202,
@@ -6651,7 +6651,7 @@ var sample_list = [
     },
     "Further Location information": "Robe",
     "Variety": "Sufumer",
-    "Rust (YR/SR/LR)": "SR",
+    "Rust (YR/SR/LR)": "Stem Rust",
     "Name/Collector": "Dave Hodson",
     "ID": "14.0244",
     "Date collected": 20141202,
@@ -6663,7 +6663,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052df6ca5bb47f62bdeac"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Clare Lewis",
     "Further Location information": "JIC, Burkhard",
     "Postal code": "NR4 7UH",
@@ -6678,7 +6678,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052df6ca5bb47f62bdeae"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Clare Lewis",
     "Further Location information": "JIC, Burkhard",
     "Postal code": "NR4 7UH",
@@ -6693,7 +6693,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052df6ca5bb47f62bdeb0"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Clare Lewis",
     "Further Location information": "JIC, Burkhard",
     "Postal code": "NR4 7UH",
@@ -6708,7 +6708,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052df6ca5bb47f62bdeb2"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Clare Lewis",
     "Further Location information": "JIC, Burkhard",
     "Postal code": "NR4 7UH",
@@ -6723,7 +6723,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052e06ca5bb47f62bdeb4"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Clare Lewis",
     "Further Location information": "JIC, Burkhard",
     "Postal code": "NR4 7UH",
@@ -6738,7 +6738,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052e06ca5bb47f62bdeb6"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Clare Lewis",
     "Further Location information": "JIC, Burkhard",
     "Postal code": "NR4 7UH",
@@ -6753,7 +6753,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052e06ca5bb47f62bdeb8"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Clare Lewis",
     "Further Location information": "JIC, Burkhard",
     "Postal code": "NR4 7UH",
@@ -6768,7 +6768,7 @@ var sample_list = [
       "$oid": "55f052e06ca5bb47f62bdeba"
     },
     "Private comments": "78-66 SS1",
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Clare Lewis",
     "Further Location information": "JIC, Burkhard",
     "Postal code": "NR4 7UH",
@@ -6782,7 +6782,7 @@ var sample_list = [
     "_id": {
       "$oid": "55f052e06ca5bb47f62bdebc"
     },
-    "Rust (YR/SR/LR)": "YR",
+    "Rust (YR/SR/LR)": "Yellow Rust",
     "Name/Collector": "Clare Lewis",
     "Further Location information": "JIC, Burkhard",
     "Postal code": "NR4 7UH",
