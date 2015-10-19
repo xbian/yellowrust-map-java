@@ -61,8 +61,9 @@
 </div>
 
 <script type="text/javascript">
+    var phenotype_table;
     jQuery(document).ready(function () {
-        var phenotype_table = jQuery('#resultTable').DataTable({
+        phenotype_table = jQuery('#resultTable').DataTable({
             data: sample_phenotyping,
             "scrollX": "1150px",
 //            "scrollY": "600px",
@@ -472,7 +473,13 @@
             // Toggle the visibility
             column.visible(!column.visible());
         });
+        hide_column(0);
     });
+
+    function hide_column(index){
+        var column = phenotype_table.column(index);
+        column.visible(!column.visible());
+    }
 
     function color_coding(cellData, cell) {
         if (parseFloat(cellData) < 1) {

@@ -18,7 +18,7 @@
                            onclick="mapFitBounds([[36.738884,-14.765625],[56.656226, 32.34375]]);">Zoom Europe
                    </button>
                    <button type="button" class="btn btn-default"
-                           onclick="location.href='yellowrust-map/yellowrust-map/phenotype';">Phenotype Data
+                           onclick="location.href='yellowrust-map/phenotype';">Phenotype Data
                    </button>
                </span>
             </div>
