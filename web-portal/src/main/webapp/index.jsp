@@ -52,8 +52,6 @@
     <div id="tableWrapper">
         <table id="resultTable"></table>
     </div>
-
-    <%--<a href="<c:url value='/yellowrust-map/phenotype'/>">Phenotype Data</a>--%>
 </div>
 
 <script type="text/javascript">
@@ -72,7 +70,7 @@
                         return phenotype_html_ukid(full['UKCPVS ID'], full['phenotype']);
                     }
                 },
-                {data: "Rust (YR/SR/LR)", title: "Rust (YR/SR/LR)", "sDefaultContent": "Unknown"},
+                {data: "Rust (YR/SR/LR)", title: "Rust Type", "sDefaultContent": "Unknown"},
                 {data: "Name/Collector", title: "Collector", "sDefaultContent": ""},
                 {data: "Date collected", title: "Date", "sDefaultContent": ""},
                 {data: "Host", title: "Host", "sDefaultContent": ""},
