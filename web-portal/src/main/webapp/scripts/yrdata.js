@@ -8847,3 +8847,280 @@ var sample_phenotyping = [
     "Stigg": ""
   }
 ];
+var sample_genotype=[
+  {
+    "Library name": "LIB10882",
+    "ID": "14.0017",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB10886",
+    "ID": "14.0021",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12455",
+    "ID": "14.0105",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12477",
+    "ID": "14.0145",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12478",
+    "ID": "14.0146",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12480",
+    "ID": "14.0148",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12489",
+    "ID": "14.0159",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12490",
+    "ID": "14.016",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12502",
+    "ID": "14.0175",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12506",
+    "ID": "14.018",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB14879",
+    "ID": "14.0203",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB14889",
+    "ID": "14.0152",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12486",
+    "ID": "14.0155",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB14880",
+    "ID": "14.0205",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB14061",
+    "ID": "14.0195",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB14077",
+    "ID": "14.0227",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB14070",
+    "ID": "14.0216",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB14883",
+    "ID": "14.0226",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB14882",
+    "ID": "14.0218",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB14873",
+    "ID": "14.0183",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB14878",
+    "ID": "14.0193",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB14881",
+    "ID": "14.021",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB14877",
+    "ID": "14.0191",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB14075",
+    "ID": "14.0225",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB14054",
+    "ID": "14.0182",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12460",
+    "ID": "14.0127",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12461",
+    "ID": "14.0128",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12484",
+    "ID": "14.0153",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12503",
+    "ID": "14.0176",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12496",
+    "ID": "14.0167",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12505",
+    "ID": "14.0179",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12493",
+    "ID": "14.0163",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12459",
+    "ID": "14.0126",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12495",
+    "ID": "14.0166",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB10885",
+    "ID": "14.002",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12501",
+    "ID": "14.0174",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12494",
+    "ID": "14.0165",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12475",
+    "ID": "14.0142",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12507",
+    "ID": "14.0181",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB14888",
+    "ID": "14.0151",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12473",
+    "ID": "14.014",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12468",
+    "ID": "14.0135",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12472",
+    "ID": "14.0139",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB10883",
+    "ID": "14.0018",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB10887",
+    "ID": "14.0023",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB10884",
+    "ID": "14.0019",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB14895",
+    "ID": "14.0215",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12499",
+    "ID": "14.0172",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12462",
+    "ID": "14.0129",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12488",
+    "ID": "14.0158",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12474",
+    "ID": "14.0141",
+    "Genetic group": "4"
+  },
+  {
+    "Library name": "LIB12497",
+    "ID": "14.0169",
+    "Genetic group": "1"
+  },
+  {
+    "Library name": "LIB12500",
+    "ID": "14.0173",
+    "Genetic group": "1"
+  },
+  {
+    "Library name": "LIB14875",
+    "ID": "14.0188",
+    "Genetic group": "1"
+  },
+  {
+    "Library name": "LIB14876",
+    "ID": "14.019",
+    "Genetic group": "1"
+  }
+];

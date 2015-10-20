@@ -64,8 +64,8 @@
                     }
                 },
                 {data: "Rust (YR/SR/LR)", title: "Rust (YR/SR/LR)", "sDefaultContent": "Unknown"},
-                {data: "Name/Collector", title: "Name/Collector", "sDefaultContent": ""},
-                {data: "Date collected", title: "Date collected", "sDefaultContent": ""},
+                {data: "Name/Collector", title: "Collector", "sDefaultContent": ""},
+                {data: "Date collected", title: "Date", "sDefaultContent": ""},
                 {data: "Host", title: "Host", "sDefaultContent": ""},
                 {data: "RNA-seq? (Selected/In progress/Completed/Failed)", title: "RNA-seq", "sDefaultContent": ""},
                 {
@@ -74,8 +74,9 @@
                         return phenotype_html(full['UKCPVS ID'], full['phenotype']);
                     }
                 },
+                {data: "genotype", title: "Genotype", "sDefaultContent": ""},
                 {data: "Company", title: "Company", "sDefaultContent": ""},
-                {data: "Town", title: "Town", "sDefaultContent": ""},
+//                {data: "Town", title: "Town", "sDefaultContent": ""},
                 {
                     title: "Location info",
                     "render": function (data, type, full, meta) {
@@ -152,6 +153,7 @@
                        + '<b>Host: </b>' + array[i]['Host'] + '<br/>'
                        + '<b>RNA-seq: </b>' + array[i]['RNA-seq? (Selected/In progress/Completed/Failed)'] + '<br/>'
                        + '<b>Phenotype: </b>' + phenotype_html(array[i]['UKCPVS ID'], array[i]['phenotype']) + '<br/>'
+                       + '<b>Genotype: </b>' + array[i]['genotype'] + '<br/>'
                        + '<b>Company: </b>' + array[i]['Company'] + '<br/>'
                        + '<b>Town: </b>' + array[i]['Town'] + '<br/>'
                        + '<b>Postal code: </b>' + array[i]['Postal code'] + '<br/>'
@@ -294,6 +296,7 @@
         for (i = 0; i < sample_list.length; i++) {
             var location = '';
             var phenotype = false;
+            var genotype = "";
             for (j = 0; j < location_list.length; j++) {
                 if (sample_list[i]['ID'] == location_list[j]['ID']) {
                     location = location_list[j]['location'];
@@ -304,8 +307,14 @@
                     phenotype = true;
                 }
             }
+            for (j = 0; j < sample_genotype.length; j++) {
+                if (sample_list[i]['ID'] == sample_genotype[j]['ID']) {
+                    genotype = sample_genotype[j]['Genetic group'];
+                }
+            }
             sample_list[i]['location'] = location;
             sample_list[i]['phenotype'] = phenotype;
+            sample_list[i]['genotype'] = genotype;
         }
     }
 

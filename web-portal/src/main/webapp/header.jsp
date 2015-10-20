@@ -96,5 +96,5 @@
 
     <!-- Fixed navbar -->
     <div id="logo">
-        <a href="<c:url value='/'/>" ><img border="0" src="<c:url value='/images/yrhead-wide.png'/>"></a>
+        <a href="<c:url value='/'/>" ><img border="0" src="<c:url value='/images/title.png'/>" width="1150px"></a>
     </div>

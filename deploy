@@ -1,0 +1,1 @@
+scp web-portal/target/yellowrust-map.war wheatis@wheatis.tgac.ac.uk:
