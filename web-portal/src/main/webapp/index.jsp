@@ -183,11 +183,13 @@
                 return '<u onclick="phenotype_colorbox(\'' + id + '\');" style="cursor: pointer;">' + id + '</u>';
             }
             else {
-                return "N/A";
+//                return "N/A";
+                return "";
             }
         }
         else {
-            return "N/A";
+//            return "N/A";
+            return "";
         }
     }
 
