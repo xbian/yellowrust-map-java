@@ -214,7 +214,11 @@
     function phenotype_colorbox(id) {
         var phynotype_data = phenotype(id);
         jQuery.colorbox({width: "80%", html: phynotype_data});
-        jQuery('#'+id).DataTable();
+//        jQuery('#'+id).DataTable({
+//            "fnDrawCallback": function() {
+//                $(this).show();
+//            }
+//        });
     }
 
     function phenotype(id) {
@@ -224,6 +228,7 @@
             if (id == sample_phenotyping[i]['Isolate']) {
                 phynotype_data = '<div style="margin:20px;">'
                                  + '<table id="'+id+'">'
+                                 + '<thead><tr><th></th><th></th></tr></thead>'
                                  + '<tbody>'
                                  + '<tr><td>Batch: </td><td>' + sample_phenotyping[i]['Batch'] + '</td></tr>'
                                  + '<tr><td>No of isols tested: </td><td>' + sample_phenotyping[i]['No of isols tested'] + '</td></tr>'
