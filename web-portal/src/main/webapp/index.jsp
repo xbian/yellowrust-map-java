@@ -76,7 +76,7 @@
                 {data: "Host", title: "Host", "sDefaultContent": ""},
                 {data: "RNA-seq? (Selected/In progress/Completed/Failed)", title: "RNA-seq", "sDefaultContent": ""},
                 {
-                    title: "Phenotype Data",
+                    title: "Phenotype",
                     "render": function (data, type, full, meta) {
                         return phenotype_html(full['UKCPVS ID'], full['phenotype']);
                     }
