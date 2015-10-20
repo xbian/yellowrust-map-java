@@ -162,9 +162,9 @@
 
 
                     var evalDate = Date.parse(aData[5]);
-                    var evalDate1 = Date.parse(aData[5]);
 
-                    if (((evalDate >= dateStart && evalDate <= dateEnd) || (evalDate1 >= dateStart && evalDate1 <= dateEnd)) || (dateStart == 0 && dateEnd == 0)) {
+                    if (((evalDate >= dateStart && evalDate <= dateEnd) || (evalDate >= dateStart && dateEnd == 0)
+                        || (evalDate >= dateEnd && dateStart == 0)) || (dateStart == 0 && dateEnd == 0)) {
                         return true;
                     }
                     else {
