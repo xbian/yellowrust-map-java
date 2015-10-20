@@ -25,9 +25,9 @@
         </div>
         <div class="col-md-4">
             <div class="input-group">
-                <input type="text" id="min" name="min" class="form-control" placeholder="Start Date"/>
+                <input type="text" id="min" name="min" class="form-control" placeholder="Start Date" value=""/>
                 <span class="input-group-btn" style="width:0px;"></span>
-                <input type="text" id="max" name="max" class="form-control" placeholder="End Date"
+                <input type="text" id="max" name="max" class="form-control" placeholder="End Date" value=""
                        style="margin-left:-1px"/>
             </div>
         </div>
@@ -121,14 +121,65 @@
             displayYRLocations(filteredData);
         });
 
-        $('#min, #max').datepicker(
-                {
-                    dateFormat: 'yy-mm-dd',
+//        $.fn.dataTableExt.afnFiltering.push(
+//                function( oSettings, aData, iDataIndex ) {
+//                    var iFini = jQuery('#min').val();
+//                    var iFfin = jQuery('#max').val();
+//                    var iStartDateCol = 5;
+//                    var iEndDateCol = 5;
+//
+//                    iFini=iFini.substring(6,10) + iFini.substring(3,5)+ iFini.substring(0,2);
+//                    iFfin=iFfin.substring(6,10) + iFfin.substring(3,5)+ iFfin.substring(0,2);
+//
+//                    var datofini=aData[iStartDateCol].substring(6,10) + aData[iStartDateCol].substring(3,5)+ aData[iStartDateCol].substring(0,2);
+//                    var datoffin=aData[iEndDateCol].substring(6,10) + aData[iEndDateCol].substring(3,5)+ aData[iEndDateCol].substring(0,2);
+//
+//                    if ( iFini === "" && iFfin === "" )
+//                    {
+//                        return true;
+//                    }
+//                    else if ( iFini <= datofini && iFfin === "")
+//                    {
+//                        return true;
+//                    }
+//                    else if ( iFfin >= datoffin && iFini === "")
+//                    {
+//                        return true;
+//                    }
+//                    else if (iFini <= datofini && iFfin >= datoffin)
+//                    {
+//                        return true;
+//                    }
+//                    return false;
+//                }
+//        );
+        $.fn.dataTableExt.afnFiltering.push(
+                function (oSettings, aData, iDataIndex) {
+                    var dateStart = Date.parse($("#min").val()) || 0;
+                    var dateEnd = Date.parse($("#max").val()) || 0;
+
+                    console.info(dateStart + dateEnd);
+
+
+                    var evalDate = Date.parse(aData[5]);
+                    var evalDate1 = Date.parse(aData[5]);
+
+                    if (((evalDate >= dateStart && evalDate <= dateEnd) || (evalDate1 >= dateStart && evalDate1 <= dateEnd)) || (dateStart == 0 && dateEnd == 0)) {
+                        return true;
+                    }
+                    else {
+                        return false;
+                    }
+
                 });
-        $('#min').keyup(function () {
+
+
+        $('#min, #max').datepicker({dateFormat: 'yy-mm-dd'});
+
+        $('#min').change(function () {
             yrtable.draw();
         });
-        $('#max').keyup(function () {
+        $('#max').change(function () {
             yrtable.draw();
         });
 
@@ -227,7 +278,7 @@
         for (i = 0; i < sample_phenotyping.length; i++) {
             if (id == sample_phenotyping[i]['Isolate']) {
                 phynotype_data = '<div style="margin:20px;">'
-                                 + '<table id="'+id+'">'
+                                 + '<table id="' + id + '">'
                                  + '<thead><tr><th></th><th></th></tr></thead>'
                                  + '<tbody>'
                                  + '<tr><td>Batch: </td><td>' + sample_phenotyping[i]['Batch'] + '</td></tr>'
@@ -309,7 +360,8 @@
         }
         if (parseFloat(value) >= 3) {
             return "<td class='pheno_3 in_box'>" + value + "</td>";
-        } else {
+        }
+        else {
             return "<td >" + value + "</td>";
         }
     }
