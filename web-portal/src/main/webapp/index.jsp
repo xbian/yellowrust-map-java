@@ -1,5 +1,7 @@
 <%@ include file="header.jsp" %>
 
+<link href="<c:url value='/styles/clusterpies.css'/>" rel="stylesheet" type="text/css">
+
 <h2>Yellow Rust Map</h2>
 
 <div class="post-entry">
