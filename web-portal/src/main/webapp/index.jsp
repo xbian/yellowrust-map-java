@@ -7,7 +7,7 @@
     <br/>
 
     <div class="row">
-        <div class="col-lg-6">
+        <div class="col-md-4">
 
             <div class="input-group">
                <span class="input-group-btn">
@@ -23,7 +23,16 @@
                </span>
             </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-md-4">
+            <div class="input-group">
+                <input type="text" id="min" name="min" class="form-control" placeholder="Start Date"/>
+                <span class="input-group-btn" style="width:0px;"></span>
+                <input type="text" id="max" name="max" class="form-control" placeholder="End Date"
+                       style="margin-left:-1px"/>
+            </div>
+        </div>
+
+        <div class="col-md-4">
 
             <div class="input-group">
                 <div id="yrselect"></div>
@@ -82,7 +91,7 @@
                     "render": function (data, type, full, meta) {
                         return ((full["Further Location information"] == 'undefined' || full["Further Location information"] == undefined) ? '' : full["Further Location information"])
                                + ' '
-                               + ((full["Postal code"] == 'undefined') || full["Postal code"] == undefined? '' : full["Postal code"]);
+                               + ((full["Postal code"] == 'undefined') || full["Postal code"] == undefined ? '' : full["Postal code"]);
                     }
                 }
             ]
@@ -114,14 +123,25 @@
             displayYRLocations(filteredData);
         });
 
+        $('#min, #max').datepicker(
+                {
+                    dateFormat: 'yy-mm-dd',
+                });
+        $('#min').keyup(function () {
+            yrtable.draw();
+        });
+        $('#max').keyup(function () {
+            yrtable.draw();
+        });
+
         ukcpvs_only();
-        mapFitBounds([[49.781264,-7.910156],[61.100789, -0.571289]]);
+        mapFitBounds([[49.781264, -7.910156], [61.100789, -0.571289]]);
 
     });
 
     function ukcpvs_only() {
         var column = yrtable.column(2);
-        column.search('^((?!Unknown).)*$',true,false).draw();
+        column.search('^((?!Unknown).)*$', true, false).draw();
     }
 
     function ukcpvs_and_all() {
