@@ -375,7 +375,12 @@
     }
 
     function addPointer(la, lo, geno, note) {
-        var markerLayer = L.marker([la, lo], {title: geno}).bindPopup(note);
+        var myClass = 'marker category-'+geno;
+        var myIcon = L.divIcon({
+            className: myClass,
+            iconSize:null
+        });
+        var markerLayer = L.marker([la, lo], {title: geno, icon: myIcon}).bindPopup(note);
         markers.push(markerLayer);
         markersGroup.addLayer(markerLayer);
         map.addLayer(markersGroup);
