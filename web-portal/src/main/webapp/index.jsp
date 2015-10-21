@@ -5,7 +5,9 @@
 <h2>Yellow Rust Map</h2>
 
 <div class="post-entry">
+    <div id="mapandlegend">
     <div id="map"></div>
+    </div>
     <br/>
 
     <div class="row">
@@ -152,6 +154,7 @@
 
         ukcpvs_only();
         mapFitBounds([[49.781264, -7.910156], [61.100789, -0.571289]]);
+        renderLegend()
 
     });
 
@@ -489,7 +492,6 @@
 //                .append('svg:title')
 //                .text(pathTitleFunc)
         ;
-            console.info(data);
         vis.append('text')
                 .attr('x', origo)
                 .attr('y', origo)
@@ -508,6 +510,34 @@
             return xmlNode.xml;
         }
         return "";
+    }
+
+    function renderLegend() {
+        var metajson = { "lookup": {
+            "1": "Genotype 1",
+            "3": "Genotype 2",
+            "2": "Genotype 3",
+            "4": "Genotype 4",
+            " ": "No Genotype"
+        }};
+
+        var data = d3.entries(metajson.lookup),
+                legenddiv = d3.select('#mapandlegend').append('div')
+                        .attr('id','legend');
+
+        var heading = legenddiv.append('div')
+                .classed('legendheading', true)
+                .text("Genotype");
+
+        var legenditems = legenddiv.selectAll('.legenditem')
+                .data(data);
+
+        legenditems
+                .enter()
+                .append('div')
+                .attr('class',function(d){return 'category-'+d.key;})
+                .classed({'legenditem': true})
+                .text(function(d){return d.value;});
     }
 
 
