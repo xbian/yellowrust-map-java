@@ -128,9 +128,6 @@
                     var dateStart = Date.parse($("#min").val()) || 0;
                     var dateEnd = Date.parse($("#max").val()) || 0;
 
-                    console.info(dateStart + dateEnd);
-
-
                     var evalDate = Date.parse(aData[5]);
 
                     if (((evalDate >= dateStart && evalDate <= dateEnd) || (evalDate >= dateStart && dateEnd == 0)
@@ -171,7 +168,10 @@
 
     var markers = new Array();
 
-    var markersGroup = new L.MarkerClusterGroup();
+    var markersGroup = new L.MarkerClusterGroup({
+        maxClusterRadius: 2 * 30,
+        iconCreateFunction: defineClusterIcon
+    });
 
     var map = L.map('map').setView([52.621615, 10.219470], 5);
 
@@ -184,6 +184,7 @@
         for (i = 0; i < array.length; i++) {
             var la = array[i]['location']['latitude'];
             var lo = array[i]['location']['longitude'];
+            var geno = array[i]['genotype'];
             var note = '<b>ID: </b>' + array[i]['ID'] + '<br/>'
                        + '<b>Country: </b>' + array[i]['Country'] + '<br/>'
                        + '<b>UKCPVS ID: </b>' + phenotype_html_ukid(array[i]['UKCPVS ID'], array[i]['phenotype']) + '<br/>'
@@ -198,7 +199,7 @@
                        + '<b>Town: </b>' + array[i]['Town'] + '<br/>'
                        + '<b>Postal code: </b>' + array[i]['Postal code'] + '<br/>'
                        + '<b>Further Location info: </b>' + array[i]['Further Location information'];
-            addPointer(la, lo, note);
+            addPointer(la, lo, geno, note);
         }
     }
 
@@ -336,19 +337,6 @@
         }
     }
 
-    function getDate(yyyymmdd) {
-        console.log(yyyymmdd);
-        if (yyyymmdd == undefined || yyyymmdd.length < 7) {
-            return "Not Known"
-        }
-        else {
-            var dt = yyyymmdd.substring(6, 7);
-            var mon = yyyymmdd.substring(4, 5);
-            var yr = yyyymmdd.substring(0, 3);
-            return yr + '-' + mon + '-' + dt;
-        }
-    }
-
     function makeYRJSON() {
         for (i = 0; i < sample_list.length; i++) {
             var location = '';
@@ -382,8 +370,8 @@
         addPointer(la, lo, "Hey, random! la: " + la + " lo: " + lo);
     }
 
-    function addPointer(la, lo, note) {
-        var markerLayer = L.marker([la, lo]).bindPopup(note);
+    function addPointer(la, lo, geno, note) {
+        var markerLayer = L.marker([la, lo], {title: geno}).bindPopup(note);
         markers.push(markerLayer);
         markersGroup.addLayer(markerLayer);
         map.addLayer(markersGroup);
@@ -391,7 +379,10 @@
 
     function removePointers() {
         map.removeLayer(markersGroup);
-        markersGroup = new L.MarkerClusterGroup();
+        markersGroup = new L.MarkerClusterGroup({
+            maxClusterRadius: 2 * 30,
+            iconCreateFunction: defineClusterIcon
+        });
     }
 
     function removeTable() {
@@ -412,6 +403,111 @@
 
     function randomNumberFromInterval(min, max) {
         return Math.random() * (max - min + 1) + min;
+    }
+
+    var rmax = 30;
+
+    function defineClusterIcon(cluster) {
+        var children = cluster.getAllChildMarkers(),
+                n = children.length, //Get number of markers in cluster
+                strokeWidth = 1, //Set clusterpie stroke width
+                r = rmax - 2 * strokeWidth - (n < 10 ? 12 : n < 100 ? 8 : n < 1000 ? 4 : 0), //Calculate clusterpie radius...
+                iconDim = (r + strokeWidth) * 2, //...and divIcon dimensions (leaflet really want to know the size)
+                data = d3.nest() //Build a dataset for the pie chart
+                        .key(function(d) { return d.options.title; })
+                        .entries(children, d3.map),
+        //bake some svg markup
+                html = bakeThePie({
+                    data: data,
+                    valueFunc: function (d) {
+                        return d.values.length;
+                    },
+                    strokeWidth: 1,
+                    outerRadius: r,
+                    innerRadius: r - 10,
+                    pieClass: 'cluster-pie',
+                    pieLabel: n,
+                    pieLabelClass: 'marker-cluster-pie-label',
+                    pathClassFunc: function (d) {
+                        return "category-" + d.data.key;
+                    }
+//                    ,
+//                    pathTitleFunc: function (d) {
+//                        return "path title";
+//                    }
+                }),
+        //Create a new divIcon and assign the svg markup to the html property
+                myIcon = new L.DivIcon({
+                    html: html,
+                    className: 'marker-cluster',
+                    iconSize: new L.Point(iconDim, iconDim)
+                });
+        return myIcon;
+    }
+
+    function bakeThePie(options) {
+        var data = options.data,
+                valueFunc = options.valueFunc,
+                r = options.outerRadius ? options.outerRadius : 28, //Default outer radius = 28px
+                rInner = options.innerRadius ? options.innerRadius : r - 10, //Default inner radius = r-10
+                strokeWidth = options.strokeWidth ? options.strokeWidth : 1, //Default stroke is 1
+                pathClassFunc = options.pathClassFunc ? options.pathClassFunc : function () {
+                    return '';
+                }, //Class for each path
+//                pathTitleFunc = options.pathTitleFunc ? options.pathTitleFunc : function () {
+//                    return '';
+//                }, //Title for each path
+                pieClass = options.pieClass ? options.pieClass : 'marker-cluster-pie', //Class for the whole pie
+                pieLabel = options.pieLabel ? options.pieLabel : d3.sum(data, valueFunc), //Label for the whole pie
+                pieLabelClass = options.pieLabelClass ? options.pieLabelClass : 'marker-cluster-pie-label',//Class for the pie label
+
+                origo = (r + strokeWidth), //Center coordinate
+                w = origo * 2, //width and height of the svg element
+                h = w,
+                donut = d3.layout.pie(),
+                arc = d3.svg.arc().innerRadius(rInner).outerRadius(r);
+
+        //Create an svg element
+        var svg = document.createElementNS(d3.ns.prefix.svg, 'svg');
+        //Create the pie chart
+        var vis = d3.select(svg)
+                .data([data])
+                .attr('class', pieClass)
+                .attr('width', w)
+                .attr('height', h);
+
+        var arcs = vis.selectAll('g.arc')
+                .data(donut.value(valueFunc))
+                .enter().append('svg:g')
+                .attr('class', 'arc')
+                .attr('transform', 'translate(' + origo + ',' + origo + ')');
+
+        arcs.append('svg:path')
+                .attr('class', pathClassFunc)
+                .attr('stroke-width', strokeWidth)
+                .attr('d', arc)
+//                .append('svg:title')
+//                .text(pathTitleFunc)
+        ;
+            console.info(data);
+        vis.append('text')
+                .attr('x', origo)
+                .attr('y', origo)
+                .attr('class', pieLabelClass)
+                .attr('text-anchor', 'middle')
+                .attr('dy', '.3em')
+                .text(pieLabel);
+        return serializeXmlNode(svg);
+    }
+
+    function serializeXmlNode(xmlNode) {
+        if (typeof window.XMLSerializer != "undefined") {
+            return (new window.XMLSerializer()).serializeToString(xmlNode);
+        }
+        else if (typeof xmlNode.xml != "undefined") {
+            return xmlNode.xml;
+        }
+        return "";
     }
 
 

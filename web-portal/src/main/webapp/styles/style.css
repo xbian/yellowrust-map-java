@@ -7,20 +7,24 @@ body {
     margin-bottom: 20px;
     padding-left: 10px;
 }
+
 #header #logo .site-name {
     display: block;
     padding-top: 20px;
 }
+
 .site-name a {
     color: #377687;
-    font-family: "Fredericka the Great",cursive;
+    font-family: "Fredericka the Great", cursive;
     font-size: 3.5em;
     line-height: 1.1em;
 }
+
 .site-name a:hover {
     color: #377687;
     text-decoration: none;
 }
+
 #header #logo .site-description {
     color: #8ca1a1;
     display: block;
@@ -28,6 +32,7 @@ body {
     margin: 10px 33px 0 0;
     text-align: right;
 }
+
 .navbar-static-top {
     margin-bottom: 19px;
 }
@@ -39,6 +44,7 @@ body {
 }
 
 #map {
+    width: 1150px;
     height: 600px;
 }
 
@@ -63,17 +69,19 @@ body {
     padding-right: 10px;
 }
 
-
-
 .blastResultBox {
     border: 1px solid gray;
     margin: 10px 10px;
     padding: 10px;
 }
 
-hr { display: block; height: 1px;
-    border: 0; border-top: 1px solid #ccc;
-    margin: 1em 0; padding: 0;
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
 
 .blastPosition {

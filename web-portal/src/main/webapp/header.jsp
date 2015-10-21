@@ -74,7 +74,7 @@
     <!-- give $ back to prototype -->
     <%--<script type="text/javascript">jQuery.noConflict();</script>--%>
 
-    <script type="text/javascript" src="<c:url value='/scripts/multi_select_drag_drop.js?ts=${timestamp.time}'/>"></script>
+    <%--<script type="text/javascript" src="<c:url value='/scripts/multi_select_drag_drop.js?ts=${timestamp.time}'/>"></script>--%>
 
     <%--<link rel="shortcut icon" href="<c:url value='/styles/images/favicon.ico'/>" type="image/x-icon"/>--%>
 
