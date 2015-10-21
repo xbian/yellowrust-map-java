@@ -5,9 +5,8 @@
 <h2>Yellow Rust Map</h2>
 
 <div class="post-entry">
-    <div id="mapandlegend">
     <div id="map"></div>
-    </div>
+
     <br/>
 
     <div class="row">
@@ -56,6 +55,8 @@
     <div id="tableWrapper">
         <table id="resultTable"></table>
     </div>
+
+    <div id="legend"></div>
 </div>
 
 <script type="text/javascript">
@@ -522,8 +523,7 @@
         }};
 
         var data = d3.entries(metajson.lookup),
-                legenddiv = d3.select('#mapandlegend').append('div')
-                        .attr('id','legend');
+                legenddiv = d3.select('#legend');
 
         var heading = legenddiv.append('div')
                 .classed('legendheading', true)
