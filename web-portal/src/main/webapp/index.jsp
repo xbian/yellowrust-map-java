@@ -62,10 +62,10 @@
 <script type="text/javascript">
     var yrtable;
     jQuery(document).ready(function () {
-        makeYRJSON();
-        displayYRLocations(sample_list);
+//        makeYRJSON();
+        displayYRLocations(sample_list_all);
         yrtable = $('#resultTable').DataTable({
-            data: sample_list,
+            data: sample_list_all,
             "columns": [
                 {data: "ID", title: "ID"},
                 {data: "Country", title: "Country", "sDefaultContent": ""},
@@ -86,7 +86,16 @@
                         return phenotype_html(full['UKCPVS ID'], full['phenotype']);
                     }
                 },
-                {data: "genotype", title: "Genotype", "sDefaultContent": ""},
+                {
+                    title: "Genotype",
+                    "render": function (data, type, full, meta) {
+                        if (full['genotype']!=undefined && full['genotype']!="undefined") {
+                            return full['genotype']['Genetic group'];
+                        } else {
+                            return '';
+                        }
+                    }
+                },
                 {data: "Company", title: "Company", "sDefaultContent": ""},
 //                {data: "Town", title: "Town", "sDefaultContent": ""},
                 {
@@ -188,7 +197,12 @@
         for (i = 0; i < array.length; i++) {
             var la = array[i]['location']['latitude'];
             var lo = array[i]['location']['longitude'];
-            var geno = array[i]['genotype'];
+            var geno = '';
+
+            if (array[i]['genotype']!=undefined && array[i]['genotype']!="undefined"){
+                geno = array[i]['genotype']['Genetic group'];
+            }
+
             var note = '<b>ID: </b>' + array[i]['ID'] + '<br/>'
                        + '<b>Country: </b>' + array[i]['Country'] + '<br/>'
                        + '<b>UKCPVS ID: </b>' + phenotype_html_ukid(array[i]['UKCPVS ID'], array[i]['phenotype']) + '<br/>'
@@ -341,31 +355,31 @@
         }
     }
 
-    function makeYRJSON() {
-        for (i = 0; i < sample_list.length; i++) {
-            var location = '';
-            var phenotype = false;
-            var genotype = "";
-            for (j = 0; j < location_list.length; j++) {
-                if (sample_list[i]['ID'] == location_list[j]['ID']) {
-                    location = location_list[j]['location'];
-                }
-            }
-            for (j = 0; j < sample_phenotyping.length; j++) {
-                if (sample_list[i]['UKCPVS ID'] == sample_phenotyping[j]['Isolate']) {
-                    phenotype = true;
-                }
-            }
-            for (j = 0; j < sample_genotype.length; j++) {
-                if (sample_list[i]['ID'] == sample_genotype[j]['ID']) {
-                    genotype = sample_genotype[j]['Genetic group'];
-                }
-            }
-            sample_list[i]['location'] = location;
-            sample_list[i]['phenotype'] = phenotype;
-            sample_list[i]['genotype'] = genotype;
-        }
-    }
+//    function makeYRJSON() {
+//        for (i = 0; i < sample_list.length; i++) {
+//            var location = '';
+//            var phenotype = false;
+//            var genotype = "";
+//            for (j = 0; j < location_list.length; j++) {
+//                if (sample_list[i]['ID'] == location_list[j]['ID']) {
+//                    location = location_list[j]['location'];
+//                }
+//            }
+//            for (j = 0; j < sample_phenotyping.length; j++) {
+//                if (sample_list[i]['UKCPVS ID'] == sample_phenotyping[j]['Isolate']) {
+//                    phenotype = true;
+//                }
+//            }
+//            for (j = 0; j < sample_genotype.length; j++) {
+//                if (sample_list[i]['ID'] == sample_genotype[j]['ID']) {
+//                    genotype = sample_genotype[j]['Genetic group'];
+//                }
+//            }
+//            sample_list[i]['location'] = location;
+//            sample_list[i]['phenotype'] = phenotype;
+//            sample_list[i]['genotype'] = genotype;
+//        }
+//    }
 
     function addRandomPointer() {
         var la = randomNumberFromInterval(45, 60);
@@ -520,11 +534,12 @@
 
     function renderLegend() {
         var metajson = { "lookup": {
-            "1": "Genotype 1",
-            "3": "Genotype 2",
-            "2": "Genotype 3",
-            "4": "Genotype 4",
-            " ": "No Genotype"
+            "1": "Genetic group 1",
+            "2": "Genetic group 2",
+            "3": "Genetic group 3",
+            "4": "Genetic group 4"
+//            ,
+//            " ": "No Genotype"
         }};
 
         var data = d3.entries(metajson.lookup),
