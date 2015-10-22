@@ -59,39 +59,39 @@
 }
 
 /*marker categories*/
-.category-1 {
-    fill: #F88;
-    stroke: #800;
-    background: #F88;
-    border-color: #800;
-}
 
-.category-2 {
-    fill: #FA0;
+.category-1 {
+    fill: pink;
     stroke: #B60;
-    background: #FA0;
+    background: pink;
     border-color: #B60;
 }
 
-.category-3 {
-    fill: #FF3;
-    stroke: #D80;
-    background: #FF3;
-    border-color: #D80;
-}
-
-.category-4 {
+.category-2 {
     fill: #BFB;
     stroke: #070;
     background: #BFB;
     border-color: #070;
 }
 
-.category- {
+.category-3 {
     fill: #9DF;
     stroke: #007;
     background: #9DF;
     border-color: #007;
+}
+.category-4 {
+    fill: #F88;
+    stroke: #f00;
+    background: #F88;
+    border-color: #f00;
+}
+
+.category- {
+    fill: #ccc;
+    stroke: gray;
+    background: #ccc;
+    border-color: gray;
 }
 
 /*marker icons*/
