@@ -95,8 +95,6 @@
     var pie_view = false;
     var yrtable;
     jQuery(document).ready(function () {
-
-//        makeYRJSON();
         displayYRLocations(sample_list_all);
         yrtable = $('#resultTable').DataTable({
             data: sample_list_all,
@@ -169,23 +167,26 @@
             var filteredData = yrtable.rows({filter: 'applied'}).data().toArray();
             displayYRLocations(filteredData);
         });
+        $("#slider").bind("valuesChanged", function(e, data) {
 
-        $.fn.dataTableExt.afnFiltering.push(
-                function (oSettings, aData, iDataIndex) {
-                    var dateStart = Date.parse($("#min").val()) || 0;
-                    var dateEnd = Date.parse($("#max").val()) || 0;
+            $.fn.dataTableExt.afnFiltering.push(
+                    function (oSettings, aData, iDataIndex) {
+                        var dateStart = Date.parse(data.values.min) || 0;
+                        var dateEnd = Date.parse(data.values.max) || 0;
 
-                    var evalDate = Date.parse(aData[5]);
+                        var evalDate = Date.parse(aData[5]);
 
-                    if (((evalDate >= dateStart && evalDate <= dateEnd) || (evalDate >= dateStart && dateEnd == 0)
-                        || (evalDate >= dateEnd && dateStart == 0)) || (dateStart == 0 && dateEnd == 0)) {
-                        return true;
-                    }
-                    else {
-                        return false;
-                    }
+                        if (((evalDate >= dateStart && evalDate <= dateEnd) || (evalDate >= dateStart && dateEnd == 0)
+                            || (evalDate >= dateEnd && dateStart == 0)) || (dateStart == 0 && dateEnd == 0)) {
+                            return true;
+                        }
+                        else {
+                            return false;
+                        }
 
-                });
+                    });
+            yrtable.draw();
+        });
 
 
         $('#min, #max').datepicker({dateFormat: 'yy-mm-dd'});
