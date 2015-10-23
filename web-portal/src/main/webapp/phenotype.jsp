@@ -517,6 +517,6 @@
 
 </script>
 
-</div>
+
 
 <%@ include file="footer.jsp" %>
