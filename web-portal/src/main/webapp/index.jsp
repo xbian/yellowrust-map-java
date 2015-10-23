@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div id="slider" style="margin-left:10px;margin-right:10px;z-index: 1000;"></div>
+            <div id="slider" style="margin-top:3px;margin-left:10px;margin-right:10px;z-index: 1000;"></div>
             <%--<div class="input-group">--%>
             <%--<input type="text" id="min" name="min" class="form-control" placeholder="Start Date" value=""/>--%>
             <%--<span class="input-group-btn" style="width:0px;"></span>--%>
@@ -54,7 +54,7 @@
     </div>
     <br/>
 
-    <div id="tableWrapper">
+    <div id="tableWrapper" style="margin-top:-45px;">
         <table id="resultTable"></table>
     </div>
 
