@@ -1,4 +1,3 @@
-
 var sample_phenotyping = [
   {
     "Batch": "2",
@@ -13428,5 +13427,4 @@ var sample_list_all = [
               "Vuka": "3.0"
             }
           }
-        ]
-        ;
+        ];

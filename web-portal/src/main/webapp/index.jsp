@@ -63,7 +63,7 @@
     var pie = false;
     var yrtable;
     jQuery(document).ready(function () {
-        
+
 //        makeYRJSON();
         displayYRLocations(sample_list_all);
         yrtable = $('#resultTable').DataTable({
@@ -91,9 +91,10 @@
                 {
                     title: "Genotype",
                     "render": function (data, type, full, meta) {
-                        if (full['genotype']!=undefined && full['genotype']!="undefined") {
+                        if (full['genotype'] != undefined && full['genotype'] != "undefined") {
                             return full['genotype']['Genetic group'];
-                        } else {
+                        }
+                        else {
                             return '';
                         }
                     }
@@ -166,7 +167,7 @@
 
         ukcpvs_only();
         mapFitBounds([[49.781264, -7.910156], [61.100789, -0.571289]]);
-        renderLegend()
+        renderLegend();
 
     });
 
@@ -201,7 +202,7 @@
             var lo = array[i]['location']['longitude'];
             var geno = '';
 
-            if (array[i]['genotype']!=undefined && array[i]['genotype']!="undefined"){
+            if (array[i]['genotype'] != undefined && array[i]['genotype'] != "undefined") {
                 geno = array[i]['genotype']['Genetic group'];
             }
 
@@ -225,7 +226,7 @@
 
     function phenotype_html_ukid(id, phenotype) {
         if (id != undefined) {
-            if (phenotype!=undefined) {
+            if (phenotype != undefined) {
                 return '<u onclick="phenotype_colorbox(\'' + id + '\');" style="cursor: pointer;">' + id + '</u>';
             }
             else {
@@ -239,7 +240,7 @@
 
     function phenotype_html(id, phenotype) {
         if (id != undefined) {
-            if (phenotype!=undefined) {
+            if (phenotype != undefined) {
                 return '<u onclick="phenotype_colorbox(\'' + id + '\');" style="cursor: pointer;">' + id + '</u>';
             }
             else {
@@ -265,77 +266,75 @@
 
     function phenotype(id) {
         var phynotype_data = "";
-//        if (id != '' && id != undefined && id != 'undefined') {
         for (i = 0; i < sample_list_all.length; i++) {
             if (id == sample_list_all[i]['UKCPVS ID']) {
                 phynotype_data = '<div style="margin:20px;">'
                                  + '<table id="' + id + '">'
                                  + '<thead><tr><th></th><th></th></tr></thead>'
                                  + '<tbody>'
-//                                 + '<tr><td>Batch: </td><td>' + sample_list_all[i]['phenotype']['Batch'] + '</td></tr>'
-//                                 + '<tr><td>No of isols tested: </td><td>' + sample_list_all[i]['phenotype']['No of isols tested'] + '</td></tr>'
-//                                 + '<tr><td>Isolate: </td><td>' + sample_list_all[i]['phenotype']['Isolate'] + '</td></tr>'
-//                                 + '<tr><td>Host: </td><td>' + sample_list_all[i]['phenotype']['Host'] + '</td></tr>'
-//                                 + '<tr><td>Chinese 166 Gene:1: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Chinese 166 Gene:1']) + '</tr>'
-//                                 + '<tr><td>Kalyansona Gene:2: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Kalyansona Gene:2']) + '</tr>'
-//                                 + '<tr><td>Vilmorin 23 Gene:3a+: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Vilmorin 23 Gene:3a+']) + '</tr>'
-//                                 + '<tr><td>Nord Desprez Gene:3a+: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Nord Desprez Gene:3a+']) + '</tr>'
-//                                 + '<tr><td>Hybrid 46 Gene:(3b)4b: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Hybrid 46 Gene:(3b)4b']) + '</tr>'
-//                                 + '<tr><td>Heines Kolben Gene:2,6: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Heines Kolben Gene:2,6']) + '</tr>'
-//                                 + '<tr><td>Heines Peko Gene:2,6: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Heines Peko Gene:2,6']) + '</tr>'
-//                                 + '<tr><td>Lee Gene:7: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Lee Gene:7']) + '</tr>'
-//                                 + '<tr><td>Av x Yr7 NIL Gene:7: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Av x Yr7 NIL Gene:7']) + '</tr>'
-//                                 + '<tr><td>Compair Gene:8: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Compair Gene:8']) + '</tr>'
-//                                 + '<tr><td>Kavkaz x 4 Fed Gene:9: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Kavkaz x 4 Fed Gene:9']) + '</tr>'
-//                                 + '<tr><td>Clement Gene:9: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Clement Gene:9']) + '</tr>'
-//                                 + '<tr><td>AVS x Yr 15 Gene:15: </td>' + divbgcolor(sample_list_all[i]['phenotype']['AVS x Yr 15 Gene:15']) + '</tr>'
-//                                 + '<tr><td>VPM 1 Gene:17: </td>' + divbgcolor(sample_list_all[i]['phenotype']['VPM 1 Gene:17']) + '</tr>'
-//                                 + '<tr><td>Rendezvous Gene:17: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Rendezvous Gene:17']) + '</tr>'
-//                                 + '<tr><td>Av x Yr17 Gene:17: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Av x Yr17 Gene:17']) + '</tr>'
-//                                 + '<tr><td>Carstens V Gene:32: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Carstens V Gene:32']) + '</tr>'
-//                                 + '<tr><td>Talon Gene:32: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Talon Gene:32']) + '</tr>'
-//                                 + '<tr><td>Av x Yr32 Gene:32: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Av x Yr32 Gene:32']) + '</tr>'
-//                                 + '<tr><td>Spaldings Prolific Gene:sp: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Spaldings Prolific Gene:sp']) + '</tr>'
-//                                 + '<tr><td>Robigus Gene:Rob\': </td>' + divbgcolor(sample_list_all[i]['phenotype']['Robigus Gene:Rob\'']) + '</tr>'
-//                                 + '<tr><td>Solstice Gene:\'Sol\': </td>' + divbgcolor(sample_list_all[i]['phenotype']['Solstice Gene:\'Sol\'']) + '</tr>'
-//                                 + '<tr><td>Timber Gene:\'Tim\': </td>' + divbgcolor(sample_list_all[i]['phenotype']['Timber Gene:\'Tim\'']) + '</tr>'
-//                                 + '<tr><td>Warrior Gene:War\': </td>' + divbgcolor(sample_list_all[i]['phenotype']['Warrior Gene:War\'']) + '</tr>'
-//                                 + '<tr><td>KWS-Sterling Gene:Ste\': </td>' + divbgcolor(sample_list_all[i]['phenotype']['KWS-Sterling Gene:Ste\'']) + '</tr>'
-//                                 + '<tr><td>Cadenza Gene:6 7: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Cadenza Gene:6 7']) + '</tr>'
-//                                 + '<tr><td>Claire Gene:Claire: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Claire Gene:Claire']) + '</tr>'
-//                                 + '<tr><td>Crusoe Gene:Crusoe: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Crusoe Gene:Crusoe']) + '</tr>'
-//                                 + '<tr><td>Ambition Gene:Amb\': </td>' + divbgcolor(sample_list_all[i]['phenotype']['Ambition Gene:Amb\'']) + '</tr>'
-//                                 + '<tr><td>Heines VII Gene:Yr2 Yr25+: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Heines VII Gene:Yr2 Yr25+']) + '</tr>'
-//                                 + '<tr><td>Suwon Omar Gene:Yr(Su): </td>' + divbgcolor(sample_list_all[i]['phenotype']['Suwon Omar Gene:Yr(Su)']) + '</tr>'
-//                                 + '<tr><td>Avocet Yr5 Gene:Yr5: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Avocet Yr5 Gene:Yr5']) + '</tr>'
-//                                 + '<tr><td>Avocet Yr6 Gene:Yr6: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Avocet Yr6 Gene:Yr6']) + '</tr>'
-//                                 + '<tr><td>Moro Gene:Yr10: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Moro Gene:Yr10']) + '</tr>'
-//                                 + '<tr><td>Avocet Yr24 Gene:Yr24: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Avocet Yr24 Gene:Yr24']) + '</tr>'
-//                                 + '<tr><td>Opata Gene:Yr27+: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Opata Gene:Yr27+']) + '</tr>'
-//                                 + '<tr><td>Strubes Dickkopf Gene:YrSd Yr25: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Strubes Dickkopf Gene:YrSd Yr25']) + '</tr>'
-//                                 + '<tr><td>Avocet Yr27 Gene:Yr27: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Avocet Yr27 Gene:Yr27']) + '</tr>'
-//                                 + '<tr><td>Apache Gene:7 17: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Apache Gene:7 17']) + '</tr>'
-//                                 + '<tr><td>Vuka: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Vuka']) + '</tr>'
-//                                 + '<tr><td>Grenado: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Grenado']) + '</tr>'
-//                                 + '<tr><td>Benetto: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Benetto']) + '</tr>'
-//                                 + '<tr><td>Tradiro: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Tradiro']) + '</tr>'
-//                                 + '<tr><td>Tribeca: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Tribeca']) + '</tr>'
-//                                 + '<tr><td>Tulus: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Tulus']) + '</tr>'
-//                                 + '<tr><td>Dublet: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Dublet']) + '</tr>'
-//                                 + '<tr><td>KWS Fido: </td>' + divbgcolor(sample_list_all[i]['phenotype']['KWS Fido']) + '</tr>'
-//                                 + '<tr><td>Brigadier: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Brigadier']) + '</tr>'
-//                                 + '<tr><td>Stigg: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Stigg']) + '</tr>'
+                                 //                                 + '<tr><td>Batch: </td><td>' + sample_list_all[i]['phenotype']['Batch'] + '</td></tr>'
+                                 //                                 + '<tr><td>No of isols tested: </td><td>' + sample_list_all[i]['phenotype']['No of isols tested'] + '</td></tr>'
+                                 //                                 + '<tr><td>Isolate: </td><td>' + sample_list_all[i]['phenotype']['Isolate'] + '</td></tr>'
+                                 //                                 + '<tr><td>Host: </td><td>' + sample_list_all[i]['phenotype']['Host'] + '</td></tr>'
+                                 //                                 + '<tr><td>Chinese 166 Gene:1: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Chinese 166 Gene:1']) + '</tr>'
+                                 //                                 + '<tr><td>Kalyansona Gene:2: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Kalyansona Gene:2']) + '</tr>'
+                                 //                                 + '<tr><td>Vilmorin 23 Gene:3a+: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Vilmorin 23 Gene:3a+']) + '</tr>'
+                                 //                                 + '<tr><td>Nord Desprez Gene:3a+: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Nord Desprez Gene:3a+']) + '</tr>'
+                                 //                                 + '<tr><td>Hybrid 46 Gene:(3b)4b: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Hybrid 46 Gene:(3b)4b']) + '</tr>'
+                                 //                                 + '<tr><td>Heines Kolben Gene:2,6: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Heines Kolben Gene:2,6']) + '</tr>'
+                                 //                                 + '<tr><td>Heines Peko Gene:2,6: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Heines Peko Gene:2,6']) + '</tr>'
+                                 //                                 + '<tr><td>Lee Gene:7: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Lee Gene:7']) + '</tr>'
+                                 //                                 + '<tr><td>Av x Yr7 NIL Gene:7: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Av x Yr7 NIL Gene:7']) + '</tr>'
+                                 //                                 + '<tr><td>Compair Gene:8: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Compair Gene:8']) + '</tr>'
+                                 //                                 + '<tr><td>Kavkaz x 4 Fed Gene:9: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Kavkaz x 4 Fed Gene:9']) + '</tr>'
+                                 //                                 + '<tr><td>Clement Gene:9: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Clement Gene:9']) + '</tr>'
+                                 //                                 + '<tr><td>AVS x Yr 15 Gene:15: </td>' + divbgcolor(sample_list_all[i]['phenotype']['AVS x Yr 15 Gene:15']) + '</tr>'
+                                 //                                 + '<tr><td>VPM 1 Gene:17: </td>' + divbgcolor(sample_list_all[i]['phenotype']['VPM 1 Gene:17']) + '</tr>'
+                                 //                                 + '<tr><td>Rendezvous Gene:17: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Rendezvous Gene:17']) + '</tr>'
+                                 //                                 + '<tr><td>Av x Yr17 Gene:17: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Av x Yr17 Gene:17']) + '</tr>'
+                                 //                                 + '<tr><td>Carstens V Gene:32: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Carstens V Gene:32']) + '</tr>'
+                                 //                                 + '<tr><td>Talon Gene:32: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Talon Gene:32']) + '</tr>'
+                                 //                                 + '<tr><td>Av x Yr32 Gene:32: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Av x Yr32 Gene:32']) + '</tr>'
+                                 //                                 + '<tr><td>Spaldings Prolific Gene:sp: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Spaldings Prolific Gene:sp']) + '</tr>'
+                                 //                                 + '<tr><td>Robigus Gene:Rob\': </td>' + divbgcolor(sample_list_all[i]['phenotype']['Robigus Gene:Rob\'']) + '</tr>'
+                                 //                                 + '<tr><td>Solstice Gene:\'Sol\': </td>' + divbgcolor(sample_list_all[i]['phenotype']['Solstice Gene:\'Sol\'']) + '</tr>'
+                                 //                                 + '<tr><td>Timber Gene:\'Tim\': </td>' + divbgcolor(sample_list_all[i]['phenotype']['Timber Gene:\'Tim\'']) + '</tr>'
+                                 //                                 + '<tr><td>Warrior Gene:War\': </td>' + divbgcolor(sample_list_all[i]['phenotype']['Warrior Gene:War\'']) + '</tr>'
+                                 //                                 + '<tr><td>KWS-Sterling Gene:Ste\': </td>' + divbgcolor(sample_list_all[i]['phenotype']['KWS-Sterling Gene:Ste\'']) + '</tr>'
+                                 //                                 + '<tr><td>Cadenza Gene:6 7: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Cadenza Gene:6 7']) + '</tr>'
+                                 //                                 + '<tr><td>Claire Gene:Claire: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Claire Gene:Claire']) + '</tr>'
+                                 //                                 + '<tr><td>Crusoe Gene:Crusoe: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Crusoe Gene:Crusoe']) + '</tr>'
+                                 //                                 + '<tr><td>Ambition Gene:Amb\': </td>' + divbgcolor(sample_list_all[i]['phenotype']['Ambition Gene:Amb\'']) + '</tr>'
+                                 //                                 + '<tr><td>Heines VII Gene:Yr2 Yr25+: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Heines VII Gene:Yr2 Yr25+']) + '</tr>'
+                                 //                                 + '<tr><td>Suwon Omar Gene:Yr(Su): </td>' + divbgcolor(sample_list_all[i]['phenotype']['Suwon Omar Gene:Yr(Su)']) + '</tr>'
+                                 //                                 + '<tr><td>Avocet Yr5 Gene:Yr5: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Avocet Yr5 Gene:Yr5']) + '</tr>'
+                                 //                                 + '<tr><td>Avocet Yr6 Gene:Yr6: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Avocet Yr6 Gene:Yr6']) + '</tr>'
+                                 //                                 + '<tr><td>Moro Gene:Yr10: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Moro Gene:Yr10']) + '</tr>'
+                                 //                                 + '<tr><td>Avocet Yr24 Gene:Yr24: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Avocet Yr24 Gene:Yr24']) + '</tr>'
+                                 //                                 + '<tr><td>Opata Gene:Yr27+: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Opata Gene:Yr27+']) + '</tr>'
+                                 //                                 + '<tr><td>Strubes Dickkopf Gene:YrSd Yr25: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Strubes Dickkopf Gene:YrSd Yr25']) + '</tr>'
+                                 //                                 + '<tr><td>Avocet Yr27 Gene:Yr27: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Avocet Yr27 Gene:Yr27']) + '</tr>'
+                                 //                                 + '<tr><td>Apache Gene:7 17: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Apache Gene:7 17']) + '</tr>'
+                                 //                                 + '<tr><td>Vuka: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Vuka']) + '</tr>'
+                                 //                                 + '<tr><td>Grenado: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Grenado']) + '</tr>'
+                                 //                                 + '<tr><td>Benetto: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Benetto']) + '</tr>'
+                                 //                                 + '<tr><td>Tradiro: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Tradiro']) + '</tr>'
+                                 //                                 + '<tr><td>Tribeca: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Tribeca']) + '</tr>'
+                                 //                                 + '<tr><td>Tulus: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Tulus']) + '</tr>'
+                                 //                                 + '<tr><td>Dublet: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Dublet']) + '</tr>'
+                                 //                                 + '<tr><td>KWS Fido: </td>' + divbgcolor(sample_list_all[i]['phenotype']['KWS Fido']) + '</tr>'
+                                 //                                 + '<tr><td>Brigadier: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Brigadier']) + '</tr>'
+                                 //                                 + '<tr><td>Stigg: </td>' + divbgcolor(sample_list_all[i]['phenotype']['Stigg']) + '</tr>'
                                  + '</tbody>'
                                  + '</table>'
                                  + '</div>';
 
             }
         }
-//        }
         return phynotype_data;
     }
 
-    function json_table(json){
+    function json_table(json) {
         var tr;
         for (var i = 0; i < json.length; i++) {
             tr = $('<tr/>');
@@ -344,6 +343,7 @@
             tr.append("<td>" + json[i].team + "</td>");
             $('table').append(tr);
 
+        }
     }
 
     function makeTable() {
@@ -368,32 +368,6 @@
         }
     }
 
-//    function makeYRJSON() {
-//        for (i = 0; i < sample_list.length; i++) {
-//            var location = '';
-//            var phenotype = false;
-//            var genotype = "";
-//            for (j = 0; j < location_list.length; j++) {
-//                if (sample_list[i]['ID'] == location_list[j]['ID']) {
-//                    location = location_list[j]['location'];
-//                }
-//            }
-//            for (j = 0; j < sample_phenotyping.length; j++) {
-//                if (sample_list[i]['UKCPVS ID'] == sample_phenotyping[j]['Isolate']) {
-//                    phenotype = true;
-//                }
-//            }
-//            for (j = 0; j < sample_genotype.length; j++) {
-//                if (sample_list[i]['ID'] == sample_genotype[j]['ID']) {
-//                    genotype = sample_genotype[j]['Genetic group'];
-//                }
-//            }
-//            sample_list[i]['location'] = location;
-//            sample_list[i]['phenotype'] = phenotype;
-//            sample_list[i]['genotype'] = genotype;
-//        }
-//    }
-
     function addRandomPointer() {
         var la = randomNumberFromInterval(45, 60);
         var lo = randomNumberFromInterval(0, 25);
@@ -402,10 +376,10 @@
     }
 
     function addPointer(la, lo, geno, note) {
-        var myClass = 'marker category-'+geno;
+        var myClass = 'marker category-' + geno;
         var myIcon = L.divIcon({
             className: myClass,
-            iconSize:null
+            iconSize: null
         });
         var markerLayer = L.marker([la, lo], {title: geno, icon: myIcon}).bindPopup(note);
         markers.push(markerLayer);
@@ -450,7 +424,9 @@
                 r = rmax - 2 * strokeWidth - (n < 10 ? 12 : n < 100 ? 8 : n < 1000 ? 4 : 0), //Calculate clusterpie radius...
                 iconDim = (r + strokeWidth) * 2, //...and divIcon dimensions (leaflet really want to know the size)
                 data = d3.nest() //Build a dataset for the pie chart
-                        .key(function(d) { return d.options.title; })
+                        .key(function (d) {
+                                 return d.options.title;
+                             })
                         .entries(children, d3.map),
         //bake some svg markup
                 html = bakeThePie({
@@ -546,14 +522,16 @@
     }
 
     function renderLegend() {
-        var metajson = { "lookup": {
-            "1": "Genetic group 1",
-            "2": "Genetic group 2",
-            "3": "Genetic group 3",
-            "4": "Genetic group 4"
+        var metajson = {
+            "lookup": {
+                "1": "Genetic group 1",
+                "2": "Genetic group 2",
+                "3": "Genetic group 3",
+                "4": "Genetic group 4"
 //            ,
 //            " ": "No Genotype"
-        }};
+            }
+        };
 
         var data = d3.entries(metajson.lookup),
                 legenddiv = d3.select('#legend');
@@ -568,12 +546,14 @@
         legenditems
                 .enter()
                 .append('div')
-                .attr('class',function(d){return 'category-'+d.key;})
+                .attr('class', function (d) {
+                          return 'category-' + d.key;
+                      })
                 .classed({'legenditem': true})
-                .text(function(d){return d.value;});
+                .text(function (d) {
+                          return d.value;
+                      });
     }
-
-
 </script>
 
 <%@ include file="footer.jsp" %>
