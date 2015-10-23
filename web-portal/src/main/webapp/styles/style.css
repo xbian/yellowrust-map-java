@@ -146,3 +146,12 @@ div.sectionDivider a {
     position: absolute;
     top: 800px;
 }
+
+#collaborators{
+    margin-top: 40px;
+}
+
+
+#collaborators img {
+    height: 50px;
+}
