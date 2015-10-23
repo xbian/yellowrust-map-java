@@ -2056,11375 +2056,10782 @@ var sample_phenotyping = [
 
 var sample_list_all = [
           {
-            "Company": "-",
+            "Town": "Welbourn",
             "_id": {
-              "$oid": "5628e4bb6ca5bb65cc28e002"
+              "$oid": "562a505f6ca5bb0fc909d887"
             },
-            "Name/Collector": "Novosevovie",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0001",
-            "Town": "Osisek",
-            "location": {
-              "north_bound": 46.5552234,
-              "latitude": 45.1,
-              "west_bound": 13.4896912,
-              "longitude": 15.2,
-              "south_bound": 42.3923,
-              "east_bound": 19.4480523
-            },
-            "Library name": "LIB10868",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-05-21",
+            "ID": "13.0001",
+            "Company": "NIABTAG Harper Adams",
+            "Date collected": "2013-05-16",
+            "Rust (YR/SR/LR)": "YR",
             "Host": "Wheat",
-            "Date collected (compact)": "20140521",
-            "Country": "Croatia"
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/01",
+            "Name/Collector": "Menka Hopma",
+            "Country": "UK",
+            "Postal Code": "LN5 0QG",
+            "Variety": "Oakley",
+            "Date collected (compact)": "20130516"
           },
           {
+            "Town": "Childs Ercall",
             "_id": {
-              "$oid": "5628e4bb6ca5bb65cc28e003"
+              "$oid": "562a50606ca5bb0fc909d888"
             },
-            "Company": "BASF",
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Tilman - B",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0003",
-            "Town": "Kujavy",
+            "ID": "13.0002",
+            "Company": "NIABTAG benniworth",
+            "Date collected": "2013-05-13",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 49.726421,
+              "latitude": 52.822722,
+              "east_bound": -2.4701746,
+              "longitude": -2.486182,
+              "north_bound": 52.8294641,
+              "west_bound": -2.5021894,
+              "south_bound": 52.8159789
+            },
+            "County": "Shropshire",
+            "UKCPVS ID": "13/02",
+            "Name/Collector": "Catherine Johnson",
+            "Country": "UK",
+            "Variety": "Oakley",
+            "Date collected (compact)": "20130513"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a50606ca5bb0fc909d889"
+            },
+            "ID": "13.0003",
+            "Private comments": "HQTG",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/03",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-05-20",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Torch",
+            "Date collected (compact)": "20130520"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a50606ca5bb0fc909d88a"
+            },
+            "ID": "13.0004",
+            "Private comments": "HQTG",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/04",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-05-20",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Oakley",
+            "Date collected (compact)": "20130520"
+          },
+          {
+            "Town": "Circencester",
+            "_id": {
+              "$oid": "562a50606ca5bb0fc909d88b"
+            },
+            "ID": "13.0005",
+            "Company": "NIABTAG Sutton Scotney",
+            "Date collected": "2013-05-16",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.718495,
+              "east_bound": -1.941325,
+              "longitude": -1.968243,
+              "north_bound": 51.7298793,
+              "west_bound": -1.9912892,
+              "south_bound": 51.70008
+            },
+            "County": "Gloucestershire",
+            "UKCPVS ID": "13/05",
+            "Name/Collector": "Jane Evans",
+            "Country": "UK",
+            "Variety": "Oakley",
+            "Date collected (compact)": "20130516"
+          },
+          {
+            "Town": "Croft",
+            "_id": {
+              "$oid": "562a50606ca5bb0fc909d88c"
+            },
+            "ID": "13.0006",
+            "Company": "NIABTAG Headley Hall",
+            "Date collected": "2013-05-17",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 54.483485,
+              "east_bound": -1.5390986,
+              "longitude": -1.555106,
+              "north_bound": 54.4899666,
+              "west_bound": -1.5711134,
+              "south_bound": 54.4770024
+            },
+            "County": "North Yorkshire",
+            "UKCPVS ID": "13/06",
+            "Name/Collector": "Peter Burgis",
+            "Country": "UK",
+            "Variety": "Torch",
+            "Date collected (compact)": "20130517"
+          },
+          {
+            "Town": "Croft",
+            "_id": {
+              "$oid": "562a50606ca5bb0fc909d88d"
+            },
+            "ID": "13.0007",
+            "Company": "NIABTAG",
+            "Date collected": "2013-05-17",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 54.483485,
+              "east_bound": -1.5390986,
+              "longitude": -1.555106,
+              "north_bound": 54.4899666,
+              "west_bound": -1.5711134,
+              "south_bound": 54.4770024
+            },
+            "County": "North Yorkshire",
+            "UKCPVS ID": "13/07",
+            "Name/Collector": "Peter Burgis",
+            "Country": "UK",
+            "Variety": "Claire",
+            "Date collected (compact)": "20130517"
+          },
+          {
+            "Town": "Caythorpe",
+            "_id": {
+              "$oid": "562a50606ca5bb0fc909d88e"
+            },
+            "ID": "13.0008",
+            "Private comments": "Date is arrival date",
+            "Company": "NIABTAG benniworth",
+            "location": {
+              "latitude": 53.021631,
+              "east_bound": -0.5688846,
+              "longitude": -0.6045819,
+              "north_bound": 53.0322775,
+              "west_bound": -0.6114799,
+              "south_bound": 53.0174137
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/08",
+            "Name/Collector": "Menka Hopma",
+            "Date collected": "2013-05-29",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Victo",
+            "Date collected (compact)": "20130529"
+          },
+          {
+            "Town": "Circencester",
+            "_id": {
+              "$oid": "562a50606ca5bb0fc909d890"
+            },
+            "ID": "13.0010",
+            "Company": "NIABTAG sutton scotney",
+            "Date collected": "2013-05-31",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.718495,
+              "east_bound": -1.941325,
+              "longitude": -1.968243,
+              "north_bound": 51.7298793,
+              "west_bound": -1.9912892,
+              "south_bound": 51.70008
+            },
+            "County": "Gloucestershire",
+            "UKCPVS ID": "13/10",
+            "Name/Collector": "Jane Evans",
+            "Country": "UK",
+            "Variety": "Oakley",
+            "Date collected (compact)": "20130531"
+          },
+          {
+            "Town": "Circencester",
+            "_id": {
+              "$oid": "562a50606ca5bb0fc909d891"
+            },
+            "ID": "13.0011",
+            "Company": "NIABTAG sutton scotney",
+            "Date collected": "2013-05-31",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.718495,
+              "east_bound": -1.941325,
+              "longitude": -1.968243,
+              "north_bound": 51.7298793,
+              "west_bound": -1.9912892,
+              "south_bound": 51.70008
+            },
+            "County": "Gloucestershire",
+            "UKCPVS ID": "13/11",
+            "Name/Collector": "Jane Evans",
+            "Country": "UK",
+            "Variety": "Horatio",
+            "Date collected (compact)": "20130531"
+          },
+          {
+            "Town": "Caythorpe",
+            "_id": {
+              "$oid": "562a50606ca5bb0fc909d892"
+            },
+            "ID": "13.0012",
+            "Company": "NIABTAG benniworth",
+            "location": {
+              "latitude": 53.021631,
+              "east_bound": -0.5688846,
+              "longitude": -0.6045819,
+              "north_bound": 53.0322775,
+              "west_bound": -0.6114799,
+              "south_bound": 53.0174137
+            },
+            "County": "Lincolnshire",
+            "Name/Collector": "Hayley Rhodes",
+            "Library name": "LIB4458",
+            "UKCPVS ID": "13/12",
+            "Date collected": "2013-06-04",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Country": "UK",
+            "Variety": "RW41088",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130604",
+            "genotype": {
+              "Library name": "LIB4458",
+              "Genetic group": "4",
+              "Sample name": "13/12"
+            }
+          },
+          {
+            "Town": "Boston",
+            "_id": {
+              "$oid": "562a50606ca5bb0fc909d893"
+            },
+            "ID": "13.0013",
+            "Company": "NIABTAG benniworth",
+            "Date collected": "2013-06-04",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.97894,
+              "east_bound": 0.0204234,
+              "longitude": -0.026577,
+              "north_bound": 53.00113,
+              "west_bound": -0.0632467,
+              "south_bound": 52.9556353
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/13",
+            "Name/Collector": "Hayley Rhodes",
+            "Country": "UK",
+            "Variety": "Victo",
+            "Date collected (compact)": "20130604"
+          },
+          {
+            "Town": "Boston",
+            "_id": {
+              "$oid": "562a50606ca5bb0fc909d894"
+            },
+            "ID": "13.0014",
+            "Company": "NIABTAG benniworth",
+            "location": {
+              "latitude": 52.97894,
+              "east_bound": 0.0204234,
+              "longitude": -0.026577,
+              "north_bound": 53.00113,
+              "west_bound": -0.0632467,
+              "south_bound": 52.9556353
+            },
+            "County": "Lincolnshire",
+            "Name/Collector": "Hayley Rhodes",
+            "Library name": "LIB4362",
+            "UKCPVS ID": "13/14",
+            "Date collected": "2013-06-04",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Country": "UK",
+            "Variety": "Oakley",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130604",
+            "genotype": {
+              "Library name": "LIB4362",
+              "Genetic group": "4",
+              "Sample name": "13/14"
+            }
+          },
+          {
+            "Town": "Mendlesham",
+            "_id": {
+              "$oid": "562a50616ca5bb0fc909d895"
+            },
+            "ID": "13.0015",
+            "Company": "Agrii",
+            "location": {
+              "latitude": 52.249163,
+              "east_bound": 1.0866684,
+              "longitude": 1.07976,
+              "north_bound": 52.2562976,
+              "west_bound": 1.0688132,
+              "south_bound": 52.2435759
+            },
+            "County": "Suffolk",
+            "Name/Collector": "Colin Patrick",
+            "Library name": "LIB4462",
+            "UKCPVS ID": "13/15",
+            "Date collected": "2013-06-05",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Country": "UK",
+            "Variety": "Torch",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130605",
+            "genotype": {
+              "Library name": "LIB4462",
+              "Genetic group": "1",
+              "Sample name": "13/15"
+            }
+          },
+          {
+            "Town": "Mendlesham",
+            "_id": {
+              "$oid": "562a50616ca5bb0fc909d896"
+            },
+            "ID": "13.0016",
+            "Company": "Agrii",
+            "Date collected": "2013-06-05",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.249163,
+              "east_bound": 1.0866684,
+              "longitude": 1.07976,
+              "north_bound": 52.2562976,
+              "west_bound": 1.0688132,
+              "south_bound": 52.2435759
+            },
+            "County": "Suffolk",
+            "UKCPVS ID": "13/16",
+            "Name/Collector": "Colin Patrick",
+            "Country": "UK",
+            "Variety": "Cubanita",
+            "Date collected (compact)": "20130605"
+          },
+          {
+            "Town": "Mendlesham",
+            "_id": {
+              "$oid": "562a50616ca5bb0fc909d897"
+            },
+            "ID": "13.0017",
+            "Company": "Agrii",
+            "Date collected": "2013-06-05",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.249163,
+              "east_bound": 1.0866684,
+              "longitude": 1.07976,
+              "north_bound": 52.2562976,
+              "west_bound": 1.0688132,
+              "south_bound": 52.2435759
+            },
+            "County": "Suffolk",
+            "UKCPVS ID": "13/17",
+            "Name/Collector": "Colin Patrick",
+            "Country": "UK",
+            "Variety": "Duxford",
+            "Date collected (compact)": "20130605"
+          },
+          {
+            "Town": "Mendlesham",
+            "_id": {
+              "$oid": "562a50616ca5bb0fc909d898"
+            },
+            "ID": "13.0018",
+            "Company": "Agrii",
+            "location": {
+              "latitude": 52.249163,
+              "east_bound": 1.0866684,
+              "longitude": 1.07976,
+              "north_bound": 52.2562976,
+              "west_bound": 1.0688132,
+              "south_bound": 52.2435759
+            },
+            "County": "Suffolk",
+            "Name/Collector": "Colin Patrick",
+            "Library name": "LIB4745",
+            "UKCPVS ID": "13/18",
+            "Date collected": "2013-06-05",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Country": "UK",
+            "Variety": "KWS 196",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130605",
+            "genotype": {
+              "Library name": "LIB4745",
+              "Genetic group": "1",
+              "Sample name": "13/18"
+            }
+          },
+          {
+            "Town": "Mendlesham",
+            "_id": {
+              "$oid": "562a50616ca5bb0fc909d899"
+            },
+            "ID": "13.0019",
+            "Company": "Agrii",
+            "location": {
+              "latitude": 52.249163,
+              "east_bound": 1.0866684,
+              "longitude": 1.07976,
+              "north_bound": 52.2562976,
+              "west_bound": 1.0688132,
+              "south_bound": 52.2435759
+            },
+            "County": "Suffolk",
+            "Name/Collector": "Colin Patrick",
+            "Library name": "LIB4466",
+            "UKCPVS ID": "13/19",
+            "Date collected": "2013-06-05",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Country": "UK",
+            "Variety": "LGW56",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130605",
+            "genotype": {
+              "Library name": "LIB4466",
+              "Genetic group": "1",
+              "Sample name": "13/19"
+            }
+          },
+          {
+            "Town": "Terrington St Clement",
+            "_id": {
+              "$oid": "562a50616ca5bb0fc909d89b"
+            },
+            "ID": "13.0021",
+            "Company": "ADAS Boxworth",
+            "location": {
+              "latitude": 52.7987895,
+              "east_bound": 0.3698055,
+              "longitude": 0.2833572,
+              "north_bound": 52.8183237,
+              "west_bound": 0.2450695,
+              "south_bound": 52.7255863
+            },
+            "County": "Norfolk",
+            "Name/Collector": "Andrew Hoore",
+            "Library name": "LIB4361",
+            "UKCPVS ID": "13/21",
+            "Date collected": "2013-06-04",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Country": "UK",
+            "Variety": "Solstice",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130604",
+            "genotype": {
+              "Library name": "LIB4361",
+              "Genetic group": "3",
+              "Sample name": "13/21"
+            }
+          },
+          {
+            "Town": "Boothby Graffoe",
+            "_id": {
+              "$oid": "562a50616ca5bb0fc909d89c"
+            },
+            "ID": "13.0022",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.119821,
+              "east_bound": -0.5162836,
+              "longitude": -0.532291,
+              "north_bound": 53.1265169,
+              "west_bound": -0.5482984,
+              "south_bound": 53.1131241
+            },
+            "County": "Lincolnshire",
+            "Name/Collector": "Rosemary Bayles",
+            "Library name": "LIB4456",
+            "UKCPVS ID": "13/22",
+            "Date collected": "2013-06-12",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Country": "UK",
+            "Variety": "Solstice",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130612",
+            "genotype": {
+              "Library name": "LIB4456",
+              "Genetic group": "4",
+              "Sample name": "13/22"
+            }
+          },
+          {
+            "Town": "Boothby Graffoe",
+            "_id": {
+              "$oid": "562a50616ca5bb0fc909d89f"
+            },
+            "ID": "13.0025",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.119821,
+              "east_bound": -0.5162836,
+              "longitude": -0.532291,
+              "north_bound": 53.1265169,
+              "west_bound": -0.5482984,
+              "south_bound": 53.1131241
+            },
+            "County": "Lincolnshire",
+            "Name/Collector": "Rosemary Bayles",
+            "Library name": "LIB4463",
+            "UKCPVS ID": "13/25",
+            "Date collected": "2013-06-12",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Country": "UK",
+            "Variety": "KWS Dali",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130612",
+            "genotype": {
+              "Library name": "LIB4463",
+              "Genetic group": "4",
+              "Sample name": "13/25"
+            }
+          },
+          {
+            "Town": "Cirencester",
+            "_id": {
+              "$oid": "562a50626ca5bb0fc909d8a1"
+            },
+            "ID": "13.0027",
+            "Company": "NIABTAG Sutton Scotney",
+            "location": {
+              "latitude": 51.718495,
+              "east_bound": -1.941325,
+              "longitude": -1.968243,
+              "north_bound": 51.7298793,
+              "west_bound": -1.9912892,
+              "south_bound": 51.70008
+            },
+            "County": "Gloucestershire",
+            "Name/Collector": "Sarah Bowden",
+            "Library name": "LIB4360",
+            "UKCPVS ID": "13/27",
+            "Date collected": "2013-06-12",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Country": "UK",
+            "Variety": "Oakley",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130612",
+            "genotype": {
+              "Library name": "LIB4360",
+              "Genetic group": "1",
+              "Sample name": "13/27"
+            }
+          },
+          {
+            "Town": "Cirencester",
+            "_id": {
+              "$oid": "562a50626ca5bb0fc909d8a2"
+            },
+            "ID": "13.0028",
+            "Company": "NIABTAG Sutton Scotney",
+            "location": {
+              "latitude": 51.718495,
+              "east_bound": -1.941325,
+              "longitude": -1.968243,
+              "north_bound": 51.7298793,
+              "west_bound": -1.9912892,
+              "south_bound": 51.70008
+            },
+            "County": "Gloucestershire",
+            "Name/Collector": "Sarah Bowden",
+            "Library name": "LIB4475",
+            "UKCPVS ID": "13/28",
+            "Date collected": "2013-06-12",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Country": "UK",
+            "Variety": "Solstice",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130612",
+            "genotype": {
+              "Library name": "LIB4475",
+              "Genetic group": "4",
+              "Sample name": "13/28"
+            }
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50626ca5bb0fc909d8a4"
+            },
+            "ID": "13.0030",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "Name/Collector": "Amelia Hubbard",
+            "Library name": "LIB4473",
+            "UKCPVS ID": "13/30",
+            "Date collected": "2013-06-14",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Postal Code": "LN5 0QG",
+            "Country": "UK",
+            "Variety": "ReR22",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130614",
+            "genotype": {
+              "Library name": "LIB4473",
+              "Genetic group": "4",
+              "Sample name": "13/30"
+            }
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50626ca5bb0fc909d8a5"
+            },
+            "ID": "13.0031",
+            "Company": "NIABTAG",
+            "Date collected": "2013-06-14",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/31",
+            "Name/Collector": "Amelia Hubbard",
+            "Country": "UK",
+            "Postal Code": "LN5 0QG",
+            "Variety": "Victo",
+            "Date collected (compact)": "20130614"
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50626ca5bb0fc909d8a6"
+            },
+            "ID": "13.0032",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "Name/Collector": "Amelia Hubbard",
+            "Library name": "LIB4471",
+            "UKCPVS ID": "13/32",
+            "Date collected": "2013-06-14",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Postal Code": "LN5 0QG",
+            "Country": "UK",
+            "Variety": "ReR104",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130614",
+            "genotype": {
+              "Library name": "LIB4471",
+              "Genetic group": "4",
+              "Sample name": "13/32"
+            }
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50626ca5bb0fc909d8a7"
+            },
+            "ID": "13.0033",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "Name/Collector": "Amelia Hubbard",
+            "Library name": "LIB4476",
+            "UKCPVS ID": "13/33",
+            "Date collected": "2013-06-14",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Postal Code": "LN5 0QG",
+            "Country": "UK",
+            "Variety": "Recital",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130614",
+            "genotype": {
+              "Library name": "LIB4476",
+              "Genetic group": "3",
+              "Sample name": "13/33"
+            }
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50626ca5bb0fc909d8a8"
+            },
+            "ID": "13.0034",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "Name/Collector": "Amelia Hubbard",
+            "Library name": "LIB4465",
+            "UKCPVS ID": "13/34",
+            "Date collected": "2013-06-14",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Postal Code": "LN5 0QG",
+            "Country": "UK",
+            "Variety": "ReR32",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130614",
+            "genotype": {
+              "Library name": "LIB4465",
+              "Genetic group": "4",
+              "Sample name": "13/34"
+            }
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50626ca5bb0fc909d8a9"
+            },
+            "ID": "13.0035",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "Name/Collector": "Amelia Hubbard",
+            "Library name": "LIB4482",
+            "UKCPVS ID": "13/35",
+            "Date collected": "2013-06-14",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Postal Code": "LN5 0QG",
+            "Country": "UK",
+            "Variety": "ReR64",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130614",
+            "genotype": {
+              "Library name": "LIB4482",
+              "Genetic group": "4",
+              "Sample name": "13/35"
+            }
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50626ca5bb0fc909d8ab"
+            },
+            "ID": "13.0037",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "Name/Collector": "Amelia Hubbard",
+            "Library name": "LIB4746",
+            "UKCPVS ID": "13/37",
+            "Date collected": "2013-06-14",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Postal Code": "LN5 0QG",
+            "Country": "UK",
+            "Variety": "ReR110",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130614",
+            "genotype": {
+              "Library name": "LIB4746",
+              "Genetic group": "4",
+              "Sample name": "13/37"
+            }
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50626ca5bb0fc909d8ac"
+            },
+            "ID": "13.0038",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "Name/Collector": "Amelia Hubbard",
+            "Library name": "LIB4474",
+            "UKCPVS ID": "13/38",
+            "Date collected": "2013-06-14",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Postal Code": "LN5 0QG",
+            "Country": "UK",
+            "Variety": "ReR138",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130614",
+            "genotype": {
+              "Library name": "LIB4474",
+              "Genetic group": "3",
+              "Sample name": "13/38"
+            }
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50626ca5bb0fc909d8ad"
+            },
+            "ID": "13.0039",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "Name/Collector": "Amelia Hubbard",
+            "Library name": "LIB4478",
+            "UKCPVS ID": "13/39",
+            "Date collected": "2013-06-14",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Postal Code": "LN5 0QG",
+            "Country": "UK",
+            "Variety": "Toisondor",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130614",
+            "genotype": {
+              "Library name": "LIB4478",
+              "Genetic group": "4",
+              "Sample name": "13/39"
+            }
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50626ca5bb0fc909d8ae"
+            },
+            "ID": "13.0040",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "Name/Collector": "Amelia Hubbard",
+            "Library name": "LIB4481",
+            "UKCPVS ID": "13/40",
+            "Date collected": "2013-06-14",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Postal Code": "LN5 0QG",
+            "Country": "UK",
+            "Variety": "Fairplay",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130614",
+            "genotype": {
+              "Library name": "LIB4481",
+              "Genetic group": "4",
+              "Sample name": "13/40"
+            }
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50626ca5bb0fc909d8af"
+            },
+            "ID": "13.0041",
+            "Company": "NIABTAG",
+            "Date collected": "2013-06-14",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/41",
+            "Name/Collector": "Amelia Hubbard",
+            "Country": "UK",
+            "Postal Code": "LN5 0QG",
+            "Variety": "Oakley",
+            "Date collected (compact)": "20130614"
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50626ca5bb0fc909d8b0"
+            },
+            "ID": "13.0042",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "Name/Collector": "Amelia Hubbard",
+            "Library name": "LIB4480",
+            "UKCPVS ID": "13/42",
+            "Date collected": "2013-06-14",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Postal Code": "LN5 0QG",
+            "Country": "UK",
+            "Variety": "Audace",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130614",
+            "genotype": {
+              "Library name": "LIB4480",
+              "Genetic group": "3",
+              "Sample name": "13/42"
+            }
+          },
+          {
+            "Town": "Boston",
+            "_id": {
+              "$oid": "562a50636ca5bb0fc909d8b1"
+            },
+            "ID": "13.0043",
+            "Company": "NIABTAG",
+            "Date collected": "2013-06-14",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.97894,
+              "east_bound": 0.0204234,
+              "longitude": -0.026577,
+              "north_bound": 53.00113,
+              "west_bound": -0.0632467,
+              "south_bound": 52.9556353
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/43",
+            "Name/Collector": "Amelia Hubbard",
+            "Country": "UK",
+            "Variety": "Oakley (1)",
+            "Date collected (compact)": "20130614"
+          },
+          {
+            "Town": "Boston",
+            "_id": {
+              "$oid": "562a50636ca5bb0fc909d8b2"
+            },
+            "ID": "13.0044",
+            "Company": "NIABTAG",
+            "Date collected": "2013-06-14",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.97894,
+              "east_bound": 0.0204234,
+              "longitude": -0.026577,
+              "north_bound": 53.00113,
+              "west_bound": -0.0632467,
+              "south_bound": 52.9556353
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/44",
+            "Name/Collector": "Amelia Hubbard",
+            "Country": "UK",
+            "Variety": "Allez Y",
+            "Date collected (compact)": "20130614"
+          },
+          {
+            "Town": "Boston",
+            "_id": {
+              "$oid": "562a50636ca5bb0fc909d8b3"
+            },
+            "ID": "13.0046",
+            "Company": "NIABTAG",
+            "Date collected": "2013-06-14",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.97894,
+              "east_bound": 0.0204234,
+              "longitude": -0.026577,
+              "north_bound": 53.00113,
+              "west_bound": -0.0632467,
+              "south_bound": 52.9556353
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/46",
+            "Name/Collector": "Amelia Hubbard",
+            "Country": "UK",
+            "Variety": "Laurier",
+            "Date collected (compact)": "20130614"
+          },
+          {
+            "Town": "Boston",
+            "_id": {
+              "$oid": "562a50636ca5bb0fc909d8b4"
+            },
+            "ID": "13.0047",
+            "Company": "NIABTAG",
+            "Date collected": "2013-06-14",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.97894,
+              "east_bound": 0.0204234,
+              "longitude": -0.026577,
+              "north_bound": 53.00113,
+              "west_bound": -0.0632467,
+              "south_bound": 52.9556353
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/47",
+            "Name/Collector": "Amelia Hubbard",
+            "Country": "UK",
+            "Variety": "ReR110",
+            "Date collected (compact)": "20130614"
+          },
+          {
+            "Town": "Boston",
+            "_id": {
+              "$oid": "562a50636ca5bb0fc909d8b5"
+            },
+            "ID": "13.0048",
+            "Company": "NIABTAG",
+            "Date collected": "2013-06-14",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.97894,
+              "east_bound": 0.0204234,
+              "longitude": -0.026577,
+              "north_bound": 53.00113,
+              "west_bound": -0.0632467,
+              "south_bound": 52.9556353
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/48",
+            "Name/Collector": "Amelia Hubbard",
+            "Country": "UK",
+            "Variety": "Oakley ? (2)",
+            "Date collected (compact)": "20130614"
+          },
+          {
+            "Town": "Boston",
+            "_id": {
+              "$oid": "562a50636ca5bb0fc909d8b6"
+            },
+            "ID": "13.0049",
+            "Company": "NIABTAG",
+            "Date collected": "2013-06-14",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.97894,
+              "east_bound": 0.0204234,
+              "longitude": -0.026577,
+              "north_bound": 53.00113,
+              "west_bound": -0.0632467,
+              "south_bound": 52.9556353
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/49",
+            "Name/Collector": "Amelia Hubbard",
+            "Country": "UK",
+            "Variety": "victo ? (2)",
+            "Date collected (compact)": "20130614"
+          },
+          {
+            "Town": "Morley",
+            "_id": {
+              "$oid": "562a50636ca5bb0fc909d8b7"
+            },
+            "ID": "13.0050",
+            "Private comments": "Date given as June",
+            "Company": "NIABTAG",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Date collected": "2013-06-01",
+            "County": "Norfolk",
+            "location": {
+              "latitude": 52.5539888,
+              "east_bound": 1.0769157,
+              "longitude": 1.0396228,
+              "north_bound": 52.5681914,
+              "west_bound": 1.0220748,
+              "south_bound": 52.5354401
+            },
+            "UKCPVS ID": "13/50",
+            "Country": "UK",
+            "Variety": "Solstice",
+            "Date collected (compact)": "20130601"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a50636ca5bb0fc909d8b8"
+            },
+            "ID": "13.0051",
+            "Private comments": "HQ",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/51",
+            "Name/Collector": "Rosemary Bayles",
+            "Date collected": "2013-06-18",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "KWS Santiago",
+            "Date collected (compact)": "20130618"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a50636ca5bb0fc909d8b9"
+            },
+            "ID": "13.0052",
+            "Private comments": "HQ",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/52",
+            "Name/Collector": "Rosemary Bayles",
+            "Date collected": "2013-06-18",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Golden Gun",
+            "Date collected (compact)": "20130618"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a50636ca5bb0fc909d8ba"
+            },
+            "ID": "13.0054",
+            "Private comments": "HQ",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/54",
+            "Name/Collector": "Rosemary Bayles",
+            "Date collected": "2013-06-18",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Fugue",
+            "Date collected (compact)": "20130618"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a50636ca5bb0fc909d8bb"
+            },
+            "ID": "13.0057",
+            "Private comments": "HQ",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/57",
+            "Name/Collector": "Rosemary Bayles",
+            "Date collected": "2013-06-18",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Cordiale",
+            "Date collected (compact)": "20130618"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a50636ca5bb0fc909d8bc"
+            },
+            "ID": "13.0060",
+            "Private comments": "HQ",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/60",
+            "Name/Collector": "Rosemary Bayles",
+            "Date collected": "2013-06-18",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Chilton",
+            "Date collected (compact)": "20130618"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a50646ca5bb0fc909d8bd"
+            },
+            "ID": "13.0062",
+            "Private comments": "HQ",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/62",
+            "Name/Collector": "Rosemary Bayles",
+            "Date collected": "2013-06-18",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "KWS Podium",
+            "Date collected (compact)": "20130618"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a50646ca5bb0fc909d8be"
+            },
+            "ID": "13.0063",
+            "Private comments": "HQ",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/63",
+            "Name/Collector": "Rosemary Bayles",
+            "Date collected": "2013-06-18",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "SY110110",
+            "Date collected (compact)": "20130618"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a50646ca5bb0fc909d8bf"
+            },
+            "ID": "13.0064",
+            "Private comments": "HQ",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/64",
+            "Name/Collector": "Rosemary Bayles",
+            "Date collected": "2013-06-18",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Torch",
+            "Date collected (compact)": "20130618"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a50646ca5bb0fc909d8c1"
+            },
+            "ID": "13.0066",
+            "Private comments": "HQ",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/66",
+            "Name/Collector": "Rosemary Bayles",
+            "Date collected": "2013-06-18",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Horatio",
+            "Date collected (compact)": "20130618"
+          },
+          {
+            "Town": "Headley Hall",
+            "_id": {
+              "$oid": "562a50646ca5bb0fc909d8c2"
+            },
+            "ID": "13.0067",
+            "Company": "NIABTAG",
+            "Date collected": "2013-06-18",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 53.8685544,
+              "east_bound": -1.3245149197085,
+              "longitude": -1.3258639,
+              "north_bound": 53.8699033802915,
+              "west_bound": -1.3272128802915,
+              "south_bound": 53.8672054197085
+            },
+            "County": "Yorkshire",
+            "UKCPVS ID": "13/67",
+            "Name/Collector": "Emma Coventry",
+            "Country": "UK",
+            "Variety": "ReR110",
+            "Date collected (compact)": "20130618"
+          },
+          {
+            "Town": "Headley Hall",
+            "_id": {
+              "$oid": "562a50646ca5bb0fc909d8c3"
+            },
+            "ID": "13.0068",
+            "Company": "NIABTAG",
+            "Date collected": "2013-06-18",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 53.8685544,
+              "east_bound": -1.3245149197085,
+              "longitude": -1.3258639,
+              "north_bound": 53.8699033802915,
+              "west_bound": -1.3272128802915,
+              "south_bound": 53.8672054197085
+            },
+            "County": "Yorkshire",
+            "UKCPVS ID": "13/68",
+            "Name/Collector": "Emma Coventry",
+            "Country": "UK",
+            "Variety": "Rubisko",
+            "Date collected (compact)": "20130618"
+          },
+          {
+            "Town": "Headley Hall",
+            "_id": {
+              "$oid": "562a50646ca5bb0fc909d8c4"
+            },
+            "ID": "13.0069",
+            "Company": "NIABTAG",
+            "Date collected": "2013-06-18",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 53.8685544,
+              "east_bound": -1.3245149197085,
+              "longitude": -1.3258639,
+              "north_bound": 53.8699033802915,
+              "west_bound": -1.3272128802915,
+              "south_bound": 53.8672054197085
+            },
+            "County": "Yorkshire",
+            "UKCPVS ID": "13/69",
+            "Name/Collector": "Emma Coventry",
+            "Country": "UK",
+            "Variety": "ReR104",
+            "Date collected (compact)": "20130618"
+          },
+          {
+            "Town": "Headley Hall",
+            "_id": {
+              "$oid": "562a50646ca5bb0fc909d8c5"
+            },
+            "ID": "13.0070",
+            "Company": "NIABTAG",
+            "Date collected": "2013-06-18",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 53.8685544,
+              "east_bound": -1.3245149197085,
+              "longitude": -1.3258639,
+              "north_bound": 53.8699033802915,
+              "west_bound": -1.3272128802915,
+              "south_bound": 53.8672054197085
+            },
+            "County": "Yorkshire",
+            "UKCPVS ID": "13/70",
+            "Name/Collector": "Emma Coventry",
+            "Country": "UK",
+            "Variety": "Oakley",
+            "Date collected (compact)": "20130618"
+          },
+          {
+            "Town": "Headley Hall",
+            "_id": {
+              "$oid": "562a50646ca5bb0fc909d8c6"
+            },
+            "ID": "13.0071",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.8685544,
+              "east_bound": -1.3245149197085,
+              "longitude": -1.3258639,
+              "north_bound": 53.8699033802915,
+              "west_bound": -1.3272128802915,
+              "south_bound": 53.8672054197085
+            },
+            "County": "Yorkshire",
+            "Name/Collector": "Emma Coventry",
+            "Library name": "LIB4479",
+            "UKCPVS ID": "13/71",
+            "Date collected": "2013-06-18",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Country": "UK",
+            "Variety": "Laurier",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130618",
+            "genotype": {
+              "Library name": "LIB4479",
+              "Genetic group": "4",
+              "Sample name": "13/71"
+            }
+          },
+          {
+            "Town": "Headley Hall",
+            "_id": {
+              "$oid": "562a50646ca5bb0fc909d8c7"
+            },
+            "ID": "13.0072",
+            "Company": "NIABTAG",
+            "Date collected": "2013-06-18",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 53.8685544,
+              "east_bound": -1.3245149197085,
+              "longitude": -1.3258639,
+              "north_bound": 53.8699033802915,
+              "west_bound": -1.3272128802915,
+              "south_bound": 53.8672054197085
+            },
+            "County": "Yorkshire",
+            "UKCPVS ID": "13/72",
+            "Name/Collector": "Emma Coventry",
+            "Country": "UK",
+            "Variety": "Victo",
+            "Date collected (compact)": "20130618"
+          },
+          {
+            "Town": "Headley Hall",
+            "_id": {
+              "$oid": "562a50646ca5bb0fc909d8c8"
+            },
+            "ID": "13.0073",
+            "Company": "NIABTAG",
+            "Date collected": "2013-06-18",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 53.8685544,
+              "east_bound": -1.3245149197085,
+              "longitude": -1.3258639,
+              "north_bound": 53.8699033802915,
+              "west_bound": -1.3272128802915,
+              "south_bound": 53.8672054197085
+            },
+            "County": "Yorkshire",
+            "UKCPVS ID": "13/73",
+            "Name/Collector": "Emma Coventry",
+            "Country": "UK",
+            "Variety": "Audace",
+            "Date collected (compact)": "20130618"
+          },
+          {
+            "Town": "Weobley",
+            "_id": {
+              "$oid": "562a50656ca5bb0fc909d8c9"
+            },
+            "ID": "13.0076",
+            "Company": "ADAS Rosemaund",
+            "Date collected": "2013-06-17",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.1589421,
+              "east_bound": -2.8654378,
+              "longitude": -2.8724958,
+              "north_bound": 52.1663153,
+              "west_bound": -2.8947105,
+              "south_bound": 52.1534931
+            },
+            "County": "Herefordshire",
+            "UKCPVS ID": "13/76",
+            "Name/Collector": "Julie Smith",
+            "Country": "UK",
+            "Postal Code": "HR4 8HF",
+            "Variety": "Novel Germplasm",
+            "Date collected (compact)": "20130617"
+          },
+          {
+            "Town": "Croft",
+            "_id": {
+              "$oid": "562a50656ca5bb0fc909d8ca"
+            },
+            "ID": "13.0077",
+            "Company": "NIABTAG",
+            "Date collected": "2013-06-16",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 54.483485,
+              "east_bound": -1.5390986,
+              "longitude": -1.555106,
+              "north_bound": 54.4899666,
+              "west_bound": -1.5711134,
+              "south_bound": 54.4770024
+            },
+            "County": "North Yorkshire",
+            "UKCPVS ID": "13/77",
+            "Name/Collector": "Peter Burgis",
+            "Country": "UK",
+            "Variety": "Chilton",
+            "Date collected (compact)": "20130616"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a50656ca5bb0fc909d8cb"
+            },
+            "ID": "13.0078",
+            "Private comments": "HQ",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/78",
+            "Name/Collector": "Rosemary Bayles",
+            "Date collected": "2013-06-19",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "KWS Kielder",
+            "Date collected (compact)": "20130619"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a50656ca5bb0fc909d8cc"
+            },
+            "ID": "13.0079",
+            "Private comments": "HQ",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/79",
+            "Name/Collector": "Rosemary Bayles",
+            "Date collected": "2013-06-19",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "KWS Dali",
+            "Date collected (compact)": "20130619"
+          },
+          {
+            "Town": "Stratford upon Avon",
+            "_id": {
+              "$oid": "562a50656ca5bb0fc909d8cd"
+            },
+            "ID": "13.0080",
+            "Company": "Agrii",
+            "Date collected": "2013-06-21",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.19173,
+              "east_bound": -1.6722476,
+              "longitude": -1.708298,
+              "north_bound": 52.2182979,
+              "west_bound": -1.7537456,
+              "south_bound": 52.1749938
+            },
+            "County": "Warwickshire",
+            "UKCPVS ID": "13/80",
+            "Name/Collector": "PM Woodcock",
+            "Country": "UK",
+            "Variety": "JB Diego",
+            "Date collected (compact)": "20130621"
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50656ca5bb0fc909d8ce"
+            },
+            "ID": "13.0081",
+            "Private comments": "Date is arrival date",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/81",
+            "Name/Collector": "Menka Hopma",
+            "Date collected": "2013-06-24",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Postal Code": "LN5 0QG",
+            "Variety": "Solstice",
+            "Date collected (compact)": "20130624"
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50656ca5bb0fc909d8cf"
+            },
+            "ID": "13.0082",
+            "Private comments": "Date is arrival date",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/82",
+            "Name/Collector": "Menka Hopma",
+            "Date collected": "2013-06-24",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Postal Code": "LN5 0QG",
+            "Variety": "Duxford",
+            "Date collected (compact)": "20130624"
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50656ca5bb0fc909d8d0"
+            },
+            "ID": "13.0083",
+            "Private comments": "Date is arrival date",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/83",
+            "Name/Collector": "Menka Hopma",
+            "Date collected": "2013-06-24",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Postal Code": "LN5 0QG",
+            "Variety": "Cordiale",
+            "Date collected (compact)": "20130624"
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50656ca5bb0fc909d8d1"
+            },
+            "ID": "13.0084",
+            "Private comments": "Date is arrival date",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/84",
+            "Name/Collector": "Menka Hopma",
+            "Date collected": "2013-06-24",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Postal Code": "LN5 0QG",
+            "Variety": "Oakley",
+            "Date collected (compact)": "20130624"
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50656ca5bb0fc909d8d2"
+            },
+            "ID": "13.0085",
+            "Private comments": "Date is arrival date",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/85",
+            "Name/Collector": "Menka Hopma",
+            "Date collected": "2013-06-24",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Postal Code": "LN5 0QG",
+            "Variety": "KWS Santiago",
+            "Date collected (compact)": "20130624"
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50656ca5bb0fc909d8d3"
+            },
+            "ID": "13.0086",
+            "Private comments": "Date is arrival date",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/86",
+            "Name/Collector": "Menka Hopma",
+            "Date collected": "2013-06-24",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Postal Code": "LN5 0QG",
+            "Variety": "Horatio",
+            "Date collected (compact)": "20130624"
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50656ca5bb0fc909d8d4"
+            },
+            "ID": "13.0087",
+            "Private comments": "Date is arrival date",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/87",
+            "Name/Collector": "Menka Hopma",
+            "Date collected": "2013-06-24",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Postal Code": "LN5 0QG",
+            "Variety": "Beluga",
+            "Date collected (compact)": "20130624"
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50656ca5bb0fc909d8d5"
+            },
+            "ID": "13.0088",
+            "Private comments": "Date is arrival date",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/88",
+            "Name/Collector": "Menka Hopma",
+            "Date collected": "2013-06-24",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Postal Code": "LN5 0QG",
+            "Variety": "JB Diego",
+            "Date collected (compact)": "20130624"
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50656ca5bb0fc909d8d6"
+            },
+            "ID": "13.0089",
+            "Private comments": "Date is arrival date",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/89",
+            "Name/Collector": "Menka Hopma",
+            "Date collected": "2013-06-24",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Postal Code": "LN5 0QG",
+            "Variety": "Torch",
+            "Date collected (compact)": "20130624"
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50656ca5bb0fc909d8d7"
+            },
+            "ID": "13.0090",
+            "Private comments": "Date is arrival date",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/90",
+            "Name/Collector": "Menka Hopma",
+            "Date collected": "2013-06-24",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Postal Code": "LN5 0QG",
+            "Variety": "KWS Kielder",
+            "Date collected (compact)": "20130624"
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50666ca5bb0fc909d8d8"
+            },
+            "ID": "13.0091",
+            "Private comments": "Date is arrival date",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/91",
+            "Name/Collector": "Menka Hopma",
+            "Date collected": "2013-06-24",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Postal Code": "LN5 0QG",
+            "Variety": "Solstice",
+            "Date collected (compact)": "20130624"
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50666ca5bb0fc909d8d9"
+            },
+            "ID": "13.0092",
+            "Private comments": "Date is arrival date",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/92",
+            "Name/Collector": "Menka Hopma",
+            "Date collected": "2013-06-24",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Postal Code": "LN5 0QG",
+            "Variety": "Gallant",
+            "Date collected (compact)": "20130624"
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50666ca5bb0fc909d8da"
+            },
+            "ID": "13.0093",
+            "Private comments": "Date is arrival date",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/93",
+            "Name/Collector": "Menka Hopma",
+            "Date collected": "2013-06-24",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Postal Code": "LN5 0QG",
+            "Variety": "RW41088",
+            "Date collected (compact)": "20130624"
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50666ca5bb0fc909d8db"
+            },
+            "ID": "13.0094",
+            "Private comments": "Date is arrival date",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/94",
+            "Name/Collector": "Menka Hopma",
+            "Date collected": "2013-06-24",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Postal Code": "LN5 0QG",
+            "Variety": "Gravitas",
+            "Date collected (compact)": "20130624"
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50666ca5bb0fc909d8dc"
+            },
+            "ID": "13.0095",
+            "Private comments": "Date is arrival date",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/95",
+            "Name/Collector": "Menka Hopma",
+            "Date collected": "2013-06-24",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Postal Code": "LN5 0QG",
+            "Variety": "Denman",
+            "Date collected (compact)": "20130624"
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50666ca5bb0fc909d8dd"
+            },
+            "ID": "13.0096",
+            "Private comments": "Date is arrival date",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/96",
+            "Name/Collector": "Menka Hopma",
+            "Date collected": "2013-06-24",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Postal Code": "LN5 0QG",
+            "Variety": "KWS W196",
+            "Date collected (compact)": "20130624"
+          },
+          {
+            "Town": "Abington",
+            "_id": {
+              "$oid": "562a50666ca5bb0fc909d8de"
+            },
+            "ID": "13.0097",
+            "Host": "Wheat",
+            "Date collected": "2013-06-27",
+            "Rust (YR/SR/LR)": "YR",
+            "County": "Cambridgeshire",
+            "location": {
+              "latitude": 52.1178887,
+              "east_bound": 0.2550615,
+              "longitude": 0.2390541,
+              "north_bound": 52.1247396,
+              "west_bound": 0.2230467,
+              "south_bound": 52.1110367
+            },
+            "UKCPVS ID": "13/97",
+            "Name/Collector": "John Blackman",
+            "Country": "UK",
+            "Variety": "Cougar",
+            "Date collected (compact)": "20130627"
+          },
+          {
+            "Town": "Sutton Scotney",
+            "_id": {
+              "$oid": "562a50666ca5bb0fc909d8df"
+            },
+            "ID": "13.0098",
+            "Company": "NIABTAG",
+            "Date collected": "2013-06-27",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.154214,
+              "east_bound": -1.2767089,
+              "longitude": -1.335825,
+              "north_bound": 51.1970003,
+              "west_bound": -1.3777775,
+              "south_bound": 51.123026
+            },
+            "County": "Hampshire",
+            "UKCPVS ID": "13/98",
+            "Name/Collector": "Ben Freer",
+            "Country": "UK",
+            "Variety": "Mulika (Spring wheat)",
+            "Date collected (compact)": "20130627"
+          },
+          {
+            "Town": "Bugthorpe",
+            "_id": {
+              "$oid": "562a50666ca5bb0fc909d8e0"
+            },
+            "ID": "13.0099",
+            "Company": "NIABTAG Headley Hall",
+            "Date collected": "2013-07-01",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 54.48919,
+              "east_bound": -0.7522236,
+              "longitude": -0.768231,
+              "north_bound": 54.4956707,
+              "west_bound": -0.7842384,
+              "south_bound": 54.4827083
+            },
+            "County": "North Yorkshire",
+            "UKCPVS ID": "13/99",
+            "Name/Collector": "Peter Burgis",
+            "Country": "UK",
+            "Variety": "LGW56",
+            "Date collected (compact)": "20130701"
+          },
+          {
+            "Town": "Bugthorpe",
+            "_id": {
+              "$oid": "562a50666ca5bb0fc909d8e1"
+            },
+            "ID": "13.0100",
+            "Company": "NIABTAG Headley Hall",
+            "Date collected": "2013-07-01",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 54.48919,
+              "east_bound": -0.7522236,
+              "longitude": -0.768231,
+              "north_bound": 54.4956707,
+              "west_bound": -0.7842384,
+              "south_bound": 54.4827083
+            },
+            "County": "North Yorkshire",
+            "UKCPVS ID": "13/100",
+            "Name/Collector": "Peter Burgis",
+            "Country": "UK",
+            "Variety": "Gallant",
+            "Date collected (compact)": "20130701"
+          },
+          {
+            "Town": "Bugthorpe",
+            "_id": {
+              "$oid": "562a50676ca5bb0fc909d8e2"
+            },
+            "ID": "13.0108",
+            "Company": "NIABTAG Headley Hall",
+            "Date collected": "2013-07-01",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 54.48919,
+              "east_bound": -0.7522236,
+              "longitude": -0.768231,
+              "north_bound": 54.4956707,
+              "west_bound": -0.7842384,
+              "south_bound": 54.4827083
+            },
+            "County": "North Yorkshire",
+            "UKCPVS ID": "13/108",
+            "Name/Collector": "Peter Burgis",
+            "Country": "UK",
+            "Variety": "KWS W196",
+            "Date collected (compact)": "20130701"
+          },
+          {
+            "Town": "Bugthorpe",
+            "_id": {
+              "$oid": "562a50676ca5bb0fc909d8e3"
+            },
+            "ID": "13.0109",
+            "Company": "NIABTAG Headley Hall",
+            "Date collected": "2013-07-01",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 54.48919,
+              "east_bound": -0.7522236,
+              "longitude": -0.768231,
+              "north_bound": 54.4956707,
+              "west_bound": -0.7842384,
+              "south_bound": 54.4827083
+            },
+            "County": "North Yorkshire",
+            "UKCPVS ID": "13/109",
+            "Name/Collector": "Peter Burgis",
+            "Country": "UK",
+            "Variety": "SJ3326",
+            "Date collected (compact)": "20130701"
+          },
+          {
+            "Town": "Bugthorpe",
+            "_id": {
+              "$oid": "562a50676ca5bb0fc909d8e4"
+            },
+            "ID": "13.0110",
+            "Company": "NIABTAG Headley Hall",
+            "Date collected": "2013-07-01",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 54.48919,
+              "east_bound": -0.7522236,
+              "longitude": -0.768231,
+              "north_bound": 54.4956707,
+              "west_bound": -0.7842384,
+              "south_bound": 54.4827083
+            },
+            "County": "North Yorkshire",
+            "UKCPVS ID": "13/110",
+            "Name/Collector": "Peter Burgis",
+            "Country": "UK",
+            "Variety": "Denman",
+            "Date collected (compact)": "20130701"
+          },
+          {
+            "Town": "Headley Hall",
+            "_id": {
+              "$oid": "562a50676ca5bb0fc909d8e5"
+            },
+            "ID": "13.0111",
+            "Company": "NIABTAG Headley Hall",
+            "Date collected": "2013-07-02",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 53.8685544,
+              "east_bound": -1.3245149197085,
+              "longitude": -1.3258639,
+              "north_bound": 53.8699033802915,
+              "west_bound": -1.3272128802915,
+              "south_bound": 53.8672054197085
+            },
+            "County": "North Yorkshire",
+            "UKCPVS ID": "13/111",
+            "Name/Collector": "Amelia Hubbard",
+            "Country": "UK",
+            "Variety": "Oakley",
+            "Date collected (compact)": "20130702"
+          },
+          {
+            "Town": "Headley Hall",
+            "_id": {
+              "$oid": "562a50676ca5bb0fc909d8e6"
+            },
+            "ID": "13.0112",
+            "Company": "NIABTAG Headley Hall",
+            "Date collected": "2013-07-02",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 53.8685544,
+              "east_bound": -1.3245149197085,
+              "longitude": -1.3258639,
+              "north_bound": 53.8699033802915,
+              "west_bound": -1.3272128802915,
+              "south_bound": 53.8672054197085
+            },
+            "County": "North Yorkshire",
+            "UKCPVS ID": "13/112",
+            "Name/Collector": "Amelia Hubbard",
+            "Country": "UK",
+            "Variety": "Victo",
+            "Date collected (compact)": "20130702"
+          },
+          {
+            "Town": "Headley Hall",
+            "_id": {
+              "$oid": "562a50676ca5bb0fc909d8e7"
+            },
+            "ID": "13.0113",
+            "Company": "NIABTAG Headley Hall",
+            "Date collected": "2013-07-02",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 53.8685544,
+              "east_bound": -1.3245149197085,
+              "longitude": -1.3258639,
+              "north_bound": 53.8699033802915,
+              "west_bound": -1.3272128802915,
+              "south_bound": 53.8672054197085
+            },
+            "County": "North Yorkshire",
+            "UKCPVS ID": "13/113",
+            "Name/Collector": "Amelia Hubbard",
+            "Country": "UK",
+            "Date collected (compact)": "20130702"
+          },
+          {
+            "Town": "Headley Hall",
+            "_id": {
+              "$oid": "562a50676ca5bb0fc909d8e8"
+            },
+            "ID": "13.0114",
+            "Company": "NIABTAG Headley Hall",
+            "Date collected": "2013-07-02",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 53.8685544,
+              "east_bound": -1.3245149197085,
+              "longitude": -1.3258639,
+              "north_bound": 53.8699033802915,
+              "west_bound": -1.3272128802915,
+              "south_bound": 53.8672054197085
+            },
+            "County": "North Yorkshire",
+            "UKCPVS ID": "13/114",
+            "Name/Collector": "Amelia Hubbard",
+            "Country": "UK",
+            "Variety": "Recital",
+            "Date collected (compact)": "20130702"
+          },
+          {
+            "Town": "Headley Hall",
+            "_id": {
+              "$oid": "562a50676ca5bb0fc909d8e9"
+            },
+            "ID": "13.0115",
+            "Company": "NIABTAG Headley Hall",
+            "Date collected": "2013-07-02",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 53.8685544,
+              "east_bound": -1.3245149197085,
+              "longitude": -1.3258639,
+              "north_bound": 53.8699033802915,
+              "west_bound": -1.3272128802915,
+              "south_bound": 53.8672054197085
+            },
+            "County": "North Yorkshire",
+            "UKCPVS ID": "13/115",
+            "Name/Collector": "Amelia Hubbard",
+            "Country": "UK",
+            "Variety": "Toisondor",
+            "Date collected (compact)": "20130702"
+          },
+          {
+            "Town": "West Charleton",
+            "_id": {
+              "$oid": "562a50676ca5bb0fc909d8ea"
+            },
+            "ID": "13.0116",
+            "Company": "NIABTAG",
+            "Date collected": "2013-07-02",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 50.269725,
+              "east_bound": -3.7396246,
+              "longitude": -3.755632,
+              "north_bound": 50.2768564,
+              "west_bound": -3.7716394,
+              "south_bound": 50.2625926
+            },
+            "County": "Devon",
+            "UKCPVS ID": "13/116",
+            "Name/Collector": "Mark Wavish",
+            "Country": "UK",
+            "Variety": "Torch",
+            "Date collected (compact)": "20130702"
+          },
+          {
+            "Town": "Wye",
+            "_id": {
+              "$oid": "562a50676ca5bb0fc909d8eb"
+            },
+            "ID": "13.0117",
+            "Company": "NIABTAG Wye",
+            "Date collected": "2013-07-01",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.181903,
+              "east_bound": 1.0039394,
+              "longitude": 0.937883,
+              "north_bound": 51.205135,
+              "west_bound": 0.9098592,
+              "south_bound": 51.1552381
+            },
+            "County": "Kent",
+            "UKCPVS ID": "13/117",
+            "Name/Collector": "Roger Stewart",
+            "Country": "UK",
+            "Variety": "Oakley",
+            "Date collected (compact)": "20130701"
+          },
+          {
+            "Town": "Caythorpe",
+            "_id": {
+              "$oid": "562a50676ca5bb0fc909d8ec"
+            },
+            "ID": "13.0118",
+            "Company": "NIABTAG",
+            "Date collected": "2013-07-03",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 53.021631,
+              "east_bound": -0.5688846,
+              "longitude": -0.6045819,
+              "north_bound": 53.0322775,
+              "west_bound": -0.6114799,
+              "south_bound": 53.0174137
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/118",
+            "Name/Collector": "Amelia Hubbard",
+            "Country": "UK",
+            "Variety": "Laurier",
+            "Date collected (compact)": "20130703"
+          },
+          {
+            "Town": "Boston",
+            "_id": {
+              "$oid": "562a50686ca5bb0fc909d8ee"
+            },
+            "ID": "13.0125",
+            "Company": "NIABTAG",
+            "Date collected": "2013-07-03",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.97894,
+              "east_bound": 0.0204234,
+              "longitude": -0.026577,
+              "north_bound": 53.00113,
+              "west_bound": -0.0632467,
+              "south_bound": 52.9556353
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/125",
+            "Name/Collector": "Amelia Hubbard",
+            "Country": "UK",
+            "Variety": "ReR138",
+            "Date collected (compact)": "20130703"
+          },
+          {
+            "Town": "Boston",
+            "_id": {
+              "$oid": "562a50686ca5bb0fc909d8ef"
+            },
+            "ID": "13.0126",
+            "Company": "NIABTAG",
+            "Date collected": "2013-07-03",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.97894,
+              "east_bound": 0.0204234,
+              "longitude": -0.026577,
+              "north_bound": 53.00113,
+              "west_bound": -0.0632467,
+              "south_bound": 52.9556353
+            },
+            "County": "Lincolnshire",
+            "UKCPVS ID": "13/126",
+            "Name/Collector": "Amelia Hubbard",
+            "Country": "UK",
+            "Variety": "Altigo",
+            "Date collected (compact)": "20130703"
+          },
+          {
+            "Town": "Stebbing",
+            "_id": {
+              "$oid": "562a50686ca5bb0fc909d8f0"
+            },
+            "ID": "13.0127",
+            "Company": "Agrii",
+            "Date collected": "2013-07-04",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.8923507,
+              "east_bound": 0.4232357,
+              "longitude": 0.4127419,
+              "north_bound": 51.8988433,
+              "west_bound": 0.4066702,
+              "south_bound": 51.8875297
+            },
+            "County": "Essex",
+            "UKCPVS ID": "13/127",
+            "Name/Collector": "Colin Patrick",
+            "Country": "UK",
+            "Variety": "JB Diego",
+            "Date collected (compact)": "20130704"
+          },
+          {
+            "Town": "Stebbing",
+            "_id": {
+              "$oid": "562a50686ca5bb0fc909d8f1"
+            },
+            "ID": "13.0128",
+            "Company": "Agrii",
+            "Date collected": "2013-07-04",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.8923507,
+              "east_bound": 0.4232357,
+              "longitude": 0.4127419,
+              "north_bound": 51.8988433,
+              "west_bound": 0.4066702,
+              "south_bound": 51.8875297
+            },
+            "County": "Essex",
+            "UKCPVS ID": "13/128",
+            "Name/Collector": "Colin Patrick",
+            "Country": "UK",
+            "Variety": "Cordiale",
+            "Date collected (compact)": "20130704"
+          },
+          {
+            "Town": "Stebbing",
+            "_id": {
+              "$oid": "562a50686ca5bb0fc909d8f2"
+            },
+            "ID": "13.0129",
+            "Company": "Agrii",
+            "Date collected": "2013-07-04",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.8923507,
+              "east_bound": 0.4232357,
+              "longitude": 0.4127419,
+              "north_bound": 51.8988433,
+              "west_bound": 0.4066702,
+              "south_bound": 51.8875297
+            },
+            "County": "Essex",
+            "UKCPVS ID": "13/129",
+            "Name/Collector": "Colin Patrick",
+            "Country": "UK",
+            "Variety": "KWS W199 Bonai",
+            "Date collected (compact)": "20130704"
+          },
+          {
+            "Town": "Stebbing",
+            "_id": {
+              "$oid": "562a50686ca5bb0fc909d8f3"
+            },
+            "ID": "13.0130",
+            "Company": "Agrii",
+            "Date collected": "2013-07-04",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.8923507,
+              "east_bound": 0.4232357,
+              "longitude": 0.4127419,
+              "north_bound": 51.8988433,
+              "west_bound": 0.4066702,
+              "south_bound": 51.8875297
+            },
+            "County": "Essex",
+            "UKCPVS ID": "13/130",
+            "Name/Collector": "Colin Patrick",
+            "Country": "UK",
+            "Variety": "KWS Podium",
+            "Date collected (compact)": "20130704"
+          },
+          {
+            "Town": "Stebbing",
+            "_id": {
+              "$oid": "562a50686ca5bb0fc909d8f4"
+            },
+            "ID": "13.0131",
+            "Company": "Agrii",
+            "Date collected": "2013-07-04",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.8923507,
+              "east_bound": 0.4232357,
+              "longitude": 0.4127419,
+              "north_bound": 51.8988433,
+              "west_bound": 0.4066702,
+              "south_bound": 51.8875297
+            },
+            "County": "Essex",
+            "UKCPVS ID": "13/131",
+            "Name/Collector": "Colin Patrick",
+            "Country": "UK",
+            "Variety": "RW41088",
+            "Date collected (compact)": "20130704"
+          },
+          {
+            "Town": "Stebbing",
+            "_id": {
+              "$oid": "562a50686ca5bb0fc909d8f5"
+            },
+            "ID": "13.0132",
+            "Company": "Agrii",
+            "Date collected": "2013-07-04",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.8923507,
+              "east_bound": 0.4232357,
+              "longitude": 0.4127419,
+              "north_bound": 51.8988433,
+              "west_bound": 0.4066702,
+              "south_bound": 51.8875297
+            },
+            "County": "Essex",
+            "UKCPVS ID": "13/132",
+            "Name/Collector": "Colin Patrick",
+            "Country": "UK",
+            "Variety": "KWS Rowan",
+            "Date collected (compact)": "20130704"
+          },
+          {
+            "Town": "Stebbing",
+            "_id": {
+              "$oid": "562a50686ca5bb0fc909d8f6"
+            },
+            "ID": "13.0133",
+            "Company": "Agrii",
+            "Date collected": "2013-07-04",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.8923507,
+              "east_bound": 0.4232357,
+              "longitude": 0.4127419,
+              "north_bound": 51.8988433,
+              "west_bound": 0.4066702,
+              "south_bound": 51.8875297
+            },
+            "County": "Essex",
+            "UKCPVS ID": "13/133",
+            "Name/Collector": "Colin Patrick",
+            "Country": "UK",
+            "Variety": "Gallant",
+            "Date collected (compact)": "20130704"
+          },
+          {
+            "Town": "Stebbing",
+            "_id": {
+              "$oid": "562a50686ca5bb0fc909d8f7"
+            },
+            "ID": "13.0134",
+            "Company": "Agrii",
+            "Date collected": "2013-07-04",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.8923507,
+              "east_bound": 0.4232357,
+              "longitude": 0.4127419,
+              "north_bound": 51.8988433,
+              "west_bound": 0.4066702,
+              "south_bound": 51.8875297
+            },
+            "County": "Essex",
+            "UKCPVS ID": "13/134",
+            "Name/Collector": "Colin Patrick",
+            "Country": "UK",
+            "Variety": "Cocoon",
+            "Date collected (compact)": "20130704"
+          },
+          {
+            "Town": "Stebbing",
+            "_id": {
+              "$oid": "562a50696ca5bb0fc909d8f8"
+            },
+            "ID": "13.0139",
+            "Company": "Agrii",
+            "Date collected": "2013-07-04",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.8923507,
+              "east_bound": 0.4232357,
+              "longitude": 0.4127419,
+              "north_bound": 51.8988433,
+              "west_bound": 0.4066702,
+              "south_bound": 51.8875297
+            },
+            "County": "Essex",
+            "UKCPVS ID": "13/139",
+            "Name/Collector": "Colin Patrick",
+            "Country": "UK",
+            "Variety": "Grafton",
+            "Date collected (compact)": "20130704"
+          },
+          {
+            "Town": "Stebbing",
+            "_id": {
+              "$oid": "562a50696ca5bb0fc909d8f9"
+            },
+            "ID": "13.0143",
+            "Company": "Agrii",
+            "Date collected": "2013-07-04",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.8923507,
+              "east_bound": 0.4232357,
+              "longitude": 0.4127419,
+              "north_bound": 51.8988433,
+              "west_bound": 0.4066702,
+              "south_bound": 51.8875297
+            },
+            "County": "Essex",
+            "UKCPVS ID": "13/144",
+            "Name/Collector": "Colin Patrick",
+            "Country": "UK",
+            "Variety": "Chilton",
+            "Date collected (compact)": "20130704"
+          },
+          {
+            "Town": "Stebbing",
+            "_id": {
+              "$oid": "562a50696ca5bb0fc909d8fa"
+            },
+            "ID": "13.0147",
+            "Company": "Agrii",
+            "Date collected": "2013-07-04",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.8923507,
+              "east_bound": 0.4232357,
+              "longitude": 0.4127419,
+              "north_bound": 51.8988433,
+              "west_bound": 0.4066702,
+              "south_bound": 51.8875297
+            },
+            "County": "Essex",
+            "UKCPVS ID": "13/148",
+            "Name/Collector": "Colin Patrick",
+            "Country": "UK",
+            "Variety": "Horatio",
+            "Date collected (compact)": "20130704"
+          },
+          {
+            "Town": "Stebbing",
+            "_id": {
+              "$oid": "562a50696ca5bb0fc909d8fb"
+            },
+            "ID": "13.0149",
+            "Company": "Agrii",
+            "Date collected": "2013-07-04",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.8923507,
+              "east_bound": 0.4232357,
+              "longitude": 0.4127419,
+              "north_bound": 51.8988433,
+              "west_bound": 0.4066702,
+              "south_bound": 51.8875297
+            },
+            "County": "Essex",
+            "UKCPVS ID": "13/150",
+            "Name/Collector": "Colin Patrick",
+            "Country": "UK",
+            "Variety": "MH10-33 Twist",
+            "Date collected (compact)": "20130704"
+          },
+          {
+            "Town": "Ackelton",
+            "_id": {
+              "$oid": "562a50696ca5bb0fc909d8fc"
+            },
+            "ID": "13.0153",
+            "Company": "SGS",
+            "Date collected": "2013-07-01",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.7099095,
+              "east_bound": -1.3553021,
+              "longitude": -1.3610316,
+              "north_bound": 51.7171171,
+              "west_bound": -1.3776921,
+              "south_bound": 51.6954531
+            },
+            "County": "Oxfordshire",
+            "UKCPVS ID": "13/155",
+            "Name/Collector": "Dan Pidsley",
+            "Country": "UK",
+            "Variety": "Cordiale",
+            "Date collected (compact)": "20130701"
+          },
+          {
+            "Town": "Abington",
+            "_id": {
+              "$oid": "562a506a6ca5bb0fc909d8fd"
+            },
+            "ID": "13.0158",
+            "Host": "Wheat",
+            "Date collected": "2013-07-09",
+            "Rust (YR/SR/LR)": "YR",
+            "County": "Cambridgeshire",
+            "location": {
+              "latitude": 52.1178887,
+              "east_bound": 0.2550615,
+              "longitude": 0.2390541,
+              "north_bound": 52.1247396,
+              "west_bound": 0.2230467,
+              "south_bound": 52.1110367
+            },
+            "UKCPVS ID": "13/160",
+            "Name/Collector": "John Blackman",
+            "Country": "UK",
+            "Variety": "Paragon",
+            "Date collected (compact)": "20130709"
+          },
+          {
+            "Town": "Callow",
+            "_id": {
+              "$oid": "562a506a6ca5bb0fc909d8fe"
+            },
+            "ID": "13.0159",
+            "Company": "NIABTAG Callow",
+            "Date collected": "2013-07-08",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.005056,
+              "east_bound": -2.7225066,
+              "longitude": -2.738514,
+              "north_bound": 52.0119242,
+              "west_bound": -2.7545214,
+              "south_bound": 51.9981867
+            },
+            "County": "Hereford",
+            "UKCPVS ID": "13/161",
+            "Name/Collector": "Juliet Anderson",
+            "Country": "UK",
+            "Variety": "KWS Kielder",
+            "Date collected (compact)": "20130708"
+          },
+          {
+            "Town": "Ickleton",
+            "_id": {
+              "$oid": "562a506a6ca5bb0fc909d8ff"
+            },
+            "ID": "13.0165",
+            "Company": "RAGT seeds",
+            "Date collected": "2013-07-09",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.070658,
+              "east_bound": 0.1903034,
+              "longitude": 0.174296,
+              "north_bound": 52.0775162,
+              "west_bound": 0.1582886,
+              "south_bound": 52.0637988
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/167",
+            "Name/Collector": "Martin Hinch",
+            "Country": "UK",
+            "Variety": "Gallant",
+            "Date collected (compact)": "20130709"
+          },
+          {
+            "Town": "Wolferton",
+            "_id": {
+              "$oid": "562a506b6ca5bb0fc909d900"
+            },
+            "ID": "13.0174",
+            "Company": "Limagrain",
+            "Date collected": "2013-07-09",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.827926,
+              "east_bound": 0.4720174,
+              "longitude": 0.45601,
+              "north_bound": 52.8346673,
+              "west_bound": 0.4400026,
+              "south_bound": 52.8211837
+            },
+            "County": "Norfolk",
+            "UKCPVS ID": "13/176",
+            "Name/Collector": "Darryl Playford",
+            "Country": "UK",
+            "Variety": "Chilton",
+            "Date collected (compact)": "20130709"
+          },
+          {
+            "Town": "Sturminster Newton",
+            "_id": {
+              "$oid": "562a506b6ca5bb0fc909d901"
+            },
+            "ID": "13.0175",
+            "Company": "Pearce Seeds",
+            "Date collected": "2013-07-15",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 50.925142,
+              "east_bound": -2.2891981,
+              "longitude": -2.304642,
+              "north_bound": 50.9396488,
+              "west_bound": -2.3241882,
+              "south_bound": 50.9140697
+            },
+            "County": "Dorset",
+            "UKCPVS ID": "13/178",
+            "Name/Collector": "Nicola Harris",
+            "Country": "UK",
+            "Variety": "Cubanita",
+            "Date collected (compact)": "20130715"
+          },
+          {
+            "Town": "Sturminster Newton",
+            "_id": {
+              "$oid": "562a506b6ca5bb0fc909d902"
+            },
+            "ID": "13.0176",
+            "Company": "Pearce Seeds",
+            "Date collected": "2013-07-15",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 50.925142,
+              "east_bound": -2.2891981,
+              "longitude": -2.304642,
+              "north_bound": 50.9396488,
+              "west_bound": -2.3241882,
+              "south_bound": 50.9140697
+            },
+            "County": "Dorset",
+            "UKCPVS ID": "13/179",
+            "Name/Collector": "Nicola Harris",
+            "Country": "UK",
+            "Variety": "KWS Kielder",
+            "Date collected (compact)": "20130715"
+          },
+          {
+            "Town": "Sturminster Newton",
+            "_id": {
+              "$oid": "562a506b6ca5bb0fc909d903"
+            },
+            "ID": "13.0177",
+            "Company": "Pearce Seeds",
+            "Date collected": "2013-07-15",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 50.925142,
+              "east_bound": -2.2891981,
+              "longitude": -2.304642,
+              "north_bound": 50.9396488,
+              "west_bound": -2.3241882,
+              "south_bound": 50.9140697
+            },
+            "County": "Dorset",
+            "UKCPVS ID": "13/180",
+            "Name/Collector": "Nicola Harris",
+            "Country": "UK",
+            "Variety": "Cordiale",
+            "Date collected (compact)": "20130715"
+          },
+          {
+            "Town": "Sturminster Newton",
+            "_id": {
+              "$oid": "562a506b6ca5bb0fc909d904"
+            },
+            "ID": "13.0178",
+            "Company": "Pearce Seeds",
+            "Date collected": "2013-07-15",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 50.925142,
+              "east_bound": -2.2891981,
+              "longitude": -2.304642,
+              "north_bound": 50.9396488,
+              "west_bound": -2.3241882,
+              "south_bound": 50.9140697
+            },
+            "County": "Dorset",
+            "UKCPVS ID": "13/181",
+            "Name/Collector": "Nicola Harris",
+            "Country": "UK",
+            "Variety": "Solstice",
+            "Date collected (compact)": "20130715"
+          },
+          {
+            "Town": "County Down",
+            "_id": {
+              "$oid": "562a506b6ca5bb0fc909d906"
+            },
+            "ID": "13.0180",
+            "Company": "AFBI",
+            "Date collected": "2013-07-16",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "location": {
+              "latitude": 54.3276987,
+              "east_bound": -5.5226898,
+              "longitude": -5.7157667,
+              "north_bound": 54.49568,
+              "west_bound": -6.0759099,
+              "south_bound": 54.1669899
+            },
+            "UKCPVS ID": "13/183",
+            "Name/Collector": "Aaron Carrick",
+            "Postal Code": "B76 9SH",
+            "Country": "Northern Ireland",
+            "Variety": "Trappe SW9998",
+            "Date collected (compact)": "20130716"
+          },
+          {
+            "Town": "County Down",
+            "_id": {
+              "$oid": "562a506b6ca5bb0fc909d907"
+            },
+            "ID": "13.0181",
+            "Company": "AFBI",
+            "Date collected": "2013-07-16",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "location": {
+              "latitude": 54.3276987,
+              "east_bound": -5.5226898,
+              "longitude": -5.7157667,
+              "north_bound": 54.49568,
+              "west_bound": -6.0759099,
+              "south_bound": 54.1669899
+            },
+            "UKCPVS ID": "13/184",
+            "Name/Collector": "Aaron Carrick",
+            "Postal Code": "B76 9SH",
+            "Country": "Northern Ireland",
+            "Variety": "Mortons SW9100",
+            "Date collected (compact)": "20130716"
+          },
+          {
+            "Town": "East Brabourne",
+            "_id": {
+              "$oid": "562a506b6ca5bb0fc909d908"
+            },
+            "ID": "13.0182",
+            "Company": "NIAB TAG Wye",
+            "Date collected": "2013-07-22",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.1392021,
+              "east_bound": 1.0118782,
+              "longitude": 0.9958708,
+              "north_bound": 51.1462024,
+              "west_bound": 0.9798634,
+              "south_bound": 51.1322007
+            },
+            "County": "Kent",
+            "UKCPVS ID": "13/185",
+            "Name/Collector": "Roger Stewart",
+            "Country": "UK",
+            "Variety": "Duxford",
+            "Date collected (compact)": "20130722"
+          },
+          {
+            "Town": "East Brabourne",
+            "_id": {
+              "$oid": "562a506b6ca5bb0fc909d909"
+            },
+            "ID": "13.0183",
+            "Company": "NIAB TAG Wye",
+            "Date collected": "2013-07-22",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.1392021,
+              "east_bound": 1.0118782,
+              "longitude": 0.9958708,
+              "north_bound": 51.1462024,
+              "west_bound": 0.9798634,
+              "south_bound": 51.1322007
+            },
+            "County": "Kent",
+            "UKCPVS ID": "13/186",
+            "Name/Collector": "Roger Stewart",
+            "Country": "UK",
+            "Variety": "Horatio",
+            "Date collected (compact)": "20130722"
+          },
+          {
+            "Town": "East Brabourne",
+            "_id": {
+              "$oid": "562a506b6ca5bb0fc909d90a"
+            },
+            "ID": "13.0184",
+            "Company": "NIAB TAG Wye",
+            "Date collected": "2013-07-22",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.1392021,
+              "east_bound": 1.0118782,
+              "longitude": 0.9958708,
+              "north_bound": 51.1462024,
+              "west_bound": 0.9798634,
+              "south_bound": 51.1322007
+            },
+            "County": "Kent",
+            "UKCPVS ID": "13/187",
+            "Name/Collector": "Roger Stewart",
+            "Country": "UK",
+            "Variety": "Solstice",
+            "Date collected (compact)": "20130722"
+          },
+          {
+            "Town": "East Brabourne",
+            "_id": {
+              "$oid": "562a506b6ca5bb0fc909d90b"
+            },
+            "ID": "13.0185",
+            "Company": "NIAB TAG Wye",
+            "Date collected": "2013-07-22",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.1392021,
+              "east_bound": 1.0118782,
+              "longitude": 0.9958708,
+              "north_bound": 51.1462024,
+              "west_bound": 0.9798634,
+              "south_bound": 51.1322007
+            },
+            "County": "Kent",
+            "UKCPVS ID": "13/188",
+            "Name/Collector": "Roger Stewart",
+            "Country": "UK",
+            "Variety": "Cordiale",
+            "Date collected (compact)": "20130722"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506b6ca5bb0fc909d90c"
+            },
+            "ID": "13.0186",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/501",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-06-07",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Apache",
+            "Date collected (compact)": "20130607"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506c6ca5bb0fc909d90d"
+            },
+            "ID": "13.0187",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/502",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-06-07",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Apache",
+            "Date collected (compact)": "20130607"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506c6ca5bb0fc909d90e"
+            },
+            "ID": "13.0188",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/503",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-06-07",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "KWS Sterling",
+            "Date collected (compact)": "20130607"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506c6ca5bb0fc909d90f"
+            },
+            "ID": "13.0189",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/504",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-06-07",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "KWS Sterling",
+            "Date collected (compact)": "20130607"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506c6ca5bb0fc909d910"
+            },
+            "ID": "13.0190",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/505",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-06-12",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Vuka",
+            "Date collected (compact)": "20130612"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506c6ca5bb0fc909d911"
+            },
+            "ID": "13.0191",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/506",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-06-12",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Vuka",
+            "Date collected (compact)": "20130612"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506c6ca5bb0fc909d912"
+            },
+            "ID": "13.0192",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/507",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-06-12",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Vuka",
+            "Date collected (compact)": "20130612"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506c6ca5bb0fc909d913"
+            },
+            "ID": "13.0193",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/508",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-06-12",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Vuka",
+            "Date collected (compact)": "20130612"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506c6ca5bb0fc909d914"
+            },
+            "ID": "13.0194",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/509",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-06-12",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Vuka",
+            "Date collected (compact)": "20130612"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506c6ca5bb0fc909d915"
+            },
+            "ID": "13.0195",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/510",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-06-12",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Vuka",
+            "Date collected (compact)": "20130612"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506c6ca5bb0fc909d916"
+            },
+            "ID": "13.0196",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/511",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-06-13",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Victo",
+            "Date collected (compact)": "20130613"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506c6ca5bb0fc909d917"
+            },
+            "ID": "13.0201",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/516",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-06-13",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Victo",
+            "Date collected (compact)": "20130613"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506c6ca5bb0fc909d918"
+            },
+            "ID": "13.0202",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/517",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-06-27",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Victo",
+            "Date collected (compact)": "20130627"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506c6ca5bb0fc909d919"
+            },
+            "ID": "13.0205",
+            "Company": "NIABTAG",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "County": "Cambridgeshire",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "Name/Collector": "Amelia Hubbard",
+            "Library name": "LIB4747",
+            "UKCPVS ID": "13/520",
+            "Date collected": "2013-07-07",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Country": "UK",
+            "Variety": "Warrior",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130707",
+            "genotype": {
+              "Library name": "LIB4747",
+              "Genetic group": "1",
+              "Sample name": "13/520"
+            }
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506d6ca5bb0fc909d91a"
+            },
+            "ID": "13.0206",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/521",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-07-11",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Apache",
+            "Date collected (compact)": "20130711"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506d6ca5bb0fc909d91b"
+            },
+            "ID": "13.0207",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/522",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-07-11",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Brigadier",
+            "Date collected (compact)": "20130711"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506d6ca5bb0fc909d91c"
+            },
+            "ID": "13.0208",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/523",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-07-11",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Brigadier",
+            "Date collected (compact)": "20130711"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506d6ca5bb0fc909d91d"
+            },
+            "ID": "13.0209",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/524",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-07-11",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Ambition",
+            "Date collected (compact)": "20130711"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506d6ca5bb0fc909d91e"
+            },
+            "ID": "13.0210",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/525",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-07-11",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Apache",
+            "Date collected (compact)": "20130711"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506d6ca5bb0fc909d91f"
+            },
+            "ID": "13.0211",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/526",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-07-11",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Apache",
+            "Date collected (compact)": "20130711"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506d6ca5bb0fc909d920"
+            },
+            "ID": "13.0212",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/527",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-07-11",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Apache",
+            "Date collected (compact)": "20130711"
+          },
+          {
+            "Town": "Cambridge",
+            "_id": {
+              "$oid": "562a506d6ca5bb0fc909d921"
+            },
+            "ID": "13.0213",
+            "Private comments": "HQ inoculated UKCPVS trials",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "13/528",
+            "Name/Collector": "Amelia Hubbard",
+            "Date collected": "2013-07-11",
+            "Rust (YR/SR/LR)": "YR",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Brigadier",
+            "Date collected (compact)": "20130711"
+          },
+          {
+            "Town": "Headley Hall",
+            "_id": {
+              "$oid": "562a506d6ca5bb0fc909d922"
+            },
+            "ID": "13.0216",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.8685544,
+              "east_bound": -1.3245149197085,
+              "longitude": -1.3258639,
+              "north_bound": 53.8699033802915,
+              "west_bound": -1.3272128802915,
+              "south_bound": 53.8672054197085
+            },
+            "County": "North Yorkshire",
+            "Name/Collector": "Jake",
+            "Library name": "LIB5291",
+            "UKCPVS ID": "T13/1",
+            "Date collected": "2013-06-26",
+            "Host": "Triticale",
+            "Rust (YR/SR/LR)": "YR",
+            "Country": "UK",
+            "Variety": "Phildahlia",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130626",
+            "genotype": {
+              "Library name": "LIB5291",
+              "Genetic group": "2",
+              "Sample name": "T13/1"
+            }
+          },
+          {
+            "Town": "Wareham",
+            "_id": {
+              "$oid": "562a506d6ca5bb0fc909d923"
+            },
+            "ID": "13.0217",
+            "Company": "TAG",
+            "Private comments": "Date given as July",
+            "County": "Dorset",
+            "location": {
+              "latitude": 50.687817,
+              "east_bound": -2.0765909,
+              "longitude": -2.110981,
+              "north_bound": 50.7041974,
+              "west_bound": -2.1411596,
+              "south_bound": 50.6791343
+            },
+            "Name/Collector": "Greg Davidson",
+            "Library name": "LIB5292",
+            "UKCPVS ID": "T13/2",
+            "Date collected": "2013-07-01",
+            "Host": "Triticale",
+            "Rust (YR/SR/LR)": "YR",
+            "Country": "UK",
+            "Variety": "Amarillo",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130701",
+            "genotype": {
+              "Library name": "LIB5292",
+              "Genetic group": "2",
+              "Sample name": "T13/2"
+            }
+          },
+          {
+            "Town": "Wool",
+            "_id": {
+              "$oid": "562a506d6ca5bb0fc909d924"
+            },
+            "ID": "13.0218",
+            "Company": "TAG",
+            "Private comments": "Date given as July",
+            "County": "Dorset",
+            "location": {
+              "latitude": 50.6784324,
+              "east_bound": -2.1944851,
+              "longitude": -2.225127,
+              "north_bound": 50.6928253,
+              "west_bound": -2.2702149,
+              "south_bound": 50.6620986
+            },
+            "Name/Collector": "Greg Davidson",
+            "Library name": "LIB5293",
+            "UKCPVS ID": "T13/3",
+            "Date collected": "2013-07-02",
+            "Host": "Triticale",
+            "Rust (YR/SR/LR)": "YR",
+            "Country": "UK",
+            "Variety": "Benetto",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130702",
+            "genotype": {
+              "Library name": "LIB5293",
+              "Genetic group": "2",
+              "Sample name": "T13/3"
+            }
+          },
+          {
+            "Town": "Osisek",
+            "_id": {
+              "$oid": "562a50a86ca5bb0fc909d925"
+            },
+            "ID": "14.0001",
+            "Company": "-",
+            "Date collected": "2014-05-21",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 45.1,
+              "east_bound": 19.4480523,
+              "longitude": 15.2,
+              "north_bound": 46.5552234,
+              "west_bound": 13.4896912,
+              "south_bound": 42.3923
+            },
+            "Name/Collector": "Novosevovie",
+            "Library name": "LIB10868",
+            "Country": "Croatia",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140521"
+          },
+          {
+            "Town": "Kujavy",
+            "_id": {
+              "$oid": "562a50a96ca5bb0fc909d926"
+            },
+            "ID": "14.0003",
+            "Company": "BASF",
+            "Private comments": "vaclav.sklenar@basf.com ZZS Kujavy",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "Date collected": "2014-06-12",
+            "location": {
               "latitude": 49.7033115,
-              "west_bound": 17.935725,
+              "east_bound": 17.9931076,
               "longitude": 17.9725365,
-              "south_bound": 49.6866417,
-              "east_bound": 17.9931076
+              "north_bound": 49.726421,
+              "west_bound": 17.935725,
+              "south_bound": 49.6866417
             },
             "Further Location information": "ZZS Kujavy, Kujavy 48, 742 44 Kujavy",
             "Library name": "LIB10870",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
-            "Date collected": "2014-06-12",
-            "Date collected (compact)": "20140612",
-            "Host": "Wheat",
-            "Private comments": "vaclav.sklenar@basf.com ZZS Kujavy",
+            "Name/Collector": "Tilman - B",
             "Country": "Czech Republic",
-            "Variety": "Tilman"
+            "Variety": "Tilman",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
+            "Date collected (compact)": "20140612"
           },
           {
-            "Company": "BASF",
+            "Town": "Marchélepot",
             "_id": {
-              "$oid": "5628e4bb6ca5bb65cc28e004"
+              "$oid": "562a50a96ca5bb0fc909d927"
             },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "J-C Talbourdet",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0004",
-            "Town": "Marchélepot",
-            "Public comments": "Non-traite",
+            "Company": "BASF",
+            "Date collected": "2014-06-16",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 49.8431391,
               "latitude": 49.834103,
-              "west_bound": 2.8476749,
+              "east_bound": 2.889854,
               "longitude": 2.868337,
-              "south_bound": 49.819147,
-              "east_bound": 2.889854
+              "north_bound": 49.8431391,
+              "west_bound": 2.8476749,
+              "south_bound": 49.819147
             },
+            "Name/Collector": "J-C Talbourdet",
             "Library name": "LIB10871",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-16",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140616",
             "Country": "France",
-            "Variety": "Glasgow"
+            "Variety": "Glasgow",
+            "Public comments": "Non-traite",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140616"
           },
           {
-            "Company": "BASF",
+            "Town": "Marchélepot",
             "_id": {
-              "$oid": "5628e4bb6ca5bb65cc28e005"
+              "$oid": "562a50a96ca5bb0fc909d928"
             },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "J-C Talbourdet",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0005",
-            "Town": "Marchélepot",
-            "Public comments": "Non-traite",
-            "location": {
-              "north_bound": 49.8431391,
-              "latitude": 49.834103,
-              "west_bound": 2.8476749,
-              "longitude": 2.868337,
-              "south_bound": 49.819147,
-              "east_bound": 2.889854
-            },
-            "Library name": "LIB10872",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-16",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140616",
-            "Country": "France",
-            "Variety": "Trapez"
-          },
-          {
             "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4bb6ca5bb65cc28e006"
+            "Date collected": "2014-06-16",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 49.834103,
+              "east_bound": 2.889854,
+              "longitude": 2.868337,
+              "north_bound": 49.8431391,
+              "west_bound": 2.8476749,
+              "south_bound": 49.819147
             },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
             "Name/Collector": "J-C Talbourdet",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0006",
-            "Town": "Marchélepot",
-            "Public comments": "Non-traite",
-            "location": {
-              "north_bound": 49.8431391,
-              "latitude": 49.834103,
-              "west_bound": 2.8476749,
-              "longitude": 2.868337,
-              "south_bound": 49.819147,
-              "east_bound": 2.889854
-            },
-            "Library name": "LIB10873",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-16",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140616",
+            "Library name": "LIB10872",
             "Country": "France",
-            "Variety": "Bergoumo"
+            "Variety": "Trapez",
+            "Public comments": "Non-traite",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140616"
           },
           {
+            "Town": "Marchélepot",
             "_id": {
-              "$oid": "5628e4bb6ca5bb65cc28e007"
+              "$oid": "562a50a96ca5bb0fc909d929"
             },
+            "ID": "14.0006",
             "Company": "BASF",
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "BRIARD",
+            "Date collected": "2014-06-16",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0007",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 49.3022472,
-              "latitude": 49.2949709,
-              "west_bound": 4.3038026,
-              "longitude": 4.31981,
-              "south_bound": 49.2876935,
-              "east_bound": 4.3358174
+              "latitude": 49.834103,
+              "east_bound": 2.889854,
+              "longitude": 2.868337,
+              "north_bound": 49.8431391,
+              "west_bound": 2.8476749,
+              "south_bound": 49.819147
             },
-            "Public comments": "Peu virulent",
+            "Name/Collector": "J-C Talbourdet",
+            "Library name": "LIB10873",
+            "Country": "France",
+            "Variety": "Bergoumo",
+            "Public comments": "Non-traite",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140616"
+          },
+          {
             "Town": "PONTFAVERGER",
+            "_id": {
+              "$oid": "562a50a96ca5bb0fc909d92a"
+            },
+            "ID": "14.0007",
+            "Company": "BASF",
+            "Private comments": "Peu virulent",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "Date collected": "2014-06-10",
+            "location": {
+              "latitude": 49.2949709,
+              "east_bound": 4.3358174,
+              "longitude": 4.31981,
+              "north_bound": 49.3022472,
+              "west_bound": 4.3038026,
+              "south_bound": 49.2876935
+            },
             "Further Location information": "SCA ferme de Vauroisy 51490 PONTFAVERGER",
             "Library name": "LIB10874",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-10",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140610",
-            "Private comments": "Peu virulent",
+            "Name/Collector": "BRIARD",
             "Country": "France",
-            "Variety": "Trapez"
+            "Public comments": "Peu virulent",
+            "Variety": "Trapez",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140610"
           },
           {
-            "Company": "Raiffeisen Ware Austria RWA AG",
             "_id": {
-              "$oid": "5628e4bb6ca5bb65cc28e008"
+              "$oid": "562a50a96ca5bb0fc909d92b"
             },
-            "Name/Collector": "Susanne Kirchmaier",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0008",
-            "location": {
-              "latitude": 48.098662,
-              "longitude": 14.901602
-            },
-            "Library name": "LIB10875",
-            "Further Location information": "2301 GroB Enzersdorf 48,098662, 14,901602 Austria",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-05-19",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140519",
-            "Variety": "Sax",
             "Private comments": "via Alison NIAB",
-            "Country": "Austria",
-            "GPS": "48,098662, 14,901602"
-          },
-          {
             "Company": "Raiffeisen Ware Austria RWA AG",
-            "_id": {
-              "$oid": "5628e4bb6ca5bb65cc28e009"
-            },
-            "Name/Collector": "Susanne Kirchmaier",
+            "Host": "Wheat",
+            "Date collected": "2014-05-19",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0009",
             "location": {
               "latitude": 48.098662,
               "longitude": 14.901602
             },
-            "Library name": "LIB10876",
-            "Further Location information": "3300 GieBhubl 48,098662, 14.901602 Austria",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-05-22",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140522",
-            "Variety": "Sax",
-            "Private comments": "via Alison NIAB",
+            "Further Location information": "2301 GroB Enzersdorf 48,098662, 14,901602 Austria",
+            "Name/Collector": "Susanne Kirchmaier",
+            "Library name": "LIB10875",
             "Country": "Austria",
-            "GPS": "48,098662, 14.901602"
+            "GPS": "48,098662, 14,901602",
+            "Variety": "Sax",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140519"
           },
           {
-            "Company": "-",
             "_id": {
-              "$oid": "5628e4bb6ca5bb65cc28e00a"
+              "$oid": "562a50a96ca5bb0fc909d92c"
+            },
+            "ID": "14.0009",
+            "Private comments": "via Alison NIAB",
+            "Company": "Raiffeisen Ware Austria RWA AG",
+            "Host": "Wheat",
+            "Date collected": "2014-05-22",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 48.098662,
+              "longitude": 14.901602
+            },
+            "Further Location information": "3300 GieBhubl 48,098662, 14.901602 Austria",
+            "Name/Collector": "Susanne Kirchmaier",
+            "Library name": "LIB10876",
+            "Country": "Austria",
+            "GPS": "48,098662, 14.901602",
+            "Variety": "Sax",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140522"
+          },
+          {
+            "Town": "Choryn",
+            "_id": {
+              "$oid": "562a50a96ca5bb0fc909d92d"
+            },
+            "ID": "14.001",
+            "Private comments": "via Alison NIAB",
+            "Company": "-",
+            "Date collected": "2014-05-22",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.0398736,
+              "east_bound": 16.7851765,
+              "longitude": 16.7691691,
+              "north_bound": 52.0467365,
+              "west_bound": 16.7531617,
+              "south_bound": 52.0330096
             },
             "Name/Collector": "Zofia Banaszak",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.001",
-            "Town": "Choryn",
-            "location": {
-              "north_bound": 52.0467365,
-              "latitude": 52.0398736,
-              "west_bound": 16.7531617,
-              "longitude": 16.7691691,
-              "south_bound": 52.0330096,
-              "east_bound": 16.7851765
-            },
             "Library name": "LIB10877",
+            "Country": "Poland",
             "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-05-22",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140522",
-            "Private comments": "via Alison NIAB",
-            "Country": "Poland"
+            "Date collected (compact)": "20140522"
           },
           {
-            "Company": "-",
             "_id": {
-              "$oid": "5628e4bb6ca5bb65cc28e00b"
+              "$oid": "562a50a96ca5bb0fc909d92e"
             },
-            "Name/Collector": "Alison Bentley",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0011",
-            "location": {
-              "north_bound": 46.5552234,
-              "latitude": 45.1,
-              "west_bound": 13.4896912,
-              "longitude": 15.2,
-              "south_bound": 42.3923,
-              "east_bound": 19.4480523
-            },
-            "Library name": "LIB10878",
-            "Further Location information": "MV",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Company": "-",
             "Date collected": "2014-05-13",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Host": "Wheat",
-            "Date collected (compact)": "20140513",
-            "Country": "Croatia"
+            "location": {
+              "latitude": 45.1,
+              "east_bound": 19.4480523,
+              "longitude": 15.2,
+              "north_bound": 46.5552234,
+              "west_bound": 13.4896912,
+              "south_bound": 42.3923
+            },
+            "Further Location information": "MV",
+            "Name/Collector": "Alison Bentley",
+            "Library name": "LIB10878",
+            "Country": "Croatia",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140513"
           },
           {
-            "Company": "-",
             "_id": {
-              "$oid": "5628e4bc6ca5bb65cc28e00c"
+              "$oid": "562a50a96ca5bb0fc909d92f"
             },
-            "Name/Collector": "Alison Bentley",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0012",
-            "location": {
-              "north_bound": 46.5552234,
-              "latitude": 45.1,
-              "west_bound": 13.4896912,
-              "longitude": 15.2,
-              "south_bound": 42.3923,
-              "east_bound": 19.4480523
-            },
-            "Date collected": "2014-05-11",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140511",
             "Private comments": "Date refers to transfer of sample to RNA later from dried leaf",
-            "Country": "Croatia"
-          },
-          {
             "Company": "-",
-            "_id": {
-              "$oid": "5628e4bc6ca5bb65cc28e00d"
+            "Date collected": "2014-05-11",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 45.1,
+              "east_bound": 19.4480523,
+              "longitude": 15.2,
+              "north_bound": 46.5552234,
+              "west_bound": 13.4896912,
+              "south_bound": 42.3923
             },
             "Name/Collector": "Alison Bentley",
-            "Rust (YR/SR/LR)": "Yellow Rust",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Country": "Croatia",
+            "Date collected (compact)": "20140511"
+          },
+          {
+            "_id": {
+              "$oid": "562a50a96ca5bb0fc909d930"
+            },
             "ID": "14.0013",
-            "location": {
-              "north_bound": 46.5552234,
-              "latitude": 45.1,
-              "west_bound": 13.4896912,
-              "longitude": 15.2,
-              "south_bound": 42.3923,
-              "east_bound": 19.4480523
-            },
-            "Date collected": "2014-05-11",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140511",
             "Private comments": "Date refers to transfer of sample to RNA later from dried leaf",
-            "Country": "Croatia"
+            "Company": "-",
+            "Date collected": "2014-05-11",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 45.1,
+              "east_bound": 19.4480523,
+              "longitude": 15.2,
+              "north_bound": 46.5552234,
+              "west_bound": 13.4896912,
+              "south_bound": 42.3923
+            },
+            "Name/Collector": "Alison Bentley",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Country": "Croatia",
+            "Date collected (compact)": "20140511"
           },
           {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4bc6ca5bb65cc28e00e"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "GRELLIER",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0014",
             "Town": "Gourhel",
-            "location": {
-              "north_bound": 47.946235,
-              "latitude": 47.937204,
-              "west_bound": -2.3748041,
-              "longitude": -2.361053,
-              "south_bound": 47.932304,
-              "east_bound": -2.339808
+            "_id": {
+              "$oid": "562a50a96ca5bb0fc909d931"
             },
-            "Library name": "LIB10879",
-            "Further Location information": "Gourhel (56800)",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "ID": "14.0014",
+            "Company": "BASF",
+            "Host": "Wheat",
             "Date collected": "2014-06-02",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140602",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 47.937204,
+              "east_bound": -2.339808,
+              "longitude": -2.361053,
+              "north_bound": 47.946235,
+              "west_bound": -2.3748041,
+              "south_bound": 47.932304
+            },
+            "Further Location information": "Gourhel (56800)",
+            "Name/Collector": "GRELLIER",
+            "Library name": "LIB10879",
             "Country": "France",
-            "Variety": "Altigo"
+            "Variety": "Altigo",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140602"
           },
           {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4bc6ca5bb65cc28e00f"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "GRELLIER",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0015",
             "Town": "Guegon",
+            "_id": {
+              "$oid": "562a50aa6ca5bb0fc909d932"
+            },
+            "ID": "14.0015",
+            "Company": "BASF",
+            "Host": "Wheat",
+            "Date collected": "2014-06-04",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "location": {
-              "north_bound": 47.97126,
               "latitude": 47.9382639,
-              "west_bound": -2.6561681,
+              "east_bound": -2.5243591,
               "longitude": -2.566119,
-              "south_bound": 47.878771,
-              "east_bound": -2.5243591
+              "north_bound": 47.97126,
+              "west_bound": -2.6561681,
+              "south_bound": 47.878771
             },
-            "Library name": "LIB10880",
             "Further Location information": "Guegon (56120)",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-04",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140604",
-            "Country": "France",
-            "Variety": "expert"
-          },
-          {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4bc6ca5bb65cc28e010"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
             "Name/Collector": "GRELLIER",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0016",
-            "Town": "Loyat",
-            "location": {
-              "north_bound": 48.030921,
-              "latitude": 47.988202,
-              "west_bound": -2.4458331,
-              "longitude": -2.3816639,
-              "south_bound": 47.956971,
-              "east_bound": -2.3034679
-            },
-            "Library name": "LIB10881",
-            "Further Location information": "Loyat (56800)",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-04",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140604",
+            "Library name": "LIB10880",
             "Country": "France",
-            "Variety": "Alixan"
+            "Variety": "expert",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140604"
           },
           {
+            "Town": "Loyat",
             "_id": {
-              "$oid": "5628e4bc6ca5bb65cc28e011"
+              "$oid": "562a50aa6ca5bb0fc909d933"
             },
-            "Company": "NIAB",
-            "Name/Collector": "Amelia Hubbard",
+            "ID": "14.0016",
+            "Company": "BASF",
+            "Host": "Wheat",
+            "Date collected": "2014-06-04",
             "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 47.988202,
+              "east_bound": -2.3034679,
+              "longitude": -2.3816639,
+              "north_bound": 48.030921,
+              "west_bound": -2.4458331,
+              "south_bound": 47.956971
+            },
+            "Further Location information": "Loyat (56800)",
+            "Name/Collector": "GRELLIER",
+            "Library name": "LIB10881",
+            "Country": "France",
+            "Variety": "Alixan",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140604"
+          },
+          {
+            "Town": "Sutton Scotney",
+            "_id": {
+              "$oid": "562a50aa6ca5bb0fc909d934"
+            },
             "ID": "14.0017",
-            "location": {
-              "north_bound": 51.1970003,
-              "latitude": 51.154214,
-              "west_bound": -1.3777775,
-              "longitude": -1.335825,
-              "south_bound": 51.123026,
-              "east_bound": -1.2767089
-            },
-            "Town": "Sutton Scotney",
-            "UKCPVS ID": "14/18",
-            "Library name": "LIB10882",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-02-21",
-            "Date collected (compact)": "20140221",
-            "Host": "Wheat",
-            "Variety": "Victo",
             "Private comments": "14/18",
-            "Country": "UK",
-            "genotype": {
-              "Library name": "LIB10882",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4bc6ca5bb65cc28e012"
-            },
             "Company": "NIAB",
+            "location": {
+              "latitude": 51.154214,
+              "east_bound": -1.2767089,
+              "longitude": -1.335825,
+              "north_bound": 51.1970003,
+              "west_bound": -1.3777775,
+              "south_bound": 51.123026
+            },
+            "Library name": "LIB10882",
+            "UKCPVS ID": "14/18",
             "Name/Collector": "Amelia Hubbard",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0018",
-            "location": {
-              "north_bound": 51.1970003,
-              "latitude": 51.154214,
-              "west_bound": -1.3777775,
-              "longitude": -1.335825,
-              "south_bound": 51.123026,
-              "east_bound": -1.2767089
-            },
-            "Town": "Sutton Scotney",
-            "UKCPVS ID": "14/19",
-            "Library name": "LIB10883",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
             "Date collected": "2014-02-21",
-            "Date collected (compact)": "20140221",
             "Host": "Wheat",
-            "Variety": "Oakley",
-            "Private comments": "14/19",
             "Country": "UK",
-            "genotype": {
-              "Library name": "LIB10883",
-              "Genetic group": "4"
-            }
+            "Variety": "Victo",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140221"
           },
           {
-            "Company": "BASF",
+            "Town": "Sutton Scotney",
             "_id": {
-              "$oid": "5628e4bc6ca5bb65cc28e013"
+              "$oid": "562a50aa6ca5bb0fc909d935"
             },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Marcin Lanski",
+            "ID": "14.0018",
+            "Private comments": "14/19",
+            "Company": "NIAB",
+            "location": {
+              "latitude": 51.154214,
+              "east_bound": -1.2767089,
+              "longitude": -1.335825,
+              "north_bound": 51.1970003,
+              "west_bound": -1.3777775,
+              "south_bound": 51.123026
+            },
+            "Library name": "LIB10883",
+            "UKCPVS ID": "14/19",
+            "Name/Collector": "Amelia Hubbard",
             "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-02-21",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Oakley",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140221"
+          },
+          {
+            "_id": {
+              "$oid": "562a50aa6ca5bb0fc909d936"
+            },
+            "ID": "14.0019",
+            "Private comments": "14/20",
+            "Company": "NIAB",
+            "location": {
+              "latitude": 55.378051,
+              "east_bound": 1.7627096,
+              "longitude": -3.435973,
+              "north_bound": 60.856553,
+              "west_bound": -8.6493572,
+              "south_bound": 49.8699654
+            },
+            "Library name": "LIB10884",
+            "UKCPVS ID": "14/20",
+            "Name/Collector": "Amelia Hubbard",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-03-07",
+            "Country": "UK",
+            "Variety": "Panorama",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140307"
+          },
+          {
+            "_id": {
+              "$oid": "562a50aa6ca5bb0fc909d937"
+            },
+            "ID": "14.002",
+            "Private comments": "14/21",
+            "Company": "NIAB",
+            "location": {
+              "latitude": 55.378051,
+              "east_bound": 1.7627096,
+              "longitude": -3.435973,
+              "north_bound": 60.856553,
+              "west_bound": -8.6493572,
+              "south_bound": 49.8699654
+            },
+            "Library name": "LIB10885",
+            "UKCPVS ID": "14/21",
+            "Name/Collector": "Amelia Hubbard",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-03-07",
+            "Country": "UK",
+            "Variety": "Target",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140307"
+          },
+          {
+            "Town": "Kwidzyn",
+            "_id": {
+              "$oid": "562a50aa6ca5bb0fc909d939"
+            },
             "ID": "14.0024",
-            "Town": "Kwidzyn",
-            "location": {
-              "north_bound": 53.7561068,
-              "latitude": 53.7263529,
-              "west_bound": 18.9014003,
-              "longitude": 18.9323043,
-              "south_bound": 53.6847476,
-              "east_bound": 18.9888746
-            },
-            "Library name": "LIB10888",
-            "Further Location information": "Gurcz 23 82-500 Kwidzyn",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-05",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140605",
-            "Country": "Poland",
-            "Variety": "Kobra"
-          },
-          {
             "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4bd6ca5bb65cc28e014"
+            "Host": "Wheat",
+            "Date collected": "2014-06-05",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 53.7263529,
+              "east_bound": 18.9888746,
+              "longitude": 18.9323043,
+              "north_bound": 53.7561068,
+              "west_bound": 18.9014003,
+              "south_bound": 53.6847476
             },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "Further Location information": "Gurcz 23 82-500 Kwidzyn",
             "Name/Collector": "Marcin Lanski",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0025",
+            "Library name": "LIB10888",
+            "Country": "Poland",
+            "Variety": "Kobra",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140605"
+          },
+          {
             "Town": "Kwidzyn",
-            "location": {
-              "north_bound": 53.7561068,
-              "latitude": 53.7263529,
-              "west_bound": 18.9014003,
-              "longitude": 18.9323043,
-              "south_bound": 53.6847476,
-              "east_bound": 18.9888746
+            "_id": {
+              "$oid": "562a50aa6ca5bb0fc909d93a"
             },
-            "Library name": "LIB10889",
-            "Further Location information": "Gurcz 23 82-500 Kwidzyn",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "ID": "14.0025",
+            "Company": "BASF",
+            "Host": "Wheat",
             "Date collected": "2014-06-05",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140605",
-            "Country": "Poland",
-            "Variety": "Arkadia"
-          },
-          {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4bd6ca5bb65cc28e015"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Szymon Laczny",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0026",
-            "Town": "Sroda Wielko",
             "location": {
-              "north_bound": 52.25333,
-              "latitude": 52.22908,
-              "west_bound": 17.23504,
-              "longitude": 17.27607,
-              "south_bound": 52.2083301,
-              "east_bound": 17.32554
+              "latitude": 53.7263529,
+              "east_bound": 18.9888746,
+              "longitude": 18.9323043,
+              "north_bound": 53.7561068,
+              "west_bound": 18.9014003,
+              "south_bound": 53.6847476
             },
-            "Library name": "LIB10890",
-            "Further Location information": "Jaroslawiec 63-000 Sroda Wielko",
+            "Further Location information": "Gurcz 23 82-500 Kwidzyn",
+            "Name/Collector": "Marcin Lanski",
+            "Library name": "LIB10889",
+            "Country": "Poland",
+            "Variety": "Arkadia",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
             "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-06",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140606",
-            "Country": "Poland",
-            "Variety": "Legenda"
+            "Date collected (compact)": "20140605"
           },
           {
-            "Company": "BASF",
             "_id": {
-              "$oid": "5628e4bd6ca5bb65cc28e016"
+              "$oid": "562a50ab6ca5bb0fc909d93b"
             },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Szymon Laczny",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0027",
-            "Town": "Sroda Wielko",
-            "location": {
-              "north_bound": 52.25333,
-              "latitude": 52.22908,
-              "west_bound": 17.23504,
-              "longitude": 17.27607,
-              "south_bound": 52.2083301,
-              "east_bound": 17.32554
-            },
-            "Library name": "LIB10891",
-            "Further Location information": "Jaroslawiec 63-000 Sroda Wielko",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-06",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140606",
-            "Country": "Poland",
-            "Variety": "Princeps"
-          },
-          {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4bd6ca5bb65cc28e017"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Szymon Laczny",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0028",
-            "Town": "Sroda Wielko",
-            "location": {
-              "north_bound": 52.25333,
-              "latitude": 52.22908,
-              "west_bound": 17.23504,
-              "longitude": 17.27607,
-              "south_bound": 52.2083301,
-              "east_bound": 17.32554
-            },
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "selected",
-            "Date collected": "2014-06-06",
-            "Further Location information": "Jaroslawiec 63-000 Sroda Wielko",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140606",
-            "Country": "Poland",
-            "Variety": "Naridana"
-          },
-          {
-            "Company": "-",
-            "_id": {
-              "$oid": "5628e4bd6ca5bb65cc28e018"
-            },
-            "Name/Collector": "Dave Hodson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0029",
-            "Public comments": "Dave: 2A.",
-            "location": {
-              "north_bound": 14.8942141,
-              "latitude": 9.145,
-              "west_bound": 32.997734,
-              "longitude": 40.489673,
-              "south_bound": 3.4041369,
-              "east_bound": 48.0010561
-            },
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Complete",
-            "Date collected": "2014-05-16",
-            "Further Location information": "Kulumsa Agricultural Research Center",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140516",
-            "Variety": "Line?",
             "Private comments": "Dave: 2A. Sequencing id: 1",
-            "Country": "Ethiopia"
-          },
-          {
             "Company": "-",
-            "_id": {
-              "$oid": "5628e4bd6ca5bb65cc28e019"
-            },
-            "Name/Collector": "Dave Hodson",
+            "Date collected": "2014-05-16",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.003",
-            "Public comments": "Dave: 2B.",
-            "location": {
-              "north_bound": 14.8942141,
-              "latitude": 9.145,
-              "west_bound": 32.997734,
-              "longitude": 40.489673,
-              "south_bound": 3.4041369,
-              "east_bound": 48.0010561
-            },
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Complete",
-            "Date collected": "2014-05-16",
-            "Further Location information": "Kulumsa Agricultural Research Center",
             "Host": "Wheat",
-            "Date collected (compact)": "20140516",
+            "location": {
+              "latitude": 9.145,
+              "east_bound": 48.0010561,
+              "longitude": 40.489673,
+              "north_bound": 14.8942141,
+              "west_bound": 32.997734,
+              "south_bound": 3.4041369
+            },
+            "Further Location information": "Kulumsa Agricultural Research Center",
+            "Name/Collector": "Dave Hodson",
+            "Country": "Ethiopia",
             "Variety": "Line?",
+            "Public comments": "Dave: 2A.",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Complete",
+            "Date collected (compact)": "20140516"
+          },
+          {
+            "_id": {
+              "$oid": "562a50ab6ca5bb0fc909d93c"
+            },
+            "ID": "14.003",
             "Private comments": "Dave: 2B. Sequencing id: 2",
-            "Country": "Ethiopia"
+            "Company": "-",
+            "Date collected": "2014-05-16",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 9.145,
+              "east_bound": 48.0010561,
+              "longitude": 40.489673,
+              "north_bound": 14.8942141,
+              "west_bound": 32.997734,
+              "south_bound": 3.4041369
+            },
+            "Further Location information": "Kulumsa Agricultural Research Center",
+            "Name/Collector": "Dave Hodson",
+            "Country": "Ethiopia",
+            "Variety": "Line?",
+            "Public comments": "Dave: 2B.",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Complete",
+            "Date collected (compact)": "20140516"
           },
           {
-            "Company": "-",
             "_id": {
-              "$oid": "5628e4bd6ca5bb65cc28e01a"
+              "$oid": "562a50ab6ca5bb0fc909d93d"
             },
-            "Name/Collector": "Dave Hodson",
-            "Rust (YR/SR/LR)": "Stem Rust",
             "ID": "14.0031",
-            "Public comments": "Dave: 1A.",
-            "location": {
-              "north_bound": 14.8942141,
-              "latitude": 9.145,
-              "west_bound": 32.997734,
-              "longitude": 40.489673,
-              "south_bound": 3.4041369,
-              "east_bound": 48.0010561
-            },
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Complete",
-            "Date collected": "2014-05-16",
-            "Further Location information": "Kulumsa Agricultural Research Center",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140516",
-            "Variety": "Kingbird",
             "Private comments": "Dave: 1A. Sequencing id: 3",
-            "Country": "Ethiopia"
-          },
-          {
             "Company": "-",
-            "_id": {
-              "$oid": "5628e4bd6ca5bb65cc28e01b"
-            },
-            "Name/Collector": "Dave Hodson",
-            "Rust (YR/SR/LR)": "Stem Rust",
-            "ID": "14.0032",
-            "Public comments": "Dave: 1B.",
-            "location": {
-              "north_bound": 14.8942141,
-              "latitude": 9.145,
-              "west_bound": 32.997734,
-              "longitude": 40.489673,
-              "south_bound": 3.4041369,
-              "east_bound": 48.0010561
-            },
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Complete",
             "Date collected": "2014-05-16",
-            "Further Location information": "Kulumsa Agricultural Research Center",
+            "Rust (YR/SR/LR)": "Stem Rust",
             "Host": "Wheat",
-            "Date collected (compact)": "20140516",
+            "location": {
+              "latitude": 9.145,
+              "east_bound": 48.0010561,
+              "longitude": 40.489673,
+              "north_bound": 14.8942141,
+              "west_bound": 32.997734,
+              "south_bound": 3.4041369
+            },
+            "Further Location information": "Kulumsa Agricultural Research Center",
+            "Name/Collector": "Dave Hodson",
+            "Country": "Ethiopia",
             "Variety": "Kingbird",
-            "Private comments": "Dave: 1B. Sequencing id: 4",
-            "Country": "Ethiopia"
-          },
-          {
-            "Company": "-",
-            "_id": {
-              "$oid": "5628e4bd6ca5bb65cc28e01c"
-            },
-            "Name/Collector": "Dave Hodson",
-            "Rust (YR/SR/LR)": "Stem Rust",
-            "ID": "14.0033",
-            "Public comments": "Dave: 3.",
-            "location": {
-              "north_bound": 14.8942141,
-              "latitude": 9.145,
-              "west_bound": 32.997734,
-              "longitude": 40.489673,
-              "south_bound": 3.4041369,
-              "east_bound": 48.0010561
-            },
+            "Public comments": "Dave: 1A.",
             "RNA-seq? (Selected/In progress/Completed/Failed)": "Complete",
-            "Date collected": "2014-05-16",
-            "Further Location information": "Kulumsa Agricultural Research Center",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140516",
-            "Variety": "Digalu",
-            "Private comments": "Dave: 3. Sequencing id: 5",
-            "Country": "Ethiopia"
+            "Date collected (compact)": "20140516"
           },
           {
-            "Company": "-",
             "_id": {
-              "$oid": "5628e4bd6ca5bb65cc28e01d"
+              "$oid": "562a50ab6ca5bb0fc909d93e"
+            },
+            "ID": "14.0032",
+            "Private comments": "Dave: 1B. Sequencing id: 4",
+            "Company": "-",
+            "Date collected": "2014-05-16",
+            "Rust (YR/SR/LR)": "Stem Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 9.145,
+              "east_bound": 48.0010561,
+              "longitude": 40.489673,
+              "north_bound": 14.8942141,
+              "west_bound": 32.997734,
+              "south_bound": 3.4041369
+            },
+            "Further Location information": "Kulumsa Agricultural Research Center",
+            "Name/Collector": "Dave Hodson",
+            "Country": "Ethiopia",
+            "Variety": "Kingbird",
+            "Public comments": "Dave: 1B.",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Complete",
+            "Date collected (compact)": "20140516"
+          },
+          {
+            "_id": {
+              "$oid": "562a50ab6ca5bb0fc909d93f"
+            },
+            "ID": "14.0033",
+            "Private comments": "Dave: 3. Sequencing id: 5",
+            "Company": "-",
+            "Date collected": "2014-05-16",
+            "Rust (YR/SR/LR)": "Stem Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 9.145,
+              "east_bound": 48.0010561,
+              "longitude": 40.489673,
+              "north_bound": 14.8942141,
+              "west_bound": 32.997734,
+              "south_bound": 3.4041369
+            },
+            "Further Location information": "Kulumsa Agricultural Research Center",
+            "Name/Collector": "Dave Hodson",
+            "Country": "Ethiopia",
+            "Variety": "Digalu",
+            "Public comments": "Dave: 3.",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Complete",
+            "Date collected (compact)": "20140516"
+          },
+          {
+            "Town": "Osisek",
+            "_id": {
+              "$oid": "562a50ab6ca5bb0fc909d940"
+            },
+            "ID": "14.0034",
+            "Private comments": "Sequencing id: 6",
+            "Company": "-",
+            "Date collected": "2014-05-21",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 45.1,
+              "east_bound": 19.4480523,
+              "longitude": 15.2,
+              "north_bound": 46.5552234,
+              "west_bound": 13.4896912,
+              "south_bound": 42.3923
             },
             "Name/Collector": "Novosevovie",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0034",
-            "Town": "Osisek",
-            "location": {
-              "north_bound": 46.5552234,
-              "latitude": 45.1,
-              "west_bound": 13.4896912,
-              "longitude": 15.2,
-              "south_bound": 42.3923,
-              "east_bound": 19.4480523
-            },
+            "Country": "Croatia",
             "RNA-seq? (Selected/In progress/Completed/Failed)": "Complete",
-            "Date collected": "2014-05-21",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140521",
-            "Private comments": "Sequencing id: 6",
-            "Country": "Croatia"
+            "Date collected (compact)": "20140521"
           },
           {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4bd6ca5bb65cc28e01e"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Prochnow: Rosie Bryson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0035",
             "Town": "Moselursch",
-            "Public comments": "BASF ref: 12",
-            "location": {
-              "north_bound": 55.0581236,
-              "latitude": 51.165691,
-              "west_bound": 5.8663425,
-              "longitude": 10.451526,
-              "south_bound": 47.2701115,
-              "east_bound": 15.0418962
+            "_id": {
+              "$oid": "562a50ab6ca5bb0fc909d941"
             },
-            "Library name": "LIB10892",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "ID": "14.0035",
+            "Company": "BASF",
             "Date collected": "2014-06-10",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Host": "Wheat",
-            "Date collected (compact)": "20140610",
+            "location": {
+              "latitude": 51.165691,
+              "east_bound": 15.0418962,
+              "longitude": 10.451526,
+              "north_bound": 55.0581236,
+              "west_bound": 5.8663425,
+              "south_bound": 47.2701115
+            },
+            "Name/Collector": "Prochnow: Rosie Bryson",
+            "Library name": "LIB10892",
             "Country": "Germany",
-            "Variety": "Aktuer"
+            "Variety": "Aktuer",
+            "Public comments": "BASF ref: 12",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140610"
           },
           {
-            "Company": "BASF",
+            "Town": "Etzdorf",
             "_id": {
-              "$oid": "5628e4bd6ca5bb65cc28e01f"
+              "$oid": "562a50ab6ca5bb0fc909d942"
             },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Prochnow: Rosie Bryson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0036",
-            "Town": "Etzdorf",
-            "Public comments": "BASF ref: 13",
+            "Company": "BASF",
+            "Date collected": "2014-06-13",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 51.052895,
               "latitude": 51.0495315,
-              "west_bound": 13.1599452,
+              "east_bound": 13.1969709,
               "longitude": 13.1892088,
-              "south_bound": 51.0446356,
-              "east_bound": 13.1969709
+              "north_bound": 51.052895,
+              "west_bound": 13.1599452,
+              "south_bound": 51.0446356
             },
+            "Name/Collector": "Prochnow: Rosie Bryson",
             "Library name": "LIB10893",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-13",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140613",
             "Country": "Germany",
-            "Variety": "JB Asano"
+            "Variety": "JB Asano",
+            "Public comments": "BASF ref: 13",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140613"
           },
           {
-            "Company": "BASF",
+            "Town": "Etzdorf",
             "_id": {
-              "$oid": "5628e4bd6ca5bb65cc28e020"
+              "$oid": "562a50ab6ca5bb0fc909d943"
             },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Prochnow: Rosie Bryson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0037",
-            "Town": "Etzdorf",
-            "Public comments": "BASF ref: 14",
+            "Company": "BASF",
+            "Date collected": "2014-06-13",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 51.052895,
               "latitude": 51.0495315,
-              "west_bound": 13.1599452,
+              "east_bound": 13.1969709,
               "longitude": 13.1892088,
-              "south_bound": 51.0446356,
-              "east_bound": 13.1969709
+              "north_bound": 51.052895,
+              "west_bound": 13.1599452,
+              "south_bound": 51.0446356
             },
+            "Name/Collector": "Prochnow: Rosie Bryson",
             "Library name": "LIB10894",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-13",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140613",
             "Country": "Germany",
-            "Variety": "Kometus"
+            "Variety": "Kometus",
+            "Public comments": "BASF ref: 14",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140613"
           },
           {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4be6ca5bb65cc28e021"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Prochnow: Rosie Bryson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0038",
             "Town": "Etzdorf",
-            "Public comments": "BASF ref: 15",
+            "_id": {
+              "$oid": "562a50ab6ca5bb0fc909d944"
+            },
+            "ID": "14.0038",
+            "Company": "BASF",
+            "Date collected": "2014-06-13",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 51.052895,
               "latitude": 51.0495315,
-              "west_bound": 13.1599452,
+              "east_bound": 13.1969709,
               "longitude": 13.1892088,
-              "south_bound": 51.0446356,
-              "east_bound": 13.1969709
+              "north_bound": 51.052895,
+              "west_bound": 13.1599452,
+              "south_bound": 51.0446356
             },
+            "Name/Collector": "Prochnow: Rosie Bryson",
             "Library name": "LIB10895",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
-            "Date collected": "2014-06-13",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140613",
             "Country": "Germany",
-            "Variety": "Akteur"
+            "Variety": "Akteur",
+            "Public comments": "BASF ref: 15",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
+            "Date collected (compact)": "20140613"
           },
           {
-            "Company": "BASF",
+            "Town": "Hingste",
             "_id": {
-              "$oid": "5628e4be6ca5bb65cc28e022"
+              "$oid": "562a50ab6ca5bb0fc909d945"
             },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Prochnow: Rosie Bryson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0039",
-            "Town": "Hingste",
-            "Public comments": "BASF ref: 16",
+            "Company": "BASF",
+            "Date collected": "2014-06-16",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 52.8251768802915,
               "latitude": 52.823762,
-              "west_bound": 9.1865704197085,
+              "east_bound": 9.1892683802915,
               "longitude": 9.1878063,
-              "south_bound": 52.8224789197085,
-              "east_bound": 9.1892683802915
+              "north_bound": 52.8251768802915,
+              "west_bound": 9.1865704197085,
+              "south_bound": 52.8224789197085
             },
+            "Name/Collector": "Prochnow: Rosie Bryson",
             "Library name": "LIB10896",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-16",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140616",
             "Country": "Germany",
-            "Variety": "Opal"
+            "Variety": "Opal",
+            "Public comments": "BASF ref: 16",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140616"
           },
           {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4be6ca5bb65cc28e023"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Prochnow: Rosie Bryson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.004",
             "Town": "Hingste",
-            "Public comments": "BASF ref: 17",
+            "_id": {
+              "$oid": "562a50ac6ca5bb0fc909d946"
+            },
+            "ID": "14.004",
+            "Company": "BASF",
+            "Date collected": "2014-06-16",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 52.8251768802915,
               "latitude": 52.823762,
-              "west_bound": 9.1865704197085,
+              "east_bound": 9.1892683802915,
               "longitude": 9.1878063,
-              "south_bound": 52.8224789197085,
-              "east_bound": 9.1892683802915
+              "north_bound": 52.8251768802915,
+              "west_bound": 9.1865704197085,
+              "south_bound": 52.8224789197085
             },
+            "Name/Collector": "Prochnow: Rosie Bryson",
             "Library name": "LIB10897",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-16",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140616",
             "Country": "Germany",
-            "Variety": "Akteur"
+            "Variety": "Akteur",
+            "Public comments": "BASF ref: 17",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140616"
           },
           {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4be6ca5bb65cc28e024"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Prochnow: Rosie Bryson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0041",
             "Town": "Hingste Inokluiert",
-            "Public comments": "BASF ref: 18",
-            "location": {
-              "north_bound": 55.0581236,
-              "latitude": 51.165691,
-              "west_bound": 5.8663425,
-              "longitude": 10.451526,
-              "south_bound": 47.2701115,
-              "east_bound": 15.0418962
+            "_id": {
+              "$oid": "562a50ac6ca5bb0fc909d947"
             },
+            "ID": "14.0041",
+            "Company": "BASF",
+            "Date collected": "2014-06-16",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.165691,
+              "east_bound": 15.0418962,
+              "longitude": 10.451526,
+              "north_bound": 55.0581236,
+              "west_bound": 5.8663425,
+              "south_bound": 47.2701115
+            },
+            "Name/Collector": "Prochnow: Rosie Bryson",
             "Library name": "LIB10898",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-16",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140616",
             "Country": "Germany",
-            "Variety": "Contur"
+            "Variety": "Contur",
+            "Public comments": "BASF ref: 18",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140616"
           },
           {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4be6ca5bb65cc28e025"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Prochnow: Rosie Bryson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0042",
             "Town": "Dunau",
-            "Public comments": "BASF ref: 19",
+            "_id": {
+              "$oid": "562a50ac6ca5bb0fc909d948"
+            },
+            "ID": "14.0042",
+            "Company": "BASF",
+            "Date collected": "2014-06-17",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 52.35729,
               "latitude": 52.3560174,
-              "west_bound": 9.54129,
+              "east_bound": 9.5509864,
               "longitude": 9.5446879,
-              "south_bound": 52.35408,
-              "east_bound": 9.5509864
+              "north_bound": 52.35729,
+              "west_bound": 9.54129,
+              "south_bound": 52.35408
             },
+            "Name/Collector": "Prochnow: Rosie Bryson",
             "Library name": "LIB10899",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-17",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140617",
             "Country": "Germany",
-            "Variety": "Loft"
+            "Variety": "Loft",
+            "Public comments": "BASF ref: 19",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140617"
           },
           {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4be6ca5bb65cc28e026"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Prochnow: Rosie Bryson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0043",
             "Town": "Grucking",
-            "Public comments": "BASF ref: 20",
+            "_id": {
+              "$oid": "562a50ac6ca5bb0fc909d949"
+            },
+            "ID": "14.0043",
+            "Company": "BASF",
+            "Date collected": "2014-06-23",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 48.3441806,
               "latitude": 48.3416234,
-              "west_bound": 11.9686056,
+              "east_bound": 11.9774439,
               "longitude": 11.9729206,
-              "south_bound": 48.3391976,
-              "east_bound": 11.9774439
+              "north_bound": 48.3441806,
+              "west_bound": 11.9686056,
+              "south_bound": 48.3391976
             },
-            "Library name": "LIB10900",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-23",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140623",
-            "Country": "Germany",
-            "Variety": "JB Asano"
-          },
-          {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4be6ca5bb65cc28e027"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
             "Name/Collector": "Prochnow: Rosie Bryson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0044",
+            "Library name": "LIB10900",
+            "Country": "Germany",
+            "Variety": "JB Asano",
+            "Public comments": "BASF ref: 20",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140623"
+          },
+          {
             "Town": "Kirchmatting",
-            "Public comments": "BASF ref: 21",
+            "_id": {
+              "$oid": "562a50ac6ca5bb0fc909d94a"
+            },
+            "ID": "14.0044",
+            "Company": "BASF",
+            "Date collected": "2014-06-23",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 48.8145265,
               "latitude": 48.8124703,
-              "west_bound": 12.6094865,
+              "east_bound": 12.6141579,
               "longitude": 12.6116722,
-              "south_bound": 48.810814,
-              "east_bound": 12.6141579
+              "north_bound": 48.8145265,
+              "west_bound": 12.6094865,
+              "south_bound": 48.810814
             },
+            "Name/Collector": "Prochnow: Rosie Bryson",
             "Library name": "LIB10901",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-23",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140623",
             "Country": "Germany",
-            "Variety": "Akteur"
+            "Variety": "Akteur",
+            "Public comments": "BASF ref: 21",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140623"
           },
           {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4be6ca5bb65cc28e028"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Slezak",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0045",
-            "Town": "Chrudim",
-            "location": {
-              "north_bound": 49.9851863,
-              "latitude": 49.9497244,
-              "west_bound": 15.7500095,
-              "longitude": 15.7950578,
-              "south_bound": 49.9091753,
-              "east_bound": 15.8622646
-            },
-            "Library name": "LIB10902",
-            "Further Location information": "Tunechody by Chrudim, 537 01 Chrudim, CZAECH REP.",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
-            "Date collected": "2014-07-04",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140704",
-            "Country": "Czech Republic",
-            "Variety": "Bohemia"
-          },
-          {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4be6ca5bb65cc28e029"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Hamon",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0047",
             "Town": "BUCY SAINT LIPHARD",
-            "location": {
-              "north_bound": 47.966879,
-              "latitude": 47.935644,
-              "west_bound": 1.7121209,
-              "longitude": 1.764464,
-              "south_bound": 47.9170949,
-              "east_bound": 1.788466
+            "_id": {
+              "$oid": "562a50ac6ca5bb0fc909d94b"
             },
-            "Library name": "LIB10904",
-            "Further Location information": "BASF Agro, La Corbilliere, Route de Saint Peravy, 45140 BUCY SAINT LIPHARD",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "ID": "14.0047",
+            "Company": "BASF",
+            "Host": "Wheat",
             "Date collected": "2014-06-25",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140625",
-            "Country": "France",
-            "Variety": "Karur"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4bf6ca5bb65cc28e02c"
-            },
-            "Company": "BASF",
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "3",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.005",
             "location": {
-              "north_bound": 54.835784,
-              "latitude": 51.919438,
-              "west_bound": 14.1228641,
-              "longitude": 19.145136,
-              "south_bound": 49.0020252,
-              "east_bound": 24.1458931
+              "latitude": 47.935644,
+              "east_bound": 1.788466,
+              "longitude": 1.764464,
+              "north_bound": 47.966879,
+              "west_bound": 1.7121209,
+              "south_bound": 47.9170949
             },
-            "Date collected": "2014-06-15",
-            "Further Location information": "48-210",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140615",
-            "Country": "Poland"
+            "Further Location information": "BASF Agro, La Corbilliere, Route de Saint Peravy, 45140 BUCY SAINT LIPHARD",
+            "Name/Collector": "Hamon",
+            "Library name": "LIB10904",
+            "Country": "France",
+            "Variety": "Karur",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140625"
           },
           {
-            "Company": "BASF",
             "_id": {
-              "$oid": "5628e4bf6ca5bb65cc28e02a"
+              "$oid": "562a50ad6ca5bb0fc909d94c"
             },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "1",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0048",
+            "Company": "BASF",
+            "Date collected": "2014-06-17",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 54.835784,
               "latitude": 51.919438,
-              "west_bound": 14.1228641,
+              "east_bound": 24.1458931,
               "longitude": 19.145136,
-              "south_bound": 49.0020252,
-              "east_bound": 24.1458931
+              "north_bound": 54.835784,
+              "west_bound": 14.1228641,
+              "south_bound": 49.0020252
             },
-            "Library name": "LIB10905",
             "Further Location information": "46-100",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
-            "Date collected": "2014-06-17",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140617",
-            "Country": "Poland"
-          },
-          {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4bf6ca5bb65cc28e02b"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "2",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0049",
-            "location": {
-              "north_bound": 54.835784,
-              "latitude": 51.919438,
-              "west_bound": 14.1228641,
-              "longitude": 19.145136,
-              "south_bound": 49.0020252,
-              "east_bound": 24.1458931
-            },
-            "Library name": "LIB14890",
-            "Further Location information": "46-113",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
-            "Date collected": "2014-06-17",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140617",
+            "Name/Collector": "1",
+            "Library name": "LIB10905",
             "Country": "Poland",
-            "Variety": "Zeppelin"
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
+            "Date collected (compact)": "20140617"
           },
           {
             "_id": {
-              "$oid": "5628e4bf6ca5bb65cc28e02d"
+              "$oid": "562a50ad6ca5bb0fc909d94d"
             },
-            "Company": "RAGT",
-            "Name/Collector": "Ruth Bryant",
+            "ID": "14.0049",
+            "Company": "BASF",
+            "Date collected": "2014-06-17",
             "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.919438,
+              "east_bound": 24.1458931,
+              "longitude": 19.145136,
+              "north_bound": 54.835784,
+              "west_bound": 14.1228641,
+              "south_bound": 49.0020252
+            },
+            "Further Location information": "46-113",
+            "Name/Collector": "2",
+            "Library name": "LIB14890",
+            "Country": "Poland",
+            "Variety": "Zeppelin",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
+            "Date collected (compact)": "20140617"
+          },
+          {
+            "_id": {
+              "$oid": "562a50ad6ca5bb0fc909d94e"
+            },
+            "ID": "14.005",
+            "Company": "BASF",
+            "Date collected": "2014-06-15",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.919438,
+              "east_bound": 24.1458931,
+              "longitude": 19.145136,
+              "north_bound": 54.835784,
+              "west_bound": 14.1228641,
+              "south_bound": 49.0020252
+            },
+            "Further Location information": "48-210",
+            "Name/Collector": "3",
+            "Country": "Poland",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140615"
+          },
+          {
+            "Town": "Louville",
+            "_id": {
+              "$oid": "562a50ad6ca5bb0fc909d94f"
+            },
             "ID": "14.0051",
-            "Town": "Louville",
-            "location": {
-              "north_bound": 48.354796,
-              "latitude": 48.327838,
-              "west_bound": 1.758415,
-              "longitude": 1.788206,
-              "south_bound": 48.2988601,
-              "east_bound": 1.8282989
-            },
-            "Public comments": "Stage: grain filling",
+            "Company": "RAGT",
             "Date collected": "2014-06-26",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Host": "Wheat",
-            "Date collected (compact)": "20140626",
-            "Country": "France"
+            "location": {
+              "latitude": 48.327838,
+              "east_bound": 1.8282989,
+              "longitude": 1.788206,
+              "north_bound": 48.354796,
+              "west_bound": 1.758415,
+              "south_bound": 48.2988601
+            },
+            "Name/Collector": "Ruth Bryant",
+            "Country": "France",
+            "Public comments": "Stage: grain filling",
+            "Date collected (compact)": "20140626"
           },
           {
+            "Town": "Druelle",
             "_id": {
-              "$oid": "5628e4bf6ca5bb65cc28e02e"
+              "$oid": "562a50ad6ca5bb0fc909d950"
             },
-            "Company": "RAGT",
-            "Name/Collector": "Ruth Bryant",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0052",
-            "Town": "Druelle",
-            "location": {
-              "north_bound": 44.38948,
-              "latitude": 44.359977,
-              "west_bound": 2.408613,
-              "longitude": 2.505311,
-              "south_bound": 44.3300331,
-              "east_bound": 2.5395399
-            },
-            "Public comments": "Stage: grain filling: rust in spikelets",
-            "Date collected": "2014-06-23",
-            "Host": "Triticale",
-            "Date collected (compact)": "20140623",
-            "Country": "France"
-          },
-          {
             "Company": "RAGT",
-            "_id": {
-              "$oid": "5628e4bf6ca5bb65cc28e02f"
+            "Date collected": "2014-06-23",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Triticale",
+            "location": {
+              "latitude": 44.359977,
+              "east_bound": 2.5395399,
+              "longitude": 2.505311,
+              "north_bound": 44.38948,
+              "west_bound": 2.408613,
+              "south_bound": 44.3300331
             },
             "Name/Collector": "Ruth Bryant",
-            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Country": "France",
+            "Public comments": "Stage: grain filling: rust in spikelets",
+            "Date collected (compact)": "20140623"
+          },
+          {
+            "Town": "Silstedt",
+            "_id": {
+              "$oid": "562a50ad6ca5bb0fc909d951"
+            },
             "ID": "14.0053",
-            "Town": "Silstedt",
-            "Public comments": "Stage: grain filling",
+            "Company": "RAGT",
+            "Date collected": "2014-07-04",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 51.8652726,
               "latitude": 51.8619255,
-              "west_bound": 10.8397799,
+              "east_bound": 10.8555079,
               "longitude": 10.8482023,
-              "south_bound": 51.8565769,
-              "east_bound": 10.8555079
+              "north_bound": 51.8652726,
+              "west_bound": 10.8397799,
+              "south_bound": 51.8565769
             },
+            "Name/Collector": "Ruth Bryant",
             "Library name": "LIB14885",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
-            "Date collected": "2014-07-04",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140704",
             "Country": "Germany",
-            "Variety": "Tobak/Estivus cross"
+            "Variety": "Tobak/Estivus cross",
+            "Public comments": "Stage: grain filling",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
+            "Date collected (compact)": "20140704"
           },
           {
-            "Company": "RAGT",
+            "Town": "Louville",
             "_id": {
-              "$oid": "5628e4bf6ca5bb65cc28e030"
+              "$oid": "562a50ad6ca5bb0fc909d952"
             },
-            "Name/Collector": "Ruth Bryant",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0054",
-            "Town": "Louville",
-            "Public comments": "Stage: grain filling",
+            "Company": "RAGT",
+            "Date collected": "2014-06-26",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 48.354796,
               "latitude": 48.327838,
-              "west_bound": 1.758415,
+              "east_bound": 1.8282989,
               "longitude": 1.788206,
-              "south_bound": 48.2988601,
-              "east_bound": 1.8282989
+              "north_bound": 48.354796,
+              "west_bound": 1.758415,
+              "south_bound": 48.2988601
             },
+            "Name/Collector": "Ruth Bryant",
             "Library name": "LIB14891",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
-            "Date collected": "2014-06-26",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140626",
             "Country": "France",
-            "Variety": "Robigus"
+            "Variety": "Robigus",
+            "Public comments": "Stage: grain filling",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
+            "Date collected (compact)": "20140626"
           },
           {
+            "Town": "Louville",
             "_id": {
-              "$oid": "5628e4bf6ca5bb65cc28e031"
+              "$oid": "562a50ad6ca5bb0fc909d953"
             },
-            "Company": "RAGT",
-            "Name/Collector": "Ruth Bryant",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0055",
-            "Town": "Louville",
-            "location": {
-              "north_bound": 48.354796,
-              "latitude": 48.327838,
-              "west_bound": 1.758415,
-              "longitude": 1.788206,
-              "south_bound": 48.2988601,
-              "east_bound": 1.8282989
-            },
-            "Public comments": "Stage: grain filling",
+            "Company": "RAGT",
             "Date collected": "2014-06-26",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Host": "Wheat",
-            "Date collected (compact)": "20140626",
+            "location": {
+              "latitude": 48.327838,
+              "east_bound": 1.8282989,
+              "longitude": 1.788206,
+              "north_bound": 48.354796,
+              "west_bound": 1.758415,
+              "south_bound": 48.2988601
+            },
+            "Name/Collector": "Ruth Bryant",
             "Country": "France",
-            "Variety": "Accroc"
+            "Variety": "Accroc",
+            "Public comments": "Stage: grain filling",
+            "Date collected (compact)": "20140626"
           },
           {
-            "_id": {
-              "$oid": "5628e4bf6ca5bb65cc28e032"
-            },
-            "Company": "RAGT",
-            "Name/Collector": "Ruth Bryant",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0056",
             "Town": "Silstedt",
-            "location": {
-              "north_bound": 51.8652726,
-              "latitude": 51.8619255,
-              "west_bound": 10.8397799,
-              "longitude": 10.8482023,
-              "south_bound": 51.8565769,
-              "east_bound": 10.8555079
+            "_id": {
+              "$oid": "562a50ad6ca5bb0fc909d954"
             },
-            "Public comments": "Stage: grain filling",
+            "ID": "14.0056",
+            "Company": "RAGT",
             "Date collected": "2014-07-04",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Host": "Wheat",
-            "Date collected (compact)": "20140704",
-            "Country": "Germany"
+            "location": {
+              "latitude": 51.8619255,
+              "east_bound": 10.8555079,
+              "longitude": 10.8482023,
+              "north_bound": 51.8652726,
+              "west_bound": 10.8397799,
+              "south_bound": 51.8565769
+            },
+            "Name/Collector": "Ruth Bryant",
+            "Country": "Germany",
+            "Public comments": "Stage: grain filling",
+            "Date collected (compact)": "20140704"
           },
           {
+            "Town": "Louville",
             "_id": {
-              "$oid": "5628e4bf6ca5bb65cc28e033"
+              "$oid": "562a50ad6ca5bb0fc909d955"
             },
-            "Company": "RAGT",
-            "Name/Collector": "Ruth Bryant",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0057",
-            "Town": "Louville",
-            "location": {
-              "north_bound": 48.354796,
-              "latitude": 48.327838,
-              "west_bound": 1.758415,
-              "longitude": 1.788206,
-              "south_bound": 48.2988601,
-              "east_bound": 1.8282989
-            },
-            "Public comments": "Stage: grain filling",
-            "Date collected": "2014-06-26",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140626",
-            "Country": "France",
-            "Variety": "KWS Crosby"
-          },
-          {
             "Company": "RAGT",
-            "_id": {
-              "$oid": "5628e4bf6ca5bb65cc28e034"
+            "Date collected": "2014-06-26",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 48.327838,
+              "east_bound": 1.8282989,
+              "longitude": 1.788206,
+              "north_bound": 48.354796,
+              "west_bound": 1.758415,
+              "south_bound": 48.2988601
             },
             "Name/Collector": "Ruth Bryant",
-            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Country": "France",
+            "Variety": "KWS Crosby",
+            "Public comments": "Stage: grain filling",
+            "Date collected (compact)": "20140626"
+          },
+          {
+            "Town": "Louville",
+            "_id": {
+              "$oid": "562a50ae6ca5bb0fc909d956"
+            },
             "ID": "14.0058",
-            "Town": "Louville",
-            "Public comments": "Stage: grain filling",
+            "Company": "RAGT",
+            "Date collected": "2014-06-26",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 48.354796,
               "latitude": 48.327838,
-              "west_bound": 1.758415,
+              "east_bound": 1.8282989,
               "longitude": 1.788206,
-              "south_bound": 48.2988601,
-              "east_bound": 1.8282989
+              "north_bound": 48.354796,
+              "west_bound": 1.758415,
+              "south_bound": 48.2988601
             },
+            "Name/Collector": "Ruth Bryant",
             "Library name": "LIB14886",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
-            "Date collected": "2014-06-26",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140626",
             "Country": "France",
-            "Variety": "Warrior"
+            "Variety": "Warrior",
+            "Public comments": "Stage: grain filling",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
+            "Date collected (compact)": "20140626"
           },
           {
-            "Company": "RAGT",
+            "Town": "Olomouc",
             "_id": {
-              "$oid": "5628e4bf6ca5bb65cc28e035"
+              "$oid": "562a50ae6ca5bb0fc909d957"
             },
-            "Name/Collector": "Ruth Bryant",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0059",
-            "Town": "Olomouc",
-            "Public comments": "Stage: grain filling",
+            "Company": "RAGT",
+            "Date collected": "2014-06-19",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 49.6546554,
               "latitude": 49.593778,
-              "west_bound": 17.1630437,
+              "east_bound": 17.3960271,
               "longitude": 17.2508787,
-              "south_bound": 49.5329452,
-              "east_bound": 17.3960271
+              "north_bound": 49.6546554,
+              "west_bound": 17.1630437,
+              "south_bound": 49.5329452
             },
+            "Name/Collector": "Ruth Bryant",
             "Library name": "LIB12419",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-19",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140619",
             "Country": "Czech Republic",
-            "Variety": "Perenial grass"
+            "Variety": "Perenial grass",
+            "Public comments": "Stage: grain filling",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140619"
           },
           {
-            "Company": "RAGT",
+            "Town": "Olomouc",
             "_id": {
-              "$oid": "5628e4bf6ca5bb65cc28e036"
+              "$oid": "562a50ae6ca5bb0fc909d958"
             },
-            "Name/Collector": "Ruth Bryant",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.006",
-            "Town": "Olomouc",
-            "Public comments": "Stage: grain filling",
+            "Company": "RAGT",
+            "Date collected": "2014-06-19",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 49.6546554,
               "latitude": 49.593778,
-              "west_bound": 17.1630437,
+              "east_bound": 17.3960271,
               "longitude": 17.2508787,
-              "south_bound": 49.5329452,
-              "east_bound": 17.3960271
+              "north_bound": 49.6546554,
+              "west_bound": 17.1630437,
+              "south_bound": 49.5329452
             },
+            "Name/Collector": "Ruth Bryant",
             "Library name": "LIB12420",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-19",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140619",
             "Country": "Czech Republic",
-            "Variety": "NIC08-108"
+            "Variety": "NIC08-108",
+            "Public comments": "Stage: grain filling",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140619"
           },
           {
-            "Company": "RAGT",
-            "_id": {
-              "$oid": "5628e4c06ca5bb65cc28e037"
-            },
-            "Name/Collector": "Ruth Bryant",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0061",
             "Town": "Olomouc",
-            "Public comments": "Stage: grain filling",
-            "location": {
-              "north_bound": 49.6546554,
-              "latitude": 49.593778,
-              "west_bound": 17.1630437,
-              "longitude": 17.2508787,
-              "south_bound": 49.5329452,
-              "east_bound": 17.3960271
+            "_id": {
+              "$oid": "562a50ae6ca5bb0fc909d959"
             },
-            "Library name": "LIB14887",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "ID": "14.0061",
+            "Company": "RAGT",
             "Date collected": "2014-06-19",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Host": "Wheat",
-            "Date collected (compact)": "20140619",
+            "location": {
+              "latitude": 49.593778,
+              "east_bound": 17.3960271,
+              "longitude": 17.2508787,
+              "north_bound": 49.6546554,
+              "west_bound": 17.1630437,
+              "south_bound": 49.5329452
+            },
+            "Name/Collector": "Ruth Bryant",
+            "Library name": "LIB14887",
             "Country": "Czech Republic",
-            "Variety": "Turandot/ Baryton cross"
+            "Variety": "Turandot/ Baryton cross",
+            "Public comments": "Stage: grain filling",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140619"
           },
           {
-            "Company": "RAGT",
+            "Town": "Druelle",
             "_id": {
-              "$oid": "5628e4c06ca5bb65cc28e038"
+              "$oid": "562a50ae6ca5bb0fc909d95a"
             },
-            "Name/Collector": "Ruth Bryant",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0062",
-            "Town": "Druelle",
-            "Public comments": "Stage: grain filling",
+            "Company": "RAGT",
+            "Date collected": "2014-06-23",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Triticale",
             "location": {
-              "north_bound": 44.38948,
               "latitude": 44.359977,
-              "west_bound": 2.408613,
+              "east_bound": 2.5395399,
               "longitude": 2.505311,
-              "south_bound": 44.3300331,
-              "east_bound": 2.5395399
+              "north_bound": 44.38948,
+              "west_bound": 2.408613,
+              "south_bound": 44.3300331
             },
+            "Name/Collector": "Ruth Bryant",
             "Library name": "LIB12422",
+            "Country": "France",
             "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-23",
-            "Host": "Triticale",
-            "Date collected (compact)": "20140623",
-            "Country": "France"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c06ca5bb65cc28e039"
-            },
-            "Company": "RAGT",
-            "Name/Collector": "Ruth Bryant",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0063",
-            "Town": "Druelle",
-            "location": {
-              "north_bound": 44.38948,
-              "latitude": 44.359977,
-              "west_bound": 2.408613,
-              "longitude": 2.505311,
-              "south_bound": 44.3300331,
-              "east_bound": 2.5395399
-            },
-            "Public comments": "Stage: grain filling: rust in spikelets",
-            "Date collected": "2014-06-23",
-            "Host": "Triticale",
-            "Date collected (compact)": "20140623",
-            "Country": "France"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c06ca5bb65cc28e03a"
-            },
-            "Company": "RAGT",
-            "Name/Collector": "Ruth Bryant",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0064",
-            "Town": "Louville",
-            "location": {
-              "north_bound": 48.354796,
-              "latitude": 48.327838,
-              "west_bound": 1.758415,
-              "longitude": 1.788206,
-              "south_bound": 48.2988601,
-              "east_bound": 1.8282989
-            },
             "Public comments": "Stage: grain filling",
+            "Date collected (compact)": "20140623"
+          },
+          {
+            "Town": "Louville",
+            "_id": {
+              "$oid": "562a50ae6ca5bb0fc909d95b"
+            },
+            "ID": "14.0064",
+            "Company": "RAGT",
             "Date collected": "2014-06-26",
-            "Date collected (compact)": "20140626",
-            "Country": "France"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c06ca5bb65cc28e03b"
-            },
-            "Company": "BASF",
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Failed",
-            "Name/Collector": "Bosdiyk",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0065",
-            "Town": "Neerijnen",
             "location": {
-              "north_bound": 51.8572119,
-              "latitude": 51.8319019,
-              "west_bound": 5.2670501,
-              "longitude": 5.2793557,
-              "south_bound": 51.8209698,
-              "east_bound": 5.3110356
+              "latitude": 48.327838,
+              "east_bound": 1.8282989,
+              "longitude": 1.788206,
+              "north_bound": 48.354796,
+              "west_bound": 1.758415,
+              "south_bound": 48.2988601
             },
-            "Date collected": "2014-06-16",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140616",
-            "Variety": "Asano",
-            "Private comments": "CAME ON DRY ICE!!!",
-            "Country": "Netherlands"
+            "Name/Collector": "Ruth Bryant",
+            "Country": "France",
+            "Public comments": "Stage: grain filling",
+            "Date collected (compact)": "20140626"
           },
           {
-            "_id": {
-              "$oid": "5628e4c06ca5bb65cc28e03c"
-            },
-            "Company": "BASF",
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Failed",
-            "Name/Collector": "Bergmay",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0066",
             "Town": "Werkendm",
-            "location": {
-              "north_bound": 51.8249676,
-              "latitude": 51.8081653,
-              "west_bound": 4.6762966,
-              "longitude": 4.891848,
-              "south_bound": 51.7202495,
-              "east_bound": 4.9384056
+            "_id": {
+              "$oid": "562a50ae6ca5bb0fc909d95c"
             },
+            "ID": "14.0066",
+            "Private comments": "CAME ON DRY ICE",
+            "Company": "BASF",
             "Date collected": "2014-06-16",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Host": "Wheat",
-            "Date collected (compact)": "20140616",
+            "location": {
+              "latitude": 51.8081653,
+              "east_bound": 4.9384056,
+              "longitude": 4.891848,
+              "north_bound": 51.8249676,
+              "west_bound": 4.6762966,
+              "south_bound": 51.7202495
+            },
+            "Name/Collector": "Bergmay",
+            "Country": "Netherlands",
             "Variety": "expert",
-            "Private comments": "CAME ON DRY ICE",
-            "Country": "Netherlands"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c06ca5bb65cc28e03d"
-            },
-            "Company": "BASF",
             "KASP assays? (Selected/In progress/Completed/Failed)": "Failed",
-            "Name/Collector": "I Westhoff",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0067",
+            "Date collected (compact)": "20140616"
+          },
+          {
             "Town": "Biddinghuizen",
-            "location": {
-              "north_bound": 52.4999011,
-              "latitude": 52.4552356,
-              "west_bound": 5.56504,
-              "longitude": 5.692693,
-              "south_bound": 52.3704981,
-              "east_bound": 5.8162936
+            "_id": {
+              "$oid": "562a50ae6ca5bb0fc909d95d"
             },
-            "Date collected": "2014-06-13",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140613",
-            "Variety": "Asano",
+            "ID": "14.0067",
             "Private comments": "CAME ON DRY ICE",
-            "Country": "Netherlands"
+            "Company": "BASF",
+            "Date collected": "2014-06-13",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.4552356,
+              "east_bound": 5.8162936,
+              "longitude": 5.692693,
+              "north_bound": 52.4999011,
+              "west_bound": 5.56504,
+              "south_bound": 52.3704981
+            },
+            "Name/Collector": "I Westhoff",
+            "Country": "Netherlands",
+            "Variety": "Asano",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Failed",
+            "Date collected (compact)": "20140613"
           },
           {
-            "Company": "BASF",
+            "Town": "Lelystad",
             "_id": {
-              "$oid": "5628e4c06ca5bb65cc28e03e"
+              "$oid": "562a50af6ca5bb0fc909d95e"
             },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "A. Resweber",
+            "ID": "14.0068",
+            "Private comments": "CAME ON DRY ICE",
+            "Company": "BASF",
+            "Date collected": "2014-06-13",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0077",
-            "Town": "Conselice",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 44.5205233,
-              "latitude": 44.5151005,
-              "west_bound": 11.8173704,
-              "longitude": 11.8285289,
-              "south_bound": 44.5023545,
-              "east_bound": 11.8426886
+              "latitude": 52.518537,
+              "east_bound": 5.6059638,
+              "longitude": 5.471422,
+              "north_bound": 52.6928126,
+              "west_bound": 5.2584712,
+              "south_bound": 52.3843956
             },
-            "Library name": "LIB14892",
-            "Further Location information": "Conselice (RA)",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Name/Collector": "II Westhoff",
+            "Country": "Netherlands",
+            "Variety": "expert",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Failed",
+            "Date collected (compact)": "20140613"
+          },
+          {
+            "Town": "Ozzano",
+            "_id": {
+              "$oid": "562a50af6ca5bb0fc909d95f"
+            },
+            "ID": "14.0076",
+            "Company": "BASF",
+            "Host": "Wheat",
             "Date collected": "2014-05-21",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140521",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 44.4482151,
+              "east_bound": 11.4974325,
+              "longitude": 11.4672909,
+              "north_bound": 44.4532301,
+              "west_bound": 11.4603948,
+              "south_bound": 44.43269
+            },
+            "Further Location information": "Ozzano (BO)",
+            "Name/Collector": "A. Resweber",
+            "Library name": "LIB12429",
             "Country": "Italy",
-            "Variety": "Irnerio"
+            "Variety": "Massari",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140521"
           },
           {
-            "Company": "BASF",
+            "Town": "Conselice",
             "_id": {
-              "$oid": "5628e4c06ca5bb65cc28e03f"
+              "$oid": "562a50af6ca5bb0fc909d960"
             },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "A. Resweber",
+            "ID": "14.0077",
+            "Company": "BASF",
+            "Host": "Wheat",
+            "Date collected": "2014-05-21",
             "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 44.5151005,
+              "east_bound": 11.8426886,
+              "longitude": 11.8285289,
+              "north_bound": 44.5205233,
+              "west_bound": 11.8173704,
+              "south_bound": 44.5023545
+            },
+            "Further Location information": "Conselice (RA)",
+            "Name/Collector": "A. Resweber",
+            "Library name": "LIB14892",
+            "Country": "Italy",
+            "Variety": "Irnerio",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140521"
+          },
+          {
+            "Town": "Ruchheim",
+            "_id": {
+              "$oid": "562a50af6ca5bb0fc909d961"
+            },
             "ID": "14.0078",
-            "Town": "Ruchheim",
+            "Company": "BASF",
+            "Host": "Wheat",
+            "Date collected": "2014-06-04",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "location": {
-              "north_bound": 49.4816991,
               "latitude": 49.4743257,
-              "west_bound": 8.3181314,
+              "east_bound": 8.3369037,
               "longitude": 8.3291758,
-              "south_bound": 49.4662254,
-              "east_bound": 8.3369037
+              "north_bound": 49.4816991,
+              "west_bound": 8.3181314,
+              "south_bound": 49.4662254
             },
-            "Library name": "LIB12431",
             "Further Location information": "Ruchheim",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-04",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140604",
+            "Name/Collector": "A. Resweber",
+            "Library name": "LIB12431",
             "Country": "Germany",
-            "Variety": "Victo"
+            "Variety": "Victo",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140604"
           },
           {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4c16ca5bb65cc28e040"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "A. Resweber",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0079",
             "Town": "Bohl Bauch",
+            "_id": {
+              "$oid": "562a50af6ca5bb0fc909d962"
+            },
+            "ID": "14.0079",
+            "Company": "BASF",
+            "Host": "Wheat",
+            "Date collected": "2014-06-17",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "location": {
-              "north_bound": 55.0581236,
               "latitude": 51.165691,
-              "west_bound": 5.8663425,
+              "east_bound": 15.0418962,
               "longitude": 10.451526,
-              "south_bound": 47.2701115,
-              "east_bound": 15.0418962
+              "north_bound": 55.0581236,
+              "west_bound": 5.8663425,
+              "south_bound": 47.2701115
             },
-            "Library name": "LIB12432",
             "Further Location information": "Bohl Bauch 10",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-17",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140617",
-            "Country": "Germany",
-            "Variety": "Volunteer wheat - unknown"
-          },
-          {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4c16ca5bb65cc28e041"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
             "Name/Collector": "A. Resweber",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.008",
+            "Library name": "LIB12432",
+            "Country": "Germany",
+            "Variety": "Volunteer wheat - unknown",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140617"
+          },
+          {
             "Town": "Ruchheim",
-            "location": {
-              "north_bound": 49.4816991,
-              "latitude": 49.4743257,
-              "west_bound": 8.3181314,
-              "longitude": 8.3291758,
-              "south_bound": 49.4662254,
-              "east_bound": 8.3369037
+            "_id": {
+              "$oid": "562a50af6ca5bb0fc909d963"
             },
-            "Library name": "LIB12433",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
+            "ID": "14.008",
+            "Company": "BASF",
             "Date collected": "2014-06-17",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Host": "Wheat",
-            "Date collected (compact)": "20140617",
+            "location": {
+              "latitude": 49.4743257,
+              "east_bound": 8.3369037,
+              "longitude": 8.3291758,
+              "north_bound": 49.4816991,
+              "west_bound": 8.3181314,
+              "south_bound": 49.4662254
+            },
+            "Name/Collector": "A. Resweber",
+            "Library name": "LIB12433",
             "Country": "Germany",
-            "Variety": "Victo"
+            "Variety": "Victo",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
+            "Date collected (compact)": "20140617"
           },
           {
-            "Company": "BASF",
+            "Town": "Gommershoven",
             "_id": {
-              "$oid": "5628e4c16ca5bb65cc28e042"
+              "$oid": "562a50af6ca5bb0fc909d964"
             },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Prochnow",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0081",
-            "Town": "Gommershoven",
+            "Company": "BASF",
+            "Date collected": "2014-05-13",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 51.0189439802915,
               "latitude": 51.0183609,
-              "west_bound": 6.6231467,
+              "east_bound": 6.6317787,
               "longitude": 6.6282129,
-              "south_bound": 51.0162460197085,
-              "east_bound": 6.6317787
+              "north_bound": 51.0189439802915,
+              "west_bound": 6.6231467,
+              "south_bound": 51.0162460197085
             },
+            "Name/Collector": "Prochnow",
             "Library name": "LIB12434",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-05-13",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140513",
             "Country": "Germany",
-            "Variety": "JB Asano"
+            "Variety": "JB Asano",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140513"
           },
           {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4c16ca5bb65cc28e043"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Prochnow",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0082",
             "Town": "Gommershoven",
-            "location": {
-              "north_bound": 51.0189439802915,
-              "latitude": 51.0183609,
-              "west_bound": 6.6231467,
-              "longitude": 6.6282129,
-              "south_bound": 51.0162460197085,
-              "east_bound": 6.6317787
+            "_id": {
+              "$oid": "562a50af6ca5bb0fc909d965"
             },
-            "Library name": "LIB14893",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
+            "ID": "14.0082",
+            "Company": "BASF",
             "Date collected": "2014-05-13",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140513",
-            "Country": "Germany",
-            "Variety": "Primus"
-          },
-          {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4c16ca5bb65cc28e044"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Prochnow",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0083",
-            "Town": "Bohl-Iggelheim",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 49.4053318,
-              "latitude": 49.3609433,
-              "west_bound": 8.2670589,
-              "longitude": 8.3229786,
-              "south_bound": 49.3160238,
-              "east_bound": 8.3798176
+              "latitude": 51.0183609,
+              "east_bound": 6.6317787,
+              "longitude": 6.6282129,
+              "north_bound": 51.0189439802915,
+              "west_bound": 6.6231467,
+              "south_bound": 51.0162460197085
             },
-            "Library name": "LIB12436",
+            "Name/Collector": "Prochnow",
+            "Library name": "LIB14893",
+            "Country": "Germany",
+            "Variety": "Primus",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
             "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
-            "Date collected": "2014-05-28",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140528",
-            "Country": "Germany",
-            "Variety": "Akteur"
+            "Date collected (compact)": "20140513"
           },
           {
-            "Company": "BASF",
+            "Town": "Bohl-Iggelheim",
             "_id": {
-              "$oid": "5628e4c16ca5bb65cc28e045"
+              "$oid": "562a50af6ca5bb0fc909d966"
             },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Prochnow",
+            "ID": "14.0083",
+            "Company": "BASF",
+            "Date collected": "2014-05-28",
             "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 49.3609433,
+              "east_bound": 8.3798176,
+              "longitude": 8.3229786,
+              "north_bound": 49.4053318,
+              "west_bound": 8.2670589,
+              "south_bound": 49.3160238
+            },
+            "Name/Collector": "Prochnow",
+            "Library name": "LIB12436",
+            "Country": "Germany",
+            "Variety": "Akteur",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
+            "Date collected (compact)": "20140528"
+          },
+          {
+            "Town": "Groitzsch",
+            "_id": {
+              "$oid": "562a50b06ca5bb0fc909d967"
+            },
             "ID": "14.0084",
-            "Town": "Groitzsch",
-            "location": {
-              "north_bound": 51.1831438,
-              "latitude": 51.1534049,
-              "west_bound": 12.2202744,
-              "longitude": 12.2833389,
-              "south_bound": 51.0902314,
-              "east_bound": 12.3899742
-            },
-            "Library name": "LIB14894",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Company": "BASF",
             "Date collected": "2014-05-28",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140528",
-            "Country": "Germany",
-            "Variety": "Kometus"
-          },
-          {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4c16ca5bb65cc28e046"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Prochnow",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0085",
-            "Town": "Groitzsch",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 51.1831438,
               "latitude": 51.1534049,
-              "west_bound": 12.2202744,
+              "east_bound": 12.3899742,
               "longitude": 12.2833389,
-              "south_bound": 51.0902314,
-              "east_bound": 12.3899742
+              "north_bound": 51.1831438,
+              "west_bound": 12.2202744,
+              "south_bound": 51.0902314
             },
+            "Name/Collector": "Prochnow",
+            "Library name": "LIB14894",
+            "Country": "Germany",
+            "Variety": "Kometus",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140528"
+          },
+          {
+            "Town": "Groitzsch",
+            "_id": {
+              "$oid": "562a50b06ca5bb0fc909d968"
+            },
+            "ID": "14.0085",
+            "Company": "BASF",
+            "Date collected": "2014-06-03",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 51.1534049,
+              "east_bound": 12.3899742,
+              "longitude": 12.2833389,
+              "north_bound": 51.1831438,
+              "west_bound": 12.2202744,
+              "south_bound": 51.0902314
+            },
+            "Name/Collector": "Prochnow",
             "Library name": "LIB12438",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-03",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140603",
             "Country": "Germany",
-            "Variety": "Akteur"
+            "Variety": "Akteur",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140603"
           },
           {
-            "Company": "BASF",
+            "Town": "WeiBensee",
             "_id": {
-              "$oid": "5628e4c16ca5bb65cc28e047"
+              "$oid": "562a50b06ca5bb0fc909d969"
             },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Prochnow",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0086",
-            "Town": "WeiBensee",
+            "Company": "BASF",
+            "Date collected": "2014-06-03",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 51.2283898,
               "latitude": 51.19551,
-              "west_bound": 10.9727872,
+              "east_bound": 11.1423731,
               "longitude": 11.06812,
-              "south_bound": 51.1700795,
-              "east_bound": 11.1423731
+              "north_bound": 51.2283898,
+              "west_bound": 10.9727872,
+              "south_bound": 51.1700795
             },
+            "Name/Collector": "Prochnow",
             "Library name": "LIB12439",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-03",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140603",
             "Country": "Germany",
-            "Variety": "Ritmo"
+            "Variety": "Ritmo",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140603"
           },
           {
-            "Company": "BASF",
+            "Town": "WeiBensee",
             "_id": {
-              "$oid": "5628e4c16ca5bb65cc28e048"
+              "$oid": "562a50b06ca5bb0fc909d96a"
             },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Prochnow",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0087",
-            "Town": "WeiBensee",
+            "Company": "BASF",
+            "Date collected": "2014-06-03",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 51.2283898,
               "latitude": 51.19551,
-              "west_bound": 10.9727872,
+              "east_bound": 11.1423731,
               "longitude": 11.06812,
-              "south_bound": 51.1700795,
-              "east_bound": 11.1423731
+              "north_bound": 51.2283898,
+              "west_bound": 10.9727872,
+              "south_bound": 51.1700795
             },
+            "Name/Collector": "Prochnow",
             "Library name": "LIB12440",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-03",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140603",
             "Country": "Germany",
-            "Variety": "JB Asano"
+            "Variety": "JB Asano",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140603"
           },
           {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4c16ca5bb65cc28e049"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Prochnow",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0088",
             "Town": "WeiBensee",
+            "_id": {
+              "$oid": "562a50b06ca5bb0fc909d96b"
+            },
+            "ID": "14.0088",
+            "Company": "BASF",
+            "Date collected": "2014-06-03",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 51.2283898,
               "latitude": 51.19551,
-              "west_bound": 10.9727872,
+              "east_bound": 11.1423731,
               "longitude": 11.06812,
-              "south_bound": 51.1700795,
-              "east_bound": 11.1423731
+              "north_bound": 51.2283898,
+              "west_bound": 10.9727872,
+              "south_bound": 51.1700795
             },
+            "Name/Collector": "Prochnow",
             "Library name": "LIB12441",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-03",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140603",
             "Country": "Germany",
-            "Variety": "Akteur"
+            "Variety": "Akteur",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140603"
           },
           {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4c16ca5bb65cc28e04a"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Prochnow",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0089",
             "Town": "Tachenhausen",
-            "location": {
-              "north_bound": 48.6502772802915,
-              "latitude": 48.6489361,
-              "west_bound": 9.3824947,
-              "longitude": 9.3846809,
-              "south_bound": 48.6475793197085,
-              "east_bound": 9.3873997
+            "_id": {
+              "$oid": "562a50b06ca5bb0fc909d96c"
             },
-            "Library name": "LIB12442",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "ID": "14.0089",
+            "Company": "BASF",
             "Date collected": "2014-06-04",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Host": "Wheat",
-            "Date collected (compact)": "20140604",
+            "location": {
+              "latitude": 48.6489361,
+              "east_bound": 9.3873997,
+              "longitude": 9.3846809,
+              "north_bound": 48.6502772802915,
+              "west_bound": 9.3824947,
+              "south_bound": 48.6475793197085
+            },
+            "Name/Collector": "Prochnow",
+            "Library name": "LIB12442",
             "Country": "Germany",
-            "Variety": "Kometus"
+            "Variety": "Kometus",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140604"
           },
           {
-            "Company": "BASF",
+            "Town": "Huttendorf",
             "_id": {
-              "$oid": "5628e4c26ca5bb65cc28e04b"
+              "$oid": "562a50b06ca5bb0fc909d96d"
             },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Prochnow",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.009",
-            "Town": "Huttendorf",
-            "location": {
-              "north_bound": 49.5455354,
-              "latitude": 49.5403995,
-              "west_bound": 10.9558679,
-              "longitude": 10.9613024,
-              "south_bound": 49.537496,
-              "east_bound": 10.9648589
-            },
-            "Library name": "LIB12443",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-05",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140605",
-            "Country": "Germany",
-            "Variety": "Hermann"
-          },
-          {
             "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4c26ca5bb65cc28e04c"
+            "Date collected": "2014-06-05",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 49.5403995,
+              "east_bound": 10.9648589,
+              "longitude": 10.9613024,
+              "north_bound": 49.5455354,
+              "west_bound": 10.9558679,
+              "south_bound": 49.537496
             },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
             "Name/Collector": "Prochnow",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0091",
-            "Town": "Huttendorf",
-            "location": {
-              "north_bound": 49.5455354,
-              "latitude": 49.5403995,
-              "west_bound": 10.9558679,
-              "longitude": 10.9613024,
-              "south_bound": 49.537496,
-              "east_bound": 10.9648589
-            },
-            "Library name": "LIB12444",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-05",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140605",
+            "Library name": "LIB12443",
             "Country": "Germany",
-            "Variety": "Kometus"
+            "Variety": "Hermann",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140605"
           },
           {
-            "Company": "NPPC",
+            "Town": "Huttendorf",
             "_id": {
-              "$oid": "5628e4c26ca5bb65cc28e04d"
+              "$oid": "562a50b06ca5bb0fc909d96e"
             },
-            "Name/Collector": "Andrea Hankova",
+            "ID": "14.0091",
+            "Company": "BASF",
+            "Date collected": "2014-06-05",
             "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 49.5403995,
+              "east_bound": 10.9648589,
+              "longitude": 10.9613024,
+              "north_bound": 49.5455354,
+              "west_bound": 10.9558679,
+              "south_bound": 49.537496
+            },
+            "Name/Collector": "Prochnow",
+            "Library name": "LIB12444",
+            "Country": "Germany",
+            "Variety": "Kometus",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140605"
+          },
+          {
+            "Town": "Detva",
+            "_id": {
+              "$oid": "562a50b06ca5bb0fc909d96f"
+            },
             "ID": "14.0092",
-            "Town": "Detva",
-            "location": {
-              "north_bound": 48.6277324,
-              "latitude": 48.5603755,
-              "west_bound": 19.3666726,
-              "longitude": 19.4191434,
-              "south_bound": 48.4820204,
-              "east_bound": 19.469782
-            },
-            "Library name": "LIB12445",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-05-26",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140526",
             "Private comments": "via Alison NIAB: RBA Viglas - Pstrusa",
-            "Country": "Slovakia"
-          },
-          {
             "Company": "NPPC",
-            "_id": {
-              "$oid": "5628e4c26ca5bb65cc28e04e"
+            "Date collected": "2014-05-26",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 48.5603755,
+              "east_bound": 19.469782,
+              "longitude": 19.4191434,
+              "north_bound": 48.6277324,
+              "west_bound": 19.3666726,
+              "south_bound": 48.4820204
             },
             "Name/Collector": "Andrea Hankova",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0093",
+            "Library name": "LIB12445",
+            "Country": "Slovakia",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140526"
+          },
+          {
             "Town": "Detva",
-            "location": {
-              "north_bound": 48.6277324,
-              "latitude": 48.5603755,
-              "west_bound": 19.3666726,
-              "longitude": 19.4191434,
-              "south_bound": 48.4820204,
-              "east_bound": 19.469782
+            "_id": {
+              "$oid": "562a50b06ca5bb0fc909d970"
             },
-            "Library name": "LIB12446",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-05-26",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140526",
+            "ID": "14.0093",
             "Private comments": "via Alison NIAB: RBA Viglas - Pstrusa",
-            "Country": "Slovakia"
+            "Company": "NPPC",
+            "Date collected": "2014-05-26",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 48.5603755,
+              "east_bound": 19.469782,
+              "longitude": 19.4191434,
+              "north_bound": 48.6277324,
+              "west_bound": 19.3666726,
+              "south_bound": 48.4820204
+            },
+            "Name/Collector": "Andrea Hankova",
+            "Library name": "LIB12446",
+            "Country": "Slovakia",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140526"
           },
           {
-            "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4c26ca5bb65cc28e04f"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Bazelaine",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0094",
             "Town": "Fame de P'epoisse",
-            "location": {
-              "north_bound": 51.0891658,
-              "latitude": 46.227638,
-              "west_bound": -5.1421419,
-              "longitude": 2.213749,
-              "south_bound": 41.3423276,
-              "east_bound": 9.5597934
+            "_id": {
+              "$oid": "562a50b16ca5bb0fc909d971"
             },
-            "Library name": "LIB12447",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "ID": "14.0094",
+            "Company": "BASF",
             "Date collected": "2014-06-03",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Host": "Wheat",
-            "Date collected (compact)": "20140603",
+            "location": {
+              "latitude": 46.227638,
+              "east_bound": 9.5597934,
+              "longitude": 2.213749,
+              "north_bound": 51.0891658,
+              "west_bound": -5.1421419,
+              "south_bound": 41.3423276
+            },
+            "Name/Collector": "Bazelaine",
+            "Library name": "LIB12447",
             "Country": "France",
-            "Variety": "Rosario"
+            "Variety": "Rosario",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140603"
           },
           {
-            "Company": "BASF",
+            "Town": "Koksijde Belgium",
             "_id": {
-              "$oid": "5628e4c26ca5bb65cc28e050"
+              "$oid": "562a50b16ca5bb0fc909d972"
             },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Yves Decroos",
+            "ID": "14.0095",
+            "Company": "BASF",
+            "Host": "Wheat",
+            "Date collected": "2014-06-02",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0096",
+            "location": {
+              "latitude": 51.1055159,
+              "east_bound": 2.7570899,
+              "longitude": 2.6501419,
+              "north_bound": 51.14511,
+              "west_bound": 2.60417,
+              "south_bound": 51.0813299
+            },
+            "Further Location information": "8670 Koksijde Belgium",
+            "Name/Collector": "Yves Decroos",
+            "Library name": "LIB12448",
+            "Country": "Belgium",
+            "Variety": "JB Asano",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140602"
+          },
+          {
             "Town": "Zwevegem",
-            "location": {
-              "north_bound": 50.82814,
-              "latitude": 50.8129259,
-              "west_bound": 3.3048401,
-              "longitude": 3.332698,
-              "south_bound": 50.73748,
-              "east_bound": 3.4577501
+            "_id": {
+              "$oid": "562a50b16ca5bb0fc909d973"
             },
-            "Library name": "LIB12449",
-            "Further Location information": "8554 Zwevegem",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-02",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140602",
-            "Country": "Belgium",
-            "Variety": "JB Asano"
-          },
-          {
+            "ID": "14.0096",
             "Company": "BASF",
-            "_id": {
-              "$oid": "5628e4c26ca5bb65cc28e051"
-            },
-            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
-            "Name/Collector": "Yves Decroos",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0097",
-            "Town": "Avelgem",
-            "location": {
-              "north_bound": 50.81466,
-              "latitude": 50.7760145,
-              "west_bound": 3.39019,
-              "longitude": 3.445404,
-              "south_bound": 50.74038,
-              "east_bound": 3.5232999
-            },
-            "Library name": "LIB12450",
-            "Further Location information": "8580 Avelgem",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Host": "Wheat",
             "Date collected": "2014-06-02",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140602",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 50.8129259,
+              "east_bound": 3.4577501,
+              "longitude": 3.332698,
+              "north_bound": 50.82814,
+              "west_bound": 3.3048401,
+              "south_bound": 50.73748
+            },
+            "Further Location information": "8554 Zwevegem",
+            "Name/Collector": "Yves Decroos",
+            "Library name": "LIB12449",
             "Country": "Belgium",
-            "Variety": "JB Asano"
+            "Variety": "JB Asano",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140602"
           },
           {
-            "Company": "-",
+            "Town": "Avelgem",
             "_id": {
-              "$oid": "5628e4c36ca5bb65cc28e052"
+              "$oid": "562a50b16ca5bb0fc909d974"
             },
-            "Name/Collector": "Dario",
+            "ID": "14.0097",
+            "Company": "BASF",
+            "Host": "Wheat",
+            "Date collected": "2014-06-02",
             "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 50.7760145,
+              "east_bound": 3.5232999,
+              "longitude": 3.445404,
+              "north_bound": 50.81466,
+              "west_bound": 3.39019,
+              "south_bound": 50.74038
+            },
+            "Further Location information": "8580 Avelgem",
+            "Name/Collector": "Yves Decroos",
+            "Library name": "LIB12450",
+            "Country": "Belgium",
+            "Variety": "JB Asano",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140602"
+          },
+          {
+            "Town": "Mignault",
+            "_id": {
+              "$oid": "562a50b16ca5bb0fc909d975"
+            },
+            "ID": "14.0098",
+            "Company": "BASF",
+            "Host": "Wheat",
+            "Date collected": "2014-06-02",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 50.528,
+              "east_bound": 4.1691374,
+              "longitude": 4.15313,
+              "north_bound": 50.5350926,
+              "west_bound": 4.1371226,
+              "south_bound": 50.5209063
+            },
+            "Further Location information": "7070 Mignault",
+            "Name/Collector": "Yves Decroos",
+            "Library name": "LIB12451",
+            "Country": "Belgium",
+            "Variety": "Torch",
+            "KASP assays? (Selected/In progress/Completed/Failed)": "Completed",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140602"
+          },
+          {
+            "_id": {
+              "$oid": "562a50b16ca5bb0fc909d976"
+            },
             "ID": "14.0101",
-            "location": {
-              "north_bound": 42.1062391,
-              "latitude": 38.963745,
-              "west_bound": 25.6655487,
-              "longitude": 35.243322,
-              "south_bound": 35.808592,
-              "east_bound": 44.8178449
-            },
-            "Library name": "LIB12453",
-            "Further Location information": "-",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-05-24",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140524",
             "Private comments": "Received leaves - we then put them in RNA later. Two samples taken - this is sample 1: Alison NIAB contact?",
-            "Country": "Turkey"
-          },
-          {
             "Company": "-",
-            "_id": {
-              "$oid": "5628e4c36ca5bb65cc28e053"
-            },
-            "Name/Collector": "Dario",
+            "Date collected": "2014-05-24",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0102",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 42.1062391,
               "latitude": 38.963745,
-              "west_bound": 25.6655487,
+              "east_bound": 44.8178449,
               "longitude": 35.243322,
-              "south_bound": 35.808592,
-              "east_bound": 44.8178449
+              "north_bound": 42.1062391,
+              "west_bound": 25.6655487,
+              "south_bound": 35.808592
             },
-            "Date collected": "2014-05-24",
             "Further Location information": "-",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140524",
+            "Name/Collector": "Dario",
+            "Library name": "LIB12453",
+            "Country": "Turkey",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140524"
+          },
+          {
+            "_id": {
+              "$oid": "562a50b16ca5bb0fc909d977"
+            },
+            "ID": "14.0102",
             "Private comments": "Above - this is sample 2",
-            "Country": "Turkey"
+            "Company": "-",
+            "Date collected": "2014-05-24",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 38.963745,
+              "east_bound": 44.8178449,
+              "longitude": 35.243322,
+              "north_bound": 42.1062391,
+              "west_bound": 25.6655487,
+              "south_bound": 35.808592
+            },
+            "Further Location information": "-",
+            "Name/Collector": "Dario",
+            "Country": "Turkey",
+            "Date collected (compact)": "20140524"
           },
           {
-            "Company": "-",
             "_id": {
-              "$oid": "5628e4c36ca5bb65cc28e054"
+              "$oid": "562a50b16ca5bb0fc909d978"
             },
-            "Name/Collector": "Dario",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0103",
-            "location": {
-              "north_bound": 46.190032,
-              "latitude": 44.016521,
-              "west_bound": 18.8385221,
-              "longitude": 21.005859,
-              "south_bound": 42.2315029,
-              "east_bound": 23.0063095
-            },
-            "Library name": "LIB12454",
-            "Further Location information": "-",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-05-24",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140524",
             "Private comments": "Received leaves - we then put them in RNA later. 28 samples taken, this is sample 1: Alison NIAB contact? Had 14 sets of leaves just selected two samples from two different leaf sets but have the remainder in RNA later. SRB1",
-            "Country": "Serbia"
-          },
-          {
             "Company": "-",
-            "_id": {
-              "$oid": "5628e4c36ca5bb65cc28e055"
-            },
-            "Name/Collector": "Dario",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0104",
-            "location": {
-              "north_bound": 46.190032,
-              "latitude": 44.016521,
-              "west_bound": 18.8385221,
-              "longitude": 21.005859,
-              "south_bound": 42.2315029,
-              "east_bound": 23.0063095
-            },
             "Date collected": "2014-05-24",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 44.016521,
+              "east_bound": 23.0063095,
+              "longitude": 21.005859,
+              "north_bound": 46.190032,
+              "west_bound": 18.8385221,
+              "south_bound": 42.2315029
+            },
             "Further Location information": "-",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140524",
+            "Name/Collector": "Dario",
+            "Library name": "LIB12454",
+            "Country": "Serbia",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140524"
+          },
+          {
+            "_id": {
+              "$oid": "562a50b16ca5bb0fc909d979"
+            },
+            "ID": "14.0104",
             "Private comments": "Above. This is sample 2. SRB2",
-            "Country": "Serbia"
+            "Company": "-",
+            "Date collected": "2014-05-24",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 44.016521,
+              "east_bound": 23.0063095,
+              "longitude": 21.005859,
+              "north_bound": 46.190032,
+              "west_bound": 18.8385221,
+              "south_bound": 42.2315029
+            },
+            "Further Location information": "-",
+            "Name/Collector": "Dario",
+            "Country": "Serbia",
+            "Date collected (compact)": "20140524"
           },
           {
+            "Town": "Morley",
             "_id": {
-              "$oid": "5628e4c36ca5bb65cc28e056"
+              "$oid": "562a50b26ca5bb0fc909d97a"
             },
-            "Company": "JIC",
-            "Name/Collector": "James Brown",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0105",
-            "Town": "Morley",
-            "location": {
-              "north_bound": 52.5583002,
-              "latitude": 52.5539247,
-              "west_bound": 1.0220689,
-              "longitude": 1.029127,
-              "south_bound": 52.5462202,
-              "east_bound": 1.0378962
-            },
-            "Further Location information": "Morley",
-            "Library name": "LIB12455",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-13",
-            "Date collected (compact)": "20140613",
-            "Host": "Wheat",
-            "Variety": "Kranich",
             "Private comments": "Three samples were taken from the same wheat plant brough in by James. This had previously been fungicide treated and then had recovered. Rep. 1",
+            "Company": "JIC",
+            "Host": "Wheat",
+            "Date collected": "2014-06-13",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 53.744513,
+              "east_bound": -1.5679844,
+              "longitude": -1.598045,
+              "north_bound": 53.7625818,
+              "west_bound": -1.6388118,
+              "south_bound": 53.7194895
+            },
+            "Further Location information": "Morley",
+            "Name/Collector": "James Brown",
+            "Library name": "LIB12455",
             "Country": "UK",
-            "genotype": {
-              "Library name": "LIB12455",
-              "Genetic group": "4"
-            }
+            "Variety": "Kranich",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140613"
           },
           {
-            "Company": "JIC",
+            "Town": "Morley",
             "_id": {
-              "$oid": "5628e4c36ca5bb65cc28e057"
+              "$oid": "562a50b26ca5bb0fc909d97b"
             },
-            "Name/Collector": "James Brown",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0106",
-            "Town": "Morley",
-            "location": {
-              "north_bound": 52.5583002,
-              "latitude": 52.5539247,
-              "west_bound": 1.0220689,
-              "longitude": 1.029127,
-              "south_bound": 52.5462202,
-              "east_bound": 1.0378962
-            },
-            "Date collected": "2014-06-13",
-            "Further Location information": "Morley",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140613",
-            "Variety": "Kranich",
             "Private comments": "Rep. 2",
-            "Country": "UK"
-          },
-          {
             "Company": "JIC",
-            "_id": {
-              "$oid": "5628e4c36ca5bb65cc28e058"
-            },
-            "Name/Collector": "James Brown",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0107",
-            "Town": "Morley",
-            "location": {
-              "north_bound": 52.5583002,
-              "latitude": 52.5539247,
-              "west_bound": 1.0220689,
-              "longitude": 1.029127,
-              "south_bound": 52.5462202,
-              "east_bound": 1.0378962
-            },
+            "Host": "Wheat",
             "Date collected": "2014-06-13",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 53.744513,
+              "east_bound": -1.5679844,
+              "longitude": -1.598045,
+              "north_bound": 53.7625818,
+              "west_bound": -1.6388118,
+              "south_bound": 53.7194895
+            },
             "Further Location information": "Morley",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140613",
-            "Variety": "Kranich",
-            "Private comments": "Rep. 3",
-            "Country": "UK"
-          },
-          {
-            "Company": "INRA",
-            "_id": {
-              "$oid": "5628e4c36ca5bb65cc28e059"
-            },
-            "Name/Collector": "Claude Pope",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0108",
-            "Public comments": "J14542",
-            "location": {
-              "north_bound": 51.0891658,
-              "latitude": 46.227638,
-              "west_bound": -5.1421419,
-              "longitude": 2.213749,
-              "south_bound": 41.3423276,
-              "east_bound": 9.5597934
-            },
-            "Library name": "LIB12456",
-            "Further Location information": "France - 85",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-06-11",
-            "Host": "Durum Wheat",
-            "Date collected (compact)": "20140611",
-            "Country": "France",
-            "Variety": "Luminur"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c36ca5bb65cc28e05a"
-            },
-            "Company": "INRA",
-            "Name/Collector": "Claude Pope",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0109",
-            "Public comments": "J14542 - repeat of above",
-            "location": {
-              "north_bound": 51.0891658,
-              "latitude": 46.227638,
-              "west_bound": -5.1421419,
-              "longitude": 2.213749,
-              "south_bound": 41.3423276,
-              "east_bound": 9.5597934
-            },
-            "Date collected": "2014-06-11",
-            "Further Location information": "France - 85",
-            "Host": "Durum Wheat",
-            "Date collected (compact)": "20140611",
-            "Country": "France",
-            "Variety": "Luminur"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c36ca5bb65cc28e05b"
-            },
-            "Company": "INRA",
-            "Name/Collector": "Claude Pope",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.011",
-            "Public comments": "J14542 - repeat of above",
-            "location": {
-              "north_bound": 51.0891658,
-              "latitude": 46.227638,
-              "west_bound": -5.1421419,
-              "longitude": 2.213749,
-              "south_bound": 41.3423276,
-              "east_bound": 9.5597934
-            },
-            "Date collected": "2014-06-11",
-            "Further Location information": "France - 85",
-            "Host": "Durum Wheat",
-            "Date collected (compact)": "20140611",
-            "Country": "France",
-            "Variety": "Luminur"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c46ca5bb65cc28e05c"
-            },
-            "Company": "INRA",
-            "Name/Collector": "Claude Pope",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0111",
-            "Public comments": "J14542 - repeat of above",
-            "location": {
-              "north_bound": 51.0891658,
-              "latitude": 46.227638,
-              "west_bound": -5.1421419,
-              "longitude": 2.213749,
-              "south_bound": 41.3423276,
-              "east_bound": 9.5597934
-            },
-            "Date collected": "2014-06-11",
-            "Further Location information": "France - 85",
-            "Host": "Durum Wheat",
-            "Date collected (compact)": "20140611",
-            "Country": "France",
-            "Variety": "Luminur"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c46ca5bb65cc28e05d"
-            },
-            "Company": "INRA",
-            "Name/Collector": "Claude Pope",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0112",
-            "Public comments": "J14542 - repeat of above",
-            "location": {
-              "north_bound": 51.0891658,
-              "latitude": 46.227638,
-              "west_bound": -5.1421419,
-              "longitude": 2.213749,
-              "south_bound": 41.3423276,
-              "east_bound": 9.5597934
-            },
-            "Date collected": "2014-06-11",
-            "Further Location information": "France - 85",
-            "Host": "Durum Wheat",
-            "Date collected (compact)": "20140611",
-            "Country": "France",
-            "Variety": "Luminur"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c46ca5bb65cc28e05e"
-            },
-            "Company": "INRA",
-            "Name/Collector": "Claude Pope",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0113",
-            "Public comments": "J14542 - repeat of above",
-            "location": {
-              "north_bound": 51.0891658,
-              "latitude": 46.227638,
-              "west_bound": -5.1421419,
-              "longitude": 2.213749,
-              "south_bound": 41.3423276,
-              "east_bound": 9.5597934
-            },
-            "Date collected": "2014-06-11",
-            "Further Location information": "France - 85",
-            "Host": "Durum Wheat",
-            "Date collected (compact)": "20140611",
-            "Country": "France",
-            "Variety": "Luminur"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c46ca5bb65cc28e05f"
-            },
-            "Company": "KWS",
-            "Name/Collector": "Viktor",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0114",
-            "Town": "Werbig",
-            "location": {
-              "north_bound": 52.2306637,
-              "latitude": 52.2024014,
-              "west_bound": 12.4341461,
-              "longitude": 12.4757793,
-              "south_bound": 52.1621099,
-              "east_bound": 12.5418018
-            },
-            "Date collected": "2014-07-01",
-            "Further Location information": "Werbig",
-            "Host": "Rye",
-            "Date collected (compact)": "20140701",
-            "Country": "Germany"
-          },
-          {
-            "Company": "KWS",
-            "_id": {
-              "$oid": "5628e4c46ca5bb65cc28e060"
-            },
-            "Name/Collector": "Viktor",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0115",
-            "Town": "Werbig",
-            "location": {
-              "north_bound": 52.2306637,
-              "latitude": 52.2024014,
-              "west_bound": 12.4341461,
-              "longitude": 12.4757793,
-              "south_bound": 52.1621099,
-              "east_bound": 12.5418018
-            },
-            "Library name": "LIB12457",
-            "Further Location information": "Werbig",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-07-01",
-            "Host": "Rye",
-            "Date collected (compact)": "20140701",
-            "Private comments": "repeat of above",
-            "Country": "Germany"
-          },
-          {
-            "Company": "KWS",
-            "_id": {
-              "$oid": "5628e4c46ca5bb65cc28e061"
-            },
-            "Name/Collector": "Viktor",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0116",
-            "Town": "Werbig",
-            "location": {
-              "north_bound": 52.2306637,
-              "latitude": 52.2024014,
-              "west_bound": 12.4341461,
-              "longitude": 12.4757793,
-              "south_bound": 52.1621099,
-              "east_bound": 12.5418018
-            },
-            "Date collected": "2014-07-01",
-            "Further Location information": "Werbig",
-            "Host": "Rye",
-            "Date collected (compact)": "20140701",
-            "Private comments": "repeat of above",
-            "Country": "Germany"
-          },
-          {
-            "Company": "KWS",
-            "_id": {
-              "$oid": "5628e4c46ca5bb65cc28e062"
-            },
-            "Name/Collector": "Viktor",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0117",
-            "Town": "Werbig",
-            "location": {
-              "north_bound": 52.2306637,
-              "latitude": 52.2024014,
-              "west_bound": 12.4341461,
-              "longitude": 12.4757793,
-              "south_bound": 52.1621099,
-              "east_bound": 12.5418018
-            },
-            "Date collected": "2014-07-01",
-            "Further Location information": "Werbig",
-            "Host": "Rye",
-            "Date collected (compact)": "20140701",
-            "Private comments": "repeat of above",
-            "Country": "Germany"
-          },
-          {
-            "Company": "KWS",
-            "_id": {
-              "$oid": "5628e4c46ca5bb65cc28e063"
-            },
-            "Name/Collector": "Viktor",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0118",
-            "Town": "Werbig",
-            "location": {
-              "north_bound": 52.2306637,
-              "latitude": 52.2024014,
-              "west_bound": 12.4341461,
-              "longitude": 12.4757793,
-              "south_bound": 52.1621099,
-              "east_bound": 12.5418018
-            },
-            "Date collected": "2014-07-01",
-            "Further Location information": "Werbig",
-            "Host": "Rye",
-            "Date collected (compact)": "20140701",
-            "Private comments": "repeat of above",
-            "Country": "Germany"
-          },
-          {
-            "Company": "KWS",
-            "_id": {
-              "$oid": "5628e4c46ca5bb65cc28e064"
-            },
-            "Name/Collector": "Viktor",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0119",
-            "Town": "Werbig",
-            "location": {
-              "north_bound": 52.2306637,
-              "latitude": 52.2024014,
-              "west_bound": 12.4341461,
-              "longitude": 12.4757793,
-              "south_bound": 52.1621099,
-              "east_bound": 12.5418018
-            },
-            "Date collected": "2014-07-01",
-            "Further Location information": "Werbig",
-            "Host": "Rye",
-            "Date collected (compact)": "20140701",
-            "Private comments": "repeat of above",
-            "Country": "Germany"
-          },
-          {
-            "Company": "KWS",
-            "_id": {
-              "$oid": "5628e4c46ca5bb65cc28e065"
-            },
-            "Name/Collector": "Viktor",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.012",
-            "Town": "Werbig",
-            "location": {
-              "north_bound": 52.2306637,
-              "latitude": 52.2024014,
-              "west_bound": 12.4341461,
-              "longitude": 12.4757793,
-              "south_bound": 52.1621099,
-              "east_bound": 12.5418018
-            },
-            "Library name": "LIB12458",
-            "Further Location information": "Werbig",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-07-01",
-            "Host": "Rye",
-            "Date collected (compact)": "20140701",
-            "Private comments": "repeat of above",
-            "Country": "Germany"
-          },
-          {
-            "Company": "KWS",
-            "_id": {
-              "$oid": "5628e4c46ca5bb65cc28e066"
-            },
-            "Name/Collector": "Viktor",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0121",
-            "Town": "Werbig",
-            "location": {
-              "north_bound": 52.2306637,
-              "latitude": 52.2024014,
-              "west_bound": 12.4341461,
-              "longitude": 12.4757793,
-              "south_bound": 52.1621099,
-              "east_bound": 12.5418018
-            },
-            "Date collected": "2014-07-01",
-            "Further Location information": "Werbig",
-            "Host": "Rye",
-            "Date collected (compact)": "20140701",
-            "Private comments": "repeat of above",
-            "Country": "Germany"
-          },
-          {
-            "Company": "KWS",
-            "_id": {
-              "$oid": "5628e4c46ca5bb65cc28e067"
-            },
-            "Name/Collector": "Viktor",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0122",
-            "Town": "Werbig",
-            "location": {
-              "north_bound": 52.2306637,
-              "latitude": 52.2024014,
-              "west_bound": 12.4341461,
-              "longitude": 12.4757793,
-              "south_bound": 52.1621099,
-              "east_bound": 12.5418018
-            },
-            "Date collected": "2014-07-01",
-            "Further Location information": "Werbig",
-            "Host": "Rye",
-            "Date collected (compact)": "20140701",
-            "Private comments": "repeat of above",
-            "Country": "Germany"
-          },
-          {
-            "Company": "KWS",
-            "_id": {
-              "$oid": "5628e4c46ca5bb65cc28e068"
-            },
-            "Name/Collector": "Viktor",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0123",
-            "Town": "Werbig",
-            "location": {
-              "north_bound": 52.2306637,
-              "latitude": 52.2024014,
-              "west_bound": 12.4341461,
-              "longitude": 12.4757793,
-              "south_bound": 52.1621099,
-              "east_bound": 12.5418018
-            },
-            "Date collected": "2014-07-01",
-            "Further Location information": "Werbig",
-            "Host": "Rye",
-            "Date collected (compact)": "20140701",
-            "Private comments": "repeat of above",
-            "Country": "Germany"
-          },
-          {
-            "Company": "KWS",
-            "_id": {
-              "$oid": "5628e4c56ca5bb65cc28e069"
-            },
-            "Name/Collector": "Viktor",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0124",
-            "Town": "Werbig",
-            "location": {
-              "north_bound": 52.2306637,
-              "latitude": 52.2024014,
-              "west_bound": 12.4341461,
-              "longitude": 12.4757793,
-              "south_bound": 52.1621099,
-              "east_bound": 12.5418018
-            },
-            "Date collected": "2014-07-01",
-            "Further Location information": "Werbig",
-            "Host": "Rye",
-            "Date collected (compact)": "20140701",
-            "Private comments": "repeat of above",
-            "Country": "Germany"
-          },
-          {
-            "Company": "KWS",
-            "_id": {
-              "$oid": "5628e4c56ca5bb65cc28e06a"
-            },
-            "Name/Collector": "Viktor",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0125",
-            "Town": "Werbig",
-            "location": {
-              "north_bound": 52.2306637,
-              "latitude": 52.2024014,
-              "west_bound": 12.4341461,
-              "longitude": 12.4757793,
-              "south_bound": 52.1621099,
-              "east_bound": 12.5418018
-            },
-            "Date collected": "2014-07-01",
-            "Further Location information": "Werbig",
-            "Host": "Rye",
-            "Date collected (compact)": "20140701",
-            "Private comments": "repeat of above",
-            "Country": "Germany"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c56ca5bb65cc28e06b"
-            },
-            "Company": "Agrii",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0126",
-            "location": {
-              "north_bound": 51.5336115,
-              "latitude": 51.504286,
-              "west_bound": -3.6716169,
-              "longitude": -3.576945,
-              "south_bound": 51.4821997,
-              "east_bound": -3.5250057
-            },
-            "Town": "Bridgend",
-            "Date collected": "2014-06-01",
-            "UKCPVS ID": "14/601",
-            "Library name": "LIB12459",
-            "Further Location information": "Llampha Farm, Bridgend",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140601",
-            "Host": "Wheat",
-            "Variety": "Vuka",
-            "Private comments": "NIAB: 14/601, Wales",
+            "Name/Collector": "James Brown",
             "Country": "UK",
-            "genotype": {
-              "Library name": "LIB12459",
-              "Genetic group": "4"
-            }
+            "Variety": "Kranich",
+            "Date collected (compact)": "20140613"
+          },
+          {
+            "Town": "Morley",
+            "_id": {
+              "$oid": "562a50b26ca5bb0fc909d97c"
+            },
+            "ID": "14.0107",
+            "Private comments": "Rep. 3",
+            "Company": "JIC",
+            "Host": "Wheat",
+            "Date collected": "2014-06-13",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 53.744513,
+              "east_bound": -1.5679844,
+              "longitude": -1.598045,
+              "north_bound": 53.7625818,
+              "west_bound": -1.6388118,
+              "south_bound": 53.7194895
+            },
+            "Further Location information": "Morley",
+            "Name/Collector": "James Brown",
+            "Country": "UK",
+            "Variety": "Kranich",
+            "Date collected (compact)": "20140613"
           },
           {
             "_id": {
-              "$oid": "5628e4c56ca5bb65cc28e06c"
+              "$oid": "562a50b26ca5bb0fc909d97d"
             },
-            "Company": "Agrii",
+            "ID": "14.0108",
+            "Company": "INRA",
+            "Date collected": "2014-06-11",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0128",
+            "Host": "Durum Wheat",
             "location": {
-              "north_bound": 53.8520633,
-              "latitude": 53.845481,
-              "west_bound": -0.5150324,
-              "longitude": -0.499025,
-              "south_bound": 53.8388977,
-              "east_bound": -0.4830176
+              "latitude": 46.227638,
+              "east_bound": 9.5597934,
+              "longitude": 2.213749,
+              "north_bound": 51.0891658,
+              "west_bound": -5.1421419,
+              "south_bound": 41.3423276
             },
-            "Town": "Bishop burton",
-            "Date collected": "2014-08-01",
-            "UKCPVS ID": "14/603",
-            "Library name": "LIB12461",
-            "Further Location information": "East Yorkshire, Bishop burton, Beverley",
+            "Further Location information": "France - 85",
+            "Name/Collector": "Claude Pope",
+            "Library name": "LIB12456",
+            "Country": "France",
+            "Variety": "Luminur",
+            "Public comments": "J14542",
             "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140801",
+            "Date collected (compact)": "20140611"
+          },
+          {
+            "_id": {
+              "$oid": "562a50b26ca5bb0fc909d97e"
+            },
+            "ID": "14.0109",
+            "Company": "INRA",
+            "Date collected": "2014-06-11",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Durum Wheat",
+            "location": {
+              "latitude": 46.227638,
+              "east_bound": 9.5597934,
+              "longitude": 2.213749,
+              "north_bound": 51.0891658,
+              "west_bound": -5.1421419,
+              "south_bound": 41.3423276
+            },
+            "Further Location information": "France - 85",
+            "Name/Collector": "Claude Pope",
+            "Country": "France",
+            "Variety": "Luminur",
+            "Public comments": "J14542 - repeat of above",
+            "Date collected (compact)": "20140611"
+          },
+          {
+            "_id": {
+              "$oid": "562a50b26ca5bb0fc909d97f"
+            },
+            "ID": "14.011",
+            "Company": "INRA",
+            "Date collected": "2014-06-11",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Durum Wheat",
+            "location": {
+              "latitude": 46.227638,
+              "east_bound": 9.5597934,
+              "longitude": 2.213749,
+              "north_bound": 51.0891658,
+              "west_bound": -5.1421419,
+              "south_bound": 41.3423276
+            },
+            "Further Location information": "France - 85",
+            "Name/Collector": "Claude Pope",
+            "Country": "France",
+            "Variety": "Luminur",
+            "Public comments": "J14542 - repeat of above",
+            "Date collected (compact)": "20140611"
+          },
+          {
+            "_id": {
+              "$oid": "562a50b26ca5bb0fc909d980"
+            },
+            "ID": "14.0111",
+            "Company": "INRA",
+            "Date collected": "2014-06-11",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Durum Wheat",
+            "location": {
+              "latitude": 46.227638,
+              "east_bound": 9.5597934,
+              "longitude": 2.213749,
+              "north_bound": 51.0891658,
+              "west_bound": -5.1421419,
+              "south_bound": 41.3423276
+            },
+            "Further Location information": "France - 85",
+            "Name/Collector": "Claude Pope",
+            "Country": "France",
+            "Variety": "Luminur",
+            "Public comments": "J14542 - repeat of above",
+            "Date collected (compact)": "20140611"
+          },
+          {
+            "_id": {
+              "$oid": "562a50b26ca5bb0fc909d981"
+            },
+            "ID": "14.0112",
+            "Company": "INRA",
+            "Date collected": "2014-06-11",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Durum Wheat",
+            "location": {
+              "latitude": 46.227638,
+              "east_bound": 9.5597934,
+              "longitude": 2.213749,
+              "north_bound": 51.0891658,
+              "west_bound": -5.1421419,
+              "south_bound": 41.3423276
+            },
+            "Further Location information": "France - 85",
+            "Name/Collector": "Claude Pope",
+            "Country": "France",
+            "Variety": "Luminur",
+            "Public comments": "J14542 - repeat of above",
+            "Date collected (compact)": "20140611"
+          },
+          {
+            "Town": "Werbig",
+            "_id": {
+              "$oid": "562a50b26ca5bb0fc909d982"
+            },
+            "ID": "14.0114",
+            "Company": "KWS",
+            "Host": "Rye",
+            "Date collected": "2014-07-01",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 52.2024014,
+              "east_bound": 12.5418018,
+              "longitude": 12.4757793,
+              "north_bound": 52.2306637,
+              "west_bound": 12.4341461,
+              "south_bound": 52.1621099
+            },
+            "Further Location information": "Werbig",
+            "Name/Collector": "Viktor",
+            "Country": "Germany",
+            "Date collected (compact)": "20140701"
+          },
+          {
+            "Town": "Werbig",
+            "_id": {
+              "$oid": "562a50b26ca5bb0fc909d983"
+            },
+            "ID": "14.0115",
+            "Private comments": "repeat of above",
+            "Company": "KWS",
+            "Host": "Rye",
+            "Date collected": "2014-07-01",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 52.2024014,
+              "east_bound": 12.5418018,
+              "longitude": 12.4757793,
+              "north_bound": 52.2306637,
+              "west_bound": 12.4341461,
+              "south_bound": 52.1621099
+            },
+            "Further Location information": "Werbig",
+            "Name/Collector": "Viktor",
+            "Library name": "LIB12457",
+            "Country": "Germany",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140701"
+          },
+          {
+            "Town": "Werbig",
+            "_id": {
+              "$oid": "562a50b26ca5bb0fc909d984"
+            },
+            "ID": "14.0116",
+            "Private comments": "repeat of above",
+            "Company": "KWS",
+            "Host": "Rye",
+            "Date collected": "2014-07-01",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 52.2024014,
+              "east_bound": 12.5418018,
+              "longitude": 12.4757793,
+              "north_bound": 52.2306637,
+              "west_bound": 12.4341461,
+              "south_bound": 52.1621099
+            },
+            "Further Location information": "Werbig",
+            "Name/Collector": "Viktor",
+            "Country": "Germany",
+            "Date collected (compact)": "20140701"
+          },
+          {
+            "Town": "Werbig",
+            "_id": {
+              "$oid": "562a50b26ca5bb0fc909d985"
+            },
+            "ID": "14.0117",
+            "Private comments": "repeat of above",
+            "Company": "KWS",
+            "Host": "Rye",
+            "Date collected": "2014-07-01",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 52.2024014,
+              "east_bound": 12.5418018,
+              "longitude": 12.4757793,
+              "north_bound": 52.2306637,
+              "west_bound": 12.4341461,
+              "south_bound": 52.1621099
+            },
+            "Further Location information": "Werbig",
+            "Name/Collector": "Viktor",
+            "Country": "Germany",
+            "Date collected (compact)": "20140701"
+          },
+          {
+            "Town": "Werbig",
+            "_id": {
+              "$oid": "562a50b36ca5bb0fc909d986"
+            },
+            "ID": "14.0118",
+            "Private comments": "repeat of above",
+            "Company": "KWS",
+            "Host": "Rye",
+            "Date collected": "2014-07-01",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 52.2024014,
+              "east_bound": 12.5418018,
+              "longitude": 12.4757793,
+              "north_bound": 52.2306637,
+              "west_bound": 12.4341461,
+              "south_bound": 52.1621099
+            },
+            "Further Location information": "Werbig",
+            "Name/Collector": "Viktor",
+            "Country": "Germany",
+            "Date collected (compact)": "20140701"
+          },
+          {
+            "Town": "Werbig",
+            "_id": {
+              "$oid": "562a50b36ca5bb0fc909d987"
+            },
+            "ID": "14.0119",
+            "Private comments": "repeat of above",
+            "Company": "KWS",
+            "Host": "Rye",
+            "Date collected": "2014-07-01",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 52.2024014,
+              "east_bound": 12.5418018,
+              "longitude": 12.4757793,
+              "north_bound": 52.2306637,
+              "west_bound": 12.4341461,
+              "south_bound": 52.1621099
+            },
+            "Further Location information": "Werbig",
+            "Name/Collector": "Viktor",
+            "Country": "Germany",
+            "Date collected (compact)": "20140701"
+          },
+          {
+            "Town": "Werbig",
+            "_id": {
+              "$oid": "562a50b36ca5bb0fc909d988"
+            },
+            "ID": "14.012",
+            "Private comments": "repeat of above",
+            "Company": "KWS",
+            "Host": "Rye",
+            "Date collected": "2014-07-01",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 52.2024014,
+              "east_bound": 12.5418018,
+              "longitude": 12.4757793,
+              "north_bound": 52.2306637,
+              "west_bound": 12.4341461,
+              "south_bound": 52.1621099
+            },
+            "Further Location information": "Werbig",
+            "Name/Collector": "Viktor",
+            "Library name": "LIB12458",
+            "Country": "Germany",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140701"
+          },
+          {
+            "Town": "Werbig",
+            "_id": {
+              "$oid": "562a50b36ca5bb0fc909d989"
+            },
+            "ID": "14.0121",
+            "Private comments": "repeat of above",
+            "Company": "KWS",
+            "Host": "Rye",
+            "Date collected": "2014-07-01",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 52.2024014,
+              "east_bound": 12.5418018,
+              "longitude": 12.4757793,
+              "north_bound": 52.2306637,
+              "west_bound": 12.4341461,
+              "south_bound": 52.1621099
+            },
+            "Further Location information": "Werbig",
+            "Name/Collector": "Viktor",
+            "Country": "Germany",
+            "Date collected (compact)": "20140701"
+          },
+          {
+            "Town": "Werbig",
+            "_id": {
+              "$oid": "562a50b36ca5bb0fc909d98a"
+            },
+            "ID": "14.0122",
+            "Private comments": "repeat of above",
+            "Company": "KWS",
+            "Host": "Rye",
+            "Date collected": "2014-07-01",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 52.2024014,
+              "east_bound": 12.5418018,
+              "longitude": 12.4757793,
+              "north_bound": 52.2306637,
+              "west_bound": 12.4341461,
+              "south_bound": 52.1621099
+            },
+            "Further Location information": "Werbig",
+            "Name/Collector": "Viktor",
+            "Country": "Germany",
+            "Date collected (compact)": "20140701"
+          },
+          {
+            "Town": "Werbig",
+            "_id": {
+              "$oid": "562a50b36ca5bb0fc909d98b"
+            },
+            "ID": "14.0123",
+            "Private comments": "repeat of above",
+            "Company": "KWS",
+            "Host": "Rye",
+            "Date collected": "2014-07-01",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 52.2024014,
+              "east_bound": 12.5418018,
+              "longitude": 12.4757793,
+              "north_bound": 52.2306637,
+              "west_bound": 12.4341461,
+              "south_bound": 52.1621099
+            },
+            "Further Location information": "Werbig",
+            "Name/Collector": "Viktor",
+            "Country": "Germany",
+            "Date collected (compact)": "20140701"
+          },
+          {
+            "Town": "Werbig",
+            "_id": {
+              "$oid": "562a50b36ca5bb0fc909d98c"
+            },
+            "ID": "14.0124",
+            "Private comments": "repeat of above",
+            "Company": "KWS",
+            "Host": "Rye",
+            "Date collected": "2014-07-01",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 52.2024014,
+              "east_bound": 12.5418018,
+              "longitude": 12.4757793,
+              "north_bound": 52.2306637,
+              "west_bound": 12.4341461,
+              "south_bound": 52.1621099
+            },
+            "Further Location information": "Werbig",
+            "Name/Collector": "Viktor",
+            "Country": "Germany",
+            "Date collected (compact)": "20140701"
+          },
+          {
+            "Town": "Werbig",
+            "_id": {
+              "$oid": "562a50b36ca5bb0fc909d98d"
+            },
+            "ID": "14.0125",
+            "Private comments": "repeat of above",
+            "Company": "KWS",
+            "Host": "Rye",
+            "Date collected": "2014-07-01",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 52.2024014,
+              "east_bound": 12.5418018,
+              "longitude": 12.4757793,
+              "north_bound": 52.2306637,
+              "west_bound": 12.4341461,
+              "south_bound": 52.1621099
+            },
+            "Further Location information": "Werbig",
+            "Name/Collector": "Viktor",
+            "Country": "Germany",
+            "Date collected (compact)": "20140701"
+          },
+          {
+            "Town": "Bridgend",
+            "_id": {
+              "$oid": "562a50b36ca5bb0fc909d98e"
+            },
+            "ID": "14.0126",
+            "Private comments": "NIAB: 14/601, Wales",
+            "Company": "Agrii",
+            "location": {
+              "latitude": 51.504286,
+              "east_bound": -3.5250057,
+              "longitude": -3.576945,
+              "north_bound": 51.5336115,
+              "west_bound": -3.6716169,
+              "south_bound": 51.4821997
+            },
+            "Library name": "LIB12459",
+            "UKCPVS ID": "14/601",
+            "Further Location information": "Llampha Farm, Bridgend",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-06-01",
             "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Vuka",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140601"
+          },
+          {
+            "_id": {
+              "$oid": "562a50b36ca5bb0fc909d98f"
+            },
+            "ID": "14.0127",
+            "Private comments": "NIAB: 14/602",
+            "Company": "Agrii",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-07-01",
+            "location": {
+              "latitude": 55.378051,
+              "east_bound": 1.7627096,
+              "longitude": -3.435973,
+              "north_bound": 60.856553,
+              "west_bound": -8.6493572,
+              "south_bound": 49.8699654
+            },
+            "Library name": "LIB12460",
+            "UKCPVS ID": "14/602",
+            "Country": "UK",
+            "Variety": "Vuka",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140701"
+          },
+          {
+            "Town": "Bishop burton",
+            "_id": {
+              "$oid": "562a50b36ca5bb0fc909d990"
+            },
+            "ID": "14.0128",
+            "Company": "Agrii",
             "Private comments": "NIAB: 14/603",
             "County": "East Yorkshire",
+            "location": {
+              "latitude": 53.845481,
+              "east_bound": -0.4830176,
+              "longitude": -0.499025,
+              "north_bound": 53.8520633,
+              "west_bound": -0.5150324,
+              "south_bound": 53.8388977
+            },
+            "Library name": "LIB12461",
+            "UKCPVS ID": "14/603",
+            "Further Location information": "East Yorkshire, Bishop burton, Beverley",
+            "Date collected": "2014-08-01",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Country": "UK",
             "Variety": "Vuka",
-            "genotype": {
-              "Library name": "LIB12461",
-              "Genetic group": "4"
-            }
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140801"
           },
           {
-            "_id": {
-              "$oid": "5628e4c56ca5bb65cc28e06d"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0131",
-            "location": {
-              "north_bound": 52.8346673,
-              "latitude": 52.827926,
-              "west_bound": 0.4400026,
-              "longitude": 0.45601,
-              "south_bound": 52.8211837,
-              "east_bound": 0.4720174
-            },
             "Town": "Wolferton",
-            "Date collected": "2014-06-18",
-            "UKCPVS ID": "14/97",
-            "Library name": "LIB12464",
-            "Further Location information": "Wolferton",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
-            "Date collected (compact)": "20140618",
-            "Host": "Wheat",
+            "_id": {
+              "$oid": "562a50b46ca5bb0fc909d991"
+            },
+            "ID": "14.0131",
+            "Company": "NIAB",
             "Private comments": "NIAB: 14/97",
             "County": "Norfolk",
+            "location": {
+              "latitude": 52.827926,
+              "east_bound": 0.4720174,
+              "longitude": 0.45601,
+              "north_bound": 52.8346673,
+              "west_bound": 0.4400026,
+              "south_bound": 52.8211837
+            },
+            "Library name": "LIB12464",
+            "UKCPVS ID": "14/97",
+            "Further Location information": "Wolferton",
+            "Date collected": "2014-06-18",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Country": "UK",
-            "Variety": "Solstice"
+            "Variety": "Solstice",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
+            "Date collected (compact)": "20140618"
           },
           {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4c56ca5bb65cc28e06e"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0132",
-            "location": {
-              "north_bound": 52.8346673,
-              "latitude": 52.827926,
-              "west_bound": 0.4400026,
-              "longitude": 0.45601,
-              "south_bound": 52.8211837,
-              "east_bound": 0.4720174
-            },
             "Town": "Wolferton",
-            "Date collected": "2014-06-18",
+            "_id": {
+              "$oid": "562a50b46ca5bb0fc909d992"
+            },
+            "ID": "14.0132",
+            "Private comments": "NIAB: 14/98",
+            "Company": "NIAB",
+            "location": {
+              "latitude": 52.827926,
+              "east_bound": 0.4720174,
+              "longitude": 0.45601,
+              "north_bound": 52.8346673,
+              "west_bound": 0.4400026,
+              "south_bound": 52.8211837
+            },
+            "County": "Norfolk",
             "UKCPVS ID": "14/98",
             "Further Location information": "Wolferton",
+            "Date collected": "2014-06-18",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Host": "Wheat",
-            "Date collected (compact)": "20140618",
+            "Country": "UK",
             "Variety": "KWS Cashel",
-            "County": "Norfolk",
-            "Private comments": "NIAB: 14/98",
-            "Country": "UK"
+            "Date collected (compact)": "20140618"
           },
           {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4c56ca5bb65cc28e070"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0134",
-            "location": {
-              "north_bound": 52.0955416802915,
-              "latitude": 52.0941927,
-              "west_bound": -1.4490475802915,
-              "longitude": -1.4476986,
-              "south_bound": 52.0928437197085,
-              "east_bound": -1.4463496197085
-            },
             "Town": "Alkerton",
-            "Date collected": "2014-06-23",
-            "UKCPVS ID": "14/107",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140623",
-            "Variety": "Viscount",
-            "County": "Oxfordshire",
+            "_id": {
+              "$oid": "562a50b46ca5bb0fc909d994"
+            },
+            "ID": "14.0134",
             "Private comments": "NIAB: 14/107",
+            "Company": "NIAB",
+            "Postal code": "OX15 6EP",
+            "Date collected": "2014-06-23",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "County": "Oxfordshire",
+            "location": {
+              "latitude": 52.0941927,
+              "east_bound": -1.4463496197085,
+              "longitude": -1.4476986,
+              "north_bound": 52.0955416802915,
+              "west_bound": -1.4490475802915,
+              "south_bound": 52.0928437197085
+            },
+            "UKCPVS ID": "14/107",
             "Country": "UK",
             "Further Location information": "Alkerton, Oxfordshire, OX15 6EP",
-            "Postal code": "OX15 6EP"
+            "Variety": "Viscount",
+            "Date collected (compact)": "20140623"
           },
           {
+            "Town": "Nr Humbie",
             "_id": {
-              "$oid": "5628e4c66ca5bb65cc28e071"
+              "$oid": "562a50b46ca5bb0fc909d995"
             },
+            "ID": "14.0135",
+            "Company": "NIAB",
+            "Private comments": "NIAB: 14/126",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Postal code": "EH41 4JR",
+            "Date collected": "2014-06-23",
+            "County": "East Lothian",
+            "location": {
+              "latitude": 55.8841334,
+              "east_bound": -2.8052157,
+              "longitude": -2.8210238,
+              "north_bound": 55.8948776,
+              "west_bound": -2.829246,
+              "south_bound": 55.8735151
+            },
+            "Library name": "LIB12468",
+            "UKCPVS ID": "14/126",
+            "Country": "UK",
+            "Further Location information": "Gilchriston farm, Nr Humbie, East lothian, EH41 4JR",
+            "Variety": "KWS Kielder",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140623"
+          },
+          {
+            "Town": "Nr Humbie",
+            "_id": {
+              "$oid": "562a50b46ca5bb0fc909d996"
+            },
+            "ID": "14.0136",
+            "Private comments": "NIAB: 14/123",
+            "Company": "NIAB",
+            "Postal code": "EH41 4JR",
+            "Date collected": "2014-06-23",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "County": "East Lothian",
+            "location": {
+              "latitude": 55.8841334,
+              "east_bound": -2.8052157,
+              "longitude": -2.8210238,
+              "north_bound": 55.8948776,
+              "west_bound": -2.829246,
+              "south_bound": 55.8735151
+            },
+            "UKCPVS ID": "14/123",
+            "Country": "UK",
+            "Further Location information": "Gilchriston farm, Nr Humbie, East lothian, EH41 4JR",
+            "Variety": "Panorama",
+            "Date collected (compact)": "20140623"
+          },
+          {
+            "Town": "Nr Humbie",
+            "_id": {
+              "$oid": "562a50b56ca5bb0fc909d999"
+            },
+            "ID": "14.0142",
+            "Company": "NIAB",
+            "Private comments": "NIAB: 14/124",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Postal code": "EH41 4JR",
+            "Date collected": "2014-06-23",
+            "County": "East Lothian",
+            "location": {
+              "latitude": 55.8841334,
+              "east_bound": -2.8052157,
+              "longitude": -2.8210238,
+              "north_bound": 55.8948776,
+              "west_bound": -2.829246,
+              "south_bound": 55.8735151
+            },
+            "Library name": "LIB12475",
+            "UKCPVS ID": "14/124",
+            "Country": "UK",
+            "Further Location information": "Gilchriston farm, Nr Humbie, East lothian, EH41 4JR",
+            "Variety": "JB Diego",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140623"
+          },
+          {
+            "Town": "Alkerton",
+            "_id": {
+              "$oid": "562a50b56ca5bb0fc909d99b"
+            },
+            "ID": "14.0144",
+            "Private comments": "NIAB: 14/104",
+            "Company": "NIAB",
+            "Postal code": "OX15 6EP",
+            "Date collected": "2014-06-23",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "County": "Oxfordshire",
+            "location": {
+              "latitude": 52.0941927,
+              "east_bound": -1.4463496197085,
+              "longitude": -1.4476986,
+              "north_bound": 52.0955416802915,
+              "west_bound": -1.4490475802915,
+              "south_bound": 52.0928437197085
+            },
+            "UKCPVS ID": "14/104",
+            "Country": "UK",
+            "Further Location information": "Alkerton, Oxfordshire, OX15 6EP",
+            "Variety": "Cougar",
+            "Date collected (compact)": "20140623"
+          },
+          {
+            "Town": "York",
+            "_id": {
+              "$oid": "562a50b56ca5bb0fc909d99c"
+            },
+            "ID": "14.0145",
+            "Private comments": "NIAB: 14/30",
             "Company": "NIAB",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0135",
-            "location": {
-              "north_bound": 55.8948776,
-              "latitude": 55.8841334,
-              "west_bound": -2.829246,
-              "longitude": -2.8210238,
-              "south_bound": 55.8735151,
-              "east_bound": -2.8052157
-            },
-            "Town": "Nr Humbie",
-            "Date collected": "2014-06-23",
-            "UKCPVS ID": "14/126",
-            "Library name": "LIB12468",
-            "Postal code": "EH41 4JR",
-            "Further Location information": "Gilchriston farm, Nr Humbie, East lothian, EH41 4JR",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected": "2014-04-28",
             "Host": "Wheat",
-            "Date collected (compact)": "20140623",
-            "Private comments": "NIAB: 14/126",
-            "County": "East Lothian",
+            "County": "North Yorkshire",
+            "location": {
+              "latitude": 53.9599651,
+              "east_bound": -1.0139137,
+              "longitude": -1.0872979,
+              "north_bound": 53.9912585,
+              "west_bound": -1.1472695,
+              "south_bound": 53.9259345
+            },
+            "Library name": "LIB12477",
+            "UKCPVS ID": "14/30",
+            "Country": "UK",
+            "Variety": "Solstice",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140428"
+          },
+          {
+            "Town": "York",
+            "_id": {
+              "$oid": "562a50b56ca5bb0fc909d99d"
+            },
+            "ID": "14.0146",
+            "Private comments": "NIAB: 14/29",
+            "Company": "NIAB",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-04-28",
+            "Host": "Wheat",
+            "County": "North Yorkshire",
+            "location": {
+              "latitude": 53.9599651,
+              "east_bound": -1.0139137,
+              "longitude": -1.0872979,
+              "north_bound": 53.9912585,
+              "west_bound": -1.1472695,
+              "south_bound": 53.9259345
+            },
+            "Library name": "LIB12478",
+            "UKCPVS ID": "14/29",
             "Country": "UK",
             "Variety": "KWS Kielder",
-            "genotype": {
-              "Library name": "LIB12468",
-              "Genetic group": "4"
-            }
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140428"
           },
           {
-            "Company": "NIAB",
+            "Town": "Wymondham",
             "_id": {
-              "$oid": "5628e4c66ca5bb65cc28e072"
+              "$oid": "562a50b56ca5bb0fc909d99f"
             },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0136",
-            "location": {
-              "north_bound": 55.8948776,
-              "latitude": 55.8841334,
-              "west_bound": -2.829246,
-              "longitude": -2.8210238,
-              "south_bound": 55.8735151,
-              "east_bound": -2.8052157
-            },
-            "Town": "Nr Humbie",
-            "Date collected": "2014-06-23",
-            "UKCPVS ID": "14/123",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140623",
-            "Variety": "Panorama",
-            "County": "East Lothian",
-            "Private comments": "NIAB: 14/123",
-            "Country": "UK",
-            "Further Location information": "Gilchriston farm, Nr Humbie, East lothian, EH41 4JR",
-            "Postal code": "EH41 4JR"
-          },
-          {
+            "ID": "14.0149",
+            "Private comments": "NIAB: 14/26 Repeat",
             "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4c66ca5bb65cc28e073"
-            },
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0137",
-            "location": {
-              "north_bound": 52.8346673,
-              "latitude": 52.827926,
-              "west_bound": 0.4400026,
-              "longitude": 0.45601,
-              "south_bound": 52.8211837,
-              "east_bound": 0.4720174
-            },
-            "Town": "Wolferton",
-            "Date collected": "2014-06-18",
-            "UKCPVS ID": "14/99",
-            "Further Location information": "Wolferton",
             "Host": "Wheat",
-            "Date collected (compact)": "20140618",
-            "Variety": "JB Diego",
+            "Date collected": "2014-04-01",
             "County": "Norfolk",
-            "Private comments": "NIAB: 14/99",
-            "Country": "UK"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c66ca5bb65cc28e075"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.014",
             "location": {
-              "north_bound": 55.8948776,
-              "latitude": 55.8841334,
-              "west_bound": -2.829246,
-              "longitude": -2.8210238,
-              "south_bound": 55.8735151,
-              "east_bound": -2.8052157
+              "latitude": 52.569354,
+              "east_bound": 1.1645884,
+              "longitude": 1.115305,
+              "north_bound": 52.6107024,
+              "west_bound": 1.0613391,
+              "south_bound": 52.5116196
             },
-            "Town": "Nr Humbie",
-            "Date collected": "2014-06-23",
-            "UKCPVS ID": "14/127",
-            "Library name": "LIB12473",
-            "Postal code": "EH41 4JR",
-            "Further Location information": "Gilchriston farm, Nr Humbie, East lothian, EH41 4JR",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140623",
-            "Private comments": "NIAB: 14/127",
-            "County": "East Lothian",
+            "UKCPVS ID": "14/26",
             "Country": "UK",
-            "Variety": "LGW65 (Energise)",
-            "genotype": {
-              "Library name": "LIB12473",
-              "Genetic group": "4"
-            }
+            "Variety": "Victo",
+            "Date collected (compact)": "20140401"
           },
           {
+            "Town": "Boxworth",
             "_id": {
-              "$oid": "5628e4c66ca5bb65cc28e077"
+              "$oid": "562a50b56ca5bb0fc909d9a0"
             },
+            "ID": "14.015",
+            "Private comments": "NIAB: 14/05",
             "Company": "NIAB",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0142",
-            "location": {
-              "north_bound": 55.8948776,
-              "latitude": 55.8841334,
-              "west_bound": -2.829246,
-              "longitude": -2.8210238,
-              "south_bound": 55.8735151,
-              "east_bound": -2.8052157
-            },
-            "Town": "Nr Humbie",
-            "Date collected": "2014-06-23",
-            "UKCPVS ID": "14/124",
-            "Library name": "LIB12475",
-            "Postal code": "EH41 4JR",
-            "Further Location information": "Gilchriston farm, Nr Humbie, East lothian, EH41 4JR",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
             "Host": "Wheat",
-            "Date collected (compact)": "20140623",
-            "Private comments": "NIAB: 14/124",
-            "County": "East Lothian",
+            "Date collected": "2013-12-01",
+            "County": "Cambridgeshire",
+            "location": {
+              "latitude": 52.259814,
+              "east_bound": -0.0094296,
+              "longitude": -0.025437,
+              "north_bound": 52.2666431,
+              "west_bound": -0.0414444,
+              "south_bound": 52.2529839
+            },
+            "UKCPVS ID": "14/05",
             "Country": "UK",
             "Variety": "JB Diego",
-            "genotype": {
-              "Library name": "LIB12475",
-              "Genetic group": "4"
-            }
+            "Date collected (compact)": "20131201"
           },
           {
+            "Town": "Caythorpe",
             "_id": {
-              "$oid": "5628e4c66ca5bb65cc28e078"
+              "$oid": "562a50b56ca5bb0fc909d9a1"
             },
+            "ID": "14.0151",
+            "Private comments": "NIAB: 14/15",
             "Company": "NIAB",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0145",
-            "location": {
-              "north_bound": 53.9912585,
-              "latitude": 53.9599651,
-              "west_bound": -1.1472695,
-              "longitude": -1.0872979,
-              "south_bound": 53.9259345,
-              "east_bound": -1.0139137
-            },
-            "Town": "York",
-            "Date collected": "2014-04-28",
-            "UKCPVS ID": "14/30",
-            "Library name": "LIB12477",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140428",
+            "Date collected": "2014-01-23",
             "Host": "Wheat",
-            "Variety": "Solstice",
-            "Private comments": "NIAB: 14/30",
-            "County": "North Yorkshire",
+            "County": "Lincolnshire",
+            "location": {
+              "latitude": 53.021631,
+              "east_bound": -0.5688846,
+              "longitude": -0.6045819,
+              "north_bound": 53.0322775,
+              "west_bound": -0.6114799,
+              "south_bound": 53.0174137
+            },
+            "Library name": "LIB14888",
+            "UKCPVS ID": "14/15",
             "Country": "UK",
-            "genotype": {
-              "Library name": "LIB12477",
-              "Genetic group": "4"
-            }
+            "Variety": "Oakley",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140123"
           },
           {
-            "_id": {
-              "$oid": "5628e4c76ca5bb65cc28e07a"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0153",
-            "location": {
-              "north_bound": 52.4035338,
-              "latitude": 52.3997829,
-              "west_bound": -0.5356592,
-              "longitude": -0.5278754,
-              "south_bound": 52.3965739,
-              "east_bound": -0.5201319
-            },
             "Town": "Titchmarsh Oundle",
-            "Date collected": "2014-01-13",
-            "UKCPVS ID": "14/11",
-            "Library name": "LIB12484",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140113",
-            "Host": "Wheat",
-            "Variety": "Claire",
+            "_id": {
+              "$oid": "562a50b66ca5bb0fc909d9a3"
+            },
+            "ID": "14.0153",
             "Private comments": "NIAB: 14/11",
+            "Company": "NIAB",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-01-13",
+            "Host": "Wheat",
             "County": "Northamptonshire",
-            "Country": "UK",
-            "genotype": {
-              "Library name": "LIB12484",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c76ca5bb65cc28e07e"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0158",
             "location": {
-              "north_bound": 51.5427621,
-              "latitude": 51.5249619,
-              "west_bound": -1.2092813,
-              "longitude": -1.1698006,
-              "south_bound": 51.4967786,
-              "east_bound": -1.1348185
+              "latitude": 52.3997829,
+              "east_bound": -0.5201319,
+              "longitude": -0.5278754,
+              "north_bound": 52.4035338,
+              "west_bound": -0.5356592,
+              "south_bound": 52.3965739
             },
-            "Town": "Streatley",
-            "Date collected": "2013-12-01",
-            "UKCPVS ID": "14/06",
-            "Library name": "LIB12488",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20131201",
-            "Host": "Wheat",
-            "Variety": "Solstice",
-            "Private comments": "NIAB: 14/06",
-            "County": "Oxfordshire",
+            "Library name": "LIB12484",
+            "UKCPVS ID": "14/11",
             "Country": "UK",
-            "genotype": {
-              "Library name": "LIB12488",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c76ca5bb65cc28e07f"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0159",
-            "location": {
-              "north_bound": 53.0322775,
-              "latitude": 53.021631,
-              "west_bound": -0.6114799,
-              "longitude": -0.6045819,
-              "south_bound": 53.0174137,
-              "east_bound": -0.5688846
-            },
-            "Town": "Caythorpe",
-            "Date collected": "2014-01-23",
-            "UKCPVS ID": "14/14",
-            "Library name": "LIB12489",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140123",
-            "Host": "Wheat",
             "Variety": "Claire",
-            "Private comments": "NIAB: 14/14",
-            "County": "Lincolnshire",
-            "Country": "UK",
-            "genotype": {
-              "Library name": "LIB12489",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4c76ca5bb65cc28e081"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0161",
-            "location": {
-              "north_bound": 53.0322775,
-              "latitude": 53.021631,
-              "west_bound": -0.6114799,
-              "longitude": -0.6045819,
-              "south_bound": 53.0174137,
-              "east_bound": -0.5688846
-            },
-            "Town": "Caythorpe",
-            "Date collected": "2014-01-23",
-            "UKCPVS ID": "14/17",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140123",
-            "Variety": "Solstice",
-            "County": "Lincolnshire",
-            "Private comments": "NIAB: 14/17",
-            "Country": "UK"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c86ca5bb65cc28e083"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0165",
-            "location": {
-              "north_bound": 51.2039176,
-              "latitude": 51.1961742,
-              "west_bound": 1.0360411,
-              "longitude": 1.0447069,
-              "south_bound": 51.190281,
-              "east_bound": 1.0510701
-            },
-            "Date collected": "2014-05-23",
-            "UKCPVS ID": "14/51",
-            "Further Location information": "Wadden Hall Farm , CT4 5PX",
-            "Library name": "LIB12494",
-            "Postal code": "CT4 5PX",
             "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140523",
+            "Date collected (compact)": "20140113"
+          },
+          {
+            "Town": "JB Diego",
+            "_id": {
+              "$oid": "562a50b66ca5bb0fc909d9a6"
+            },
+            "ID": "14.0156",
+            "Private comments": "NIAB: 14/04",
+            "Company": "NIAB",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Host": "Wheat",
+            "Date collected": "2013-12-01",
+            "County": "Cambridgeshire",
+            "location": {
+              "latitude": 52.2052973,
+              "east_bound": 0.5144548,
+              "longitude": 0.1218195,
+              "north_bound": 52.7399809,
+              "west_bound": -0.4999075,
+              "south_bound": 52.005779
+            },
+            "UKCPVS ID": "14/04",
+            "Country": "UK",
+            "Variety": "JB Diego",
+            "Date collected (compact)": "20131201"
+          },
+          {
+            "Town": "Caythorpe",
+            "_id": {
+              "$oid": "562a50b66ca5bb0fc909d9a7"
+            },
+            "ID": "14.0159",
+            "Private comments": "NIAB: 14/14",
+            "Company": "NIAB",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-01-23",
+            "Host": "Wheat",
+            "County": "Lincolnshire",
+            "location": {
+              "latitude": 53.021631,
+              "east_bound": -0.5688846,
+              "longitude": -0.6045819,
+              "north_bound": 53.0322775,
+              "west_bound": -0.6114799,
+              "south_bound": 53.0174137
+            },
+            "Library name": "LIB12489",
+            "UKCPVS ID": "14/14",
+            "Country": "UK",
+            "Variety": "Claire",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140123"
+          },
+          {
+            "Town": "Caythorpe",
+            "_id": {
+              "$oid": "562a50b66ca5bb0fc909d9a8"
+            },
+            "ID": "14.0161",
+            "Private comments": "NIAB: 14/17",
+            "Company": "NIAB",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "Date collected": "2014-01-23",
+            "County": "Lincolnshire",
+            "location": {
+              "latitude": 53.021631,
+              "east_bound": -0.5688846,
+              "longitude": -0.6045819,
+              "north_bound": 53.0322775,
+              "west_bound": -0.6114799,
+              "south_bound": 53.0174137
+            },
+            "UKCPVS ID": "14/17",
+            "Country": "UK",
+            "Variety": "Solstice",
+            "Date collected (compact)": "20140123"
+          },
+          {
+            "_id": {
+              "$oid": "562a50b76ca5bb0fc909d9a9"
+            },
+            "ID": "14.0163",
+            "Company": "NIAB",
+            "Private comments": "NIAB: 14/55",
+            "County": "Kent",
+            "location": {
+              "latitude": 51.1961742,
+              "east_bound": 1.0510701,
+              "longitude": 1.0447069,
+              "north_bound": 51.2039176,
+              "west_bound": 1.0360411,
+              "south_bound": 51.190281
+            },
+            "Library name": "LIB12493",
+            "UKCPVS ID": "14/55",
+            "Further Location information": "Wadden Hall Farm , CT4 5PX",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Postal code": "CT4 5PX",
+            "Date collected": "2014-05-23",
+            "Country": "UK",
+            "Variety": "Cordiale",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140523"
+          },
+          {
+            "_id": {
+              "$oid": "562a50b76ca5bb0fc909d9aa"
+            },
+            "ID": "14.0164",
+            "Private comments": "NIAB: 14/33",
+            "Company": "NIAB",
+            "Postal code": "LS24 9NT",
+            "Date collected": "2014-05-06",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "County": "North Yorkshire",
+            "location": {
+              "latitude": 53.8685544,
+              "east_bound": -1.3152364,
+              "longitude": -1.3258639,
+              "north_bound": 53.8742161,
+              "west_bound": -1.3412462,
+              "south_bound": 53.8632474
+            },
+            "UKCPVS ID": "14/33",
+            "Further Location information": "HH LS24 9NT",
+            "Country": "UK",
+            "Variety": "Victo",
+            "Date collected (compact)": "20140506"
+          },
+          {
+            "_id": {
+              "$oid": "562a50b76ca5bb0fc909d9ab"
+            },
+            "ID": "14.0165",
+            "Company": "NIAB",
             "Private comments": "NIAB: 14/51",
             "County": "Kent",
+            "location": {
+              "latitude": 51.1961742,
+              "east_bound": 1.0510701,
+              "longitude": 1.0447069,
+              "north_bound": 51.2039176,
+              "west_bound": 1.0360411,
+              "south_bound": 51.190281
+            },
+            "Library name": "LIB12494",
+            "UKCPVS ID": "14/51",
+            "Further Location information": "Wadden Hall Farm , CT4 5PX",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Postal code": "CT4 5PX",
+            "Date collected": "2014-05-23",
             "Country": "UK",
             "Variety": "Solstice",
-            "genotype": {
-              "Library name": "LIB12494",
-              "Genetic group": "4"
-            }
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140523"
           },
           {
+            "Town": "Caythorpe",
             "_id": {
-              "$oid": "5628e4c86ca5bb65cc28e084"
+              "$oid": "562a50b76ca5bb0fc909d9ac"
             },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0166",
-            "location": {
-              "north_bound": 53.0322775,
-              "latitude": 53.021631,
-              "west_bound": -0.6114799,
-              "longitude": -0.6045819,
-              "south_bound": 53.0174137,
-              "east_bound": -0.5688846
-            },
-            "Town": "Caythorpe",
-            "Date collected": "2014-05-06",
-            "UKCPVS ID": "14/40",
-            "Library name": "LIB12495",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140506",
-            "Host": "Wheat",
-            "Variety": "Solstice",
             "Private comments": "NIAB: 14/40",
-            "County": "Lincolnshire",
-            "Country": "UK",
-            "genotype": {
-              "Library name": "LIB12495",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c86ca5bb65cc28e085"
-            },
             "Company": "NIAB",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0167",
-            "location": {
-              "north_bound": 53.0322775,
-              "latitude": 53.021631,
-              "west_bound": -0.6114799,
-              "longitude": -0.6045819,
-              "south_bound": 53.0174137,
-              "east_bound": -0.5688846
-            },
-            "Town": "Caythorpe",
             "Date collected": "2014-05-06",
-            "UKCPVS ID": "14/39",
-            "Library name": "LIB12496",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140506",
             "Host": "Wheat",
-            "Variety": "Robigus",
-            "Private comments": "NIAB: 14/39",
             "County": "Lincolnshire",
+            "location": {
+              "latitude": 53.021631,
+              "east_bound": -0.5688846,
+              "longitude": -0.6045819,
+              "north_bound": 53.0322775,
+              "west_bound": -0.6114799,
+              "south_bound": 53.0174137
+            },
+            "Library name": "LIB12495",
+            "UKCPVS ID": "14/40",
             "Country": "UK",
-            "genotype": {
-              "Library name": "LIB12496",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4c86ca5bb65cc28e086"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0168",
-            "location": {
-              "north_bound": 51.2039176,
-              "latitude": 51.1961742,
-              "west_bound": 1.0360411,
-              "longitude": 1.0447069,
-              "south_bound": 51.190281,
-              "east_bound": 1.0510701
-            },
-            "Date collected": "2014-05-23",
-            "UKCPVS ID": "14/58",
-            "Postal code": "CT4 5PX",
-            "Further Location information": "Wadden Hall Farm , CT4 5PX",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140523",
-            "Variety": "Timber",
-            "County": "Kent",
-            "Private comments": "NIAB: 14/58",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4c86ca5bb65cc28e087"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.017",
-            "location": {
-              "north_bound": 51.2039176,
-              "latitude": 51.1961742,
-              "west_bound": 1.0360411,
-              "longitude": 1.0447069,
-              "south_bound": 51.190281,
-              "east_bound": 1.0510701
-            },
-            "Date collected": "2014-05-23",
-            "UKCPVS ID": "14/49",
-            "Postal code": "CT4 5PX",
-            "Further Location information": "Wadden Hall Farm , CT4 5PX",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140523",
-            "Variety": "Victo",
-            "County": "Kent",
-            "Private comments": "NIAB: 14/49",
-            "Country": "UK"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c86ca5bb65cc28e08a"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0174",
-            "location": {
-              "north_bound": 50.9396488,
-              "latitude": 50.925142,
-              "west_bound": -2.3241882,
-              "longitude": -2.304642,
-              "south_bound": 50.9140697,
-              "east_bound": -2.2891981
-            },
-            "Town": "Sturminster Newton",
-            "Date collected": "2014-05-16",
-            "UKCPVS ID": "14/47",
-            "Library name": "LIB12501",
-            "Further Location information": "Sturminster, Newton",
+            "Variety": "Solstice",
             "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140516",
+            "Date collected (compact)": "20140506"
+          },
+          {
+            "Town": "Caythorpe",
+            "_id": {
+              "$oid": "562a50b76ca5bb0fc909d9ad"
+            },
+            "ID": "14.0167",
+            "Private comments": "NIAB: 14/39",
+            "Company": "NIAB",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-05-06",
             "Host": "Wheat",
+            "County": "Lincolnshire",
+            "location": {
+              "latitude": 53.021631,
+              "east_bound": -0.5688846,
+              "longitude": -0.6045819,
+              "north_bound": 53.0322775,
+              "west_bound": -0.6114799,
+              "south_bound": 53.0174137
+            },
+            "Library name": "LIB12496",
+            "UKCPVS ID": "14/39",
+            "Country": "UK",
+            "Variety": "Robigus",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140506"
+          },
+          {
+            "_id": {
+              "$oid": "562a50b76ca5bb0fc909d9ae"
+            },
+            "ID": "14.0168",
+            "Private comments": "NIAB: 14/58",
+            "Company": "NIAB",
+            "Postal code": "CT4 5PX",
+            "Date collected": "2014-05-23",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "County": "Kent",
+            "location": {
+              "latitude": 51.1961742,
+              "east_bound": 1.0510701,
+              "longitude": 1.0447069,
+              "north_bound": 51.2039176,
+              "west_bound": 1.0360411,
+              "south_bound": 51.190281
+            },
+            "UKCPVS ID": "14/58",
+            "Further Location information": "Wadden Hall Farm , CT4 5PX",
+            "Country": "UK",
+            "Variety": "Timber",
+            "Date collected (compact)": "20140523"
+          },
+          {
+            "_id": {
+              "$oid": "562a50b76ca5bb0fc909d9af"
+            },
+            "ID": "14.017",
+            "Private comments": "NIAB: 14/49",
+            "Company": "NIAB",
+            "Postal code": "CT4 5PX",
+            "Date collected": "2014-05-23",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "County": "Kent",
+            "location": {
+              "latitude": 51.1961742,
+              "east_bound": 1.0510701,
+              "longitude": 1.0447069,
+              "north_bound": 51.2039176,
+              "west_bound": 1.0360411,
+              "south_bound": 51.190281
+            },
+            "UKCPVS ID": "14/49",
+            "Further Location information": "Wadden Hall Farm , CT4 5PX",
+            "Country": "UK",
+            "Variety": "Victo",
+            "Date collected (compact)": "20140523"
+          },
+          {
+            "_id": {
+              "$oid": "562a50b76ca5bb0fc909d9b2"
+            },
+            "ID": "14.0173",
+            "Private comments": "NIAB: F18",
+            "Company": "NIAB",
+            "location": {
+              "latitude": 55.378051,
+              "east_bound": 1.7627096,
+              "longitude": -3.435973,
+              "north_bound": 60.856553,
+              "west_bound": -8.6493572,
+              "south_bound": 49.8699654
+            },
+            "Library name": "LIB12500",
+            "UKCPVS ID": "F18",
+            "Further Location information": "F29, HQTG",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-05-08",
+            "Country": "UK",
+            "Variety": "Kranich",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140508"
+          },
+          {
+            "Town": "Sturminster Newton",
+            "_id": {
+              "$oid": "562a50b86ca5bb0fc909d9b3"
+            },
+            "ID": "14.0174",
+            "Company": "NIAB",
             "Private comments": "NIAB: 14/47",
             "County": "Dorset",
+            "location": {
+              "latitude": 50.925142,
+              "east_bound": -2.2891981,
+              "longitude": -2.304642,
+              "north_bound": 50.9396488,
+              "west_bound": -2.3241882,
+              "south_bound": 50.9140697
+            },
+            "Library name": "LIB12501",
+            "UKCPVS ID": "14/47",
+            "Further Location information": "Sturminster, Newton",
+            "Date collected": "2014-05-16",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Country": "UK",
             "Variety": "Solstice",
-            "genotype": {
-              "Library name": "LIB12501",
-              "Genetic group": "4"
-            }
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140516"
           },
           {
             "_id": {
-              "$oid": "5628e4c86ca5bb65cc28e08b"
+              "$oid": "562a50b86ca5bb0fc909d9b4"
             },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0175",
-            "location": {
-              "north_bound": 51.2039176,
-              "latitude": 51.1961742,
-              "west_bound": 1.0360411,
-              "longitude": 1.0447069,
-              "south_bound": 51.190281,
-              "east_bound": 1.0510701
-            },
-            "Date collected": "2014-05-23",
-            "UKCPVS ID": "14/53",
-            "Further Location information": "Wadden Hall Farm , CT4 5PX",
-            "Library name": "LIB12502",
-            "Postal code": "CT4 5PX",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140523",
-            "Host": "Wheat",
+            "Company": "NIAB",
             "Private comments": "NIAB: 14/53",
             "County": "Kent",
+            "location": {
+              "latitude": 51.1961742,
+              "east_bound": 1.0510701,
+              "longitude": 1.0447069,
+              "north_bound": 51.2039176,
+              "west_bound": 1.0360411,
+              "south_bound": 51.190281
+            },
+            "Library name": "LIB12502",
+            "UKCPVS ID": "14/53",
+            "Further Location information": "Wadden Hall Farm , CT4 5PX",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Postal code": "CT4 5PX",
+            "Date collected": "2014-05-23",
             "Country": "UK",
             "Variety": "Claire",
-            "genotype": {
-              "Library name": "LIB12502",
-              "Genetic group": "4"
-            }
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140523"
           },
           {
-            "_id": {
-              "$oid": "5628e4c96ca5bb65cc28e08c"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0176",
-            "location": {
-              "north_bound": 52.8525735,
-              "latitude": 52.845835,
-              "west_bound": -0.4806104,
-              "longitude": -0.464603,
-              "south_bound": 52.8390955,
-              "east_bound": -0.4485956
-            },
             "Town": "Keisby",
-            "Date collected": "2014-05-16",
-            "UKCPVS ID": "14/45",
-            "Library name": "LIB12503",
-            "Further Location information": "Keisby nr Bourne",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140516",
-            "Host": "Wheat",
+            "_id": {
+              "$oid": "562a50b86ca5bb0fc909d9b5"
+            },
+            "ID": "14.0176",
+            "Company": "NIAB",
             "Private comments": "NIAB: 14/45, spring wheat",
             "County": "Lincolnshire",
+            "location": {
+              "latitude": 52.845835,
+              "east_bound": -0.4485956,
+              "longitude": -0.464603,
+              "north_bound": 52.8525735,
+              "west_bound": -0.4806104,
+              "south_bound": 52.8390955
+            },
+            "Library name": "LIB12503",
+            "UKCPVS ID": "14/45",
+            "Further Location information": "Keisby nr Bourne",
+            "Date collected": "2014-05-16",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Country": "UK",
             "Variety": "Belvoir",
-            "genotype": {
-              "Library name": "LIB12503",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c96ca5bb65cc28e08f"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0179",
-            "location": {
-              "north_bound": 51.2039176,
-              "latitude": 51.1961742,
-              "west_bound": 1.0360411,
-              "longitude": 1.0447069,
-              "south_bound": 51.190281,
-              "east_bound": 1.0510701
-            },
-            "Date collected": "2014-05-23",
-            "UKCPVS ID": "14/54",
-            "Further Location information": "Wadden Hall Farm , CT4 5PX",
-            "Library name": "LIB12505",
-            "Postal code": "CT4 5PX",
             "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140523",
-            "Host": "Wheat",
-            "Private comments": "NIAB: 14/54",
-            "County": "Kent",
-            "Country": "UK",
-            "Variety": "KWS Sterling",
-            "genotype": {
-              "Library name": "LIB12505",
-              "Genetic group": "4"
-            }
+            "Date collected (compact)": "20140516"
           },
           {
-            "_id": {
-              "$oid": "5628e4c96ca5bb65cc28e090"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.018",
-            "location": {
-              "north_bound": 51.2039176,
-              "latitude": 51.1961742,
-              "west_bound": 1.0360411,
-              "longitude": 1.0447069,
-              "south_bound": 51.190281,
-              "east_bound": 1.0510701
-            },
-            "Date collected": "2014-05-23",
-            "UKCPVS ID": "14/57",
-            "Further Location information": "Wadden Hall Farm , CT4 5PX",
-            "Library name": "LIB12506",
-            "Postal code": "CT4 5PX",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140523",
-            "Host": "Wheat",
-            "Private comments": "NIAB:14/57",
-            "County": "Kent",
-            "Country": "UK",
-            "Variety": "Robigus",
-            "genotype": {
-              "Library name": "LIB12506",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c96ca5bb65cc28e091"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0181",
-            "location": {
-              "north_bound": 53.8742161,
-              "latitude": 53.8685544,
-              "west_bound": -1.3412462,
-              "longitude": -1.3258639,
-              "south_bound": 53.8632474,
-              "east_bound": -1.3152364
-            },
-            "Date collected": "2014-05-06",
-            "UKCPVS ID": "14/34",
-            "Further Location information": "HH LS24 9NT",
-            "Library name": "LIB12507",
-            "Postal code": "LS24 9NT",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140506",
-            "Host": "Wheat",
-            "Private comments": "NIAB: 14/34",
-            "County": "North Yorkshire",
-            "Country": "UK",
-            "Variety": "Oakley",
-            "genotype": {
-              "Library name": "LIB12507",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c96ca5bb65cc28e092"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0182",
-            "location": {
-              "north_bound": 52.0636001,
-              "latitude": 52.048142,
-              "west_bound": -0.0542409,
-              "longitude": -0.024066,
-              "south_bound": 52.0334602,
-              "east_bound": 0.0098269
-            },
             "Town": "Royston",
-            "Date collected": "2014-05-23",
-            "UKCPVS ID": "14/59",
-            "Library name": "LIB14054",
-            "Further Location information": "Nr royston",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140523",
-            "Host": "Wheat",
+            "_id": {
+              "$oid": "562a50b86ca5bb0fc909d9b7"
+            },
+            "ID": "14.0182",
+            "Company": "NIAB",
             "Private comments": "NIAB: 14/59",
             "County": "Cambridgeshire",
+            "location": {
+              "latitude": 52.048142,
+              "east_bound": 0.0098269,
+              "longitude": -0.024066,
+              "north_bound": 52.0636001,
+              "west_bound": -0.0542409,
+              "south_bound": 52.0334602
+            },
+            "Library name": "LIB14054",
+            "UKCPVS ID": "14/59",
+            "Further Location information": "Nr royston",
+            "Date collected": "2014-05-23",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Country": "UK",
             "Variety": "Oakley",
-            "genotype": {
-              "Library name": "LIB14054",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c96ca5bb65cc28e093"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0183",
-            "location": {
-              "north_bound": 51.2039176,
-              "latitude": 51.1961742,
-              "west_bound": 1.0360411,
-              "longitude": 1.0447069,
-              "south_bound": 51.190281,
-              "east_bound": 1.0510701
-            },
-            "Date collected": "2014-05-23",
-            "UKCPVS ID": "14/50",
-            "Further Location information": "Wadden Hall Farm , CT4 5PX",
-            "Library name": "LIB14873",
-            "Postal code": "CT4 5PX",
             "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140523",
-            "Host": "Wheat",
-            "Private comments": "NIAB: 14/50",
-            "County": "Kent",
-            "Country": "UK",
-            "Variety": "Oakley",
-            "genotype": {
-              "Library name": "LIB14873",
-              "Genetic group": "4"
-            }
+            "Date collected (compact)": "20140523"
           },
           {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4c96ca5bb65cc28e094"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0184",
-            "location": {
-              "north_bound": 52.4543399,
-              "latitude": 52.4535208,
-              "west_bound": 0.0598593,
-              "longitude": 0.0611192,
-              "south_bound": 52.4487856,
-              "east_bound": 0.0729251
-            },
-            "Date collected": "2014-05-23",
-            "UKCPVS ID": "14/48",
-            "Postal code": "PE16 6JP",
-            "Further Location information": "Chatteris PE16 6JP",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140523",
-            "Variety": "unknown",
-            "County": "Cambridgeshire",
-            "Private comments": "NIAB: 14/48",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4c96ca5bb65cc28e095"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0186",
-            "location": {
-              "north_bound": 50.8254178,
-              "latitude": 50.811319,
-              "west_bound": -2.5644958,
-              "longitude": -2.532481,
-              "south_bound": 50.7972159,
-              "east_bound": -2.5004662
-            },
             "Town": "Up Sydling",
-            "Date collected": "2014-05-16",
+            "_id": {
+              "$oid": "562a50b96ca5bb0fc909d9b8"
+            },
+            "ID": "14.0186",
+            "Private comments": "NIAB: TS 14/2",
+            "Company": "NIAB",
+            "location": {
+              "latitude": 50.811319,
+              "east_bound": -2.5004662,
+              "longitude": -2.532481,
+              "north_bound": 50.8254178,
+              "west_bound": -2.5644958,
+              "south_bound": 50.7972159
+            },
+            "Library name": "LIB14874",
             "UKCPVS ID": "14/2",
             "Further Location information": "Up Sydling, Nr Dorchester",
-            "Library name": "LIB14874",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-05-16",
             "Host": "Spelta",
-            "Date collected (compact)": "20140516",
+            "Country": "UK",
             "Variety": "Divimar",
-            "Private comments": "NIAB: TS 14/2",
-            "Country": "UK"
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
+            "Date collected (compact)": "20140516"
           },
           {
-            "Company": "NIAB",
+            "Town": "Up Sydling",
             "_id": {
-              "$oid": "5628e4ca6ca5bb65cc28e096"
+              "$oid": "562a50b96ca5bb0fc909d9b9"
             },
+            "ID": "14.0187",
+            "Private comments": "NIAB: TS 14/2 (duplicate of above???)",
+            "Company": "NIAB",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0189",
-            "location": {
-              "north_bound": 50.9396488,
-              "latitude": 50.925142,
-              "west_bound": -2.3241882,
-              "longitude": -2.304642,
-              "south_bound": 50.9140697,
-              "east_bound": -2.2891981
-            },
-            "Town": "Sturminster Newton",
             "Date collected": "2014-05-01",
+            "Host": "Spelta",
+            "location": {
+              "latitude": 50.811319,
+              "east_bound": -2.5004662,
+              "longitude": -2.532481,
+              "north_bound": 50.8254178,
+              "west_bound": -2.5644958,
+              "south_bound": 50.7972159
+            },
+            "UKCPVS ID": "14/2",
+            "Further Location information": "Up Sydling, Nr Dorchester",
+            "Country": "UK",
+            "Variety": "Divimar",
+            "Date collected (compact)": "20140501"
+          },
+          {
+            "Town": "Sturminster Newton",
+            "_id": {
+              "$oid": "562a50b96ca5bb0fc909d9ba"
+            },
+            "ID": "14.0189",
+            "Private comments": "NIAB: 14/47",
+            "Company": "NIAB",
+            "location": {
+              "latitude": 50.925142,
+              "east_bound": -2.2891981,
+              "longitude": -2.304642,
+              "north_bound": 50.9396488,
+              "west_bound": -2.3241882,
+              "south_bound": 50.9140697
+            },
+            "County": "Dorset",
             "UKCPVS ID": "14/47",
             "Further Location information": "Sturminster, Newton",
+            "Date collected": "2014-05-01",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Host": "Wheat",
-            "Date collected (compact)": "20140501",
+            "Country": "UK",
             "Variety": "Solstice",
-            "County": "Dorset",
-            "Private comments": "NIAB: 14/47",
-            "Country": "UK"
+            "Date collected (compact)": "20140501"
           },
           {
             "_id": {
-              "$oid": "5628e4ca6ca5bb65cc28e097"
+              "$oid": "562a50b96ca5bb0fc909d9bb"
             },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.019",
-            "location": {
-              "north_bound": 51.2039176,
-              "latitude": 51.1961742,
-              "west_bound": 1.0360411,
-              "longitude": 1.0447069,
-              "south_bound": 51.190281,
-              "east_bound": 1.0510701
-            },
-            "Date collected": "2014-05-23",
-            "UKCPVS ID": "14/52",
-            "Further Location information": "Wadden Hall Farm , CT4 5PX",
-            "Library name": "LIB14876",
-            "Postal code": "CT4 5PX",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140523",
-            "Host": "Wheat",
+            "Company": "NIAB",
             "Private comments": "NIAB: 14/52",
             "County": "Kent",
+            "location": {
+              "latitude": 51.1961742,
+              "east_bound": 1.0510701,
+              "longitude": 1.0447069,
+              "north_bound": 51.2039176,
+              "west_bound": 1.0360411,
+              "south_bound": 51.190281
+            },
+            "Library name": "LIB14876",
+            "UKCPVS ID": "14/52",
+            "Further Location information": "Wadden Hall Farm , CT4 5PX",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Postal code": "CT4 5PX",
+            "Date collected": "2014-05-23",
             "Country": "UK",
             "Variety": "Warrior",
-            "genotype": {
-              "Library name": "LIB14876",
-              "Genetic group": "1"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4ca6ca5bb65cc28e098"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0191",
-            "location": {
-              "north_bound": 53.0322775,
-              "latitude": 53.021631,
-              "west_bound": -0.6114799,
-              "longitude": -0.6045819,
-              "south_bound": 53.0174137,
-              "east_bound": -0.5688846
-            },
-            "Town": "Caythorpe",
-            "Date collected": "2014-05-06",
-            "UKCPVS ID": "14/41",
-            "Library name": "LIB14877",
-            "Further Location information": "Caythorpe",
             "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140506",
-            "Host": "Wheat",
-            "Variety": "Oakley",
-            "Private comments": "NIAB: 14/41",
-            "Country": "UK",
-            "genotype": {
-              "Library name": "LIB14877",
-              "Genetic group": "4"
-            }
+            "Date collected (compact)": "20140523"
           },
           {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4ca6ca5bb65cc28e099"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0192",
-            "location": {
-              "north_bound": 53.0322775,
-              "latitude": 53.021631,
-              "west_bound": -0.6114799,
-              "longitude": -0.6045819,
-              "south_bound": 53.0174137,
-              "east_bound": -0.5688846
-            },
             "Town": "Caythorpe",
+            "_id": {
+              "$oid": "562a50b96ca5bb0fc909d9bc"
+            },
+            "ID": "14.0191",
+            "Private comments": "NIAB: 14/41",
+            "Company": "NIAB",
+            "location": {
+              "latitude": 53.021631,
+              "east_bound": -0.5688846,
+              "longitude": -0.6045819,
+              "north_bound": 53.0322775,
+              "west_bound": -0.6114799,
+              "south_bound": 53.0174137
+            },
+            "Library name": "LIB14877",
+            "UKCPVS ID": "14/41",
+            "Further Location information": "Caythorpe",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Date collected": "2014-05-06",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "Oakley",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140506"
+          },
+          {
+            "Town": "Caythorpe",
+            "_id": {
+              "$oid": "562a50b96ca5bb0fc909d9bd"
+            },
+            "ID": "14.0192",
+            "Private comments": "NIAB: 14/42",
+            "Company": "NIAB",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-05-06",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 53.021631,
+              "east_bound": -0.5688846,
+              "longitude": -0.6045819,
+              "north_bound": 53.0322775,
+              "west_bound": -0.6114799,
+              "south_bound": 53.0174137
+            },
             "UKCPVS ID": "14/42",
             "Further Location information": "Caythorpe",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140506",
-            "Variety": "Victo",
-            "Private comments": "NIAB: 14/42",
-            "Country": "UK"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4ca6ca5bb65cc28e09b"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0195",
-            "location": {
-              "north_bound": 52.196281,
-              "latitude": 52.18268,
-              "west_bound": 0.1813609,
-              "longitude": 0.222039,
-              "south_bound": 52.1706581,
-              "east_bound": 0.2404329
-            },
-            "Town": "Fulbourn",
-            "Date collected": "2014-05-01",
-            "UKCPVS ID": "14/69",
-            "Library name": "LIB14061",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140501",
-            "Host": "Wheat",
-            "Variety": "Galiant",
-            "Private comments": "NIAB: 14/69",
-            "County": "Cambridgeshire",
             "Country": "UK",
-            "genotype": {
-              "Library name": "LIB14061",
-              "Genetic group": "4"
-            }
+            "Variety": "Victo",
+            "Date collected (compact)": "20140506"
           },
           {
-            "Company": "NIAB",
+            "Town": "Fulbourn",
             "_id": {
-              "$oid": "5628e4ca6ca5bb65cc28e09c"
+              "$oid": "562a50b96ca5bb0fc909d9bf"
             },
+            "ID": "14.0195",
+            "Private comments": "NIAB: 14/69",
+            "Company": "NIAB",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0196",
+            "Date collected": "2014-05-01",
+            "Host": "Wheat",
+            "County": "Cambridgeshire",
             "location": {
-              "north_bound": 52.7399809,
-              "latitude": 52.2052973,
-              "west_bound": -0.4999075,
-              "longitude": 0.1218195,
-              "south_bound": 52.005779,
-              "east_bound": 0.5144548
+              "latitude": 52.18268,
+              "east_bound": 0.2404329,
+              "longitude": 0.222039,
+              "north_bound": 52.196281,
+              "west_bound": 0.1813609,
+              "south_bound": 52.1706581
             },
+            "Library name": "LIB14061",
+            "UKCPVS ID": "14/69",
+            "Country": "UK",
+            "Variety": "Galiant",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140501"
+          },
+          {
+            "_id": {
+              "$oid": "562a50b96ca5bb0fc909d9c0"
+            },
+            "ID": "14.0196",
+            "Private comments": "NIAB: 14/87",
+            "Company": "NIAB",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Date collected": "2014-06-05",
+            "Host": "Spring Wheat",
+            "County": "Cambridgeshire",
+            "location": {
+              "latitude": 52.2052973,
+              "east_bound": 0.5144548,
+              "longitude": 0.1218195,
+              "north_bound": 52.7399809,
+              "west_bound": -0.4999075,
+              "south_bound": 52.005779
+            },
             "UKCPVS ID": "14/87",
             "Further Location information": "Noon folly - plot 4",
-            "Host": "Spring Wheat",
-            "Date collected (compact)": "20140605",
+            "Country": "UK",
             "Variety": "unknown breeding line SPRING WHEAT",
-            "County": "Cambridgeshire",
-            "Private comments": "NIAB: 14/87",
-            "Country": "UK"
+            "Date collected (compact)": "20140605"
           },
           {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4ca6ca5bb65cc28e09d"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0197",
-            "location": {
-              "north_bound": 51.1758942,
-              "latitude": 51.1679846,
-              "west_bound": -1.339582,
-              "longitude": -1.3322212,
-              "south_bound": 51.1642756,
-              "east_bound": -1.3209118
-            },
             "Town": "Sutton Scotney",
-            "Date collected": "2014-06-02",
-            "UKCPVS ID": "14/77",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140602",
-            "Variety": "Timber",
-            "County": "Hampshire",
+            "_id": {
+              "$oid": "562a50b96ca5bb0fc909d9c1"
+            },
+            "ID": "14.0197",
             "Private comments": "NIAB: 14/77",
+            "Company": "NIAB",
+            "Postal code": "SO21 3NE",
+            "Date collected": "2014-06-02",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "County": "Hampshire",
+            "location": {
+              "latitude": 51.1679846,
+              "east_bound": -1.3209118,
+              "longitude": -1.3322212,
+              "north_bound": 51.1758942,
+              "west_bound": -1.339582,
+              "south_bound": 51.1642756
+            },
+            "UKCPVS ID": "14/77",
             "Country": "UK",
             "Further Location information": "Norton, Sutton Scotney, Wincester SO21 3NE",
-            "Postal code": "SO21 3NE"
+            "Variety": "Timber",
+            "Date collected (compact)": "20140602"
           },
           {
             "_id": {
-              "$oid": "5628e4ca6ca5bb65cc28e09e"
+              "$oid": "562a50ba6ca5bb0fc909d9c2"
             },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0198",
-            "location": {
-              "north_bound": 52.0805364,
-              "latitude": 51.8097823,
-              "west_bound": -0.7457891,
-              "longitude": -0.2376744,
-              "south_bound": 51.5996179,
-              "east_bound": 0.1955669
-            },
-            "Date collected": "2014-06-02",
-            "UKCPVS ID": "14/79",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140602",
-            "Variety": "Delphi (prob rogue)",
-            "County": "Hertfordshire",
             "Private comments": "NIAB: 14/79",
-            "Country": "UK"
+            "Company": "NIAB",
+            "Host": "Wheat",
+            "Date collected": "2014-06-02",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "County": "Hertfordshire",
+            "location": {
+              "latitude": 51.8097823,
+              "east_bound": 0.1955669,
+              "longitude": -0.2376744,
+              "north_bound": 52.0805364,
+              "west_bound": -0.7457891,
+              "south_bound": 51.5996179
+            },
+            "UKCPVS ID": "14/79",
+            "Country": "UK",
+            "Variety": "Delphi (prob rogue)",
+            "Date collected (compact)": "20140602"
           },
           {
-            "Company": "NIAB",
             "_id": {
-              "$oid": "5628e4ca6ca5bb65cc28e09f"
+              "$oid": "562a50ba6ca5bb0fc909d9c3"
             },
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0199",
-            "location": {
-              "north_bound": 51.4803103,
-              "latitude": 51.2787075,
-              "west_bound": 0.0335197,
-              "longitude": 0.5217254,
-              "south_bound": 50.9105289,
-              "east_bound": 1.4496433
-            },
+            "Private comments": "NIAB: 14/86",
+            "Company": "NIAB",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Date collected": "2014-06-06",
+            "Host": "Wheat",
+            "County": "Kent",
+            "location": {
+              "latitude": 51.2787075,
+              "east_bound": 1.4496433,
+              "longitude": 0.5217254,
+              "north_bound": 51.4803103,
+              "west_bound": 0.0335197,
+              "south_bound": 50.9105289
+            },
             "UKCPVS ID": "14/86",
             "Further Location information": "plot 3/NLT2",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140606",
-            "County": "Kent",
-            "Private comments": "NIAB: 14/86",
-            "Country": "UK"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4cb6ca5bb65cc28e0a0"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0203",
-            "location": {
-              "north_bound": 51.1758942,
-              "latitude": 51.1679846,
-              "west_bound": -1.339582,
-              "longitude": -1.3322212,
-              "south_bound": 51.1642756,
-              "east_bound": -1.3209118
-            },
-            "Town": "Sutton Scotney",
-            "Date collected": "2014-06-02",
-            "UKCPVS ID": "14/75",
-            "Library name": "LIB14879",
-            "Postal code": "SO21 3NE",
-            "Further Location information": "Norton, Sutton Scotney, Wincester SO21 3NE",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140602",
-            "Private comments": "NIAB: 14/75",
-            "County": "Hampshire",
             "Country": "UK",
-            "Variety": "KWS Sterling",
-            "genotype": {
-              "Library name": "LIB14879",
-              "Genetic group": "4"
-            }
+            "Date collected (compact)": "20140606"
           },
           {
-            "Company": "NIAB",
+            "Town": "Sutton Scotney",
             "_id": {
-              "$oid": "5628e4cb6ca5bb65cc28e0a1"
+              "$oid": "562a50ba6ca5bb0fc909d9c5"
             },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0204",
-            "location": {
-              "north_bound": 52.5583002,
-              "latitude": 52.5539247,
-              "west_bound": 1.0220689,
-              "longitude": 1.029127,
-              "south_bound": 52.5462202,
-              "east_bound": 1.0378962
-            },
-            "Town": "Morley",
-            "Date collected": "2014-06-09",
-            "UKCPVS ID": "14/89",
+            "ID": "14.0202",
+            "Private comments": "NIAB: 14/71",
+            "Company": "NIAB",
+            "Postal code": "SO21 3NE",
+            "Date collected": "2014-06-02",
             "Host": "Wheat",
-            "Date collected (compact)": "20140609",
-            "Variety": "Panacea",
-            "County": "Norfolk",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "County": "Hampshire",
+            "location": {
+              "latitude": 51.1679846,
+              "east_bound": -1.3209118,
+              "longitude": -1.3322212,
+              "north_bound": 51.1758942,
+              "west_bound": -1.339582,
+              "south_bound": 51.1642756
+            },
+            "UKCPVS ID": "14/71",
+            "Country": "UK",
+            "Further Location information": "Norton, Sutton Scotney, Wincester SO21 3NE",
+            "Variety": "Victo",
+            "Date collected (compact)": "20140602"
+          },
+          {
+            "Town": "Sutton Scotney",
+            "_id": {
+              "$oid": "562a50ba6ca5bb0fc909d9c6"
+            },
+            "ID": "14.0203",
+            "Company": "NIAB",
+            "Private comments": "NIAB: 14/75",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Postal code": "SO21 3NE",
+            "Date collected": "2014-06-02",
+            "County": "Hampshire",
+            "location": {
+              "latitude": 51.1679846,
+              "east_bound": -1.3209118,
+              "longitude": -1.3322212,
+              "north_bound": 51.1758942,
+              "west_bound": -1.339582,
+              "south_bound": 51.1642756
+            },
+            "Library name": "LIB14879",
+            "UKCPVS ID": "14/75",
+            "Country": "UK",
+            "Further Location information": "Norton, Sutton Scotney, Wincester SO21 3NE",
+            "Variety": "KWS Sterling",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140602"
+          },
+          {
+            "Town": "Morley",
+            "_id": {
+              "$oid": "562a50ba6ca5bb0fc909d9c7"
+            },
+            "ID": "14.0204",
             "Private comments": "NIAB: 14/89",
+            "Company": "NIAB",
+            "Postal code": "NR18 9DF",
+            "Date collected": "2014-06-09",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "County": "Norfolk",
+            "location": {
+              "latitude": 52.5539247,
+              "east_bound": 1.0378962,
+              "longitude": 1.029127,
+              "north_bound": 52.5583002,
+              "west_bound": 1.0220689,
+              "south_bound": 52.5462202
+            },
+            "UKCPVS ID": "14/89",
             "Country": "UK",
             "Further Location information": "Morley, NR18 9DF",
-            "Postal code": "NR18 9DF"
+            "Variety": "Panacea",
+            "Date collected (compact)": "20140609"
           },
           {
+            "Town": "Fulbourn",
             "_id": {
-              "$oid": "5628e4cb6ca5bb65cc28e0a2"
+              "$oid": "562a50ba6ca5bb0fc909d9c8"
             },
+            "ID": "14.0207",
+            "Private comments": "NIAB: T14/5",
             "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0205",
             "location": {
-              "north_bound": 52.5967839802915,
-              "latitude": 52.595435,
-              "west_bound": 0.807500919708498,
-              "longitude": 0.8088499,
-              "south_bound": 52.5940860197085,
-              "east_bound": 0.810198880291502
+              "latitude": 52.18268,
+              "east_bound": 0.2404329,
+              "longitude": 0.222039,
+              "north_bound": 52.196281,
+              "west_bound": 0.1813609,
+              "south_bound": 52.1706581
             },
-            "Town": "Morley",
-            "Date collected": "2014-05-01",
-            "UKCPVS ID": "14/64",
-            "Library name": "LIB14880",
-            "Further Location information": "Morley",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140501",
-            "Host": "Wheat",
-            "Private comments": "NIAB: 14/64",
-            "County": "Norfolk",
-            "Country": "UK",
-            "Variety": "Solstice",
-            "genotype": {
-              "Library name": "LIB14880",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4cb6ca5bb65cc28e0a5"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0208",
-            "location": {
-              "north_bound": 51.1758942,
-              "latitude": 51.1679846,
-              "west_bound": -1.339582,
-              "longitude": -1.3322212,
-              "south_bound": 51.1642756,
-              "east_bound": -1.3209118
-            },
-            "Town": "Sutton Scotney",
-            "Date collected": "2014-06-02",
-            "UKCPVS ID": "14/74",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140602",
-            "Variety": "Cordiale",
-            "County": "Hampshire",
-            "Private comments": "NIAB: 14/74",
-            "Country": "UK",
-            "Further Location information": "Norton, Sutton Scotney, Wincester SO21 3NE",
-            "Postal code": "SO21 3NE"
-          },
-          {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4cc6ca5bb65cc28e0a6"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0209",
-            "location": {
-              "north_bound": 51.1758942,
-              "latitude": 51.1679846,
-              "west_bound": -1.339582,
-              "longitude": -1.3322212,
-              "south_bound": 51.1642756,
-              "east_bound": -1.3209118
-            },
-            "Town": "Sutton Scotney",
-            "Date collected": "2014-06-02",
-            "UKCPVS ID": "14/76",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140602",
-            "Variety": "Relay",
-            "County": "Hampshire",
-            "Private comments": "NIAB: 14/76",
-            "Country": "UK",
-            "Further Location information": "Norton, Sutton Scotney, Wincester SO21 3NE",
-            "Postal code": "SO21 3NE"
-          },
-          {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4cc6ca5bb65cc28e0a8"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0211",
-            "location": {
-              "north_bound": 52.5967839802915,
-              "latitude": 52.595435,
-              "west_bound": 0.807500919708498,
-              "longitude": 0.8088499,
-              "south_bound": 52.5940860197085,
-              "east_bound": 0.810198880291502
-            },
-            "Town": "Morley",
-            "Date collected": "2014-05-01",
-            "UKCPVS ID": "14/61",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140501",
-            "Variety": "Timber",
-            "County": "Norfolk",
-            "Private comments": "NIAB: 14/61 B",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4cc6ca5bb65cc28e0a9"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0213",
-            "location": {
-              "north_bound": 51.1758942,
-              "latitude": 51.1679846,
-              "west_bound": -1.339582,
-              "longitude": -1.3322212,
-              "south_bound": 51.1642756,
-              "east_bound": -1.3209118
-            },
-            "Town": "Sutton Scotney",
-            "Date collected": "2014-06-02",
-            "UKCPVS ID": "14/73",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140602",
-            "Variety": "Claire",
-            "County": "Hampshire",
-            "Private comments": "NIAB: 14/73",
-            "Country": "UK",
-            "Further Location information": "Norton, Sutton Scotney, Wincester SO21 3NE",
-            "Postal code": "SO21 3NE"
-          },
-          {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4cc6ca5bb65cc28e0aa"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0214",
-            "location": {
-              "north_bound": 52.5967839802915,
-              "latitude": 52.595435,
-              "west_bound": 0.807500919708498,
-              "longitude": 0.8088499,
-              "south_bound": 52.5940860197085,
-              "east_bound": 0.810198880291502
-            },
-            "Town": "Morley",
-            "Date collected": "2014-05-01",
-            "UKCPVS ID": "14/61",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140501",
-            "Variety": "Timber",
-            "County": "Norfolk",
-            "Private comments": "NIAB: 14/61 A",
-            "Country": "UK"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4cc6ca5bb65cc28e0ab"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0216",
-            "location": {
-              "north_bound": 52.5967839802915,
-              "latitude": 52.595435,
-              "west_bound": 0.807500919708498,
-              "longitude": 0.8088499,
-              "south_bound": 52.5940860197085,
-              "east_bound": 0.810198880291502
-            },
-            "Town": "Morley",
-            "Date collected": "2014-05-01",
-            "UKCPVS ID": "14/65",
-            "Library name": "LIB14070",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140501",
-            "Host": "Wheat",
-            "Variety": "Oakley",
-            "Private comments": "NIAB: 14/65",
-            "County": "Norfolk",
-            "Country": "UK",
-            "genotype": {
-              "Library name": "LIB14070",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4cc6ca5bb65cc28e0ac"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0217",
-            "location": {
-              "north_bound": 51.9276638,
-              "latitude": 51.9237619,
-              "west_bound": -1.0583726,
-              "longitude": -1.0566857,
-              "south_bound": 51.9159346,
-              "east_bound": -1.0492984
-            },
-            "Town": "Twyford",
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "T14/5",
+            "Further Location information": "Fulbourn",
             "Date collected": "2014-05-29",
-            "UKCPVS ID": "14/70",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Triticale",
+            "Country": "UK",
+            "Variety": "Benetto",
+            "Date collected (compact)": "20140529"
+          },
+          {
+            "Town": "Sutton Scotney",
+            "_id": {
+              "$oid": "562a50ba6ca5bb0fc909d9c9"
+            },
+            "ID": "14.0208",
+            "Private comments": "NIAB: 14/74",
+            "Company": "NIAB",
+            "Postal code": "SO21 3NE",
+            "Date collected": "2014-06-02",
             "Host": "Wheat",
-            "Date collected (compact)": "20140529",
-            "Variety": "Cocoon",
-            "County": "Oxfordshire",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "County": "Hampshire",
+            "location": {
+              "latitude": 51.1679846,
+              "east_bound": -1.3209118,
+              "longitude": -1.3322212,
+              "north_bound": 51.1758942,
+              "west_bound": -1.339582,
+              "south_bound": 51.1642756
+            },
+            "UKCPVS ID": "14/74",
+            "Country": "UK",
+            "Further Location information": "Norton, Sutton Scotney, Wincester SO21 3NE",
+            "Variety": "Cordiale",
+            "Date collected (compact)": "20140602"
+          },
+          {
+            "Town": "Morley",
+            "_id": {
+              "$oid": "562a50bb6ca5bb0fc909d9cb"
+            },
+            "ID": "14.0211",
+            "Private comments": "NIAB: 14/61 B",
+            "Company": "NIAB",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "Date collected": "2014-05-01",
+            "County": "Norfolk",
+            "location": {
+              "latitude": 52.5539888,
+              "east_bound": 1.0769157,
+              "longitude": 1.0396228,
+              "north_bound": 52.5681914,
+              "west_bound": 1.0220748,
+              "south_bound": 52.5354401
+            },
+            "UKCPVS ID": "14/61",
+            "Country": "UK",
+            "Variety": "Timber",
+            "Date collected (compact)": "20140501"
+          },
+          {
+            "_id": {
+              "$oid": "562a50bb6ca5bb0fc909d9cc"
+            },
+            "ID": "14.0212",
+            "Private comments": "NIAB: T14/06",
+            "Company": "NIAB",
+            "Host": "Triticale",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-06-05",
+            "location": {
+              "latitude": 55.378051,
+              "east_bound": 1.7627096,
+              "longitude": -3.435973,
+              "north_bound": 60.856553,
+              "west_bound": -8.6493572,
+              "south_bound": 49.8699654
+            },
+            "UKCPVS ID": "T14/06",
+            "Further Location information": "plot 10",
+            "Country": "UK",
+            "Variety": "spring triticale",
+            "Date collected (compact)": "20140605"
+          },
+          {
+            "Town": "Sutton Scotney",
+            "_id": {
+              "$oid": "562a50bb6ca5bb0fc909d9cd"
+            },
+            "ID": "14.0213",
+            "Private comments": "NIAB: 14/73",
+            "Company": "NIAB",
+            "Postal code": "SO21 3NE",
+            "Date collected": "2014-06-02",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "County": "Hampshire",
+            "location": {
+              "latitude": 51.1679846,
+              "east_bound": -1.3209118,
+              "longitude": -1.3322212,
+              "north_bound": 51.1758942,
+              "west_bound": -1.339582,
+              "south_bound": 51.1642756
+            },
+            "UKCPVS ID": "14/73",
+            "Country": "UK",
+            "Further Location information": "Norton, Sutton Scotney, Wincester SO21 3NE",
+            "Variety": "Claire",
+            "Date collected (compact)": "20140602"
+          },
+          {
+            "Town": "Morley",
+            "_id": {
+              "$oid": "562a50bb6ca5bb0fc909d9ce"
+            },
+            "ID": "14.0214",
+            "Private comments": "NIAB: 14/61 A",
+            "Company": "NIAB",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "Date collected": "2014-05-01",
+            "County": "Norfolk",
+            "location": {
+              "latitude": 52.5539888,
+              "east_bound": 1.0769157,
+              "longitude": 1.0396228,
+              "north_bound": 52.5681914,
+              "west_bound": 1.0220748,
+              "south_bound": 52.5354401
+            },
+            "UKCPVS ID": "14/61",
+            "Country": "UK",
+            "Variety": "Timber",
+            "Date collected (compact)": "20140501"
+          },
+          {
+            "Town": "Morley",
+            "_id": {
+              "$oid": "562a50bb6ca5bb0fc909d9cf"
+            },
+            "ID": "14.0215",
+            "Private comments": "NIAB: 14/60",
+            "Company": "NIAB",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-05-01",
+            "Host": "Wheat",
+            "County": "Norfolk",
+            "location": {
+              "latitude": 52.5539888,
+              "east_bound": 1.0769157,
+              "longitude": 1.0396228,
+              "north_bound": 52.5681914,
+              "west_bound": 1.0220748,
+              "south_bound": 52.5354401
+            },
+            "Library name": "LIB14895",
+            "UKCPVS ID": "14/60",
+            "Country": "UK",
+            "Variety": "Warrior",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140501"
+          },
+          {
+            "Town": "Morley",
+            "_id": {
+              "$oid": "562a50bb6ca5bb0fc909d9d0"
+            },
+            "ID": "14.0216",
+            "Private comments": "NIAB: 14/65",
+            "Company": "NIAB",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-05-01",
+            "Host": "Wheat",
+            "County": "Norfolk",
+            "location": {
+              "latitude": 52.5539888,
+              "east_bound": 1.0769157,
+              "longitude": 1.0396228,
+              "north_bound": 52.5681914,
+              "west_bound": 1.0220748,
+              "south_bound": 52.5354401
+            },
+            "Library name": "LIB14070",
+            "UKCPVS ID": "14/65",
+            "Country": "UK",
+            "Variety": "Oakley",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140501"
+          },
+          {
+            "Town": "Twyford",
+            "_id": {
+              "$oid": "562a50bb6ca5bb0fc909d9d1"
+            },
+            "ID": "14.0217",
             "Private comments": "NIAB: 14/70",
+            "Company": "NIAB",
+            "Postal code": "OX27 9AY",
+            "Date collected": "2014-05-29",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "County": "Oxfordshire",
+            "location": {
+              "latitude": 51.9237619,
+              "east_bound": -1.0492984,
+              "longitude": -1.0566857,
+              "north_bound": 51.9276638,
+              "west_bound": -1.0583726,
+              "south_bound": 51.9159346
+            },
+            "UKCPVS ID": "14/70",
             "Country": "UK",
             "Further Location information": "Twyford, Bicester, OX27 9AY",
-            "Postal code": "OX27 9AY"
+            "Variety": "Cocoon",
+            "Date collected (compact)": "20140529"
           },
           {
             "_id": {
-              "$oid": "5628e4cd6ca5bb65cc28e0ad"
+              "$oid": "562a50bb6ca5bb0fc909d9d3"
             },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0221",
-            "location": {
-              "north_bound": 52.0805364,
-              "latitude": 51.8097823,
-              "west_bound": -0.7457891,
-              "longitude": -0.2376744,
-              "south_bound": 51.5996179,
-              "east_bound": 0.1955669
-            },
-            "Date collected": "2014-06-02",
-            "UKCPVS ID": "14/81",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140602",
-            "Variety": "Timber",
-            "County": "Hertfordshire",
             "Private comments": "NIAB: 14/81",
-            "Country": "UK"
+            "Company": "NIAB",
+            "Host": "Wheat",
+            "Date collected": "2014-06-02",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "County": "Hertfordshire",
+            "location": {
+              "latitude": 51.8097823,
+              "east_bound": 0.1955669,
+              "longitude": -0.2376744,
+              "north_bound": 52.0805364,
+              "west_bound": -0.7457891,
+              "south_bound": 51.5996179
+            },
+            "UKCPVS ID": "14/81",
+            "Country": "UK",
+            "Variety": "Timber",
+            "Date collected (compact)": "20140602"
           },
           {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4cd6ca5bb65cc28e0ae"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0222",
-            "location": {
-              "north_bound": 52.5967839802915,
-              "latitude": 52.595435,
-              "west_bound": 0.807500919708498,
-              "longitude": 0.8088499,
-              "south_bound": 52.5940860197085,
-              "east_bound": 0.810198880291502
-            },
             "Town": "Morley",
-            "Date collected": "2014-05-01",
+            "_id": {
+              "$oid": "562a50bb6ca5bb0fc909d9d4"
+            },
+            "ID": "14.0222",
+            "Private comments": "NIAB: 14/62",
+            "Company": "NIAB",
+            "location": {
+              "latitude": 52.5539888,
+              "east_bound": 1.0769157,
+              "longitude": 1.0396228,
+              "north_bound": 52.5681914,
+              "west_bound": 1.0220748,
+              "south_bound": 52.5354401
+            },
+            "County": "Norfolk",
             "UKCPVS ID": "14/62",
             "Further Location information": "Morley",
+            "Date collected": "2014-05-01",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Host": "Wheat",
-            "Date collected (compact)": "20140501",
+            "Country": "UK",
             "Variety": "Robigus",
-            "County": "Norfolk",
-            "Private comments": "NIAB: 14/62",
-            "Country": "UK"
+            "Date collected (compact)": "20140501"
           },
           {
             "_id": {
-              "$oid": "5628e4cd6ca5bb65cc28e0af"
+              "$oid": "562a50bc6ca5bb0fc909d9d5"
             },
-            "Company": "-",
-            "Name/Collector": "Rosemary Bayles",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0223",
-            "location": {
-              "north_bound": 52.2953078,
-              "latitude": 52.2883942,
-              "west_bound": -3.1519497,
-              "longitude": -3.1159884,
-              "south_bound": 52.2786045,
-              "east_bound": -3.0922357
-            },
-            "Public comments": "half of a stripe",
-            "Date collected": "2014-07-01",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140701",
-            "Country": "UK",
-            "Postal code": "LD8 2NT",
-            "Variety": "AC Barrie"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4cd6ca5bb65cc28e0b0"
-            },
             "Company": "-",
-            "Name/Collector": "Rosemary Bayles",
+            "Date collected": "2014-07-01",
+            "Postal code": "LD8 2NT",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0224",
-            "location": {
-              "north_bound": 52.2953078,
-              "latitude": 52.2883942,
-              "west_bound": -3.1519497,
-              "longitude": -3.1159884,
-              "south_bound": 52.2786045,
-              "east_bound": -3.0922357
-            },
-            "Public comments": "other half of above stripe",
-            "Date collected": "2014-07-01",
             "Host": "Wheat",
-            "Date collected (compact)": "20140701",
+            "location": {
+              "latitude": 52.2883942,
+              "east_bound": -3.0922357,
+              "longitude": -3.1159884,
+              "north_bound": 52.2953078,
+              "west_bound": -3.1519497,
+              "south_bound": 52.2786045
+            },
+            "Name/Collector": "Rosemary Bayles",
             "Country": "UK",
-            "Postal code": "LD8 2NT",
-            "Variety": "AC Barrie"
+            "Variety": "AC Barrie",
+            "Public comments": "half of a stripe",
+            "Date collected (compact)": "20140701"
           },
           {
-            "Company": "-",
             "_id": {
-              "$oid": "5628e4cd6ca5bb65cc28e0b1"
+              "$oid": "562a50bc6ca5bb0fc909d9d6"
+            },
+            "ID": "14.0224",
+            "Company": "-",
+            "Date collected": "2014-07-01",
+            "Postal code": "LD8 2NT",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.2883942,
+              "east_bound": -3.0922357,
+              "longitude": -3.1159884,
+              "north_bound": 52.2953078,
+              "west_bound": -3.1519497,
+              "south_bound": 52.2786045
+            },
+            "Name/Collector": "Rosemary Bayles",
+            "Country": "UK",
+            "Variety": "AC Barrie",
+            "Public comments": "other half of above stripe",
+            "Date collected (compact)": "20140701"
+          },
+          {
+            "_id": {
+              "$oid": "562a50bc6ca5bb0fc909d9d7"
+            },
+            "ID": "14.0228",
+            "Company": "-",
+            "Date collected": "2014-08-21",
+            "Postal code": "NR2 2DP",
+            "Rust (YR/SR/LR)": "?",
+            "Host": "Grass",
+            "location": {
+              "latitude": 52.6216521,
+              "east_bound": 1.2830765302915,
+              "longitude": 1.281785,
+              "north_bound": 52.6229301802915,
+              "west_bound": 1.2803785697085,
+              "south_bound": 52.6202322197085
             },
             "Name/Collector": "Diane Saunders",
-            "Rust (YR/SR/LR)": "?",
-            "ID": "14.0228",
-            "location": {
-              "north_bound": 52.6229301802915,
-              "latitude": 52.6216521,
-              "west_bound": 1.2803785697085,
-              "longitude": 1.281785,
-              "south_bound": 52.6202322197085,
-              "east_bound": 1.2830765302915
-            },
-            "Postal code": "NR2 2DP",
             "Library name": "LIB14078",
+            "Country": "UK",
             "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
-            "Date collected": "2014-08-21",
-            "Host": "Grass",
-            "Date collected (compact)": "20140821",
-            "Country": "UK"
+            "Date collected (compact)": "20140821"
           },
           {
             "_id": {
-              "$oid": "5628e4cd6ca5bb65cc28e0b2"
+              "$oid": "562a50bc6ca5bb0fc909d9d8"
             },
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0228a",
+            "Date collected": "2014-05-06",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 51.165691,
+              "east_bound": 15.0418962,
+              "longitude": 10.451526,
+              "north_bound": 55.0581236,
+              "west_bound": 5.8663425,
+              "south_bound": 47.2701115
+            },
             "Country": "Germany",
             "Public comments": "Sample A 1 of 4",
-            "location": {
-              "north_bound": 55.0581236,
-              "latitude": 51.165691,
-              "west_bound": 5.8663425,
-              "longitude": 10.451526,
-              "south_bound": 47.2701115,
-              "east_bound": 15.0418962
-            },
-            "Date collected": "2014-05-06",
             "Date collected (compact)": "20140506"
           },
           {
             "_id": {
-              "$oid": "5628e4cd6ca5bb65cc28e0b3"
+              "$oid": "562a50bc6ca5bb0fc909d9d9"
             },
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0229",
+            "Date collected": "2014-05-06",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 51.165691,
+              "east_bound": 15.0418962,
+              "longitude": 10.451526,
+              "north_bound": 55.0581236,
+              "west_bound": 5.8663425,
+              "south_bound": 47.2701115
+            },
             "Country": "Germany",
             "Public comments": "Sample A 2 of 4",
-            "location": {
-              "north_bound": 55.0581236,
-              "latitude": 51.165691,
-              "west_bound": 5.8663425,
-              "longitude": 10.451526,
-              "south_bound": 47.2701115,
-              "east_bound": 15.0418962
-            },
-            "Date collected": "2014-05-06",
             "Date collected (compact)": "20140506"
           },
           {
             "_id": {
-              "$oid": "5628e4cd6ca5bb65cc28e0b4"
+              "$oid": "562a50bc6ca5bb0fc909d9da"
             },
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.023",
+            "Date collected": "2014-05-06",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 51.165691,
+              "east_bound": 15.0418962,
+              "longitude": 10.451526,
+              "north_bound": 55.0581236,
+              "west_bound": 5.8663425,
+              "south_bound": 47.2701115
+            },
             "Country": "Germany",
             "Public comments": "Sample A 3 of 4",
-            "location": {
-              "north_bound": 55.0581236,
-              "latitude": 51.165691,
-              "west_bound": 5.8663425,
-              "longitude": 10.451526,
-              "south_bound": 47.2701115,
-              "east_bound": 15.0418962
-            },
-            "Date collected": "2014-05-06",
             "Date collected (compact)": "20140506"
           },
           {
             "_id": {
-              "$oid": "5628e4ce6ca5bb65cc28e0b5"
+              "$oid": "562a50bc6ca5bb0fc909d9db"
             },
+            "ID": "14.0231",
+            "Date collected": "2014-05-06",
             "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 51.165691,
+              "east_bound": 15.0418962,
+              "longitude": 10.451526,
+              "north_bound": 55.0581236,
+              "west_bound": 5.8663425,
+              "south_bound": 47.2701115
+            },
+            "Country": "Germany",
+            "Public comments": "Sample A 4 of 4",
+            "Date collected (compact)": "20140506"
+          },
+          {
+            "_id": {
+              "$oid": "562a50bc6ca5bb0fc909d9dc"
+            },
+            "ID": "14.0232",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-05-06",
+            "location": {
+              "latitude": 51.165691,
+              "east_bound": 15.0418962,
+              "longitude": 10.451526,
+              "north_bound": 55.0581236,
+              "west_bound": 5.8663425,
+              "south_bound": 47.2701115
+            },
+            "Country": "Germany",
+            "Library name": "LIB14884",
+            "Public comments": "Sample B 1 of 4",
+            "Date collected (compact)": "20140506"
+          },
+          {
+            "_id": {
+              "$oid": "562a50bc6ca5bb0fc909d9dd"
+            },
+            "ID": "14.0233",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-05-06",
+            "location": {
+              "latitude": 51.165691,
+              "east_bound": 15.0418962,
+              "longitude": 10.451526,
+              "north_bound": 55.0581236,
+              "west_bound": 5.8663425,
+              "south_bound": 47.2701115
+            },
+            "Country": "Germany",
+            "Library name": "LIB14083",
+            "Public comments": "Sample B 2 of 4",
+            "Date collected (compact)": "20140506"
+          },
+          {
+            "_id": {
+              "$oid": "562a50bc6ca5bb0fc909d9de"
+            },
+            "ID": "14.0234",
+            "Date collected": "2014-05-06",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 51.165691,
+              "east_bound": 15.0418962,
+              "longitude": 10.451526,
+              "north_bound": 55.0581236,
+              "west_bound": 5.8663425,
+              "south_bound": 47.2701115
+            },
+            "Country": "Germany",
+            "Public comments": "Sample B 3 of 4",
+            "Date collected (compact)": "20140506"
+          },
+          {
+            "_id": {
+              "$oid": "562a50bc6ca5bb0fc909d9df"
+            },
             "ID": "14.0235",
+            "Date collected": "2014-05-06",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 51.165691,
+              "east_bound": 15.0418962,
+              "longitude": 10.451526,
+              "north_bound": 55.0581236,
+              "west_bound": 5.8663425,
+              "south_bound": 47.2701115
+            },
             "Country": "Germany",
             "Public comments": "Sample B 4 of 4",
-            "location": {
-              "north_bound": 55.0581236,
-              "latitude": 51.165691,
-              "west_bound": 5.8663425,
-              "longitude": 10.451526,
-              "south_bound": 47.2701115,
-              "east_bound": 15.0418962
-            },
-            "Date collected": "2014-05-06",
             "Date collected (compact)": "20140506"
           },
           {
+            "Town": "Sinanars",
             "_id": {
-              "$oid": "5628e4ce6ca5bb65cc28e0b6"
+              "$oid": "562a50bc6ca5bb0fc909d9e0"
             },
-            "Name/Collector": "Dave Hodson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0236",
+            "Date collected": "2014-12-01",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 9.145,
+              "east_bound": 48.0010561,
+              "longitude": 40.489673,
+              "north_bound": 14.8942141,
+              "west_bound": 32.997734,
+              "south_bound": 3.4041369
+            },
+            "Library name": "LIB14655",
+            "Name/Collector": "Dave Hodson",
+            "Further Location information": "Sinanars",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
             "Country": "Ethiopia",
             "Public comments": "4E YR 1",
-            "Town": "Sinanars",
-            "location": {
-              "north_bound": 14.8942141,
-              "latitude": 9.145,
-              "west_bound": 32.997734,
-              "longitude": 40.489673,
-              "south_bound": 3.4041369,
-              "east_bound": 48.0010561
-            },
-            "Further Location information": "Sinanars",
-            "Library name": "LIB14655",
-            "Date collected": "2014-12-01",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
             "Date collected (compact)": "20141201"
           },
           {
-            "_id": {
-              "$oid": "5628e4ce6ca5bb65cc28e0b7"
-            },
-            "Name/Collector": "Dave Hodson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0237",
             "Town": "Sembo",
-            "location": {
-              "north_bound": 9.4601998,
-              "latitude": 9.416172,
-              "west_bound": 39.2899402,
-              "longitude": 39.3539699,
-              "south_bound": 9.3721386,
-              "east_bound": 39.4179996
+            "_id": {
+              "$oid": "562a50bd6ca5bb0fc909d9e1"
             },
-            "Public comments": "4E YR 2",
-            "Further Location information": "Sembo",
-            "Library name": "LIB14656",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "ID": "14.0237",
             "Date collected": "2014-12-09",
-            "Date collected (compact)": "20141209",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Host": "Wheat",
-            "Country": "Ethiopia",
-            "Variety": "Digalu"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4ce6ca5bb65cc28e0b8"
+            "location": {
+              "latitude": 9.416172,
+              "east_bound": 39.4179996,
+              "longitude": 39.3539699,
+              "north_bound": 9.4601998,
+              "west_bound": 39.2899402,
+              "south_bound": 9.3721386
             },
             "Name/Collector": "Dave Hodson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Library name": "LIB14656",
+            "Further Location information": "Sembo",
+            "Country": "Ethiopia",
+            "Variety": "Digalu",
+            "Public comments": "4E YR 2",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20141209"
+          },
+          {
+            "Town": "Sinanars",
+            "_id": {
+              "$oid": "562a50bd6ca5bb0fc909d9e2"
+            },
             "ID": "14.0238",
-            "Town": "Sinanars",
-            "location": {
-              "north_bound": 14.8942141,
-              "latitude": 9.145,
-              "west_bound": 32.997734,
-              "longitude": 40.489673,
-              "south_bound": 3.4041369,
-              "east_bound": 48.0010561
-            },
-            "Public comments": "4E YR 3",
-            "Further Location information": "Sinanars",
-            "Library name": "LIB14657",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
             "Date collected": "2014-12-01",
-            "Date collected (compact)": "20141201",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Host": "Wheat",
-            "Country": "Ethiopia",
-            "Variety": "Hidasse"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4ce6ca5bb65cc28e0b9"
+            "location": {
+              "latitude": 9.145,
+              "east_bound": 48.0010561,
+              "longitude": 40.489673,
+              "north_bound": 14.8942141,
+              "west_bound": 32.997734,
+              "south_bound": 3.4041369
             },
             "Name/Collector": "Dave Hodson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Library name": "LIB14657",
+            "Further Location information": "Sinanars",
+            "Country": "Ethiopia",
+            "Variety": "Hidasse",
+            "Public comments": "4E YR 3",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20141201"
+          },
+          {
+            "Town": "Sinanars",
+            "_id": {
+              "$oid": "562a50bd6ca5bb0fc909d9e3"
+            },
             "ID": "14.0239",
-            "Country": "Ethiopia",
-            "Public comments": "4E YR 4",
-            "Town": "Sinanars",
-            "location": {
-              "north_bound": 14.8942141,
-              "latitude": 9.145,
-              "west_bound": 32.997734,
-              "longitude": 40.489673,
-              "south_bound": 3.4041369,
-              "east_bound": 48.0010561
-            },
-            "Further Location information": "Sinanars",
-            "Library name": "LIB14658",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
             "Date collected": "2014-12-01",
-            "Variety": "Henkolo",
-            "Date collected (compact)": "20141201"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4ce6ca5bb65cc28e0ba"
-            },
-            "Name/Collector": "Dave Hodson",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.024",
-            "Country": "Ethiopia",
-            "Public comments": "4E YR 5",
-            "Town": "Sinanars",
             "location": {
-              "north_bound": 14.8942141,
               "latitude": 9.145,
-              "west_bound": 32.997734,
+              "east_bound": 48.0010561,
               "longitude": 40.489673,
-              "south_bound": 3.4041369,
-              "east_bound": 48.0010561
+              "north_bound": 14.8942141,
+              "west_bound": 32.997734,
+              "south_bound": 3.4041369
             },
+            "Library name": "LIB14658",
+            "Name/Collector": "Dave Hodson",
             "Further Location information": "Sinanars",
-            "Library name": "LIB14659",
+            "Country": "Ethiopia",
+            "Variety": "Henkolo",
+            "Public comments": "4E YR 4",
             "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2014-12-01",
-            "Variety": "Sanate",
             "Date collected (compact)": "20141201"
           },
           {
+            "Town": "Sinanars",
             "_id": {
-              "$oid": "5628e4ce6ca5bb65cc28e0bb"
+              "$oid": "562a50bd6ca5bb0fc909d9e4"
             },
+            "ID": "14.024",
+            "Date collected": "2014-12-01",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 9.145,
+              "east_bound": 48.0010561,
+              "longitude": 40.489673,
+              "north_bound": 14.8942141,
+              "west_bound": 32.997734,
+              "south_bound": 3.4041369
+            },
+            "Library name": "LIB14659",
             "Name/Collector": "Dave Hodson",
-            "Rust (YR/SR/LR)": "Stem Rust",
+            "Further Location information": "Sinanars",
+            "Country": "Ethiopia",
+            "Variety": "Sanate",
+            "Public comments": "4E YR 5",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20141201"
+          },
+          {
+            "Town": "Sinanars",
+            "_id": {
+              "$oid": "562a50bd6ca5bb0fc909d9e5"
+            },
             "ID": "14.0241",
-            "location": {
-              "north_bound": 14.8942141,
-              "latitude": 9.145,
-              "west_bound": 32.997734,
-              "longitude": 40.489673,
-              "south_bound": 3.4041369,
-              "east_bound": 48.0010561
-            },
-            "Town": "Sinanars",
-            "Country": "Ethiopia",
             "Date collected": "2014-12-02",
-            "Date collected (compact)": "20141202",
+            "Rust (YR/SR/LR)": "Stem Rust",
             "Host": "Barley",
-            "Further Location information": "Sinanars",
-            "Variety": "Malt"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4ce6ca5bb65cc28e0bc"
+            "location": {
+              "latitude": 9.145,
+              "east_bound": 48.0010561,
+              "longitude": 40.489673,
+              "north_bound": 14.8942141,
+              "west_bound": 32.997734,
+              "south_bound": 3.4041369
             },
             "Name/Collector": "Dave Hodson",
-            "Rust (YR/SR/LR)": "Stem Rust",
+            "Further Location information": "Sinanars",
+            "Country": "Ethiopia",
+            "Variety": "Malt",
+            "Date collected (compact)": "20141202"
+          },
+          {
+            "Town": "Sinanars",
+            "_id": {
+              "$oid": "562a50bd6ca5bb0fc909d9e6"
+            },
             "ID": "14.0242",
-            "location": {
-              "north_bound": 14.8942141,
-              "latitude": 9.145,
-              "west_bound": 32.997734,
-              "longitude": 40.489673,
-              "south_bound": 3.4041369,
-              "east_bound": 48.0010561
-            },
-            "Town": "Sinanars",
-            "Country": "Ethiopia",
             "Date collected": "2014-12-02",
-            "Date collected (compact)": "20141202",
+            "Rust (YR/SR/LR)": "Stem Rust",
             "Host": "Barley",
-            "Further Location information": "Sinanars",
-            "Variety": "Food"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4ce6ca5bb65cc28e0bd"
+            "location": {
+              "latitude": 9.145,
+              "east_bound": 48.0010561,
+              "longitude": 40.489673,
+              "north_bound": 14.8942141,
+              "west_bound": 32.997734,
+              "south_bound": 3.4041369
             },
             "Name/Collector": "Dave Hodson",
-            "Rust (YR/SR/LR)": "Stem Rust",
-            "ID": "14.0243",
-            "location": {
-              "north_bound": 7.262795,
-              "latitude": 7.2488142,
-              "west_bound": 39.9127231,
-              "longitude": 39.9247429,
-              "south_bound": 7.2361887,
-              "east_bound": 39.9440161
-            },
-            "Town": "Ali",
+            "Further Location information": "Sinanars",
             "Country": "Ethiopia",
+            "Variety": "Food",
+            "Date collected (compact)": "20141202"
+          },
+          {
+            "Town": "Ali",
+            "_id": {
+              "$oid": "562a50bd6ca5bb0fc909d9e7"
+            },
+            "ID": "14.0243",
             "Date collected": "2014-12-02",
-            "Variety": "Kakasa",
+            "Rust (YR/SR/LR)": "Stem Rust",
+            "location": {
+              "latitude": 7.2488142,
+              "east_bound": 39.9440161,
+              "longitude": 39.9247429,
+              "north_bound": 7.262795,
+              "west_bound": 39.9127231,
+              "south_bound": 7.2361887
+            },
+            "Name/Collector": "Dave Hodson",
             "Further Location information": "Ali",
+            "Country": "Ethiopia",
+            "Variety": "Kakasa",
+            "Date collected (compact)": "20141202"
+          },
+          {
+            "Town": "Robe",
+            "_id": {
+              "$oid": "562a50bd6ca5bb0fc909d9e8"
+            },
+            "ID": "14.0244",
+            "Date collected": "2014-12-02",
+            "Rust (YR/SR/LR)": "Stem Rust",
+            "location": {
+              "latitude": 7.8625672,
+              "east_bound": 39.6450233,
+              "longitude": 39.6260058,
+              "north_bound": 7.8841271,
+              "west_bound": 39.6162702,
+              "south_bound": 7.8488425
+            },
+            "Name/Collector": "Dave Hodson",
+            "Further Location information": "Robe",
+            "Country": "Ethiopia",
+            "Variety": "Sufumer",
             "Date collected (compact)": "20141202"
           },
           {
             "_id": {
-              "$oid": "5628e4ce6ca5bb65cc28e0be"
+              "$oid": "562a50bd6ca5bb0fc909d9e9"
             },
-            "Name/Collector": "Clare Lewis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0245",
-            "Country": "UK",
-            "location": {
-              "north_bound": 52.6229710302915,
-              "latitude": 52.6218743,
-              "west_bound": 1.218157,
-              "longitude": 1.2223058,
-              "south_bound": 52.6202730697085,
-              "east_bound": 1.2274933
-            },
+            "Private comments": "11/08",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Postal code": "NR4 7UH",
             "Date collected": "2014-01-08",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.6218743,
+              "east_bound": 1.2274933,
+              "longitude": 1.2223058,
+              "north_bound": 52.6229710302915,
+              "west_bound": 1.218157,
+              "south_bound": 52.6202730697085
+            },
             "UKCPVS ID": "11/08",
+            "Name/Collector": "Clare Lewis",
             "Further Location information": "JIC, Burkhard",
-            "Postal code": "NR4 7UH",
-            "Date collected (compact)": "20140108",
-            "Host": "Wheat",
-            "Private comments": "11/08"
+            "Country": "UK",
+            "Date collected (compact)": "20140108"
           },
           {
             "_id": {
-              "$oid": "5628e4ce6ca5bb65cc28e0bf"
+              "$oid": "562a50bd6ca5bb0fc909d9ea"
             },
-            "Name/Collector": "Clare Lewis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0246",
-            "Country": "UK",
-            "location": {
-              "north_bound": 52.6229710302915,
-              "latitude": 52.6218743,
-              "west_bound": 1.218157,
-              "longitude": 1.2223058,
-              "south_bound": 52.6202730697085,
-              "east_bound": 1.2274933
-            },
+            "Private comments": "11/13",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Postal code": "NR4 7UH",
             "Date collected": "2014-01-08",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.6218743,
+              "east_bound": 1.2274933,
+              "longitude": 1.2223058,
+              "north_bound": 52.6229710302915,
+              "west_bound": 1.218157,
+              "south_bound": 52.6202730697085
+            },
             "UKCPVS ID": "11/13",
+            "Name/Collector": "Clare Lewis",
             "Further Location information": "JIC, Burkhard",
-            "Postal code": "NR4 7UH",
-            "Date collected (compact)": "20140108",
-            "Host": "Wheat",
-            "Private comments": "11/13"
+            "Country": "UK",
+            "Date collected (compact)": "20140108"
           },
           {
             "_id": {
-              "$oid": "5628e4cf6ca5bb65cc28e0c0"
+              "$oid": "562a50bd6ca5bb0fc909d9eb"
             },
-            "Name/Collector": "Clare Lewis",
+            "ID": "14.0247",
+            "Private comments": "11/75",
             "Rust (YR/SR/LR)": "Yellow Rust",
+            "Postal code": "NR4 7UH",
+            "Date collected": "2014-01-08",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.6218743,
+              "east_bound": 1.2274933,
+              "longitude": 1.2223058,
+              "north_bound": 52.6229710302915,
+              "west_bound": 1.218157,
+              "south_bound": 52.6202730697085
+            },
+            "UKCPVS ID": "11/75",
+            "Name/Collector": "Clare Lewis",
+            "Further Location information": "JIC, Burkhard",
+            "Country": "UK",
+            "Date collected (compact)": "20140108"
+          },
+          {
+            "_id": {
+              "$oid": "562a50be6ca5bb0fc909d9ec"
+            },
             "ID": "14.0248",
-            "Country": "UK",
-            "location": {
-              "north_bound": 52.6229710302915,
-              "latitude": 52.6218743,
-              "west_bound": 1.218157,
-              "longitude": 1.2223058,
-              "south_bound": 52.6202730697085,
-              "east_bound": 1.2274933
-            },
+            "Private comments": "11/128",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Postal code": "NR4 7UH",
             "Date collected": "2014-01-08",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.6218743,
+              "east_bound": 1.2274933,
+              "longitude": 1.2223058,
+              "north_bound": 52.6229710302915,
+              "west_bound": 1.218157,
+              "south_bound": 52.6202730697085
+            },
             "UKCPVS ID": "11/128",
+            "Name/Collector": "Clare Lewis",
             "Further Location information": "JIC, Burkhard",
-            "Postal code": "NR4 7UH",
-            "Date collected (compact)": "20140108",
-            "Host": "Wheat",
-            "Private comments": "11/128"
+            "Country": "UK",
+            "Date collected (compact)": "20140108"
           },
           {
             "_id": {
-              "$oid": "5628e4cf6ca5bb65cc28e0c1"
+              "$oid": "562a50be6ca5bb0fc909d9ed"
             },
-            "Name/Collector": "Clare Lewis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0249",
-            "Country": "UK",
-            "location": {
-              "north_bound": 52.6229710302915,
-              "latitude": 52.6218743,
-              "west_bound": 1.218157,
-              "longitude": 1.2223058,
-              "south_bound": 52.6202730697085,
-              "east_bound": 1.2274933
-            },
+            "Private comments": "11/140",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Postal code": "NR4 7UH",
             "Date collected": "2014-01-08",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.6218743,
+              "east_bound": 1.2274933,
+              "longitude": 1.2223058,
+              "north_bound": 52.6229710302915,
+              "west_bound": 1.218157,
+              "south_bound": 52.6202730697085
+            },
             "UKCPVS ID": "11/140",
+            "Name/Collector": "Clare Lewis",
             "Further Location information": "JIC, Burkhard",
-            "Postal code": "NR4 7UH",
-            "Date collected (compact)": "20140108",
-            "Host": "Wheat",
-            "Private comments": "11/140"
+            "Country": "UK",
+            "Date collected (compact)": "20140108"
           },
           {
             "_id": {
-              "$oid": "5628e4cf6ca5bb65cc28e0c2"
+              "$oid": "562a50be6ca5bb0fc909d9ee"
             },
-            "Name/Collector": "Clare Lewis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.025",
-            "Country": "UK",
-            "location": {
-              "north_bound": 52.6229710302915,
-              "latitude": 52.6218743,
-              "west_bound": 1.218157,
-              "longitude": 1.2223058,
-              "south_bound": 52.6202730697085,
-              "east_bound": 1.2274933
-            },
+            "Private comments": "12/86",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Postal code": "NR4 7UH",
             "Date collected": "2014-01-08",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.6218743,
+              "east_bound": 1.2274933,
+              "longitude": 1.2223058,
+              "north_bound": 52.6229710302915,
+              "west_bound": 1.218157,
+              "south_bound": 52.6202730697085
+            },
             "UKCPVS ID": "12/86",
+            "Name/Collector": "Clare Lewis",
             "Further Location information": "JIC, Burkhard",
-            "Postal code": "NR4 7UH",
-            "Date collected (compact)": "20140108",
-            "Host": "Wheat",
-            "Private comments": "12/86"
+            "Country": "UK",
+            "Date collected (compact)": "20140108"
           },
           {
             "_id": {
-              "$oid": "5628e4cf6ca5bb65cc28e0c3"
+              "$oid": "562a50be6ca5bb0fc909d9ef"
             },
-            "Name/Collector": "Clare Lewis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0251",
-            "Country": "UK",
-            "location": {
-              "north_bound": 52.6229710302915,
-              "latitude": 52.6218743,
-              "west_bound": 1.218157,
-              "longitude": 1.2223058,
-              "south_bound": 52.6202730697085,
-              "east_bound": 1.2274933
-            },
+            "Private comments": "01/34",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Postal code": "NR4 7UH",
             "Date collected": "2014-01-10",
+            "Host": "Wheat",
+            "location": {
+              "latitude": 52.6218743,
+              "east_bound": 1.2274933,
+              "longitude": 1.2223058,
+              "north_bound": 52.6229710302915,
+              "west_bound": 1.218157,
+              "south_bound": 52.6202730697085
+            },
             "UKCPVS ID": "01/34",
+            "Name/Collector": "Clare Lewis",
             "Further Location information": "JIC, Burkhard",
-            "Postal code": "NR4 7UH",
-            "Date collected (compact)": "20140110",
-            "Host": "Wheat",
-            "Private comments": "01/34"
+            "Country": "UK",
+            "Date collected (compact)": "20140110"
           },
           {
             "_id": {
-              "$oid": "5628e4cf6ca5bb65cc28e0c4"
+              "$oid": "562a50be6ca5bb0fc909d9f0"
             },
-            "Name/Collector": "Clare Lewis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "14.0252",
-            "Country": "UK",
-            "location": {
-              "north_bound": 52.6229710302915,
-              "latitude": 52.6218743,
-              "west_bound": 1.218157,
-              "longitude": 1.2223058,
-              "south_bound": 52.6202730697085,
-              "east_bound": 1.2274933
-            },
+            "Private comments": "78-66 SS1",
             "Date collected": "2014-01-10",
-            "Date collected (compact)": "20140110",
-            "Host": "Wheat",
-            "Further Location information": "JIC, Burkhard",
             "Postal code": "NR4 7UH",
-            "Private comments": "78-66 SS1"
-          },
-          {
-            "_id": {
-              "$oid": "5628e4cf6ca5bb65cc28e0c5"
-            },
-            "Name/Collector": "Clare Lewis",
             "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0253",
-            "Country": "UK",
+            "Host": "Wheat",
             "location": {
-              "north_bound": 52.6229710302915,
               "latitude": 52.6218743,
-              "west_bound": 1.218157,
+              "east_bound": 1.2274933,
               "longitude": 1.2223058,
-              "south_bound": 52.6202730697085,
-              "east_bound": 1.2274933
+              "north_bound": 52.6229710302915,
+              "west_bound": 1.218157,
+              "south_bound": 52.6202730697085
             },
-            "Date collected": "2014-01-08",
-            "UKCPVS ID": "12/83",
             "Further Location information": "JIC, Burkhard",
+            "Name/Collector": "Clare Lewis",
+            "Country": "UK",
+            "Date collected (compact)": "20140110"
+          },
+          {
+            "_id": {
+              "$oid": "562a50be6ca5bb0fc909d9f1"
+            },
+            "ID": "14.0253",
+            "Private comments": "12/83",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Postal code": "NR4 7UH",
-            "Date collected (compact)": "20140108",
+            "Date collected": "2014-01-08",
             "Host": "Wheat",
-            "Private comments": "12/83"
-          },
-          {
-            "Company": "NIABTAG Harper Adams",
-            "_id": {
-              "$oid": "5628e7dd6ca5bb65cc28e0c6"
-            },
-            "Name/Collector": "Menka Hopma",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0001",
             "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
+              "latitude": 52.6218743,
+              "east_bound": 1.2274933,
+              "longitude": 1.2223058,
+              "north_bound": 52.6229710302915,
+              "west_bound": 1.218157,
+              "south_bound": 52.6202730697085
             },
-            "Town": "Welbourn",
-            "Date collected": "2013-05-16",
-            "UKCPVS ID": "13/01",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130516",
+            "UKCPVS ID": "12/83",
+            "Name/Collector": "Clare Lewis",
+            "Further Location information": "JIC, Burkhard",
             "Country": "UK",
-            "Variety": "Oakley",
-            "County": "Lincolnshire",
-            "Postal Code": "LN5 0QG"
+            "Date collected (compact)": "20140108"
           },
           {
-            "Company": "NIABTAG benniworth",
-            "_id": {
-              "$oid": "5628e7dd6ca5bb65cc28e0c7"
-            },
-            "Name/Collector": "Catherine Johnson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0002",
-            "location": {
-              "north_bound": 52.8294641,
-              "latitude": 52.822722,
-              "west_bound": -2.5021894,
-              "longitude": -2.486182,
-              "south_bound": 52.8159789,
-              "east_bound": -2.4701746
-            },
-            "Town": "Childs Ercall",
-            "Date collected": "2013-05-13",
-            "UKCPVS ID": "13/02",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130513",
-            "Country": "UK",
-            "Variety": "Oakley",
-            "County": "Shropshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7dd6ca5bb65cc28e0c8"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0003",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-05-20",
-            "UKCPVS ID": "13/03",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130520",
-            "Variety": "Torch",
-            "County": "Cambridgeshire",
-            "Private comments": "HQTG",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7dd6ca5bb65cc28e0c9"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0004",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-05-20",
-            "UKCPVS ID": "13/04",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130520",
-            "Variety": "Oakley",
-            "County": "Cambridgeshire",
-            "Private comments": "HQTG",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG Sutton Scotney",
-            "_id": {
-              "$oid": "5628e7dd6ca5bb65cc28e0ca"
-            },
-            "Name/Collector": "Jane Evans",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0005",
-            "location": {
-              "north_bound": 51.7298793,
-              "latitude": 51.718495,
-              "west_bound": -1.9912892,
-              "longitude": -1.968243,
-              "south_bound": 51.70008,
-              "east_bound": -1.941325
-            },
-            "Town": "Circencester",
-            "Date collected": "2013-05-16",
-            "UKCPVS ID": "13/05",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130516",
-            "Country": "UK",
-            "Variety": "Oakley",
-            "County": "Gloucestershire"
-          },
-          {
-            "Company": "NIABTAG Headley Hall",
-            "_id": {
-              "$oid": "5628e7dd6ca5bb65cc28e0cb"
-            },
-            "Name/Collector": "Peter Burgis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0006",
-            "location": {
-              "north_bound": 54.4899666,
-              "latitude": 54.483485,
-              "west_bound": -1.5711134,
-              "longitude": -1.555106,
-              "south_bound": 54.4770024,
-              "east_bound": -1.5390986
-            },
-            "Town": "Croft",
-            "Date collected": "2013-05-17",
-            "UKCPVS ID": "13/06",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130517",
-            "Country": "UK",
-            "Variety": "Torch",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7dd6ca5bb65cc28e0cc"
-            },
-            "Name/Collector": "Peter Burgis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0007",
-            "location": {
-              "north_bound": 54.4899666,
-              "latitude": 54.483485,
-              "west_bound": -1.5711134,
-              "longitude": -1.555106,
-              "south_bound": 54.4770024,
-              "east_bound": -1.5390986
-            },
-            "Town": "Croft",
-            "Date collected": "2013-05-17",
-            "UKCPVS ID": "13/07",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130517",
-            "Country": "UK",
-            "Variety": "Claire",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG benniworth",
-            "_id": {
-              "$oid": "5628e7dd6ca5bb65cc28e0cd"
-            },
-            "Name/Collector": "Menka Hopma",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0008",
-            "location": {
-              "north_bound": 53.0322775,
-              "latitude": 53.021631,
-              "west_bound": -0.6114799,
-              "longitude": -0.6045819,
-              "south_bound": 53.0174137,
-              "east_bound": -0.5688846
-            },
-            "Town": "Caythorpe",
-            "Date collected": "2013-05-29",
-            "UKCPVS ID": "13/08",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130529",
-            "Variety": "Victo",
-            "County": "Lincolnshire",
-            "Private comments": "Date is arrival date",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG sutton scotney",
-            "_id": {
-              "$oid": "5628e7dd6ca5bb65cc28e0cf"
-            },
-            "Name/Collector": "Jane Evans",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0010",
-            "location": {
-              "north_bound": 51.7298793,
-              "latitude": 51.718495,
-              "west_bound": -1.9912892,
-              "longitude": -1.968243,
-              "south_bound": 51.70008,
-              "east_bound": -1.941325
-            },
-            "Town": "Circencester",
-            "Date collected": "2013-05-31",
-            "UKCPVS ID": "13/10",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130531",
-            "Country": "UK",
-            "Variety": "Oakley",
-            "County": "Gloucestershire"
-          },
-          {
-            "Company": "NIABTAG sutton scotney",
-            "_id": {
-              "$oid": "5628e7dd6ca5bb65cc28e0d0"
-            },
-            "Name/Collector": "Jane Evans",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0011",
-            "location": {
-              "north_bound": 51.7298793,
-              "latitude": 51.718495,
-              "west_bound": -1.9912892,
-              "longitude": -1.968243,
-              "south_bound": 51.70008,
-              "east_bound": -1.941325
-            },
-            "Town": "Circencester",
-            "Date collected": "2013-05-31",
-            "UKCPVS ID": "13/11",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130531",
-            "Country": "UK",
-            "Variety": "Horatio",
-            "County": "Gloucestershire"
-          },
-          {
-            "_id": {
-              "$oid": "5628e7dd6ca5bb65cc28e0d1"
-            },
-            "Company": "NIABTAG benniworth",
-            "Name/Collector": "Hayley Rhodes",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0012",
-            "location": {
-              "north_bound": 53.0322775,
-              "latitude": 53.021631,
-              "west_bound": -0.6114799,
-              "longitude": -0.6045819,
-              "south_bound": 53.0174137,
-              "east_bound": -0.5688846
-            },
-            "Town": "Caythorpe",
-            "UKCPVS ID": "13/12",
-            "Library name": "LIB4458",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-04",
-            "Date collected (compact)": "20130604",
-            "Host": "Wheat",
-            "Country": "UK",
-            "Variety": "RW41088",
-            "County": "Lincolnshire",
-            "genotype": {
-              "Sample name": "13/12",
-              "Library name": "LIB4458",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "Company": "NIABTAG benniworth",
-            "_id": {
-              "$oid": "5628e7de6ca5bb65cc28e0d2"
-            },
-            "Name/Collector": "Hayley Rhodes",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0013",
-            "location": {
-              "north_bound": 53.00113,
-              "latitude": 52.97894,
-              "west_bound": -0.0632467,
-              "longitude": -0.026577,
-              "south_bound": 52.9556353,
-              "east_bound": 0.0204234
-            },
-            "Town": "Boston",
-            "Date collected": "2013-06-04",
-            "UKCPVS ID": "13/13",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130604",
-            "Country": "UK",
-            "Variety": "Victo",
-            "County": "Lincolnshire"
-          },
-          {
-            "_id": {
-              "$oid": "5628e7de6ca5bb65cc28e0d3"
-            },
-            "Company": "NIABTAG benniworth",
-            "Name/Collector": "Hayley Rhodes",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0014",
-            "location": {
-              "north_bound": 53.00113,
-              "latitude": 52.97894,
-              "west_bound": -0.0632467,
-              "longitude": -0.026577,
-              "south_bound": 52.9556353,
-              "east_bound": 0.0204234
-            },
-            "Town": "Boston",
-            "UKCPVS ID": "13/14",
-            "Library name": "LIB4362",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-04",
-            "Date collected (compact)": "20130604",
-            "Host": "Wheat",
-            "Country": "UK",
-            "Variety": "Oakley",
-            "County": "Lincolnshire",
-            "genotype": {
-              "Sample name": "13/14",
-              "Library name": "LIB4362",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7de6ca5bb65cc28e0d4"
-            },
-            "Company": "Agrii",
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0015",
-            "location": {
-              "north_bound": 52.2562976,
-              "latitude": 52.249163,
-              "west_bound": 1.0688132,
-              "longitude": 1.07976,
-              "south_bound": 52.2435759,
-              "east_bound": 1.0866684
-            },
-            "Town": "Mendlesham",
-            "UKCPVS ID": "13/15",
-            "Library name": "LIB4462",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-05",
-            "Date collected (compact)": "20130605",
-            "Host": "Wheat",
-            "Country": "UK",
-            "Variety": "Torch",
-            "County": "Suffolk",
-            "genotype": {
-              "Sample name": "13/15",
-              "Library name": "LIB4462",
-              "Genetic group": "1"
-            }
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7de6ca5bb65cc28e0d5"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0016",
-            "location": {
-              "north_bound": 52.2562976,
-              "latitude": 52.249163,
-              "west_bound": 1.0688132,
-              "longitude": 1.07976,
-              "south_bound": 52.2435759,
-              "east_bound": 1.0866684
-            },
-            "Town": "Mendlesham",
-            "Date collected": "2013-06-05",
-            "UKCPVS ID": "13/16",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130605",
-            "Country": "UK",
-            "Variety": "Cubanita",
-            "County": "Suffolk"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7de6ca5bb65cc28e0d6"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0017",
-            "location": {
-              "north_bound": 52.2562976,
-              "latitude": 52.249163,
-              "west_bound": 1.0688132,
-              "longitude": 1.07976,
-              "south_bound": 52.2435759,
-              "east_bound": 1.0866684
-            },
-            "Town": "Mendlesham",
-            "Date collected": "2013-06-05",
-            "UKCPVS ID": "13/17",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130605",
-            "Country": "UK",
-            "Variety": "Duxford",
-            "County": "Suffolk"
-          },
-          {
-            "_id": {
-              "$oid": "5628e7de6ca5bb65cc28e0d7"
-            },
-            "Company": "Agrii",
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0018",
-            "location": {
-              "north_bound": 52.2562976,
-              "latitude": 52.249163,
-              "west_bound": 1.0688132,
-              "longitude": 1.07976,
-              "south_bound": 52.2435759,
-              "east_bound": 1.0866684
-            },
-            "Town": "Mendlesham",
-            "UKCPVS ID": "13/18",
-            "Library name": "LIB4745",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-05",
-            "Date collected (compact)": "20130605",
-            "Host": "Wheat",
-            "Country": "UK",
-            "Variety": "KWS 196",
-            "County": "Suffolk",
-            "genotype": {
-              "Sample name": "13/18",
-              "Library name": "LIB4745",
-              "Genetic group": "1"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7de6ca5bb65cc28e0d8"
-            },
-            "Company": "Agrii",
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0019",
-            "location": {
-              "north_bound": 52.2562976,
-              "latitude": 52.249163,
-              "west_bound": 1.0688132,
-              "longitude": 1.07976,
-              "south_bound": 52.2435759,
-              "east_bound": 1.0866684
-            },
-            "Town": "Mendlesham",
-            "UKCPVS ID": "13/19",
-            "Library name": "LIB4466",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-05",
-            "Date collected (compact)": "20130605",
-            "Host": "Wheat",
-            "Country": "UK",
-            "Variety": "LGW56",
-            "County": "Suffolk",
-            "genotype": {
-              "Sample name": "13/19",
-              "Library name": "LIB4466",
-              "Genetic group": "1"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7de6ca5bb65cc28e0da"
-            },
-            "Company": "ADAS Boxworth",
-            "Name/Collector": "Andrew Hoore",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0021",
-            "location": {
-              "north_bound": 52.8183237,
-              "latitude": 52.7987895,
-              "west_bound": 0.2450695,
-              "longitude": 0.2833572,
-              "south_bound": 52.7255863,
-              "east_bound": 0.3698055
-            },
-            "Town": "Terrington St Clement",
-            "UKCPVS ID": "13/21",
-            "Library name": "LIB4361",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-04",
-            "Date collected (compact)": "20130604",
-            "Host": "Wheat",
-            "Country": "UK",
-            "Variety": "Solstice",
-            "County": "Norfolk",
-            "genotype": {
-              "Sample name": "13/21",
-              "Library name": "LIB4361",
-              "Genetic group": "3"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7de6ca5bb65cc28e0db"
-            },
-            "Company": "NIABTAG",
-            "Name/Collector": "Rosemary Bayles",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0022",
-            "location": {
-              "north_bound": 53.1265169,
-              "latitude": 53.119821,
-              "west_bound": -0.5482984,
-              "longitude": -0.532291,
-              "south_bound": 53.1131241,
-              "east_bound": -0.5162836
-            },
-            "Town": "Boothby Graffoe",
-            "UKCPVS ID": "13/22",
-            "Library name": "LIB4456",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-12",
-            "Date collected (compact)": "20130612",
-            "Host": "Wheat",
-            "Country": "UK",
-            "Variety": "Solstice",
-            "County": "Lincolnshire",
-            "genotype": {
-              "Sample name": "13/22",
-              "Library name": "LIB4456",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7df6ca5bb65cc28e0e4"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0031",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "Date collected": "2013-06-14",
-            "UKCPVS ID": "13/31",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130614",
-            "Country": "UK",
-            "Variety": "Victo",
-            "County": "Lincolnshire",
-            "Postal Code": "LN5 0QG"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e06ca5bb65cc28e0ec"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0041",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "Date collected": "2013-06-14",
-            "UKCPVS ID": "13/41",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130614",
-            "Country": "UK",
-            "Variety": "Oakley",
-            "County": "Lincolnshire",
-            "Postal Code": "LN5 0QG"
-          },
-          {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4c76ca5bb65cc28e07b"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0154",
-            "location": {
-              "north_bound": 52.5223839,
-              "latitude": 52.5202937,
-              "west_bound": -0.3346427,
-              "longitude": -0.3285052,
-              "south_bound": 52.5175002,
-              "east_bound": -0.3238716
-            },
-            "Town": "Haddon",
-            "Date collected": "2013-12-01",
-            "UKCPVS ID": "14/08",
-            "Host": "Wheat",
-            "Date collected (compact)": "20131201",
-            "Variety": "Hereward",
-            "County": "Cambridgeshire",
-            "Private comments": "NIAB 14/08 2 of 2",
-            "Country": "UK",
-            "phenotype": {
-              "Strubes Dickkopf": "3.0",
-              "Opata": "1.0",
-              "KWS Fido": "-",
-              "Grenado": "2.7",
-              "Kavkaz x 4 Fed": "3.0",
-              "Vilmorin 23": "3.5",
-              "Brigadier": "-",
-              "No of isols tested": "3",
-              "Solstice": "3.0",
-              "Host": "Hereward (not crusoe)",
-              "Apache": "2.8",
-              "Timber": "0.0",
-              "Claire": "3.0",
-              "Batch": "1",
-              "Chinese 166": "3.0",
-              "Av x Yr7 NIL": "4.0",
-              "Heines Kolben": "2.0",
-              "Moro": "0.0",
-              "Av x Yr17": "3.5",
-              "Warrior": "0.0",
-              "Cadenza": "3.0",
-              "Av x Yr32": "3.0",
-              "Benetto": "-",
-              "Spaldings Prolific": "3.0",
-              "Lee": "2.5",
-              "AVS x Yr 15": "0.0",
-              "Carstens V": "3.0",
-              "Heines Peko": "3.0",
-              "Clement": "2.2",
-              "Kalyansona": "3.0",
-              "Tribeca": "-",
-              "Avocet Yr6": "4.0",
-              "KWS-Sterling": "2.0",
-              "Nord Desprez": "3.2",
-              "Hybrid 46": "3.0",
-              "Compair": "0.0",
-              "Rendezvous": "3.0",
-              "Robigus": "4.0",
-              "Tradiro": "-",
-              "Heines VII": "3.5",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "4.0",
-              "Talon": "3.0",
-              "Avocet Yr27": "3.0",
-              "Suwon Omar": "4.0",
-              "Crusoe": "0.0",
-              "Ambition": "0.5",
-              "Avocet Yr5": "0.0",
-              "Stigg": "-",
-              "Vuka": "3.0",
-              "Tulus": "-",
-              "Dublet": "-"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c76ca5bb65cc28e082"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0162",
-            "location": {
-              "north_bound": 53.0322775,
-              "latitude": 53.021631,
-              "west_bound": -0.6114799,
-              "longitude": -0.6045819,
-              "south_bound": 53.0174137,
-              "east_bound": -0.5688846
-            },
-            "Town": "Caythorpe",
-            "Date collected": "2014-01-23",
-            "UKCPVS ID": "14/12",
-            "Library name": "LIB12492",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
-            "Date collected (compact)": "20140123",
-            "Host": "Wheat",
-            "Variety": "Timber",
-            "Private comments": "NIAB: 14/12",
-            "County": "Lincolnshire",
-            "Country": "UK",
-            "phenotype": {
-              "Strubes Dickkopf": "3.5",
-              "Opata": "0.3",
-              "Grenado": "4.0",
-              "KWS Fido": "4.0",
-              "Kavkaz x 4 Fed": "3.5",
-              "Vilmorin 23": "3.5",
-              "Brigadier": "-",
-              "No of isols tested": "4",
-              "Solstice": "2.0",
-              "Suwon Omar": "4.0",
-              "Host": "Timber",
-              "Chinese 166": "3.5",
-              "Batch": "2",
-              "Av x Yr7 NIL": "3.2",
-              "Heines Kolben": "2.5",
-              "Moro": "0.0",
-              "Av x Yr17": "3.0",
-              "Benetto": "4.0",
-              "Spaldings Prolific": "3.0",
-              "Carstens V": "3.3",
-              "Lee": "3.5",
-              "AVS x Yr 15": "0.0",
-              "Heines Peko": "3.5",
-              "Clement": "2.2",
-              "Apache": "3.0",
-              "Timber": "2.9",
-              "Claire": "2.0",
-              "Library": "LIB12492",
-              "KWS-Sterling": "0.0",
-              "Nord Desprez": "3.0",
-              "Cadenza": "2.5",
-              "Warrior": "2.8",
-              "Av x Yr32": "3.0",
-              "Kalyansona": "3.5",
-              "Tribeca": "2.0",
-              "Avocet Yr6": "4.0",
-              "Hybrid 46": "2.0",
-              "Compair": "0.0",
-              "Rendezvous": "0.0",
-              "Robigus": "3.0",
-              "Tradiro": "3.0",
-              "Heines VII": "3.0",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "2.2",
-              "Talon": "3.0",
-              "Avocet Yr27": "*",
-              "Crusoe": "0.0",
-              "Ambition": "4.0",
-              "Avocet Yr5": "0.0",
-              "Stigg": "0.0",
-              "Vuka": "4.0",
-              "Tulus": "2.1",
-              "Dublet": "4.0"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c76ca5bb65cc28e080"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.016",
-            "location": {
-              "north_bound": 53.0322775,
-              "latitude": 53.021631,
-              "west_bound": -0.6114799,
-              "longitude": -0.6045819,
-              "south_bound": 53.0174137,
-              "east_bound": -0.5688846
-            },
-            "Town": "Caythorpe",
-            "Date collected": "2014-01-23",
-            "UKCPVS ID": "14/13",
-            "Library name": "LIB12490",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140123",
-            "Host": "Wheat",
-            "Variety": "Robigus",
-            "Private comments": "NIAB: 14/13",
-            "County": "Lincolnshire",
-            "Country": "UK",
-            "genotype": {
-              "Library name": "LIB12490",
-              "Genetic group": "4"
-            },
-            "phenotype": {
-              "Strubes Dickkopf": "3.0",
-              "Opata": "1.1",
-              "Grenado": "4.0",
-              "KWS Fido": "3.0",
-              "Kavkaz x 4 Fed": "3.5",
-              "Vilmorin 23": "3.0",
-              "Brigadier": "3.0",
-              "No of isols tested": "5",
-              "Solstice": "2.0",
-              "Suwon Omar": "3.0",
-              "Host": "Robigus",
-              "Chinese 166": "3.5",
-              "Batch": "3",
-              "Av x Yr7 NIL": "4.0",
-              "Heines Kolben": "3.0",
-              "Moro": "0.0",
-              "Av x Yr17": "4.0",
-              "Benetto": "4.0",
-              "Spaldings Prolific": "3.0",
-              "Carstens V": "3.0",
-              "Lee": "3.3",
-              "AVS x Yr 15": "0.2",
-              "Heines Peko": "3.2",
-              "Clement": "3.0",
-              "Apache": "1.0",
-              "Timber": "0.0",
-              "Claire": "2.3",
-              "Library": "LIB12490",
-              "KWS-Sterling": "0.4",
-              "Nord Desprez": "4.0",
-              "Cadenza": "0.4",
-              "Warrior": "2.6",
-              "Av x Yr32": "3.0",
-              "Kalyansona": "3.5",
-              "Tribeca": "*",
-              "Avocet Yr6": "3.0",
-              "Hybrid 46": "2.5",
-              "Compair": "0.0",
-              "Rendezvous": "2.0",
-              "Robigus": "3.0",
-              "Tradiro": "3.1",
-              "Heines VII": "3.0",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "3.0",
-              "Talon": "3.0",
-              "Avocet Yr27": "*",
-              "Crusoe": "0.0",
-              "Ambition": "0.0",
-              "Avocet Yr5": "0.0",
-              "Stigg": "-",
-              "Vuka": "4.0",
-              "Tulus": "0.2",
-              "Dublet": "3.1"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c76ca5bb65cc28e079"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0152",
-            "location": {
-              "north_bound": 53.0322775,
-              "latitude": 53.021631,
-              "west_bound": -0.6114799,
-              "longitude": -0.6045819,
-              "south_bound": 53.0174137,
-              "east_bound": -0.5688846
-            },
-            "Town": "Caythorpe",
-            "Date collected": "2014-01-23",
-            "UKCPVS ID": "14/16",
-            "Library name": "LIB14889",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140123",
-            "Host": "Wheat",
-            "Variety": "Victo",
-            "Private comments": "NIAB: 14/16",
-            "County": "Lincolnshire",
-            "Country": "UK",
-            "genotype": {
-              "Library name": "LIB14889",
-              "Genetic group": "4"
-            },
-            "phenotype": {
-              "Strubes Dickkopf": "3.0",
-              "Opata": "1.7",
-              "Grenado": "3.0",
-              "KWS Fido": "3.0",
-              "Kavkaz x 4 Fed": "2.5",
-              "Vilmorin 23": "3.1",
-              "Brigadier": "3.1",
-              "No of isols tested": "6",
-              "Solstice": "3.0",
-              "Suwon Omar": "3.0",
-              "Host": "Victo",
-              "Chinese 166": "3.0",
-              "Batch": "3",
-              "Av x Yr7 NIL": "3.0",
-              "Heines Kolben": "3.0",
-              "Moro": "0.0",
-              "Av x Yr17": "3.0",
-              "Benetto": "3.0",
-              "Spaldings Prolific": "3.0",
-              "Carstens V": "3.0",
-              "Lee": "3.5",
-              "AVS x Yr 15": "0.0",
-              "Heines Peko": "3.1",
-              "Clement": "3.0",
-              "Apache": "2.6",
-              "Timber": "0.0",
-              "Claire": "2.0",
-              "Library": "LIB14889",
-              "KWS-Sterling": "0.0",
-              "Nord Desprez": "3.2",
-              "Cadenza": "3.0",
-              "Warrior": "2.9",
-              "Av x Yr32": "2.2",
-              "Kalyansona": "3.1",
-              "Tribeca": "*",
-              "Avocet Yr6": "3.1",
-              "Hybrid 46": "2.0",
-              "Compair": "0.0",
-              "Rendezvous": "0.0",
-              "Robigus": "3.0",
-              "Tradiro": "3.0",
-              "Heines VII": "3.0",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "2.5",
-              "Talon": "3.0",
-              "Avocet Yr27": "*",
-              "Crusoe": "0.0",
-              "Ambition": "0.0",
-              "Avocet Yr5": "0.0",
-              "Stigg": "-",
-              "Vuka": "3.5",
-              "Tulus": "0.0",
-              "Dublet": "3.0"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c86ca5bb65cc28e089"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0172",
-            "location": {
-              "north_bound": 51.8709789302915,
-              "latitude": 51.8697435,
-              "west_bound": 0.170756819708498,
-              "longitude": 0.1724057,
-              "south_bound": 51.8682809697085,
-              "east_bound": 0.173454780291502
-            },
-            "Town": "Dunmow",
-            "Date collected": "2014-05-13",
-            "UKCPVS ID": "14/44",
-            "Library name": "LIB12499",
-            "Postal code": "CM23 5HN",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140513",
-            "Host": "Wheat",
-            "Private comments": "NIAB: 14/44",
-            "County": "Hertfordshire",
-            "Country": "UK",
-            "Variety": "Scout",
-            "genotype": {
-              "Library name": "LIB12499",
-              "Genetic group": "4"
-            },
-            "phenotype": {
-              "Strubes Dickkopf": "3.0",
-              "Opata": "2.0",
-              "Grenado": "3.0",
-              "KWS Fido": "3.0",
-              "Kavkaz x 4 Fed": "4.0",
-              "Vilmorin 23": "3.0",
-              "Brigadier": "3.0",
-              "No of isols tested": "9",
-              "Solstice": "3.0",
-              "Suwon Omar": "3.5",
-              "Host": "Scout",
-              "Chinese 166": "3.0",
-              "Batch": "4",
-              "Av x Yr7 NIL": "4.0",
-              "Heines Kolben": "2.5",
-              "Moro": "0.0",
-              "Av x Yr17": "3.0",
-              "Benetto": "4.0",
-              "Spaldings Prolific": "3.0",
-              "Carstens V": "3.0",
-              "Lee": "3.0",
-              "AVS x Yr 15": "0.0",
-              "Heines Peko": "3.1",
-              "Clement": "2.1",
-              "Apache": "3.0",
-              "Timber": "0.0",
-              "Claire": "3.0",
-              "Library": "LIB12499",
-              "KWS-Sterling": "1.3",
-              "Nord Desprez": "3.0",
-              "Cadenza": "3.0",
-              "Warrior": "0.3",
-              "Av x Yr32": "3.0",
-              "Kalyansona": "3.0",
-              "Tribeca": "0.0",
-              "Avocet Yr6": "4.0",
-              "Hybrid 46": "2.0",
-              "Compair": "0.0",
-              "Rendezvous": "0.3",
-              "Robigus": "3.0",
-              "Tradiro": "3.0",
-              "Heines VII": "3.0",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "3.0",
-              "Talon": "3.0",
-              "Avocet Yr27": "-",
-              "Crusoe": "0.0",
-              "Ambition": "0.0",
-              "Avocet Yr5": "0.0",
-              "Stigg": "-",
-              "Vuka": "3.5",
-              "Tulus": "0.1",
-              "Dublet": "3.0"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c86ca5bb65cc28e088"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0171",
-            "location": {
-              "north_bound": 52.6831574,
-              "latitude": 52.678419,
-              "west_bound": -2.4823035,
-              "longitude": -2.445258,
-              "south_bound": 52.6530124,
-              "east_bound": -2.4078095
-            },
-            "Town": "Telford",
-            "Date collected": "2014-05-16",
-            "UKCPVS ID": "14/46",
-            "Library name": "LIB12498",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
-            "Date collected (compact)": "20140516",
-            "Host": "Wheat",
-            "Variety": "KWS Kielder",
-            "Private comments": "NIAB: 14/46",
-            "County": "Shropshire",
-            "Country": "UK",
-            "phenotype": {
-              "Strubes Dickkopf": "3.0",
-              "Opata": "2.0",
-              "Grenado": "3.0",
-              "KWS Fido": "3.0",
-              "Kavkaz x 4 Fed": "3.5",
-              "Vilmorin 23": "3.5",
-              "Brigadier": "3.0",
-              "No of isols tested": "10",
-              "Solstice": "3.5",
-              "Suwon Omar": "3.0",
-              "Host": "KWS Kielder",
-              "Chinese 166": "3.2",
-              "Batch": "5",
-              "Av x Yr7 NIL": "3.5",
-              "Heines Kolben": "3.0",
-              "Moro": "0.0",
-              "Av x Yr17": "3.0",
-              "Benetto": "3.5",
-              "Spaldings Prolific": "3.1",
-              "Carstens V": "4.0",
-              "Lee": "3.5",
-              "AVS x Yr 15": "0.0",
-              "Heines Peko": "4.0",
-              "Clement": "4.0",
-              "Apache": "3.0",
-              "Timber": "2.8",
-              "Claire": "3.0",
-              "Library": "LIB12498",
-              "KWS-Sterling": "2.2",
-              "Nord Desprez": "4.0",
-              "Cadenza": "3.0",
-              "Warrior": "3.0",
-              "Av x Yr32": "3.5",
-              "Kalyansona": "3.5",
-              "Tribeca": "1.0 one leaf",
-              "Avocet Yr6": "3.5",
-              "Hybrid 46": "3.0",
-              "Compair": "0.0",
-              "Rendezvous": "2.1",
-              "Robigus": "3.5",
-              "Tradiro": "3.0",
-              "Heines VII": "0.0",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "3.0",
-              "Talon": "3.0",
-              "Avocet Yr27": "-",
-              "Crusoe": "0.0",
-              "Ambition": "3.0",
-              "Avocet Yr5": "0.0",
-              "Vuka": "4.0",
-              "Tulus": "0.5",
-              "Dublet": "3.0"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4ca6ca5bb65cc28e09a"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0193",
-            "location": {
-              "north_bound": 51.2039176,
-              "latitude": 51.1961742,
-              "west_bound": 1.0360411,
-              "longitude": 1.0447069,
-              "south_bound": 51.190281,
-              "east_bound": 1.0510701
-            },
-            "Date collected": "2014-05-23",
-            "UKCPVS ID": "14/56",
-            "Further Location information": "Wadden Hall Farm , CT4 5PX",
-            "Library name": "LIB14878",
-            "Postal code": "CT4 5PX",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140523",
-            "Host": "Wheat",
-            "Private comments": "NIAB: 14/56",
-            "County": "Kent",
-            "Country": "UK",
-            "Variety": "Relay",
-            "genotype": {
-              "Library name": "LIB14878",
-              "Genetic group": "4"
-            },
-            "phenotype": {
-              "Strubes Dickkopf": "4.0",
-              "Opata": "2.0",
-              "Grenado": "3.5",
-              "KWS Fido": "3.0",
-              "Kavkaz x 4 Fed": "4.0",
-              "Vilmorin 23": "3.5",
-              "Brigadier": "2.2",
-              "No of isols tested": "11",
-              "Solstice": "3.2",
-              "Suwon Omar": "3.0",
-              "Host": "Relay",
-              "Chinese 166": "3.5",
-              "Batch": "5",
-              "Av x Yr7 NIL": "3.5",
-              "Heines Kolben": "3.0",
-              "Moro": "0.0",
-              "Av x Yr17": "4.0",
-              "Benetto": "3.0",
-              "Spaldings Prolific": "3.0",
-              "Carstens V": "3.4",
-              "Lee": "3.5",
-              "AVS x Yr 15": "0.0",
-              "Heines Peko": "3.5",
-              "Clement": "3.2",
-              "Apache": "3.0",
-              "Timber": "0.2",
-              "Claire": "3.0",
-              "Library": "LIB14878",
-              "KWS-Sterling": "2.0",
-              "Nord Desprez": "4.0",
-              "Cadenza": "3.0",
-              "Warrior": "2.5",
-              "Av x Yr32": "3.0",
-              "Kalyansona": "3.5",
-              "Tribeca": "*",
-              "Avocet Yr6": "4.0",
-              "Hybrid 46": "2.0",
-              "Compair": "0.0",
-              "Rendezvous": "1.3",
-              "Robigus": "4.0",
-              "Tradiro": "3.0",
-              "Heines VII": "3.0",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "3.0",
-              "Talon": "3.0",
-              "Avocet Yr27": "-",
-              "Crusoe": "0.0",
-              "Ambition": "0.0",
-              "Avocet Yr5": "0.0",
-              "Vuka": "3.5",
-              "Tulus": "1.6",
-              "Dublet": "3.0"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4cc6ca5bb65cc28e0a7"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.021",
-            "location": {
-              "north_bound": 53.8699033802915,
-              "latitude": 53.8685544,
-              "west_bound": -1.3272128802915,
-              "longitude": -1.3258639,
-              "south_bound": 53.8672054197085,
-              "east_bound": -1.3245149197085
-            },
-            "Town": "Headley Hall",
-            "Date collected": "2014-06-02",
-            "UKCPVS ID": "14/84",
-            "Library name": "LIB14881",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140602",
-            "Host": "Wheat",
-            "Variety": "Relay",
-            "Private comments": "NIAB: 14/84",
-            "County": "North Yorkshire",
-            "Country": "UK",
-            "genotype": {
-              "Library name": "LIB14881",
-              "Genetic group": "4"
-            },
-            "phenotype": {
-              "Strubes Dickkopf": "3.0",
-              "Opata": "2.8",
-              "Grenado": "3.0",
-              "KWS Fido": "3.0",
-              "Kavkaz x 4 Fed": "3.0",
-              "Vilmorin 23": "3.0",
-              "Brigadier": "2.9",
-              "No of isols tested": "15",
-              "Solstice": "3.0",
-              "Suwon Omar": "3.0",
-              "Host": "Relay",
-              "Chinese 166": "3.0",
-              "Batch": "5",
-              "Av x Yr7 NIL": "4.0",
-              "Heines Kolben": "3.0",
-              "Moro": "0.0",
-              "Av x Yr17": "3.5",
-              "Benetto": "3.0",
-              "Spaldings Prolific": "3.0",
-              "Carstens V": "#",
-              "Lee": "4.0",
-              "AVS x Yr 15": "0.0",
-              "Heines Peko": "3.0",
-              "Clement": "3.0",
-              "Apache": "2.8",
-              "Timber": "1.5",
-              "Claire": "3.0",
-              "Library": "LIB14881",
-              "KWS-Sterling": "0.0",
-              "Nord Desprez": "3.3",
-              "Cadenza": "3.0",
-              "Warrior": "0.5",
-              "Av x Yr32": "3.0",
-              "Kalyansona": "3.0",
-              "Tribeca": "0.0",
-              "Avocet Yr6": "4.0",
-              "Hybrid 46": "(3.0)",
-              "Compair": "0.0",
-              "Rendezvous": "0.4",
-              "Robigus": "3.0",
-              "Tradiro": "3.0",
-              "Heines VII": "3.0",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "3.0",
-              "Talon": "3.0",
-              "Avocet Yr27": "-",
-              "Crusoe": "0.0",
-              "Ambition": "0.0",
-              "Avocet Yr5": "0.0",
-              "Vuka": "4.0",
-              "Tulus": "0.0",
-              "Dublet": "3.0"
-            }
-          },
-          {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4cb6ca5bb65cc28e0a3"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0206",
-            "location": {
-              "north_bound": 52.7399809,
-              "latitude": 52.2052973,
-              "west_bound": -0.4999075,
-              "longitude": 0.1218195,
-              "south_bound": 52.005779,
-              "east_bound": 0.5144548
-            },
-            "Date collected": "2014-06-02",
-            "UKCPVS ID": "14/501",
-            "Further Location information": "F36, tunnels",
-            "Host": "Wheat",
-            "Date collected (compact)": "20140602",
-            "Variety": "Crusoe",
-            "County": "Cambridgeshire",
-            "Private comments": "NIAB: 14/501, Re-isolate from our inoculated tunnel trial",
-            "Country": "UK",
-            "phenotype": {
-              "Strubes Dickkopf": "3.0",
-              "Opata": "0.0",
-              "KWS Fido": "3.0",
-              "Grenado": "3.0",
-              "Kavkaz x 4 Fed": "3.5",
-              "Vilmorin 23": "3.1",
-              "Brigadier": "2.1",
-              "No of isols tested": "16",
-              "Solstice": "3.2",
-              "Host": "Crusoe",
-              "Apache": "3.0",
-              "Timber": "3.0",
-              "Claire": "3.0",
-              "Batch": "5",
-              "Chinese 166": "3.0",
-              "Av x Yr7 NIL": "3.5",
-              "Heines Kolben": "3.0",
-              "Moro": "0.0",
-              "Av x Yr17": "3.0",
-              "Warrior": "3.0",
-              "Cadenza": "2.6",
-              "Av x Yr32": "4.0",
-              "Benetto": "3.5",
-              "Spaldings Prolific": "4.0",
-              "Lee": "3.5",
-              "AVS x Yr 15": "0.0",
-              "Carstens V": "4.0",
-              "Heines Peko": "4.0",
-              "Clement": "4.0",
-              "Kalyansona": "3.0",
-              "Tribeca": "*",
-              "Avocet Yr6": "3.0",
-              "KWS-Sterling": "2.6",
-              "Nord Desprez": "4.0",
-              "Hybrid 46": "3.0",
-              "Compair": "0.0",
-              "Rendezvous": "0.7",
-              "Robigus": "3.1",
-              "Tradiro": "3.0",
-              "Heines VII": "3.1",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "3.0tips",
-              "Talon": "3.0",
-              "Avocet Yr27": "-",
-              "Suwon Omar": "4.0",
-              "Crusoe": "0.0",
-              "Ambition": "4.0",
-              "Avocet Yr5": "0.0",
-              "Vuka": "4.0",
-              "Tulus": "2.3",
-              "Dublet": "3.0"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c66ca5bb65cc28e076"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0141",
-            "location": {
-              "north_bound": 52.8346673,
-              "latitude": 52.827926,
-              "west_bound": 0.4400026,
-              "longitude": 0.45601,
-              "south_bound": 52.8211837,
-              "east_bound": 0.4720174
-            },
-            "Town": "Wolferton",
-            "Date collected": "2014-06-23",
-            "UKCPVS ID": "14/118",
-            "Library name": "LIB12474",
-            "Further Location information": "Wolferton",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140623",
-            "Host": "Wheat",
-            "Private comments": "NIAB: 14/118",
-            "County": "Norfolk",
-            "Country": "UK",
-            "Variety": "KWS Santiago",
-            "genotype": {
-              "Library name": "LIB12474",
-              "Genetic group": "4"
-            },
-            "phenotype": {
-              "Strubes Dickkopf": "3.0",
-              "Opata": "0.2",
-              "Grenado": "3.0",
-              "KWS Fido": "3.0",
-              "Kavkaz x 4 Fed": "3.0",
-              "Vilmorin 23": "3.0",
-              "Brigadier": "3.0",
-              "No of isols tested": "20",
-              "Solstice": "3.0",
-              "Suwon Omar": "2.9",
-              "Host": "KWS Santiago",
-              "Chinese 166": "3.0",
-              "Batch": "7",
-              "Av x Yr7 NIL": "2.2",
-              "Heines Kolben": "3.0",
-              "Moro": "0.0",
-              "Av x Yr17": "3.0",
-              "Benetto": "3.0",
-              "Spaldings Prolific": "0.0",
-              "Carstens V": "3.0",
-              "Lee": "1.8",
-              "AVS x Yr 15": "0.0",
-              "Heines Peko": "3.0",
-              "Clement": "3.0",
-              "Apache": "0.0",
-              "Timber": "0.0",
-              "Claire": "2.0",
-              "Library": "LIB12474",
-              "KWS-Sterling": "0.1",
-              "Nord Desprez": "3.0",
-              "Cadenza": "0.0",
-              "Warrior": "0.8",
-              "Av x Yr32": "3.0",
-              "Kalyansona": "3.0",
-              "Avocet Yr6": "3.0",
-              "Hybrid 46": "3.0",
-              "Compair": "1.9",
-              "Rendezvous": "2.9",
-              "Robigus": "3.0",
-              "Tradiro": "3.0",
-              "Heines VII": "(3.0)",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "3.0",
-              "Talon": "3.0",
-              "Avocet Yr27": "2.5",
-              "Crusoe": "0.0",
-              "Ambition": "0.4",
-              "Avocet Yr5": "0.0",
-              "Vuka": "4.0",
-              "Tulus": "0.2",
-              "Dublet": "3.0"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c66ca5bb65cc28e074"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0139",
-            "location": {
-              "north_bound": 52.8346673,
-              "latitude": 52.827926,
-              "west_bound": 0.4400026,
-              "longitude": 0.45601,
-              "south_bound": 52.8211837,
-              "east_bound": 0.4720174
-            },
-            "Town": "Wolferton",
-            "Date collected": "2014-06-23",
-            "UKCPVS ID": "14/119",
-            "Library name": "LIB12472",
-            "Further Location information": "Wolferton",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20140623",
-            "Host": "Wheat",
-            "Private comments": "NIAB: 14/119",
-            "County": "Norfolk",
-            "Country": "UK",
-            "Variety": "Jorvik",
-            "genotype": {
-              "Library name": "LIB12472",
-              "Genetic group": "4"
-            },
-            "phenotype": {
-              "Strubes Dickkopf": "3.0",
-              "Opata": "0.5",
-              "Grenado": "3.0",
-              "KWS Fido": "3.0",
-              "Kavkaz x 4 Fed": "3.0",
-              "Vilmorin 23": "3.0",
-              "Brigadier": "3.0",
-              "No of isols tested": "23",
-              "Solstice": "3.0",
-              "Suwon Omar": "3.0",
-              "Host": "Jorvik",
-              "Chinese 166": "3.0",
-              "Batch": "7",
-              "Av x Yr7 NIL": "3.0",
-              "Heines Kolben": "3.0",
-              "Moro": "0.0",
-              "Av x Yr17": "3.0",
-              "Benetto": "3.0",
-              "Spaldings Prolific": "3.0",
-              "Carstens V": "3.0",
-              "Lee": "3.0",
-              "AVS x Yr 15": "0.0",
-              "Heines Peko": "3.0",
-              "Clement": "3.0",
-              "Apache": "2.1 poss 3",
-              "Timber": "0.0",
-              "Claire": "3.0",
-              "Library": "LIB12472",
-              "KWS-Sterling": "0.2",
-              "Nord Desprez": "3.0",
-              "Cadenza": "3.0",
-              "Warrior": "2.0",
-              "Av x Yr32": "3.0",
-              "Kalyansona": "3.0",
-              "Avocet Yr6": "3.0",
-              "Hybrid 46": "3.0",
-              "Compair": "1.9",
-              "Rendezvous": "1.5",
-              "Robigus": "3.0",
-              "Tradiro": "3.0",
-              "Heines VII": "3.0",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "2.1",
-              "Talon": "2.5",
-              "Avocet Yr27": "3.0",
-              "Crusoe": "0.0",
-              "Ambition": "0.0",
-              "Avocet Yr5": "0.0",
-              "Vuka": "3.5",
-              "Tulus": "0.3",
-              "Dublet": "3.0"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c56ca5bb65cc28e06f"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0133",
-            "location": {
-              "north_bound": 55.8948776,
-              "latitude": 55.8841334,
-              "west_bound": -2.829246,
-              "longitude": -2.8210238,
-              "south_bound": 55.8735151,
-              "east_bound": -2.8052157
-            },
-            "Town": "East lothian",
-            "Date collected": "2014-06-23",
-            "UKCPVS ID": "14/125",
-            "Date collected (compact)": "20140623",
-            "Host": "Wheat",
-            "Variety": "Icon",
-            "Private comments": "NIAB: 14/125",
-            "County": "East Lothian",
-            "Country": "UK",
-            "Postal code": "EH41 4JR",
-            "Further Location information": "Gilchriston farm, Nr Humbie, East lothian, EH41 4JR",
-            "phenotype": {
-              "Strubes Dickkopf": "4.0",
-              "Opata": "2.0",
-              "KWS Fido": "3.1",
-              "Grenado": "3.0",
-              "Kavkaz x 4 Fed": "2.9",
-              "Vilmorin 23": "3.0",
-              "Brigadier": "3.5",
-              "No of isols tested": "27",
-              "Solstice": "3.3",
-              "Host": "Icon",
-              "Apache": "3.0",
-              "Timber": "0.3",
-              "Claire": "4.0",
-              "Batch": "8",
-              "Chinese 166": "3.5",
-              "Av x Yr7 NIL": "3.5",
-              "Heines Kolben": "3.0",
-              "Moro": "0.0",
-              "Av x Yr17": "3.0",
-              "Warrior": "2.2",
-              "Cadenza": "2.8",
-              "Av x Yr32": "3.0",
-              "Benetto": "3.0",
-              "Spaldings Prolific": "3.0",
-              "Lee": "3.1",
-              "AVS x Yr 15": "0.0",
-              "Carstens V": "4.0",
-              "Heines Peko": "3.0",
-              "Clement": "3.0",
-              "Kalyansona": "3.0",
-              "Avocet Yr6": "3.2",
-              "KWS-Sterling": "0.9",
-              "Nord Desprez": "3.1",
-              "Hybrid 46": "2.0",
-              "Compair": "2.8",
-              "Rendezvous": "2.2",
-              "Robigus": "3.3",
-              "Tradiro": "3.0",
-              "Heines VII": "3.0",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "4.0",
-              "Talon": "3.2",
-              "Avocet Yr27": "3.0",
-              "Suwon Omar": "3.5",
-              "Crusoe": "0.0",
-              "Ambition": "1.0",
-              "Avocet Yr5": "0.0",
-              "Vuka": "4.0",
-              "Tulus": "0.7",
-              "Dublet": "3.5"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c96ca5bb65cc28e08d"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0177",
-            "location": {
-              "north_bound": 51.1758942,
-              "latitude": 51.1679846,
-              "west_bound": -1.339582,
-              "longitude": -1.3322212,
-              "south_bound": 51.1642756,
-              "east_bound": -1.3209118
-            },
-            "Date collected": "2014-05-01",
-            "UKCPVS ID": "T14/4",
-            "Host": "Triticale",
-            "Date collected (compact)": "20140501",
-            "Variety": "Grenado",
-            "Private comments": "NIAB: T14/4 2 of 2",
-            "Country": "UK",
-            "Postal code": "SO21 3NE",
-            "phenotype": {
-              "Strubes Dickkopf": "3.0",
-              "Opata": "0.0",
-              "KWS Fido": "3.0",
-              "Grenado": "3.0",
-              "Kavkaz x 4 Fed": "4.0",
-              "Vilmorin 23": "3.0",
-              "Brigadier": "0.0",
-              "No of isols tested": "4",
-              "Solstice": "2.0",
-              "Host": "Grenado",
-              "Apache": "0.2",
-              "Timber": "2.0",
-              "Claire": "0.0",
-              "Batch": "4",
-              "Chinese 166": "3.0",
-              "Av x Yr7 NIL": "3.0",
-              "Heines Kolben": "3.0",
-              "Moro": "1.3",
-              "Av x Yr17": "3.0",
-              "Warrior": "2.8",
-              "Cadenza": "0.4",
-              "Av x Yr32": "3.0",
-              "Benetto": "3.0",
-              "Spaldings Prolific": "3.0",
-              "Lee": "3.0",
-              "AVS x Yr 15": "0.0",
-              "Carstens V": "3.0",
-              "Heines Peko": "3.0",
-              "Clement": "2.9",
-              "Kalyansona": "3.0",
-              "Avocet Yr6": "3.5",
-              "KWS-Sterling": "0.0",
-              "Nord Desprez": "3.0",
-              "Hybrid 46": "2.0",
-              "Compair": "2.9",
-              "Rendezvous": "0.0",
-              "Robigus": "3.0",
-              "Tradiro": "3.0",
-              "Heines VII": "2.6",
-              "Avocet Yr24": "2.1",
-              "VPM 1": "0.0",
-              "Talon": "0.3",
-              "Avocet Yr27": "-",
-              "Suwon Omar": "3.0",
-              "Crusoe": "0.0",
-              "Ambition": "3.0",
-              "Avocet Yr5": "0.0",
-              "Vuka": "3.0",
-              "Tulus": "2.2",
-              "Dublet": "3.0"
-            }
-          },
-          {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4cb6ca5bb65cc28e0a4"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0207",
-            "location": {
-              "north_bound": 52.196281,
-              "latitude": 52.18268,
-              "west_bound": 0.1813609,
-              "longitude": 0.222039,
-              "south_bound": 52.1706581,
-              "east_bound": 0.2404329
-            },
-            "Town": "Fulbourn",
-            "Date collected": "2014-05-29",
-            "UKCPVS ID": "T14/5",
-            "Further Location information": "Fulbourn",
-            "Host": "Triticale",
-            "Date collected (compact)": "20140529",
-            "Variety": "Benetto",
-            "County": "Cambridgeshire",
-            "Private comments": "NIAB: T14/5",
-            "Country": "UK",
-            "phenotype": {
-              "Strubes Dickkopf": "4.0",
-              "Opata": "3.0",
-              "KWS Fido": "3.0",
-              "Grenado": "3.5",
-              "Kavkaz x 4 Fed": "3.0",
-              "Vilmorin 23": "4.0",
-              "Brigadier": "3.0",
-              "No of isols tested": "5",
-              "Solstice": "3.2",
-              "Host": "Benetto",
-              "Apache": "3.0",
-              "Timber": "2.3",
-              "Claire": "3.0",
-              "Batch": "4",
-              "Chinese 166": "3.5",
-              "Av x Yr7 NIL": "4.0",
-              "Heines Kolben": "3.1",
-              "Moro": "0.0",
-              "Av x Yr17": "3.0",
-              "Warrior": "3.0",
-              "Cadenza": "2.8",
-              "Av x Yr32": "3.5",
-              "Benetto": "3.5",
-              "Spaldings Prolific": "3.0",
-              "Lee": "3.0",
-              "AVS x Yr 15": "0.0",
-              "Carstens V": "4.0",
-              "Heines Peko": "3.0",
-              "Clement": "2.3",
-              "Kalyansona": "3.5",
-              "Tribeca": "1.0",
-              "Avocet Yr6": "3.0",
-              "KWS-Sterling": "2.0",
-              "Nord Desprez": "3.1",
-              "Hybrid 46": "2.0",
-              "Compair": "0.0",
-              "Rendezvous": "2.0",
-              "Robigus": "3.2",
-              "Tradiro": "3.3",
-              "Heines VII": "3.0",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "3.2",
-              "Talon": "3.3",
-              "Avocet Yr27": "-",
-              "Suwon Omar": "3.0",
-              "Crusoe": "0.0",
-              "Ambition": "0.8",
-              "Avocet Yr5": "0.0",
-              "Vuka": "4.0",
-              "Tulus": "1.8",
-              "Dublet": "3.0"
-            }
-          },
-          {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4c76ca5bb65cc28e07d"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0157",
-            "location": {
-              "north_bound": 52.5223839,
-              "latitude": 52.5202937,
-              "west_bound": -0.3346427,
-              "longitude": -0.3285052,
-              "south_bound": 52.5175002,
-              "east_bound": -0.3238716
-            },
-            "Town": "Haddon",
-            "Date collected": "2013-12-01",
-            "UKCPVS ID": "14/08",
-            "Host": "Wheat",
-            "Date collected (compact)": "20131201",
-            "Variety": "Hereward",
-            "County": "Cambridgeshire",
-            "Private comments": "NIAB: 14/08 1 of 2",
-            "Country": "UK",
-            "phenotype": {
-              "Strubes Dickkopf": "3.0",
-              "Opata": "1.0",
-              "KWS Fido": "-",
-              "Grenado": "2.7",
-              "Kavkaz x 4 Fed": "3.0",
-              "Vilmorin 23": "3.5",
-              "Brigadier": "-",
-              "No of isols tested": "3",
-              "Solstice": "3.0",
-              "Host": "Hereward (not crusoe)",
-              "Apache": "2.8",
-              "Timber": "0.0",
-              "Claire": "3.0",
-              "Batch": "1",
-              "Chinese 166": "3.0",
-              "Av x Yr7 NIL": "4.0",
-              "Heines Kolben": "2.0",
-              "Moro": "0.0",
-              "Av x Yr17": "3.5",
-              "Warrior": "0.0",
-              "Cadenza": "3.0",
-              "Av x Yr32": "3.0",
-              "Benetto": "-",
-              "Spaldings Prolific": "3.0",
-              "Lee": "2.5",
-              "AVS x Yr 15": "0.0",
-              "Carstens V": "3.0",
-              "Heines Peko": "3.0",
-              "Clement": "2.2",
-              "Kalyansona": "3.0",
-              "Tribeca": "-",
-              "Avocet Yr6": "4.0",
-              "KWS-Sterling": "2.0",
-              "Nord Desprez": "3.2",
-              "Hybrid 46": "3.0",
-              "Compair": "0.0",
-              "Rendezvous": "3.0",
-              "Robigus": "4.0",
-              "Tradiro": "-",
-              "Heines VII": "3.5",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "4.0",
-              "Talon": "3.0",
-              "Avocet Yr27": "3.0",
-              "Suwon Omar": "4.0",
-              "Crusoe": "0.0",
-              "Ambition": "0.5",
-              "Avocet Yr5": "0.0",
-              "Stigg": "-",
-              "Vuka": "3.0",
-              "Tulus": "-",
-              "Dublet": "-"
-            }
-          },
-          {
-            "Company": "NIAB",
-            "_id": {
-              "$oid": "5628e4c96ca5bb65cc28e08e"
-            },
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0178",
-            "location": {
-              "north_bound": 51.1758942,
-              "latitude": 51.1679846,
-              "west_bound": -1.339582,
-              "longitude": -1.3322212,
-              "south_bound": 51.1642756,
-              "east_bound": -1.3209118
-            },
-            "Date collected": "2014-05-01",
-            "UKCPVS ID": "T14/4",
-            "Postal code": "SO21 3NE",
-            "Library name": "LIB12504",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
-            "Host": "Triticale",
-            "Date collected (compact)": "20140501",
-            "Variety": "Grenado",
-            "Private comments": "NIAB: T14/4 1 of 2",
-            "Country": "UK",
-            "phenotype": {
-              "Strubes Dickkopf": "3.0",
-              "Opata": "0.0",
-              "KWS Fido": "3.0",
-              "Grenado": "3.0",
-              "Kavkaz x 4 Fed": "4.0",
-              "Vilmorin 23": "3.0",
-              "Brigadier": "0.0",
-              "No of isols tested": "4",
-              "Solstice": "2.0",
-              "Host": "Grenado",
-              "Apache": "0.2",
-              "Timber": "2.0",
-              "Claire": "0.0",
-              "Batch": "4",
-              "Chinese 166": "3.0",
-              "Av x Yr7 NIL": "3.0",
-              "Heines Kolben": "3.0",
-              "Moro": "1.3",
-              "Av x Yr17": "3.0",
-              "Warrior": "2.8",
-              "Cadenza": "0.4",
-              "Av x Yr32": "3.0",
-              "Benetto": "3.0",
-              "Spaldings Prolific": "3.0",
-              "Lee": "3.0",
-              "AVS x Yr 15": "0.0",
-              "Carstens V": "3.0",
-              "Heines Peko": "3.0",
-              "Clement": "2.9",
-              "Kalyansona": "3.0",
-              "Avocet Yr6": "3.5",
-              "KWS-Sterling": "0.0",
-              "Nord Desprez": "3.0",
-              "Hybrid 46": "2.0",
-              "Compair": "2.9",
-              "Rendezvous": "0.0",
-              "Robigus": "3.0",
-              "Tradiro": "3.0",
-              "Heines VII": "2.6",
-              "Avocet Yr24": "2.1",
-              "VPM 1": "0.0",
-              "Talon": "0.3",
-              "Avocet Yr27": "-",
-              "Suwon Omar": "3.0",
-              "Crusoe": "0.0",
-              "Ambition": "3.0",
-              "Avocet Yr5": "0.0",
-              "Vuka": "3.0",
-              "Tulus": "2.2",
-              "Dublet": "3.0"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e4c76ca5bb65cc28e07c"
-            },
-            "Company": "NIAB",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "14.0155",
-            "location": {
-              "north_bound": 51.6133738,
-              "latitude": 51.5974177,
-              "west_bound": -1.152584,
-              "longitude": -1.1335613,
-              "south_bound": 51.5817425,
-              "east_bound": -1.1056635
-            },
-            "Town": "Wallingford",
-            "Date collected": "2013-12-01",
-            "UKCPVS ID": "14/07",
-            "Library name": "LIB12486",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected (compact)": "20131201",
-            "Host": "Wheat",
-            "Variety": "KWS Kielder",
-            "Private comments": "NIAB: 14/07",
-            "County": "Oxfordshire",
-            "Country": "UK",
-            "genotype": {
-              "Library name": "LIB12486",
-              "Genetic group": "4"
-            },
-            "phenotype": {
-              "Suwon Omar": "3.0",
-              "Host": "KWS Kielder",
-              "Library": "LIB12486",
-              "Chinese 166": "4.0",
-              "Batch": "2",
-              "Av x Yr7 NIL": "4.0",
-              "Moro": "0.0",
-              "Heines Kolben": "2.0",
-              "KWS-Sterling": "0.1",
-              "Nord Desprez": "3.0",
-              "Av x Yr17": "3.5",
-              "Benetto": "4.0",
-              "Spaldings Prolific": "3.0",
-              "Carstens V": "4.0",
-              "Lee": "3.0",
-              "AVS x Yr 15": "0.0",
-              "Heines Peko": "3.0",
-              "Clement": "3.0",
-              "Opata": "2.5",
-              "Grenado": "4.0",
-              "KWS Fido": "3.0",
-              "Kavkaz x 4 Fed": "3.0",
-              "Vilmorin 23": "3.0",
-              "Brigadier": "-",
-              "No of isols tested": "2",
-              "Solstice": "3.0",
-              "Tribeca": "0.0",
-              "|Chinese 166|Kalyansona|Vilmorin 23|Nord Desprez|Hybrid 46|Heines Kolben|Heines Peko|Lee|Av x Yr7 NIL|Compair|Kavkaz x 4 Fed|Clement|AVS x Yr 15|VPM 1|Rendezvous|Av x Yr17|Carstens V|Talon|Av x Yr32|Spaldings Prolific|Robigus|Solstice|Timber|Warrior|KWS-Sterling|Cadenza|Claire|Crusoe|Ambition|Heines VII|Suwon Omar|Avocet Yr5|Avocet Yr6|Moro|Avocet Yr24|Opata|Strubes Dickkopf|Avocet Yr27|Apache|Vuka|Grenado|Benetto|Tradiro|Tribeca|Tulus|Dublet|KWS Fido|Brigadier|Stigg|": "1,2,3,(4),6,7,9,17,32",
-              "Avocet Yr6": "3.5",
-              "Warrior": "2.1",
-              "Cadenza": "3.0",
-              "Compair": "0.0",
-              "Rendezvous": "0.2",
-              "Av x Yr32": "3.0",
-              "Kalyansona": "4.0",
-              "Strubes Dickkopf": "3.5",
-              "Hybrid 46": "2.0",
-              "Robigus": "3.0",
-              "Tradiro": "4.0",
-              "Heines VII": "0.0",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "2.0",
-              "Talon": "2.3",
-              "Avocet Yr27": "*",
-              "Apache": "3.0",
-              "Claire": "2.6",
-              "Timber": "0.0",
-              "Crusoe": "0.0",
-              "Ambition": "0.0",
-              "Avocet Yr5": "0.0",
-              "Stigg": "0.0",
-              "Vuka": "3.5",
-              "Tulus": "2.0",
-              "Dublet": "3.0"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7df6ca5bb65cc28e0de"
-            },
-            "Company": "NIABTAG",
-            "Name/Collector": "Rosemary Bayles",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0025",
-            "location": {
-              "north_bound": 53.1265169,
-              "latitude": 53.119821,
-              "west_bound": -0.5482984,
-              "longitude": -0.532291,
-              "south_bound": 53.1131241,
-              "east_bound": -0.5162836
-            },
-            "Town": "Boothby Graffoe",
-            "UKCPVS ID": "13/25",
-            "Library name": "LIB4463",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-12",
-            "Date collected (compact)": "20130612",
-            "Host": "Wheat",
-            "Country": "UK",
-            "Variety": "KWS Dali",
-            "County": "Lincolnshire",
-            "genotype": {
-              "Sample name": "13/25",
-              "Library name": "LIB4463",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7df6ca5bb65cc28e0e0"
-            },
-            "Company": "NIABTAG Sutton Scotney",
-            "Name/Collector": "Sarah Bowden",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0027",
-            "location": {
-              "north_bound": 51.7298793,
-              "latitude": 51.718495,
-              "west_bound": -1.9912892,
-              "longitude": -1.968243,
-              "south_bound": 51.70008,
-              "east_bound": -1.941325
-            },
             "Town": "Cirencester",
-            "UKCPVS ID": "13/27",
-            "Library name": "LIB4360",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-12",
-            "Date collected (compact)": "20130612",
-            "Host": "Wheat",
-            "Country": "UK",
-            "Variety": "Oakley",
-            "County": "Gloucestershire",
-            "genotype": {
-              "Sample name": "13/27",
-              "Library name": "LIB4360",
-              "Genetic group": "1"
-            }
-          },
-          {
             "_id": {
-              "$oid": "5628e7df6ca5bb65cc28e0e1"
+              "$oid": "562a50626ca5bb0fc909d8a0"
             },
-            "Company": "NIABTAG Sutton Scotney",
-            "Name/Collector": "Sarah Bowden",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0028",
-            "location": {
-              "north_bound": 51.7298793,
-              "latitude": 51.718495,
-              "west_bound": -1.9912892,
-              "longitude": -1.968243,
-              "south_bound": 51.70008,
-              "east_bound": -1.941325
-            },
-            "Town": "Cirencester",
-            "UKCPVS ID": "13/28",
-            "Library name": "LIB4475",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-12",
-            "Date collected (compact)": "20130612",
-            "Host": "Wheat",
-            "Country": "UK",
-            "Variety": "Solstice",
-            "County": "Gloucestershire",
-            "genotype": {
-              "Sample name": "13/28",
-              "Library name": "LIB4475",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7df6ca5bb65cc28e0e3"
-            },
-            "Company": "NIABTAG",
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0030",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "UKCPVS ID": "13/30",
-            "Library name": "LIB4473",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-14",
-            "Date collected (compact)": "20130614",
-            "Host": "Wheat",
-            "Country": "UK",
-            "County": "Lincolnshire",
-            "Postal Code": "LN5 0QG",
-            "Variety": "ReR22",
-            "genotype": {
-              "Sample name": "13/30",
-              "Library name": "LIB4473",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7df6ca5bb65cc28e0e5"
-            },
-            "Company": "NIABTAG",
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0032",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "UKCPVS ID": "13/32",
-            "Library name": "LIB4471",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-14",
-            "Date collected (compact)": "20130614",
-            "Host": "Wheat",
-            "Country": "UK",
-            "County": "Lincolnshire",
-            "Postal Code": "LN5 0QG",
-            "Variety": "ReR104",
-            "genotype": {
-              "Sample name": "13/32",
-              "Library name": "LIB4471",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7df6ca5bb65cc28e0e6"
-            },
-            "Company": "NIABTAG",
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0034",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "UKCPVS ID": "13/34",
-            "Library name": "LIB4465",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-14",
-            "Date collected (compact)": "20130614",
-            "Host": "Wheat",
-            "Country": "UK",
-            "County": "Lincolnshire",
-            "Postal Code": "LN5 0QG",
-            "Variety": "ReR32",
-            "genotype": {
-              "Sample name": "13/34",
-              "Library name": "LIB4465",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7df6ca5bb65cc28e0e7"
-            },
-            "Company": "NIABTAG",
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0035",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "UKCPVS ID": "13/35",
-            "Library name": "LIB4482",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-14",
-            "Date collected (compact)": "20130614",
-            "Host": "Wheat",
-            "Country": "UK",
-            "County": "Lincolnshire",
-            "Postal Code": "LN5 0QG",
-            "Variety": "ReR64",
-            "genotype": {
-              "Sample name": "13/35",
-              "Library name": "LIB4482",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7e06ca5bb65cc28e0e9"
-            },
-            "Company": "NIABTAG",
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0038",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "UKCPVS ID": "13/38",
-            "Library name": "LIB4474",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-14",
-            "Date collected (compact)": "20130614",
-            "Host": "Wheat",
-            "Country": "UK",
-            "County": "Lincolnshire",
-            "Postal Code": "LN5 0QG",
-            "Variety": "ReR138",
-            "genotype": {
-              "Sample name": "13/38",
-              "Library name": "LIB4474",
-              "Genetic group": "3"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7e06ca5bb65cc28e0ea"
-            },
-            "Company": "NIABTAG",
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0039",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "UKCPVS ID": "13/39",
-            "Library name": "LIB4478",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-14",
-            "Date collected (compact)": "20130614",
-            "Host": "Wheat",
-            "Country": "UK",
-            "County": "Lincolnshire",
-            "Postal Code": "LN5 0QG",
-            "Variety": "Toisondor",
-            "genotype": {
-              "Sample name": "13/39",
-              "Library name": "LIB4478",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7e06ca5bb65cc28e0eb"
-            },
-            "Company": "NIABTAG",
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0040",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "UKCPVS ID": "13/40",
-            "Library name": "LIB4481",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-14",
-            "Date collected (compact)": "20130614",
-            "Host": "Wheat",
-            "Country": "UK",
-            "County": "Lincolnshire",
-            "Postal Code": "LN5 0QG",
-            "Variety": "Fairplay",
-            "genotype": {
-              "Sample name": "13/40",
-              "Library name": "LIB4481",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7e06ca5bb65cc28e0ed"
-            },
-            "Company": "NIABTAG",
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0042",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "UKCPVS ID": "13/42",
-            "Library name": "LIB4480",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-14",
-            "Date collected (compact)": "20130614",
-            "Host": "Wheat",
-            "Country": "UK",
-            "County": "Lincolnshire",
-            "Postal Code": "LN5 0QG",
-            "Variety": "Audace",
-            "genotype": {
-              "Sample name": "13/42",
-              "Library name": "LIB4480",
-              "Genetic group": "3"
-            }
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e06ca5bb65cc28e0ee"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0043",
-            "location": {
-              "north_bound": 53.00113,
-              "latitude": 52.97894,
-              "west_bound": -0.0632467,
-              "longitude": -0.026577,
-              "south_bound": 52.9556353,
-              "east_bound": 0.0204234
-            },
-            "Town": "Boston",
-            "Date collected": "2013-06-14",
-            "UKCPVS ID": "13/43",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130614",
-            "Country": "UK",
-            "Variety": "Oakley (1)",
-            "County": "Lincolnshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e06ca5bb65cc28e0ef"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0044",
-            "location": {
-              "north_bound": 53.00113,
-              "latitude": 52.97894,
-              "west_bound": -0.0632467,
-              "longitude": -0.026577,
-              "south_bound": 52.9556353,
-              "east_bound": 0.0204234
-            },
-            "Town": "Boston",
-            "Date collected": "2013-06-14",
-            "UKCPVS ID": "13/44",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130614",
-            "Country": "UK",
-            "Variety": "Allez Y",
-            "County": "Lincolnshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e06ca5bb65cc28e0f0"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0045",
-            "location": {
-              "north_bound": 53.00113,
-              "latitude": 52.97894,
-              "west_bound": -0.0632467,
-              "longitude": -0.026577,
-              "south_bound": 52.9556353,
-              "east_bound": 0.0204234
-            },
-            "Town": "Boston",
-            "Date collected": "2013-06-14",
-            "UKCPVS ID": "13/45",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130614",
-            "Country": "UK",
-            "Variety": "Victo (1)",
-            "County": "Lincolnshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e06ca5bb65cc28e0f1"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0046",
-            "location": {
-              "north_bound": 53.00113,
-              "latitude": 52.97894,
-              "west_bound": -0.0632467,
-              "longitude": -0.026577,
-              "south_bound": 52.9556353,
-              "east_bound": 0.0204234
-            },
-            "Town": "Boston",
-            "Date collected": "2013-06-14",
-            "UKCPVS ID": "13/46",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130614",
-            "Country": "UK",
-            "Variety": "Laurier",
-            "County": "Lincolnshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e06ca5bb65cc28e0f2"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0047",
-            "location": {
-              "north_bound": 53.00113,
-              "latitude": 52.97894,
-              "west_bound": -0.0632467,
-              "longitude": -0.026577,
-              "south_bound": 52.9556353,
-              "east_bound": 0.0204234
-            },
-            "Town": "Boston",
-            "Date collected": "2013-06-14",
-            "UKCPVS ID": "13/47",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130614",
-            "Country": "UK",
-            "Variety": "ReR110",
-            "County": "Lincolnshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e06ca5bb65cc28e0f3"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0048",
-            "location": {
-              "north_bound": 53.00113,
-              "latitude": 52.97894,
-              "west_bound": -0.0632467,
-              "longitude": -0.026577,
-              "south_bound": 52.9556353,
-              "east_bound": 0.0204234
-            },
-            "Town": "Boston",
-            "Date collected": "2013-06-14",
-            "UKCPVS ID": "13/48",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130614",
-            "Country": "UK",
-            "Variety": "Oakley ? (2)",
-            "County": "Lincolnshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e06ca5bb65cc28e0f4"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0049",
-            "location": {
-              "north_bound": 53.00113,
-              "latitude": 52.97894,
-              "west_bound": -0.0632467,
-              "longitude": -0.026577,
-              "south_bound": 52.9556353,
-              "east_bound": 0.0204234
-            },
-            "Town": "Boston",
-            "Date collected": "2013-06-14",
-            "UKCPVS ID": "13/49",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130614",
-            "Country": "UK",
-            "Variety": "victo ? (2)",
-            "County": "Lincolnshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e06ca5bb65cc28e0f5"
-            },
-            "Name/Collector": "Rosemary Bayles",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0054",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-18",
-            "UKCPVS ID": "13/54",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130618",
-            "Variety": "Fugue",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e16ca5bb65cc28e0f6"
-            },
-            "Name/Collector": "Rosemary Bayles",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0055",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-18",
-            "UKCPVS ID": "13/55",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130618",
-            "Variety": "Oakley",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e16ca5bb65cc28e0f7"
-            },
-            "Name/Collector": "Rosemary Bayles",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0056",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-18",
-            "UKCPVS ID": "13/56",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130618",
-            "Variety": "Solstice 1",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e16ca5bb65cc28e0f8"
-            },
-            "Name/Collector": "Rosemary Bayles",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0057",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-18",
-            "UKCPVS ID": "13/57",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130618",
-            "Variety": "Cordiale",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e16ca5bb65cc28e0f9"
-            },
-            "Name/Collector": "Rosemary Bayles",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0058",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-18",
-            "UKCPVS ID": "13/58",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130618",
-            "Variety": "Gallant",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e16ca5bb65cc28e0fa"
-            },
-            "Name/Collector": "Rosemary Bayles",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0059",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-18",
-            "UKCPVS ID": "13/59",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130618",
-            "Variety": "Solstice 2",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e16ca5bb65cc28e0fb"
-            },
-            "Name/Collector": "Rosemary Bayles",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0060",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-18",
-            "UKCPVS ID": "13/60",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130618",
-            "Variety": "Chilton",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e16ca5bb65cc28e0fc"
-            },
-            "Name/Collector": "Rosemary Bayles",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0061",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-18",
-            "UKCPVS ID": "13/61",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130618",
-            "Variety": "KWS Sterling",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e16ca5bb65cc28e0fd"
-            },
-            "Name/Collector": "Rosemary Bayles",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0062",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-18",
-            "UKCPVS ID": "13/62",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130618",
-            "Variety": "KWS Podium",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e16ca5bb65cc28e0fe"
-            },
-            "Name/Collector": "Rosemary Bayles",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0063",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-18",
-            "UKCPVS ID": "13/63",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130618",
-            "Variety": "SY110110",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e16ca5bb65cc28e0ff"
-            },
-            "Name/Collector": "Rosemary Bayles",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0064",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-18",
-            "UKCPVS ID": "13/64",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130618",
-            "Variety": "Torch",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e16ca5bb65cc28e101"
-            },
-            "Name/Collector": "Emma Coventry",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0067",
-            "location": {
-              "north_bound": 53.8699033802915,
-              "latitude": 53.8685544,
-              "west_bound": -1.3272128802915,
-              "longitude": -1.3258639,
-              "south_bound": 53.8672054197085,
-              "east_bound": -1.3245149197085
-            },
-            "Town": "Headley Hall",
-            "Date collected": "2013-06-18",
-            "UKCPVS ID": "13/67",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130618",
-            "Country": "UK",
-            "Variety": "ReR110",
-            "County": "Yorkshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e26ca5bb65cc28e102"
-            },
-            "Name/Collector": "Emma Coventry",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0069",
-            "location": {
-              "north_bound": 53.8699033802915,
-              "latitude": 53.8685544,
-              "west_bound": -1.3272128802915,
-              "longitude": -1.3258639,
-              "south_bound": 53.8672054197085,
-              "east_bound": -1.3245149197085
-            },
-            "Town": "Headley Hall",
-            "Date collected": "2013-06-18",
-            "UKCPVS ID": "13/69",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130618",
-            "Country": "UK",
-            "Variety": "ReR104",
-            "County": "Yorkshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e26ca5bb65cc28e103"
-            },
-            "Name/Collector": "Emma Coventry",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0070",
-            "location": {
-              "north_bound": 53.8699033802915,
-              "latitude": 53.8685544,
-              "west_bound": -1.3272128802915,
-              "longitude": -1.3258639,
-              "south_bound": 53.8672054197085,
-              "east_bound": -1.3245149197085
-            },
-            "Town": "Headley Hall",
-            "Date collected": "2013-06-18",
-            "UKCPVS ID": "13/70",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130618",
-            "Country": "UK",
-            "Variety": "Oakley",
-            "County": "Yorkshire"
-          },
-          {
-            "_id": {
-              "$oid": "5628e7e26ca5bb65cc28e104"
-            },
-            "Company": "NIABTAG",
-            "Name/Collector": "Emma Coventry",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0071",
-            "location": {
-              "north_bound": 53.8699033802915,
-              "latitude": 53.8685544,
-              "west_bound": -1.3272128802915,
-              "longitude": -1.3258639,
-              "south_bound": 53.8672054197085,
-              "east_bound": -1.3245149197085
-            },
-            "Town": "Headley Hall",
-            "UKCPVS ID": "13/71",
-            "Library name": "LIB4479",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-18",
-            "Date collected (compact)": "20130618",
-            "Host": "Wheat",
-            "Country": "UK",
-            "Variety": "Laurier",
-            "County": "Yorkshire",
-            "genotype": {
-              "Sample name": "13/71",
-              "Library name": "LIB4479",
-              "Genetic group": "4"
-            }
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e26ca5bb65cc28e105"
-            },
-            "Name/Collector": "Emma Coventry",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0072",
-            "location": {
-              "north_bound": 53.8699033802915,
-              "latitude": 53.8685544,
-              "west_bound": -1.3272128802915,
-              "longitude": -1.3258639,
-              "south_bound": 53.8672054197085,
-              "east_bound": -1.3245149197085
-            },
-            "Town": "Headley Hall",
-            "Date collected": "2013-06-18",
-            "UKCPVS ID": "13/72",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130618",
-            "Country": "UK",
-            "Variety": "Victo",
-            "County": "Yorkshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e26ca5bb65cc28e106"
-            },
-            "Name/Collector": "Emma Coventry",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0073",
-            "location": {
-              "north_bound": 53.8699033802915,
-              "latitude": 53.8685544,
-              "west_bound": -1.3272128802915,
-              "longitude": -1.3258639,
-              "south_bound": 53.8672054197085,
-              "east_bound": -1.3245149197085
-            },
-            "Town": "Headley Hall",
-            "Date collected": "2013-06-18",
-            "UKCPVS ID": "13/73",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130618",
-            "Country": "UK",
-            "Variety": "Audace",
-            "County": "Yorkshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e26ca5bb65cc28e107"
-            },
-            "Name/Collector": "Emma Coventry",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0074",
-            "location": {
-              "north_bound": 53.8699033802915,
-              "latitude": 53.8685544,
-              "west_bound": -1.3272128802915,
-              "longitude": -1.3258639,
-              "south_bound": 53.8672054197085,
-              "east_bound": -1.3245149197085
-            },
-            "Town": "Headley Hall",
-            "Date collected": "2013-06-18",
-            "UKCPVS ID": "13/74",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130618",
-            "Country": "UK",
-            "Variety": "Allez Y",
-            "County": "Yorkshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e26ca5bb65cc28e108"
-            },
-            "Name/Collector": "Emma Coventry",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0075",
-            "location": {
-              "north_bound": 53.8699033802915,
-              "latitude": 53.8685544,
-              "west_bound": -1.3272128802915,
-              "longitude": -1.3258639,
-              "south_bound": 53.8672054197085,
-              "east_bound": -1.3245149197085
-            },
-            "Town": "Headley Hall",
-            "Date collected": "2013-06-18",
-            "UKCPVS ID": "13/75",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130618",
-            "Country": "UK",
-            "Variety": "Recital",
-            "County": "Yorkshire"
-          },
-          {
-            "Company": "ADAS Rosemaund",
-            "_id": {
-              "$oid": "5628e7e26ca5bb65cc28e109"
-            },
-            "Name/Collector": "Julie Smith",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0076",
-            "location": {
-              "north_bound": 52.1663153,
-              "latitude": 52.1589421,
-              "west_bound": -2.8947105,
-              "longitude": -2.8724958,
-              "south_bound": 52.1534931,
-              "east_bound": -2.8654378
-            },
-            "Town": "Weobley",
-            "Date collected": "2013-06-17",
-            "UKCPVS ID": "13/76",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130617",
-            "Country": "UK",
-            "Variety": "Novel Germplasm",
-            "County": "Herefordshire",
-            "Postal Code": "HR4 8HF"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e26ca5bb65cc28e10a"
-            },
-            "Name/Collector": "Peter Burgis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0077",
-            "location": {
-              "north_bound": 54.4899666,
-              "latitude": 54.483485,
-              "west_bound": -1.5711134,
-              "longitude": -1.555106,
-              "south_bound": 54.4770024,
-              "east_bound": -1.5390986
-            },
-            "Town": "Croft",
-            "Date collected": "2013-06-16",
-            "UKCPVS ID": "13/77",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130616",
-            "Country": "UK",
-            "Variety": "Chilton",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e26ca5bb65cc28e10b"
-            },
-            "Name/Collector": "Rosemary Bayles",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0078",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-19",
-            "UKCPVS ID": "13/78",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130619",
-            "Variety": "KWS Kielder",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e26ca5bb65cc28e10c"
-            },
-            "Name/Collector": "Rosemary Bayles",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0079",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-19",
-            "UKCPVS ID": "13/79",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130619",
-            "Variety": "KWS Dali",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ",
-            "Country": "UK"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e36ca5bb65cc28e10d"
-            },
-            "Name/Collector": "PM Woodcock",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0080",
-            "location": {
-              "north_bound": 52.2182979,
-              "latitude": 52.19173,
-              "west_bound": -1.7537456,
-              "longitude": -1.708298,
-              "south_bound": 52.1749938,
-              "east_bound": -1.6722476
-            },
-            "Town": "Stratford upon Avon",
-            "Date collected": "2013-06-21",
-            "UKCPVS ID": "13/80",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130621",
-            "Country": "UK",
-            "Variety": "JB Diego",
-            "County": "Warwickshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e36ca5bb65cc28e10e"
-            },
-            "Name/Collector": "Menka Hopma",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0081",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "Date collected": "2013-06-24",
-            "UKCPVS ID": "13/81",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130624",
-            "Variety": "Solstice",
-            "County": "Lincolnshire",
-            "Private comments": "Date is arrival date",
-            "Country": "UK",
-            "Postal Code": "LN5 0QG"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e36ca5bb65cc28e10f"
-            },
-            "Name/Collector": "Menka Hopma",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0082",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "Date collected": "2013-06-24",
-            "UKCPVS ID": "13/82",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130624",
-            "Variety": "Duxford",
-            "County": "Lincolnshire",
-            "Private comments": "Date is arrival date",
-            "Country": "UK",
-            "Postal Code": "LN5 0QG"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e36ca5bb65cc28e110"
-            },
-            "Name/Collector": "Menka Hopma",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0083",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "Date collected": "2013-06-24",
-            "UKCPVS ID": "13/83",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130624",
-            "Variety": "Cordiale",
-            "County": "Lincolnshire",
-            "Private comments": "Date is arrival date",
-            "Country": "UK",
-            "Postal Code": "LN5 0QG"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e36ca5bb65cc28e111"
-            },
-            "Name/Collector": "Menka Hopma",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0084",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "Date collected": "2013-06-24",
-            "UKCPVS ID": "13/84",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130624",
-            "Variety": "Oakley",
-            "County": "Lincolnshire",
-            "Private comments": "Date is arrival date",
-            "Country": "UK",
-            "Postal Code": "LN5 0QG"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e36ca5bb65cc28e112"
-            },
-            "Name/Collector": "Menka Hopma",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0085",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "Date collected": "2013-06-24",
-            "UKCPVS ID": "13/85",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130624",
-            "Variety": "KWS Santiago",
-            "County": "Lincolnshire",
-            "Private comments": "Date is arrival date",
-            "Country": "UK",
-            "Postal Code": "LN5 0QG"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e36ca5bb65cc28e113"
-            },
-            "Name/Collector": "Menka Hopma",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0086",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "Date collected": "2013-06-24",
-            "UKCPVS ID": "13/86",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130624",
-            "Variety": "Horatio",
-            "County": "Lincolnshire",
-            "Private comments": "Date is arrival date",
-            "Country": "UK",
-            "Postal Code": "LN5 0QG"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e36ca5bb65cc28e114"
-            },
-            "Name/Collector": "Menka Hopma",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0087",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "Date collected": "2013-06-24",
-            "UKCPVS ID": "13/87",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130624",
-            "Variety": "Beluga",
-            "County": "Lincolnshire",
-            "Private comments": "Date is arrival date",
-            "Country": "UK",
-            "Postal Code": "LN5 0QG"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e36ca5bb65cc28e115"
-            },
-            "Name/Collector": "Menka Hopma",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0088",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "Date collected": "2013-06-24",
-            "UKCPVS ID": "13/88",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130624",
-            "Variety": "JB Diego",
-            "County": "Lincolnshire",
-            "Private comments": "Date is arrival date",
-            "Country": "UK",
-            "Postal Code": "LN5 0QG"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e36ca5bb65cc28e116"
-            },
-            "Name/Collector": "Menka Hopma",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0089",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "Date collected": "2013-06-24",
-            "UKCPVS ID": "13/89",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130624",
-            "Variety": "Torch",
-            "County": "Lincolnshire",
-            "Private comments": "Date is arrival date",
-            "Country": "UK",
-            "Postal Code": "LN5 0QG"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e36ca5bb65cc28e117"
-            },
-            "Name/Collector": "Menka Hopma",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0090",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "Date collected": "2013-06-24",
-            "UKCPVS ID": "13/90",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130624",
-            "Variety": "KWS Kielder",
-            "County": "Lincolnshire",
-            "Private comments": "Date is arrival date",
-            "Country": "UK",
-            "Postal Code": "LN5 0QG"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e36ca5bb65cc28e118"
-            },
-            "Name/Collector": "Menka Hopma",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0096",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "Date collected": "2013-06-24",
-            "UKCPVS ID": "13/96",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130624",
-            "Variety": "KWS W196",
-            "County": "Lincolnshire",
-            "Private comments": "Date is arrival date",
-            "Country": "UK",
-            "Postal Code": "LN5 0QG"
-          },
-          {
-            "_id": {
-              "$oid": "5628e7e36ca5bb65cc28e119"
-            },
-            "Name/Collector": "John Blackman",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0097",
-            "Country": "UK",
-            "location": {
-              "north_bound": 52.1247396,
-              "latitude": 52.1178887,
-              "west_bound": 0.2230467,
-              "longitude": 0.2390541,
-              "south_bound": 52.1110367,
-              "east_bound": 0.2550615
-            },
-            "Town": "Abington",
-            "Date collected": "2013-06-27",
-            "UKCPVS ID": "13/97",
-            "Variety": "Cougar",
-            "County": "Cambridgeshire",
-            "Date collected (compact)": "20130627",
-            "Host": "Wheat"
-          },
-          {
-            "Company": "NIABTAG Headley Hall",
-            "_id": {
-              "$oid": "5628e7e46ca5bb65cc28e11a"
-            },
-            "Name/Collector": "Peter Burgis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0099",
-            "location": {
-              "north_bound": 54.4956707,
-              "latitude": 54.48919,
-              "west_bound": -0.7842384,
-              "longitude": -0.768231,
-              "south_bound": 54.4827083,
-              "east_bound": -0.7522236
-            },
-            "Town": "Bugthorpe",
-            "Date collected": "2013-07-01",
-            "UKCPVS ID": "13/99",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130701",
-            "Country": "UK",
-            "Variety": "LGW56",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG Headley Hall",
-            "_id": {
-              "$oid": "5628e7e46ca5bb65cc28e11b"
-            },
-            "Name/Collector": "Peter Burgis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0100",
-            "location": {
-              "north_bound": 54.4956707,
-              "latitude": 54.48919,
-              "west_bound": -0.7842384,
-              "longitude": -0.768231,
-              "south_bound": 54.4827083,
-              "east_bound": -0.7522236
-            },
-            "Town": "Bugthorpe",
-            "Date collected": "2013-07-01",
-            "UKCPVS ID": "13/100",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130701",
-            "Country": "UK",
-            "Variety": "Gallant",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG Headley Hall",
-            "_id": {
-              "$oid": "5628e7e46ca5bb65cc28e11c"
-            },
-            "Name/Collector": "Peter Burgis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0101",
-            "location": {
-              "north_bound": 54.4956707,
-              "latitude": 54.48919,
-              "west_bound": -0.7842384,
-              "longitude": -0.768231,
-              "south_bound": 54.4827083,
-              "east_bound": -0.7522236
-            },
-            "Town": "Bugthorpe",
-            "Date collected": "2013-07-01",
-            "UKCPVS ID": "13/101",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130701",
-            "Country": "UK",
-            "Variety": "SY110110",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG Headley Hall",
-            "_id": {
-              "$oid": "5628e7e46ca5bb65cc28e11d"
-            },
-            "Name/Collector": "Peter Burgis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0102",
-            "location": {
-              "north_bound": 54.4956707,
-              "latitude": 54.48919,
-              "west_bound": -0.7842384,
-              "longitude": -0.768231,
-              "south_bound": 54.4827083,
-              "east_bound": -0.7522236
-            },
-            "Town": "Bugthorpe",
-            "Date collected": "2013-07-01",
-            "UKCPVS ID": "13/102",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130701",
-            "Country": "UK",
-            "Variety": "KWS Santiago",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG Headley Hall",
-            "_id": {
-              "$oid": "5628e7e46ca5bb65cc28e11e"
-            },
-            "Name/Collector": "Peter Burgis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0103",
-            "location": {
-              "north_bound": 54.4956707,
-              "latitude": 54.48919,
-              "west_bound": -0.7842384,
-              "longitude": -0.768231,
-              "south_bound": 54.4827083,
-              "east_bound": -0.7522236
-            },
-            "Town": "Bugthorpe",
-            "Date collected": "2013-07-01",
-            "UKCPVS ID": "13/103",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130701",
-            "Country": "UK",
-            "Variety": "JB Diego",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG Headley Hall",
-            "_id": {
-              "$oid": "5628e7e46ca5bb65cc28e11f"
-            },
-            "Name/Collector": "Peter Burgis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0104",
-            "location": {
-              "north_bound": 54.4956707,
-              "latitude": 54.48919,
-              "west_bound": -0.7842384,
-              "longitude": -0.768231,
-              "south_bound": 54.4827083,
-              "east_bound": -0.7522236
-            },
-            "Town": "Bugthorpe",
-            "Date collected": "2013-07-01",
-            "UKCPVS ID": "13/104",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130701",
-            "Country": "UK",
-            "Variety": "KWS Podium",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG Headley Hall",
-            "_id": {
-              "$oid": "5628e7e46ca5bb65cc28e120"
-            },
-            "Name/Collector": "Peter Burgis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0105",
-            "location": {
-              "north_bound": 54.4956707,
-              "latitude": 54.48919,
-              "west_bound": -0.7842384,
-              "longitude": -0.768231,
-              "south_bound": 54.4827083,
-              "east_bound": -0.7522236
-            },
-            "Town": "Bugthorpe",
-            "Date collected": "2013-07-01",
-            "UKCPVS ID": "13/105",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130701",
-            "Country": "UK",
-            "Variety": "Cordiale",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG Headley Hall",
-            "_id": {
-              "$oid": "5628e7e46ca5bb65cc28e121"
-            },
-            "Name/Collector": "Peter Burgis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0106",
-            "location": {
-              "north_bound": 54.4956707,
-              "latitude": 54.48919,
-              "west_bound": -0.7842384,
-              "longitude": -0.768231,
-              "south_bound": 54.4827083,
-              "east_bound": -0.7522236
-            },
-            "Town": "Bugthorpe",
-            "Date collected": "2013-07-01",
-            "UKCPVS ID": "13/106",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130701",
-            "Country": "UK",
-            "Variety": "RW41088",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG Headley Hall",
-            "_id": {
-              "$oid": "5628e7e46ca5bb65cc28e122"
-            },
-            "Name/Collector": "Peter Burgis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0107",
-            "location": {
-              "north_bound": 54.4956707,
-              "latitude": 54.48919,
-              "west_bound": -0.7842384,
-              "longitude": -0.768231,
-              "south_bound": 54.4827083,
-              "east_bound": -0.7522236
-            },
-            "Town": "Bugthorpe",
-            "Date collected": "2013-07-01",
-            "UKCPVS ID": "13/107",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130701",
-            "Country": "UK",
-            "Variety": "MH10-33",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG Headley Hall",
-            "_id": {
-              "$oid": "5628e7e46ca5bb65cc28e123"
-            },
-            "Name/Collector": "Peter Burgis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0108",
-            "location": {
-              "north_bound": 54.4956707,
-              "latitude": 54.48919,
-              "west_bound": -0.7842384,
-              "longitude": -0.768231,
-              "south_bound": 54.4827083,
-              "east_bound": -0.7522236
-            },
-            "Town": "Bugthorpe",
-            "Date collected": "2013-07-01",
-            "UKCPVS ID": "13/108",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130701",
-            "Country": "UK",
-            "Variety": "KWS W196",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG Headley Hall",
-            "_id": {
-              "$oid": "5628e7e46ca5bb65cc28e124"
-            },
-            "Name/Collector": "Peter Burgis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0109",
-            "location": {
-              "north_bound": 54.4956707,
-              "latitude": 54.48919,
-              "west_bound": -0.7842384,
-              "longitude": -0.768231,
-              "south_bound": 54.4827083,
-              "east_bound": -0.7522236
-            },
-            "Town": "Bugthorpe",
-            "Date collected": "2013-07-01",
-            "UKCPVS ID": "13/109",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130701",
-            "Country": "UK",
-            "Variety": "SJ3326",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG Headley Hall",
-            "_id": {
-              "$oid": "5628e7e56ca5bb65cc28e125"
-            },
-            "Name/Collector": "Peter Burgis",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0110",
-            "location": {
-              "north_bound": 54.4956707,
-              "latitude": 54.48919,
-              "west_bound": -0.7842384,
-              "longitude": -0.768231,
-              "south_bound": 54.4827083,
-              "east_bound": -0.7522236
-            },
-            "Town": "Bugthorpe",
-            "Date collected": "2013-07-01",
-            "UKCPVS ID": "13/110",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130701",
-            "Country": "UK",
-            "Variety": "Denman",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG Headley Hall",
-            "_id": {
-              "$oid": "5628e7e56ca5bb65cc28e126"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0111",
-            "location": {
-              "north_bound": 53.8699033802915,
-              "latitude": 53.8685544,
-              "west_bound": -1.3272128802915,
-              "longitude": -1.3258639,
-              "south_bound": 53.8672054197085,
-              "east_bound": -1.3245149197085
-            },
-            "Town": "Headley Hall",
-            "Date collected": "2013-07-02",
-            "UKCPVS ID": "13/111",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130702",
-            "Country": "UK",
-            "Variety": "Oakley",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG Headley Hall",
-            "_id": {
-              "$oid": "5628e7e56ca5bb65cc28e127"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0112",
-            "location": {
-              "north_bound": 53.8699033802915,
-              "latitude": 53.8685544,
-              "west_bound": -1.3272128802915,
-              "longitude": -1.3258639,
-              "south_bound": 53.8672054197085,
-              "east_bound": -1.3245149197085
-            },
-            "Town": "Headley Hall",
-            "Date collected": "2013-07-02",
-            "UKCPVS ID": "13/112",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130702",
-            "Country": "UK",
-            "Variety": "Victo",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG Headley Hall",
-            "_id": {
-              "$oid": "5628e7e56ca5bb65cc28e128"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0113",
-            "location": {
-              "north_bound": 53.8699033802915,
-              "latitude": 53.8685544,
-              "west_bound": -1.3272128802915,
-              "longitude": -1.3258639,
-              "south_bound": 53.8672054197085,
-              "east_bound": -1.3245149197085
-            },
-            "Town": "Headley Hall",
-            "Date collected": "2013-07-02",
-            "UKCPVS ID": "13/113",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130702",
-            "Country": "UK",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG Headley Hall",
-            "_id": {
-              "$oid": "5628e7e56ca5bb65cc28e129"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0114",
-            "location": {
-              "north_bound": 53.8699033802915,
-              "latitude": 53.8685544,
-              "west_bound": -1.3272128802915,
-              "longitude": -1.3258639,
-              "south_bound": 53.8672054197085,
-              "east_bound": -1.3245149197085
-            },
-            "Town": "Headley Hall",
-            "Date collected": "2013-07-02",
-            "UKCPVS ID": "13/114",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130702",
-            "Country": "UK",
-            "Variety": "Recital",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG Headley Hall",
-            "_id": {
-              "$oid": "5628e7e56ca5bb65cc28e12a"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0115",
-            "location": {
-              "north_bound": 53.8699033802915,
-              "latitude": 53.8685544,
-              "west_bound": -1.3272128802915,
-              "longitude": -1.3258639,
-              "south_bound": 53.8672054197085,
-              "east_bound": -1.3245149197085
-            },
-            "Town": "Headley Hall",
-            "Date collected": "2013-07-02",
-            "UKCPVS ID": "13/115",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130702",
-            "Country": "UK",
-            "Variety": "Toisondor",
-            "County": "North Yorkshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e56ca5bb65cc28e12b"
-            },
-            "Name/Collector": "Mark Wavish",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0116",
-            "location": {
-              "north_bound": 50.2768564,
-              "latitude": 50.269725,
-              "west_bound": -3.7716394,
-              "longitude": -3.755632,
-              "south_bound": 50.2625926,
-              "east_bound": -3.7396246
-            },
-            "Town": "West Charleton",
-            "Date collected": "2013-07-02",
-            "UKCPVS ID": "13/116",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130702",
-            "Country": "UK",
-            "Variety": "Torch",
-            "County": "Devon"
-          },
-          {
-            "Company": "NIABTAG Wye",
-            "_id": {
-              "$oid": "5628e7e56ca5bb65cc28e12c"
-            },
-            "Name/Collector": "Roger Stewart",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0117",
-            "location": {
-              "north_bound": 51.205135,
-              "latitude": 51.181903,
-              "west_bound": 0.9098592,
-              "longitude": 0.937883,
-              "south_bound": 51.1552381,
-              "east_bound": 1.0039394
-            },
-            "Town": "Wye",
-            "Date collected": "2013-07-01",
-            "UKCPVS ID": "13/117",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130701",
-            "Country": "UK",
-            "Variety": "Oakley",
-            "County": "Kent"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e56ca5bb65cc28e12d"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0118",
-            "location": {
-              "north_bound": 53.0322775,
-              "latitude": 53.021631,
-              "west_bound": -0.6114799,
-              "longitude": -0.6045819,
-              "south_bound": 53.0174137,
-              "east_bound": -0.5688846
-            },
-            "Town": "Caythorpe",
-            "Date collected": "2013-07-03",
-            "UKCPVS ID": "13/118",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130703",
-            "Country": "UK",
-            "Variety": "Laurier",
-            "County": "Lincolnshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e56ca5bb65cc28e12e"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0119",
-            "location": {
-              "north_bound": 53.0322775,
-              "latitude": 53.021631,
-              "west_bound": -0.6114799,
-              "longitude": -0.6045819,
-              "south_bound": 53.0174137,
-              "east_bound": -0.5688846
-            },
-            "Town": "Caythorpe",
-            "Date collected": "2013-07-03",
-            "UKCPVS ID": "13/119",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130703",
-            "Country": "UK",
-            "Variety": "Lyrik",
-            "County": "Lincolnshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e56ca5bb65cc28e12f"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0121",
-            "location": {
-              "north_bound": 53.0322775,
-              "latitude": 53.021631,
-              "west_bound": -0.6114799,
-              "longitude": -0.6045819,
-              "south_bound": 53.0174137,
-              "east_bound": -0.5688846
-            },
-            "Town": "Caythorpe",
-            "Date collected": "2013-07-03",
-            "UKCPVS ID": "13/121",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130703",
-            "Country": "UK",
-            "Variety": "Ascott",
-            "County": "Lincolnshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e66ca5bb65cc28e131"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0124",
-            "location": {
-              "north_bound": 53.00113,
-              "latitude": 52.97894,
-              "west_bound": -0.0632467,
-              "longitude": -0.026577,
-              "south_bound": 52.9556353,
-              "east_bound": 0.0204234
-            },
-            "Town": "Boston",
-            "Date collected": "2013-07-03",
-            "UKCPVS ID": "13/124",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130703",
-            "Country": "UK",
-            "Variety": "Toisondor",
-            "County": "Lincolnshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e66ca5bb65cc28e132"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0125",
-            "location": {
-              "north_bound": 53.00113,
-              "latitude": 52.97894,
-              "west_bound": -0.0632467,
-              "longitude": -0.026577,
-              "south_bound": 52.9556353,
-              "east_bound": 0.0204234
-            },
-            "Town": "Boston",
-            "Date collected": "2013-07-03",
-            "UKCPVS ID": "13/125",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130703",
-            "Country": "UK",
-            "Variety": "ReR138",
-            "County": "Lincolnshire"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7e66ca5bb65cc28e133"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0126",
-            "location": {
-              "north_bound": 53.00113,
-              "latitude": 52.97894,
-              "west_bound": -0.0632467,
-              "longitude": -0.026577,
-              "south_bound": 52.9556353,
-              "east_bound": 0.0204234
-            },
-            "Town": "Boston",
-            "Date collected": "2013-07-03",
-            "UKCPVS ID": "13/126",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130703",
-            "Country": "UK",
-            "Variety": "Altigo",
-            "County": "Lincolnshire"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e66ca5bb65cc28e134"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0127",
-            "location": {
-              "north_bound": 51.8988433,
-              "latitude": 51.8923507,
-              "west_bound": 0.4066702,
-              "longitude": 0.4127419,
-              "south_bound": 51.8875297,
-              "east_bound": 0.4232357
-            },
-            "Town": "Stebbing",
-            "Date collected": "2013-07-04",
-            "UKCPVS ID": "13/127",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130704",
-            "Country": "UK",
-            "Variety": "JB Diego",
-            "County": "Essex"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e66ca5bb65cc28e135"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0128",
-            "location": {
-              "north_bound": 51.8988433,
-              "latitude": 51.8923507,
-              "west_bound": 0.4066702,
-              "longitude": 0.4127419,
-              "south_bound": 51.8875297,
-              "east_bound": 0.4232357
-            },
-            "Town": "Stebbing",
-            "Date collected": "2013-07-04",
-            "UKCPVS ID": "13/128",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130704",
-            "Country": "UK",
-            "Variety": "Cordiale",
-            "County": "Essex"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e66ca5bb65cc28e136"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0129",
-            "location": {
-              "north_bound": 51.8988433,
-              "latitude": 51.8923507,
-              "west_bound": 0.4066702,
-              "longitude": 0.4127419,
-              "south_bound": 51.8875297,
-              "east_bound": 0.4232357
-            },
-            "Town": "Stebbing",
-            "Date collected": "2013-07-04",
-            "UKCPVS ID": "13/129",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130704",
-            "Country": "UK",
-            "Variety": "KWS W199 Bonai",
-            "County": "Essex"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e66ca5bb65cc28e137"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0130",
-            "location": {
-              "north_bound": 51.8988433,
-              "latitude": 51.8923507,
-              "west_bound": 0.4066702,
-              "longitude": 0.4127419,
-              "south_bound": 51.8875297,
-              "east_bound": 0.4232357
-            },
-            "Town": "Stebbing",
-            "Date collected": "2013-07-04",
-            "UKCPVS ID": "13/130",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130704",
-            "Country": "UK",
-            "Variety": "KWS Podium",
-            "County": "Essex"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e66ca5bb65cc28e138"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0131",
-            "location": {
-              "north_bound": 51.8988433,
-              "latitude": 51.8923507,
-              "west_bound": 0.4066702,
-              "longitude": 0.4127419,
-              "south_bound": 51.8875297,
-              "east_bound": 0.4232357
-            },
-            "Town": "Stebbing",
-            "Date collected": "2013-07-04",
-            "UKCPVS ID": "13/131",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130704",
-            "Country": "UK",
-            "Variety": "RW41088",
-            "County": "Essex"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e66ca5bb65cc28e139"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0132",
-            "location": {
-              "north_bound": 51.8988433,
-              "latitude": 51.8923507,
-              "west_bound": 0.4066702,
-              "longitude": 0.4127419,
-              "south_bound": 51.8875297,
-              "east_bound": 0.4232357
-            },
-            "Town": "Stebbing",
-            "Date collected": "2013-07-04",
-            "UKCPVS ID": "13/132",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130704",
-            "Country": "UK",
-            "Variety": "KWS Rowan",
-            "County": "Essex"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e66ca5bb65cc28e13a"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0133",
-            "location": {
-              "north_bound": 51.8988433,
-              "latitude": 51.8923507,
-              "west_bound": 0.4066702,
-              "longitude": 0.4127419,
-              "south_bound": 51.8875297,
-              "east_bound": 0.4232357
-            },
-            "Town": "Stebbing",
-            "Date collected": "2013-07-04",
-            "UKCPVS ID": "13/133",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130704",
-            "Country": "UK",
-            "Variety": "Gallant",
-            "County": "Essex"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e66ca5bb65cc28e13b"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0134",
-            "location": {
-              "north_bound": 51.8988433,
-              "latitude": 51.8923507,
-              "west_bound": 0.4066702,
-              "longitude": 0.4127419,
-              "south_bound": 51.8875297,
-              "east_bound": 0.4232357
-            },
-            "Town": "Stebbing",
-            "Date collected": "2013-07-04",
-            "UKCPVS ID": "13/134",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130704",
-            "Country": "UK",
-            "Variety": "Cocoon",
-            "County": "Essex"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e66ca5bb65cc28e13c"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0135",
-            "location": {
-              "north_bound": 51.8988433,
-              "latitude": 51.8923507,
-              "west_bound": 0.4066702,
-              "longitude": 0.4127419,
-              "south_bound": 51.8875297,
-              "east_bound": 0.4232357
-            },
-            "Town": "Stebbing",
-            "Date collected": "2013-07-04",
-            "UKCPVS ID": "13/135",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130704",
-            "Country": "UK",
-            "Variety": "Solstice",
-            "County": "Essex"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e66ca5bb65cc28e13d"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0136",
-            "location": {
-              "north_bound": 51.8988433,
-              "latitude": 51.8923507,
-              "west_bound": 0.4066702,
-              "longitude": 0.4127419,
-              "south_bound": 51.8875297,
-              "east_bound": 0.4232357
-            },
-            "Town": "Stebbing",
-            "Date collected": "2013-07-04",
-            "UKCPVS ID": "13/136",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130704",
-            "Country": "UK",
-            "Variety": "Weaver",
-            "County": "Essex"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e66ca5bb65cc28e13e"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0137",
-            "location": {
-              "north_bound": 51.8988433,
-              "latitude": 51.8923507,
-              "west_bound": 0.4066702,
-              "longitude": 0.4127419,
-              "south_bound": 51.8875297,
-              "east_bound": 0.4232357
-            },
-            "Town": "Stebbing",
-            "Date collected": "2013-07-04",
-            "UKCPVS ID": "13/137",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130704",
-            "Country": "UK",
-            "Variety": "Torch",
-            "County": "Essex"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e76ca5bb65cc28e13f"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0141",
-            "location": {
-              "north_bound": 51.8988433,
-              "latitude": 51.8923507,
-              "west_bound": 0.4066702,
-              "longitude": 0.4127419,
-              "south_bound": 51.8875297,
-              "east_bound": 0.4232357
-            },
-            "Town": "Stebbing",
-            "Date collected": "2013-07-04",
-            "UKCPVS ID": "13/142",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130704",
-            "Country": "UK",
-            "Variety": "SY110110 Crib",
-            "County": "Essex"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e76ca5bb65cc28e140"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0142",
-            "location": {
-              "north_bound": 51.8988433,
-              "latitude": 51.8923507,
-              "west_bound": 0.4066702,
-              "longitude": 0.4127419,
-              "south_bound": 51.8875297,
-              "east_bound": 0.4232357
-            },
-            "Town": "Stebbing",
-            "Date collected": "2013-07-04",
-            "UKCPVS ID": "13/143",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130704",
-            "Country": "UK",
-            "Variety": "KWS Kielder",
-            "County": "Essex"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e76ca5bb65cc28e141"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0143",
-            "location": {
-              "north_bound": 51.8988433,
-              "latitude": 51.8923507,
-              "west_bound": 0.4066702,
-              "longitude": 0.4127419,
-              "south_bound": 51.8875297,
-              "east_bound": 0.4232357
-            },
-            "Town": "Stebbing",
-            "Date collected": "2013-07-04",
-            "UKCPVS ID": "13/144",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130704",
-            "Country": "UK",
-            "Variety": "Chilton",
-            "County": "Essex"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e76ca5bb65cc28e142"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0144",
-            "location": {
-              "north_bound": 51.8988433,
-              "latitude": 51.8923507,
-              "west_bound": 0.4066702,
-              "longitude": 0.4127419,
-              "south_bound": 51.8875297,
-              "east_bound": 0.4232357
-            },
-            "Town": "Stebbing",
-            "Date collected": "2013-07-04",
-            "UKCPVS ID": "13/145",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130704",
-            "Country": "UK",
-            "Variety": "KWS Santiago",
-            "County": "Essex"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e76ca5bb65cc28e143"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0145",
-            "location": {
-              "north_bound": 51.8988433,
-              "latitude": 51.8923507,
-              "west_bound": 0.4066702,
-              "longitude": 0.4127419,
-              "south_bound": 51.8875297,
-              "east_bound": 0.4232357
-            },
-            "Town": "Stebbing",
-            "Date collected": "2013-07-04",
-            "UKCPVS ID": "13/146",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130704",
-            "Country": "UK",
-            "Variety": "LGW56 Panacea",
-            "County": "Essex"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e76ca5bb65cc28e144"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0146",
-            "location": {
-              "north_bound": 51.8988433,
-              "latitude": 51.8923507,
-              "west_bound": 0.4066702,
-              "longitude": 0.4127419,
-              "south_bound": 51.8875297,
-              "east_bound": 0.4232357
-            },
-            "Town": "Stebbing",
-            "Date collected": "2013-07-04",
-            "UKCPVS ID": "13/147",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130704",
-            "Country": "UK",
-            "Variety": "Denman",
-            "County": "Essex"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e76ca5bb65cc28e145"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0147",
-            "location": {
-              "north_bound": 51.8988433,
-              "latitude": 51.8923507,
-              "west_bound": 0.4066702,
-              "longitude": 0.4127419,
-              "south_bound": 51.8875297,
-              "east_bound": 0.4232357
-            },
-            "Town": "Stebbing",
-            "Date collected": "2013-07-04",
-            "UKCPVS ID": "13/148",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130704",
-            "Country": "UK",
-            "Variety": "Horatio",
-            "County": "Essex"
-          },
-          {
-            "Company": "Agrii",
-            "_id": {
-              "$oid": "5628e7e76ca5bb65cc28e146"
-            },
-            "Name/Collector": "Colin Patrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0149",
-            "location": {
-              "north_bound": 51.8988433,
-              "latitude": 51.8923507,
-              "west_bound": 0.4066702,
-              "longitude": 0.4127419,
-              "south_bound": 51.8875297,
-              "east_bound": 0.4232357
-            },
-            "Town": "Stebbing",
-            "Date collected": "2013-07-04",
-            "UKCPVS ID": "13/150",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130704",
-            "Country": "UK",
-            "Variety": "MH10-33 Twist",
-            "County": "Essex"
-          },
-          {
-            "Company": "NIABTAG Callow",
-            "_id": {
-              "$oid": "5628e7e86ca5bb65cc28e147"
-            },
-            "Name/Collector": "Juliet Anderson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0161",
-            "location": {
-              "north_bound": 52.0119242,
-              "latitude": 52.005056,
-              "west_bound": -2.7545214,
-              "longitude": -2.738514,
-              "south_bound": 51.9981867,
-              "east_bound": -2.7225066
-            },
-            "Town": "Callow",
-            "Date collected": "2013-07-08",
-            "UKCPVS ID": "13/163",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130708",
-            "Country": "UK",
-            "Variety": "KWS W196",
-            "County": "Hereford"
-          },
-          {
-            "Company": "NIABTAG Callow",
-            "_id": {
-              "$oid": "5628e7e86ca5bb65cc28e148"
-            },
-            "Name/Collector": "Juliet Anderson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0162",
-            "location": {
-              "north_bound": 52.0119242,
-              "latitude": 52.005056,
-              "west_bound": -2.7545214,
-              "longitude": -2.738514,
-              "south_bound": 51.9981867,
-              "east_bound": -2.7225066
-            },
-            "Town": "Callow",
-            "Date collected": "2013-07-08",
-            "UKCPVS ID": "13/164",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130708",
-            "Country": "UK",
-            "Variety": "SY 110173",
-            "County": "Hereford"
-          },
-          {
-            "Company": "NIABTAG Callow",
-            "_id": {
-              "$oid": "5628e7e86ca5bb65cc28e149"
-            },
-            "Name/Collector": "Juliet Anderson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0163",
-            "location": {
-              "north_bound": 52.0119242,
-              "latitude": 52.005056,
-              "west_bound": -2.7545214,
-              "longitude": -2.738514,
-              "south_bound": 51.9981867,
-              "east_bound": -2.7225066
-            },
-            "Town": "Callow",
-            "Date collected": "2013-07-08",
-            "UKCPVS ID": "13/165",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130708",
-            "Country": "UK",
-            "Variety": "Gallant",
-            "County": "Hereford"
-          },
-          {
-            "Company": "NIABTAG Callow",
-            "_id": {
-              "$oid": "5628e7e86ca5bb65cc28e14a"
-            },
-            "Name/Collector": "Juliet Anderson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0164",
-            "location": {
-              "north_bound": 52.0119242,
-              "latitude": 52.005056,
-              "west_bound": -2.7545214,
-              "longitude": -2.738514,
-              "south_bound": 51.9981867,
-              "east_bound": -2.7225066
-            },
-            "Town": "Callow",
-            "Date collected": "2013-07-08",
-            "UKCPVS ID": "13/166",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130708",
-            "Country": "UK",
-            "Variety": "Invicta",
-            "County": "Hereford"
-          },
-          {
-            "Company": "RAGT seeds",
-            "_id": {
-              "$oid": "5628e7e86ca5bb65cc28e14b"
-            },
-            "Name/Collector": "Martin Hinch",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0165",
-            "location": {
-              "north_bound": 52.0775162,
-              "latitude": 52.070658,
-              "west_bound": 0.1582886,
-              "longitude": 0.174296,
-              "south_bound": 52.0637988,
-              "east_bound": 0.1903034
-            },
-            "Town": "Ickleton",
-            "Date collected": "2013-07-09",
-            "UKCPVS ID": "13/167",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130709",
-            "Country": "UK",
-            "Variety": "Gallant",
-            "County": "Cambridgeshire"
-          },
-          {
-            "Company": "AFBI",
-            "_id": {
-              "$oid": "5628e7e86ca5bb65cc28e14c"
-            },
-            "Name/Collector": "Aaron Carrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0166",
-            "location": {
-              "north_bound": 54.5621301,
-              "latitude": 54.55566,
-              "west_bound": -5.8649474,
-              "longitude": -5.84894,
-              "south_bound": 54.5491888,
-              "east_bound": -5.8329326
-            },
-            "Town": "Crossnacreevy",
-            "Date collected": "2013-07-09",
-            "UKCPVS ID": "13/168",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130709",
-            "Country": "Northern Ireland",
-            "Variety": "Torch"
-          },
-          {
-            "Company": "AFBI",
-            "_id": {
-              "$oid": "5628e7e86ca5bb65cc28e14d"
-            },
-            "Name/Collector": "Aaron Carrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0167",
-            "location": {
-              "north_bound": 54.5621301,
-              "latitude": 54.55566,
-              "west_bound": -5.8649474,
-              "longitude": -5.84894,
-              "south_bound": 54.5491888,
-              "east_bound": -5.8329326
-            },
-            "Town": "Crossnacreevy",
-            "Date collected": "2013-07-09",
-            "UKCPVS ID": "13/169",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130709",
-            "Country": "Northern Ireland",
-            "Variety": "Denman"
-          },
-          {
-            "Company": "Limagrain",
-            "_id": {
-              "$oid": "5628e7e86ca5bb65cc28e14e"
-            },
-            "Name/Collector": "Paul Fenwick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0168",
-            "location": {
-              "north_bound": 53.4012537,
-              "latitude": 53.387762,
-              "west_bound": -0.347776,
-              "longitude": -0.333285,
-              "south_bound": 53.3786486,
-              "east_bound": -0.3150826
-            },
-            "Town": "Market Rasen",
-            "Date collected": "2013-07-10",
-            "UKCPVS ID": "13/170",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130710",
-            "Country": "UK",
-            "Variety": "Robigus",
-            "County": "Lincolnshire"
-          },
-          {
-            "Company": "Limagrain",
-            "_id": {
-              "$oid": "5628e7e86ca5bb65cc28e14f"
-            },
-            "Name/Collector": "Paul Fenwick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0169",
-            "location": {
-              "north_bound": 53.4012537,
-              "latitude": 53.387762,
-              "west_bound": -0.347776,
-              "longitude": -0.333285,
-              "south_bound": 53.3786486,
-              "east_bound": -0.3150826
-            },
-            "Town": "Market Rasen",
-            "Date collected": "2013-07-10",
-            "UKCPVS ID": "13/171",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130710",
-            "Country": "UK",
-            "Variety": "Oakley",
-            "County": "Lincolnshire"
-          },
-          {
-            "Company": "Limagrain",
-            "_id": {
-              "$oid": "5628e7e86ca5bb65cc28e150"
-            },
-            "Name/Collector": "Darryl Playford",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0170",
-            "location": {
-              "north_bound": 52.8346673,
-              "latitude": 52.827926,
-              "west_bound": 0.4400026,
-              "longitude": 0.45601,
-              "south_bound": 52.8211837,
-              "east_bound": 0.4720174
-            },
-            "Town": "Wolferton",
-            "Date collected": "2013-07-09",
-            "UKCPVS ID": "13/172",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130709",
-            "Country": "UK",
-            "Variety": "Solstice",
-            "County": "Norfolk"
-          },
-          {
-            "Company": "Limagrain",
-            "_id": {
-              "$oid": "5628e7e86ca5bb65cc28e151"
-            },
-            "Name/Collector": "Darryl Playford",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0171",
-            "location": {
-              "north_bound": 52.8346673,
-              "latitude": 52.827926,
-              "west_bound": 0.4400026,
-              "longitude": 0.45601,
-              "south_bound": 52.8211837,
-              "east_bound": 0.4720174
-            },
-            "Town": "Wolferton",
-            "Date collected": "2013-07-09",
-            "UKCPVS ID": "13/173",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130709",
-            "Country": "UK",
-            "Variety": "Torch",
-            "County": "Norfolk"
-          },
-          {
-            "Company": "Limagrain",
-            "_id": {
-              "$oid": "5628e7e96ca5bb65cc28e152"
-            },
-            "Name/Collector": "Darryl Playford",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0172",
-            "location": {
-              "north_bound": 52.8346673,
-              "latitude": 52.827926,
-              "west_bound": 0.4400026,
-              "longitude": 0.45601,
-              "south_bound": 52.8211837,
-              "east_bound": 0.4720174
-            },
-            "Town": "Wolferton",
-            "Date collected": "2013-07-09",
-            "UKCPVS ID": "13/174",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130709",
-            "Country": "UK",
-            "Variety": "KWS Evoke (KWS 204)",
-            "County": "Norfolk"
-          },
-          {
-            "Company": "Limagrain",
-            "_id": {
-              "$oid": "5628e7e96ca5bb65cc28e153"
-            },
-            "Name/Collector": "Darryl Playford",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0173",
-            "location": {
-              "north_bound": 52.8346673,
-              "latitude": 52.827926,
-              "west_bound": 0.4400026,
-              "longitude": 0.45601,
-              "south_bound": 52.8211837,
-              "east_bound": 0.4720174
-            },
-            "Town": "Wolferton",
-            "Date collected": "2013-07-09",
-            "UKCPVS ID": "13/175",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130709",
-            "Country": "UK",
-            "Variety": "Invicta",
-            "County": "Norfolk"
-          },
-          {
-            "Company": "Limagrain",
-            "_id": {
-              "$oid": "5628e7e96ca5bb65cc28e154"
-            },
-            "Name/Collector": "Darryl Playford",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0174",
-            "location": {
-              "north_bound": 52.8346673,
-              "latitude": 52.827926,
-              "west_bound": 0.4400026,
-              "longitude": 0.45601,
-              "south_bound": 52.8211837,
-              "east_bound": 0.4720174
-            },
-            "Town": "Wolferton",
-            "Date collected": "2013-07-09",
-            "UKCPVS ID": "13/176",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130709",
-            "Country": "UK",
-            "Variety": "Chilton",
-            "County": "Norfolk"
-          },
-          {
-            "Company": "Pearce Seeds",
-            "_id": {
-              "$oid": "5628e7e96ca5bb65cc28e155"
-            },
-            "Name/Collector": "Nicola Harris",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0175",
-            "location": {
-              "north_bound": 50.9396488,
-              "latitude": 50.925142,
-              "west_bound": -2.3241882,
-              "longitude": -2.304642,
-              "south_bound": 50.9140697,
-              "east_bound": -2.2891981
-            },
-            "Town": "Sturminster Newton",
-            "Date collected": "2013-07-15",
-            "UKCPVS ID": "13/178",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130715",
-            "Country": "UK",
-            "Variety": "Cubanita",
-            "County": "Dorset"
-          },
-          {
-            "Company": "Pearce Seeds",
-            "_id": {
-              "$oid": "5628e7e96ca5bb65cc28e156"
-            },
-            "Name/Collector": "Nicola Harris",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0176",
-            "location": {
-              "north_bound": 50.9396488,
-              "latitude": 50.925142,
-              "west_bound": -2.3241882,
-              "longitude": -2.304642,
-              "south_bound": 50.9140697,
-              "east_bound": -2.2891981
-            },
-            "Town": "Sturminster Newton",
-            "Date collected": "2013-07-15",
-            "UKCPVS ID": "13/179",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130715",
-            "Country": "UK",
-            "Variety": "KWS Kielder",
-            "County": "Dorset"
-          },
-          {
-            "Company": "Pearce Seeds",
-            "_id": {
-              "$oid": "5628e7e96ca5bb65cc28e157"
-            },
-            "Name/Collector": "Nicola Harris",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0177",
-            "location": {
-              "north_bound": 50.9396488,
-              "latitude": 50.925142,
-              "west_bound": -2.3241882,
-              "longitude": -2.304642,
-              "south_bound": 50.9140697,
-              "east_bound": -2.2891981
-            },
-            "Town": "Sturminster Newton",
-            "Date collected": "2013-07-15",
-            "UKCPVS ID": "13/180",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130715",
-            "Country": "UK",
-            "Variety": "Cordiale",
-            "County": "Dorset"
-          },
-          {
-            "Company": "Pearce Seeds",
-            "_id": {
-              "$oid": "5628e7e96ca5bb65cc28e158"
-            },
-            "Name/Collector": "Nicola Harris",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0178",
-            "location": {
-              "north_bound": 50.9396488,
-              "latitude": 50.925142,
-              "west_bound": -2.3241882,
-              "longitude": -2.304642,
-              "south_bound": 50.9140697,
-              "east_bound": -2.2891981
-            },
-            "Town": "Sturminster Newton",
-            "Date collected": "2013-07-15",
-            "UKCPVS ID": "13/181",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130715",
-            "Country": "UK",
-            "Variety": "Solstice",
-            "County": "Dorset"
-          },
-          {
-            "Company": "AFBI",
-            "_id": {
-              "$oid": "5628e7e96ca5bb65cc28e15a"
-            },
-            "Name/Collector": "Aaron Carrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0180",
-            "location": {
-              "north_bound": 54.49568,
-              "latitude": 54.3276987,
-              "west_bound": -6.0759099,
-              "longitude": -5.7157667,
-              "south_bound": 54.1669899,
-              "east_bound": -5.5226898
-            },
-            "Town": "County Down",
-            "Date collected": "2013-07-16",
-            "UKCPVS ID": "13/183",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130716",
-            "Country": "Northern Ireland",
-            "Postal Code": "B76 9SH",
-            "Variety": "Trappe SW9998"
-          },
-          {
-            "Company": "AFBI",
-            "_id": {
-              "$oid": "5628e7e96ca5bb65cc28e15b"
-            },
-            "Name/Collector": "Aaron Carrick",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0181",
-            "location": {
-              "north_bound": 54.49568,
-              "latitude": 54.3276987,
-              "west_bound": -6.0759099,
-              "longitude": -5.7157667,
-              "south_bound": 54.1669899,
-              "east_bound": -5.5226898
-            },
-            "Town": "County Down",
-            "Date collected": "2013-07-16",
-            "UKCPVS ID": "13/184",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130716",
-            "Country": "Northern Ireland",
-            "Postal Code": "B76 9SH",
-            "Variety": "Mortons SW9100"
-          },
-          {
-            "Company": "NIAB TAG Wye",
-            "_id": {
-              "$oid": "5628e7e96ca5bb65cc28e15c"
-            },
-            "Name/Collector": "Roger Stewart",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0182",
-            "location": {
-              "north_bound": 51.1429578,
-              "latitude": 51.135957,
-              "west_bound": 0.9896626,
-              "longitude": 1.00567,
-              "south_bound": 51.1289551,
-              "east_bound": 1.0216774
-            },
-            "Town": "East Brabourne",
-            "Date collected": "2013-07-22",
-            "UKCPVS ID": "13/185",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130722",
-            "Country": "UK",
-            "Variety": "Duxford",
-            "County": "Kent"
-          },
-          {
-            "Company": "NIAB TAG Wye",
-            "_id": {
-              "$oid": "5628e7ea6ca5bb65cc28e15d"
-            },
-            "Name/Collector": "Roger Stewart",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0185",
-            "location": {
-              "north_bound": 51.1429578,
-              "latitude": 51.135957,
-              "west_bound": 0.9896626,
-              "longitude": 1.00567,
-              "south_bound": 51.1289551,
-              "east_bound": 1.0216774
-            },
-            "Town": "East Brabourne",
-            "Date collected": "2013-07-22",
-            "UKCPVS ID": "13/188",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130722",
-            "Country": "UK",
-            "Variety": "Cordiale",
-            "County": "Kent"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7ea6ca5bb65cc28e15e"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0186",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-07",
-            "UKCPVS ID": "13/501",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130607",
-            "Variety": "Apache",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7ea6ca5bb65cc28e15f"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0187",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-07",
-            "UKCPVS ID": "13/502",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130607",
-            "Variety": "Apache",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7ea6ca5bb65cc28e160"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0188",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-07",
-            "UKCPVS ID": "13/503",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130607",
-            "Variety": "KWS Sterling",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7ea6ca5bb65cc28e161"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0189",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-07",
-            "UKCPVS ID": "13/504",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130607",
-            "Variety": "KWS Sterling",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7ea6ca5bb65cc28e162"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0190",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-12",
-            "UKCPVS ID": "13/505",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130612",
-            "Variety": "Vuka",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7ea6ca5bb65cc28e163"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0191",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-12",
-            "UKCPVS ID": "13/506",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130612",
-            "Variety": "Vuka",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7ea6ca5bb65cc28e164"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0192",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-12",
-            "UKCPVS ID": "13/507",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130612",
-            "Variety": "Vuka",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7ea6ca5bb65cc28e165"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0193",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-12",
-            "UKCPVS ID": "13/508",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130612",
-            "Variety": "Vuka",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7ea6ca5bb65cc28e166"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0194",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-12",
-            "UKCPVS ID": "13/509",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130612",
-            "Variety": "Vuka",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7ea6ca5bb65cc28e167"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0195",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-12",
-            "UKCPVS ID": "13/510",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130612",
-            "Variety": "Vuka",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7ea6ca5bb65cc28e168"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0196",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-13",
-            "UKCPVS ID": "13/511",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130613",
-            "Variety": "Victo",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7ea6ca5bb65cc28e169"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0197",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-13",
-            "UKCPVS ID": "13/512",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130613",
-            "Variety": "Victo",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7ea6ca5bb65cc28e16a"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0198",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-13",
-            "UKCPVS ID": "13/513",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130613",
-            "Variety": "Victo",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7eb6ca5bb65cc28e16b"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0199",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-13",
-            "UKCPVS ID": "13/514",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130613",
-            "Variety": "Victo",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7eb6ca5bb65cc28e16c"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0200",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-13",
-            "UKCPVS ID": "13/515",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130613",
-            "Variety": "Victo",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7eb6ca5bb65cc28e16d"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0201",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-13",
-            "UKCPVS ID": "13/516",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130613",
-            "Variety": "Victo",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7eb6ca5bb65cc28e16e"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0202",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-27",
-            "UKCPVS ID": "13/517",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130627",
-            "Variety": "Victo",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7eb6ca5bb65cc28e16f"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0203",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-27",
-            "UKCPVS ID": "13/518",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130627",
-            "Variety": "Oakley",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7eb6ca5bb65cc28e170"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0204",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-06-27",
-            "UKCPVS ID": "13/519",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130627",
-            "Variety": "Apache",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "_id": {
-              "$oid": "5628e7eb6ca5bb65cc28e171"
-            },
-            "Company": "NIABTAG",
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0205",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "UKCPVS ID": "13/520",
-            "Library name": "LIB4747",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-07-07",
-            "Date collected (compact)": "20130707",
-            "Host": "Wheat",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "County": "Cambridgeshire",
-            "Country": "UK",
-            "Variety": "Warrior",
-            "genotype": {
-              "Sample name": "13/520",
-              "Library name": "LIB4747",
-              "Genetic group": "1"
-            }
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7eb6ca5bb65cc28e172"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0206",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-07-11",
-            "UKCPVS ID": "13/521",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130711",
-            "Variety": "Apache",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7eb6ca5bb65cc28e173"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0207",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-07-11",
-            "UKCPVS ID": "13/522",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130711",
-            "Variety": "Brigadier",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7eb6ca5bb65cc28e174"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0208",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-07-11",
-            "UKCPVS ID": "13/523",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130711",
-            "Variety": "Brigadier",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7eb6ca5bb65cc28e175"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0209",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-07-11",
-            "UKCPVS ID": "13/524",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130711",
-            "Variety": "Ambition",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7eb6ca5bb65cc28e176"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0210",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-07-11",
-            "UKCPVS ID": "13/525",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130711",
-            "Variety": "Apache",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7eb6ca5bb65cc28e177"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0211",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-07-11",
-            "UKCPVS ID": "13/526",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130711",
-            "Variety": "Apache",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "Company": "NIABTAG",
-            "_id": {
-              "$oid": "5628e7eb6ca5bb65cc28e178"
-            },
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0213",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
-            "Town": "Cambridge",
-            "Date collected": "2013-07-11",
-            "UKCPVS ID": "13/528",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130711",
-            "Variety": "Brigadier",
-            "County": "Cambridgeshire",
-            "Private comments": "HQ inoculated UKCPVS trials",
-            "Country": "UK"
-          },
-          {
-            "_id": {
-              "$oid": "5628e7ec6ca5bb65cc28e179"
-            },
-            "Company": "NIABTAG",
-            "Name/Collector": "Jake",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0216",
-            "location": {
-              "north_bound": 53.8699033802915,
-              "latitude": 53.8685544,
-              "west_bound": -1.3272128802915,
-              "longitude": -1.3258639,
-              "south_bound": 53.8672054197085,
-              "east_bound": -1.3245149197085
-            },
-            "Town": "Headley Hall",
-            "UKCPVS ID": "T13/1",
-            "Library name": "LIB5291",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-26",
-            "Date collected (compact)": "20130626",
-            "Host": "Triticale",
-            "Country": "UK",
-            "Variety": "Phildahlia",
-            "County": "North Yorkshire",
-            "genotype": {
-              "Sample name": "T13/1",
-              "Library name": "LIB5291",
-              "Genetic group": "2"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7ec6ca5bb65cc28e17a"
-            },
-            "Company": "TAG",
-            "Name/Collector": "Greg Davidson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0217",
-            "location": {
-              "north_bound": 50.7041974,
-              "latitude": 50.687817,
-              "west_bound": -2.1411596,
-              "longitude": -2.110981,
-              "south_bound": 50.6791343,
-              "east_bound": -2.0765909
-            },
-            "Town": "Wareham",
-            "UKCPVS ID": "T13/2",
-            "Library name": "LIB5292",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-07-01",
-            "Date collected (compact)": "20130701",
-            "Host": "Triticale",
-            "Private comments": "Date given as July",
-            "County": "Dorset",
-            "Country": "UK",
-            "Variety": "Amarillo",
-            "genotype": {
-              "Sample name": "T13/2",
-              "Library name": "LIB5292",
-              "Genetic group": "2"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7ec6ca5bb65cc28e17b"
-            },
-            "Company": "TAG",
-            "Name/Collector": "Greg Davidson",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0218",
-            "location": {
-              "north_bound": 50.6928253,
-              "latitude": 50.6784324,
-              "west_bound": -2.2702149,
-              "longitude": -2.225127,
-              "south_bound": 50.6620986,
-              "east_bound": -2.1944851
-            },
-            "Town": "Wool",
-            "UKCPVS ID": "T13/3",
-            "Library name": "LIB5293",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-07-02",
-            "Date collected (compact)": "20130702",
-            "Host": "Triticale",
-            "Private comments": "Date given as July",
-            "County": "Dorset",
-            "Country": "UK",
-            "Variety": "Benetto",
-            "genotype": {
-              "Sample name": "T13/3",
-              "Library name": "LIB5293",
-              "Genetic group": "2"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7df6ca5bb65cc28e0df"
-            },
-            "Company": "NIABTAG Sutton Scotney",
-            "Name/Collector": "Sarah Bowden",
-            "Rust (YR/SR/LR)": "Yellow Rust",
             "ID": "13.0026",
+            "Company": "NIABTAG Sutton Scotney",
             "location": {
-              "north_bound": 51.7298793,
               "latitude": 51.718495,
-              "west_bound": -1.9912892,
+              "east_bound": -1.941325,
               "longitude": -1.968243,
-              "south_bound": 51.70008,
-              "east_bound": -1.941325
+              "north_bound": 51.7298793,
+              "west_bound": -1.9912892,
+              "south_bound": 51.70008
             },
-            "Town": "Cirencester",
-            "UKCPVS ID": "13/26",
+            "County": "Gloucestershire",
+            "Name/Collector": "Sarah Bowden",
             "Library name": "LIB4467",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "UKCPVS ID": "13/26",
             "Date collected": "2013-06-12",
-            "Date collected (compact)": "20130612",
             "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
             "Country": "UK",
             "Variety": "Horatio",
-            "County": "Gloucestershire",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130612",
             "genotype": {
-              "Sample name": "13/26",
               "Library name": "LIB4467",
-              "Genetic group": "1"
+              "Genetic group": "1",
+              "Sample name": "13/26"
             },
             "phenotype": {
+              "Avocet Yr5": "0.0",
+              "Kavkaz x 4 Fed": "4.0",
+              "Host Variety": "Horatio",
+              "Hybrid 46": "3.5",
               "Av x Yr7 NIL": "3.2",
               "Heines Kolben": "3.0",
-              "Moro": "0.0",
-              "Lee": "3.0",
-              "AVS x Yr 15": "0.0",
-              "Carstens V": "3.0",
-              "Spaldings Prolific": "3.0",
-              "Clement": "4.0",
-              "Heines Peko": "3.5",
-              "Av x Yr17": "3.0",
-              "Avocet Yr6": "4.0",
-              "Host Variety": "Horatio",
-              "Cadenza": "3.5",
-              "Warrior": "3.5",
-              "Kalyansona": "4.0",
-              "Heines VII": "3.0",
-              "Solstice": "3.0",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "3.0",
-              "Chinese 166": "3.0",
-              "Av x Yr32": "3.0",
-              "Strubes Dickkopf": "3.0",
-              "Kavkaz x 4 Fed": "4.0",
-              "Vilmorin 23": "3.5",
-              "Nord Desprez": "3.9",
-              "KWS-Sterling": "3.0",
-              "Hybrid 46": "3.5",
-              "Compair": "0.0",
-              "Rendezvous": "1.2",
-              "Robigus": "4.0",
-              "Suwon Omar": "4.0",
-              "Talon": "3.0",
-              "Apache": "3.0",
-              "Claire": "3.5",
-              "Timber": "3.5",
               "Stigg": "0.0",
               "Crusoe": "2.5",
+              "Solstice": "3.0",
+              "Av x Yr17": "3.0",
+              "Nord Desprez": "3.9",
+              "Chinese 166": "3.0",
+              "AVS x Yr 15": "0.0",
+              "Kalyansona": "4.0",
+              "Talon": "3.0",
               "Ambition": "4.0",
-              "Avocet Yr5": "0.0",
+              "Vilmorin 23": "3.5",
+              "Heines Peko": "3.5",
+              "Lee": "3.0",
+              "Compair": "0.0",
+              "Spaldings Prolific": "3.0",
+              "Avocet Yr24": "0.0",
+              "Clement": "4.0",
+              "VPM 1": "3.0",
+              "Suwon Omar": "4.0",
+              "Rendezvous": "1.2",
+              "Carstens V": "3.0",
+              "Av x Yr32": "3.0",
+              "Strubes Dickkopf": "3.0",
+              "Robigus": "4.0",
+              "Timber": "3.5",
+              "KWS-Sterling": "3.0",
+              "Warrior": "3.5",
+              "Cadenza": "3.5",
+              "Claire": "3.5",
+              "Heines VII": "3.0",
+              "Avocet Yr6": "4.0",
+              "Moro": "0.0",
+              "Apache": "3.0",
               "Vuka": "3.0"
             }
           },
           {
-            "_id": {
-              "$oid": "5628e7e16ca5bb65cc28e100"
-            },
-            "Company": "NIABTAG",
-            "Name/Collector": "Rosemary Bayles",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0065",
-            "location": {
-              "north_bound": 52.237855,
-              "latitude": 52.205337,
-              "west_bound": 0.048047,
-              "longitude": 0.121817,
-              "south_bound": 52.1598292,
-              "east_bound": 0.1919273
-            },
             "Town": "Cambridge",
-            "UKCPVS ID": "13/65",
-            "Library name": "LIB4457",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-18",
-            "Date collected (compact)": "20130618",
-            "Host": "Wheat",
+            "_id": {
+              "$oid": "562a50646ca5bb0fc909d8c0"
+            },
+            "ID": "13.0065",
+            "Company": "NIABTAG",
             "Private comments": "HQ",
             "County": "Cambridgeshire",
+            "location": {
+              "latitude": 52.205337,
+              "east_bound": 0.1919273,
+              "longitude": 0.121817,
+              "north_bound": 52.237855,
+              "west_bound": 0.048047,
+              "south_bound": 52.1598292
+            },
+            "Name/Collector": "Rosemary Bayles",
+            "Library name": "LIB4457",
+            "UKCPVS ID": "13/65",
+            "Date collected": "2013-06-18",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
             "Country": "UK",
             "Variety": "Claire",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130618",
             "genotype": {
-              "Sample name": "13/65",
               "Library name": "LIB4457",
-              "Genetic group": "1"
+              "Genetic group": "1",
+              "Sample name": "13/65"
             },
             "phenotype": {
+              "Avocet Yr5": "0.1",
+              "Kavkaz x 4 Fed": "4.0",
+              "Host Variety": "Claire",
+              "Hybrid 46": "3.5",
               "Av x Yr7 NIL": "3.4",
               "Heines Kolben": "3.0",
-              "Moro": "0.0",
-              "Lee": "3.5",
-              "AVS x Yr 15": "0.0",
-              "Carstens V": "4.0",
-              "Spaldings Prolific": "3.1",
-              "Clement": "3.3",
-              "Heines Peko": "3.1",
-              "Av x Yr17": "3.0",
-              "Avocet Yr6": "4.0",
-              "Host Variety": "Claire",
-              "Cadenza": "3.0",
-              "Warrior": "3.3",
-              "Kalyansona": "4.0",
-              "Heines VII": "4.0",
-              "Solstice": "3.0",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "2.7",
-              "Chinese 166": "3.3",
-              "Av x Yr32": "3.2",
-              "Strubes Dickkopf": "4.0",
-              "Kavkaz x 4 Fed": "4.0",
-              "Vilmorin 23": "4.0",
-              "Nord Desprez": "3.8",
-              "KWS-Sterling": "3.0",
-              "Hybrid 46": "3.5",
-              "Compair": "0.0",
-              "Rendezvous": "1.9",
-              "Robigus": "4.0",
-              "Suwon Omar": "3.3",
-              "Talon": "3.5",
-              "Apache": "3.0",
-              "Claire": "4.0",
-              "Timber": "3.2",
               "Stigg": "0.0",
               "Crusoe": "2.2",
+              "Solstice": "3.0",
+              "Av x Yr17": "3.0",
+              "Nord Desprez": "3.8",
+              "Chinese 166": "3.3",
+              "AVS x Yr 15": "0.0",
+              "Kalyansona": "4.0",
+              "Talon": "3.5",
               "Ambition": "4.0",
-              "Avocet Yr5": "0.1",
+              "Vilmorin 23": "4.0",
+              "Heines Peko": "3.1",
+              "Lee": "3.5",
+              "Compair": "0.0",
+              "Spaldings Prolific": "3.1",
+              "Avocet Yr24": "0.0",
+              "Clement": "3.3",
+              "VPM 1": "2.7",
+              "Suwon Omar": "3.3",
+              "Rendezvous": "1.9",
+              "Carstens V": "4.0",
+              "Av x Yr32": "3.2",
+              "Strubes Dickkopf": "4.0",
+              "Robigus": "4.0",
+              "Timber": "3.2",
+              "KWS-Sterling": "3.0",
+              "Warrior": "3.3",
+              "Cadenza": "3.0",
+              "Claire": "4.0",
+              "Heines VII": "4.0",
+              "Avocet Yr6": "4.0",
+              "Moro": "0.0",
+              "Apache": "3.0",
               "Vuka": "3.0"
             }
           },
           {
+            "Town": "Caythorpe",
             "_id": {
-              "$oid": "5628e7e66ca5bb65cc28e130"
+              "$oid": "562a50676ca5bb0fc909d8ed"
             },
+            "ID": "13.0120",
             "Company": "NIABTAG",
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0123",
             "location": {
-              "north_bound": 53.00113,
-              "latitude": 52.97894,
-              "west_bound": -0.0632467,
-              "longitude": -0.026577,
-              "south_bound": 52.9556353,
-              "east_bound": 0.0204234
+              "latitude": 53.021631,
+              "east_bound": -0.5688846,
+              "longitude": -0.6045819,
+              "north_bound": 53.0322775,
+              "west_bound": -0.6114799,
+              "south_bound": 53.0174137
             },
-            "Town": "Boston",
-            "UKCPVS ID": "13/123",
-            "Library name": "LIB4748",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "County": "Lincolnshire",
+            "Name/Collector": "Amelia Hubbard",
+            "Library name": "LIB5294",
+            "UKCPVS ID": "13/120",
             "Date collected": "2013-07-03",
-            "Date collected (compact)": "20130703",
             "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
             "Country": "UK",
             "Variety": "Ambition",
-            "County": "Lincolnshire",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130703",
             "genotype": {
-              "Sample name": "13/123",
-              "Library name": "LIB4748",
-              "Genetic group": "1"
+              "Library name": "LIB5294",
+              "Genetic group": "1",
+              "Sample name": "13/120"
             },
             "phenotype": {
-              "Av x Yr7 NIL": "3.0",
-              "Heines Kolben": "2.7",
-              "Moro": "0.0",
-              "Lee": "3.0",
-              "AVS x Yr 15": "0.0",
-              "Carstens V": "4.0",
-              "Spaldings Prolific": "3.0",
-              "Clement": "3.2",
-              "Heines Peko": "3.0",
-              "Av x Yr17": "3.0",
-              "Avocet Yr6": "3.5",
-              "Host Variety": "Ambition",
-              "Cadenza": "3.0",
-              "Warrior": "3.0",
-              "Kalyansona": "4.0",
-              "Heines VII": "3.2",
-              "Solstice": "4.0",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "2.5",
-              "Chinese 166": "4.0",
-              "Av x Yr32": "4.0",
-              "Strubes Dickkopf": "3.5",
-              "Kavkaz x 4 Fed": "4.0",
-              "Vilmorin 23": "4.0",
-              "Nord Desprez": "3.0",
-              "KWS-Sterling": "2.7",
-              "Hybrid 46": "3.0",
-              "Compair": "0.0",
-              "Rendezvous": "1.4",
-              "Robigus": "4.0",
-              "Suwon Omar": "1.7",
-              "Talon": "4.0",
-              "Apache": "3.1",
-              "Claire": "3.0",
-              "Timber": "4.0",
-              "Stigg": "0.0",
-              "Crusoe": "1.9",
-              "Ambition": "3.2",
               "Avocet Yr5": "0.0",
-              "Vuka": "4.0"
+              "Kavkaz x 4 Fed": "4.0",
+              "Host Variety": "Ambition",
+              "Hybrid 46": "2.5",
+              "Av x Yr7 NIL": "3.2",
+              "Heines Kolben": "2.1",
+              "Stigg": "0.0",
+              "Crusoe": "0.0",
+              "Solstice": "3.2",
+              "Av x Yr17": "3.5",
+              "Nord Desprez": "3.1",
+              "Chinese 166": "4.0",
+              "AVS x Yr 15": "0.0",
+              "Kalyansona": "3.2",
+              "Talon": "3.2",
+              "Ambition": "3.5",
+              "Vilmorin 23": "3.0",
+              "Heines Peko": "3.0",
+              "Lee": "2.8",
+              "Compair": "0.0",
+              "Spaldings Prolific": "3.1",
+              "Avocet Yr24": "0.0",
+              "Clement": "3.0",
+              "VPM 1": "3.2",
+              "Suwon Omar": "3.0",
+              "Rendezvous": "0.0",
+              "Carstens V": "3.1",
+              "Av x Yr32": "3.1",
+              "Strubes Dickkopf": "2.4",
+              "Robigus": "3.5",
+              "Timber": "3.1",
+              "KWS-Sterling": "1.4",
+              "Warrior": "3.0",
+              "Cadenza": "1.0",
+              "Claire": "3.2",
+              "Heines VII": "3.0",
+              "Avocet Yr6": "2.5",
+              "Moro": "0.0",
+              "Apache": "3.0",
+              "Vuka": "3.0"
             }
           },
           {
-            "_id": {
-              "$oid": "5628e7dd6ca5bb65cc28e0ce"
-            },
-            "Company": "NIABTAG benniworth",
-            "Name/Collector": "Menka Hopma",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0009",
-            "location": {
-              "north_bound": 53.0322775,
-              "latitude": 53.021631,
-              "west_bound": -0.6114799,
-              "longitude": -0.6045819,
-              "south_bound": 53.0174137,
-              "east_bound": -0.5688846
-            },
             "Town": "Caythorpe",
-            "UKCPVS ID": "13/09",
-            "Library name": "LIB4459",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-05-29",
-            "Date collected (compact)": "20130529",
-            "Host": "Wheat",
+            "_id": {
+              "$oid": "562a50606ca5bb0fc909d88f"
+            },
+            "ID": "13.0009",
+            "Company": "NIABTAG benniworth",
             "Private comments": "Date is arrival date",
             "County": "Lincolnshire",
+            "location": {
+              "latitude": 53.021631,
+              "east_bound": -0.5688846,
+              "longitude": -0.6045819,
+              "north_bound": 53.0322775,
+              "west_bound": -0.6114799,
+              "south_bound": 53.0174137
+            },
+            "Name/Collector": "Menka Hopma",
+            "Library name": "LIB4459",
+            "UKCPVS ID": "13/09",
+            "Date collected": "2013-05-29",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
             "Country": "UK",
             "Variety": "Oakley",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130529",
             "genotype": {
-              "Sample name": "13/09",
               "Library name": "LIB4459",
-              "Genetic group": "3"
+              "Genetic group": "3",
+              "Sample name": "13/09"
             },
             "phenotype": {
+              "Avocet Yr5": "0.0",
+              "Kavkaz x 4 Fed": "3.0",
+              "Host Variety": "Oakley",
+              "Hybrid 46": "3.0",
               "Av x Yr7 NIL": "2.0",
               "Heines Kolben": "3.0",
-              "Moro": "0.0",
-              "Lee": "2.0",
-              "AVS x Yr 15": "0.0",
-              "Carstens V": "4.0",
-              "Spaldings Prolific": "1.0",
-              "Clement": "3.0",
-              "Heines Peko": "3.0",
-              "Av x Yr17": "3.0",
-              "Avocet Yr6": "3.5",
-              "Host Variety": "Oakley",
-              "Cadenza": "0.2",
-              "Warrior": "2.1",
-              "Kalyansona": "3.0",
-              "Heines VII": "3.0",
-              "Solstice": "3.0",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "3.0",
-              "Chinese 166": "3.0",
-              "Av x Yr32": "4.0",
-              "Strubes Dickkopf": "4.0",
-              "Kavkaz x 4 Fed": "3.0",
-              "Vilmorin 23": "3.0",
-              "Nord Desprez": "3.1",
-              "KWS-Sterling": "0.1",
-              "Hybrid 46": "3.0",
-              "Compair": "0.0",
-              "Rendezvous": "3.0",
-              "Robigus": "3.0",
-              "Suwon Omar": "3.0",
-              "Talon": "4.0",
-              "Apache": "0.0",
-              "Claire": "3.0",
-              "Timber": "0.0",
               "Stigg": "0.0",
               "Crusoe": "0.4",
-              "Ambition": "0.0",
-              "Avocet Yr5": "0.0",
-              "Vuka": "3.0"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7e96ca5bb65cc28e159"
-            },
-            "Name/Collector": "John Blackman",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0179",
-            "location": {
-              "north_bound": 52.1247396,
-              "latitude": 52.1178887,
-              "west_bound": 0.2230467,
-              "longitude": 0.2390541,
-              "south_bound": 52.1110367,
-              "east_bound": 0.2550615
-            },
-            "Town": "Abington",
-            "UKCPVS ID": "13/182",
-            "Library name": "LIB5295",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-07-18",
-            "Country": "UK",
-            "Variety": "Crusoe",
-            "County": "Cambs",
-            "Host": "Wheat",
-            "Date collected (compact)": "20130718",
-            "genotype": {
-              "Sample name": "13/182",
-              "Library name": "LIB5295",
-              "Genetic group": "3"
-            },
-            "phenotype": {
-              "Av x Yr7 NIL": "3.2",
-              "Heines Kolben": "3.0",
-              "Moro": "0.0",
-              "Lee": "3.1",
-              "AVS x Yr 15": "0.0",
-              "Carstens V": "4.0",
-              "Spaldings Prolific": "0.0",
-              "Clement": "3.5",
-              "Heines Peko": "3.0",
-              "Av x Yr17": "4.0",
-              "Avocet Yr6": "3.0",
-              "Host Variety": "Crusoe",
-              "Cadenza": "3.0",
-              "Warrior": "1.9",
-              "Kalyansona": "3.1",
-              "Heines VII": "2.1",
               "Solstice": "3.0",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "3.0",
-              "Chinese 166": "3.2",
-              "Av x Yr32": "3.5",
-              "Strubes Dickkopf": "4.0",
-              "Kavkaz x 4 Fed": "4.0",
-              "Vilmorin 23": "3.0",
+              "Av x Yr17": "3.0",
               "Nord Desprez": "3.1",
-              "KWS-Sterling": "3.0",
-              "Hybrid 46": "3.0",
-              "Compair": "0.0",
-              "Rendezvous": "3.3",
-              "Robigus": "4.0",
-              "Suwon Omar": "3.0",
-              "Talon": "4.0",
-              "Apache": "2.0",
-              "Claire": "3.0",
-              "Timber": "0.0",
-              "Stigg": "0.0",
-              "Crusoe": "0.1",
-              "Ambition": "0.0",
-              "Avocet Yr5": "0.0",
-              "Vuka": "3.0"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7de6ca5bb65cc28e0dc"
-            },
-            "Company": "NIABTAG",
-            "Name/Collector": "Rosemary Bayles",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0023",
-            "location": {
-              "north_bound": 53.1265169,
-              "latitude": 53.119821,
-              "west_bound": -0.5482984,
-              "longitude": -0.532291,
-              "south_bound": 53.1131241,
-              "east_bound": -0.5162836
-            },
-            "Town": "Boothby Graffoe",
-            "UKCPVS ID": "13/23",
-            "Library name": "LIB4468",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-12",
-            "Date collected (compact)": "20130612",
-            "Host": "Wheat",
-            "Country": "UK",
-            "Variety": "KWS Santiago",
-            "County": "Lincolnshire",
-            "genotype": {
-              "Sample name": "13/23",
-              "Library name": "LIB4468",
-              "Genetic group": "3"
-            },
-            "phenotype": {
-              "Av x Yr7 NIL": "2.2",
-              "Heines Kolben": "3.0",
-              "Moro": "0.0",
-              "Lee": "0.7",
+              "Chinese 166": "3.0",
               "AVS x Yr 15": "0.0",
-              "Carstens V": "4.0",
-              "Spaldings Prolific": "0.0",
-              "Clement": "2.7",
-              "Heines Peko": "4.0",
-              "Av x Yr17": "3.9",
-              "Avocet Yr6": "3.0",
-              "Host Variety": "KWS Santiago",
-              "Cadenza": "0.0",
-              "Warrior": "0.0",
               "Kalyansona": "3.0",
-              "Heines VII": "3.0",
-              "Solstice": "3.5",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "4.0",
-              "Chinese 166": "3.0",
-              "Av x Yr32": "3.5",
-              "Strubes Dickkopf": "3.0",
-              "Kavkaz x 4 Fed": "3.0",
-              "Vilmorin 23": "3.0",
-              "Nord Desprez": "2.7",
-              "KWS-Sterling": "0.0",
-              "Hybrid 46": "4.0",
-              "Compair": "0.0",
-              "Rendezvous": "4.0",
-              "Robigus": "3.5",
-              "Suwon Omar": "3.0",
               "Talon": "4.0",
-              "Apache": "0.0",
-              "Claire": "2.0",
-              "Timber": "0.0",
-              "Stigg": "0.0",
-              "Crusoe": "0.0",
               "Ambition": "0.0",
-              "Avocet Yr5": "0.0",
-              "Vuka": "3.0"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7df6ca5bb65cc28e0dd"
-            },
-            "Company": "NIABTAG",
-            "Name/Collector": "Rosemary Bayles",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0024",
-            "location": {
-              "north_bound": 53.1265169,
-              "latitude": 53.119821,
-              "west_bound": -0.5482984,
-              "longitude": -0.532291,
-              "south_bound": 53.1131241,
-              "east_bound": -0.5162836
-            },
-            "Town": "Boothby Graffoe",
-            "UKCPVS ID": "13/24",
-            "Library name": "LIB4470",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-12",
-            "Date collected (compact)": "20130612",
-            "Host": "Wheat",
-            "Country": "UK",
-            "Variety": "KWS Kielder",
-            "County": "Lincolnshire",
-            "genotype": {
-              "Sample name": "13/24",
-              "Library name": "LIB4470",
-              "Genetic group": "4"
-            },
-            "phenotype": {
-              "Av x Yr7 NIL": "3.0",
-              "Heines Kolben": "3.0",
-              "Moro": "0.0",
-              "Lee": "3.0",
-              "AVS x Yr 15": "0.0",
-              "Carstens V": "3.2",
-              "Spaldings Prolific": "3.0",
-              "Clement": "3.2",
-              "Heines Peko": "3.0",
-              "Av x Yr17": "3.0",
-              "Avocet Yr6": "3.0",
-              "Host Variety": "KWS Kielder",
-              "Cadenza": "2.5",
-              "Warrior": "1.8",
-              "Kalyansona": "3.2",
-              "Heines VII": "3.0",
-              "Solstice": "3.1",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "3.0",
-              "Chinese 166": "3.1",
-              "Av x Yr32": "3.0",
-              "Strubes Dickkopf": "3.2",
-              "Kavkaz x 4 Fed": "3.2",
-              "Vilmorin 23": "3.1",
-              "Nord Desprez": "3.2",
-              "KWS-Sterling": "0.2",
-              "Hybrid 46": "3.0",
-              "Compair": "0.0",
-              "Rendezvous": "2.2",
-              "Robigus": "4.0",
-              "Suwon Omar": "3.0",
-              "Talon": "3.0",
-              "Apache": "3.0",
-              "Claire": "2.5",
-              "Timber": "0.6",
-              "Stigg": "0.0",
-              "Crusoe": "0.0",
-              "Ambition": "0.6",
-              "Avocet Yr5": "0.0",
-              "Vuka": "3.5"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7de6ca5bb65cc28e0d9"
-            },
-            "Company": "NIABTAG Sutton Scotney",
-            "Name/Collector": "Jane Evans",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0020",
-            "location": {
-              "north_bound": 51.1970003,
-              "latitude": 51.154214,
-              "west_bound": -1.3777775,
-              "longitude": -1.335825,
-              "south_bound": 51.123026,
-              "east_bound": -1.2767089
-            },
-            "Town": "Sutton Scotney",
-            "UKCPVS ID": "13/20",
-            "Library name": "LIB4472",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-05",
-            "Date collected (compact)": "20130605",
-            "Host": "Wheat",
-            "Country": "UK",
-            "Variety": "KWS Rowan",
-            "County": "Hampshire",
-            "genotype": {
-              "Sample name": "13/20",
-              "Library name": "LIB4472",
-              "Genetic group": "4"
-            },
-            "phenotype": {
-              "Av x Yr7 NIL": "4.0",
-              "Heines Kolben": "3.0",
-              "Moro": "0.0",
-              "Lee": "3.0",
-              "AVS x Yr 15": "0.0",
-              "Carstens V": "4.0",
-              "Spaldings Prolific": "3.0",
-              "Clement": "3.0",
-              "Heines Peko": "3.5",
-              "Av x Yr17": "3.0",
-              "Avocet Yr6": "3.0",
-              "Host Variety": "KWS Rowan",
-              "Cadenza": "2.9",
-              "Warrior": "2.0",
-              "Kalyansona": "3.1",
-              "Heines VII": "3.5",
-              "Solstice": "3.5",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "3.0",
-              "Chinese 166": "3.0",
-              "Av x Yr32": "3.5",
-              "Strubes Dickkopf": "3.0",
-              "Kavkaz x 4 Fed": "3.0",
               "Vilmorin 23": "3.0",
-              "Nord Desprez": "3.0",
-              "KWS-Sterling": "1.8",
-              "Hybrid 46": "4.0",
+              "Heines Peko": "3.0",
+              "Lee": "2.0",
               "Compair": "0.0",
-              "Rendezvous": "2.0",
-              "Robigus": "3.5",
-              "Suwon Omar": "4.0",
-              "Talon": "3.0",
-              "Apache": "3.0",
-              "Claire": "3.0",
-              "Timber": "0.3",
-              "Stigg": "0.0",
-              "Crusoe": "0.0",
-              "Ambition": "1.0",
-              "Avocet Yr5": "0.0",
-              "Vuka": "3.0"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7df6ca5bb65cc28e0e8"
-            },
-            "Company": "NIABTAG",
-            "Name/Collector": "Amelia Hubbard",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0036",
-            "location": {
-              "north_bound": 53.0821438,
-              "latitude": 53.075441,
-              "west_bound": -0.5748504,
-              "longitude": -0.558843,
-              "south_bound": 53.0687372,
-              "east_bound": -0.5428356
-            },
-            "Town": "Welbourn",
-            "UKCPVS ID": "13/36",
-            "Library name": "LIB4477",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-14",
-            "Date collected (compact)": "20130614",
-            "Host": "Wheat",
-            "Country": "UK",
-            "County": "Lincolnshire",
-            "Postal Code": "LN5 0QG",
-            "Variety": "Allez Y",
-            "genotype": {
-              "Sample name": "13/36",
-              "Library name": "LIB4477",
-              "Genetic group": "4"
-            },
-            "phenotype": {
-              "Av x Yr7 NIL": "3.2",
-              "Heines Kolben": "3.0",
-              "Moro": "0.0",
-              "Lee": "3.2",
-              "AVS x Yr 15": "0.0",
-              "Carstens V": "4.0",
-              "Spaldings Prolific": "3.5",
-              "Clement": "3.1",
-              "Heines Peko": "3.2",
-              "Av x Yr17": "3.0",
-              "Avocet Yr6": "4.0",
-              "Host Variety": "Allez- Y",
-              "Cadenza": "3.0",
-              "Warrior": "2.1",
-              "Kalyansona": "3.1",
-              "Heines VII": "3.0",
-              "Solstice": "3.0",
+              "Spaldings Prolific": "1.0",
               "Avocet Yr24": "0.0",
-              "VPM 1": "3.0",
-              "Chinese 166": "3.3",
-              "Av x Yr32": "3.1",
-              "Strubes Dickkopf": "3.3",
-              "Kavkaz x 4 Fed": "4.0",
-              "Vilmorin 23": "4.0",
-              "Nord Desprez": "4.0",
-              "KWS-Sterling": "2.0",
-              "Hybrid 46": "3.2",
-              "Compair": "0.0",
-              "Rendezvous": "3.2",
-              "Robigus": "4.0",
-              "Suwon Omar": "4.0",
-              "Talon": "4.0",
-              "Apache": "3.0",
-              "Claire": "3.1",
-              "Timber": "2.2",
-              "Stigg": "0.0",
-              "Crusoe": "0.0",
-              "Ambition": "0.1",
-              "Avocet Yr5": "0.0",
-              "Vuka": "3.5"
-            }
-          },
-          {
-            "_id": {
-              "$oid": "5628e7df6ca5bb65cc28e0e2"
-            },
-            "Company": "NIABTAG",
-            "Name/Collector": "Andrew Chell",
-            "Rust (YR/SR/LR)": "Yellow Rust",
-            "ID": "13.0029",
-            "location": {
-              "north_bound": 51.7963006,
-              "latitude": 51.7507856,
-              "west_bound": -1.3042449,
-              "longitude": -1.2338697,
-              "south_bound": 51.7109362,
-              "east_bound": -1.1758134
-            },
-            "Town": "Oxfordshire",
-            "UKCPVS ID": "13/29",
-            "Library name": "LIB4460",
-            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
-            "Date collected": "2013-06-13",
-            "Date collected (compact)": "20130613",
-            "Host": "Wheat",
-            "Country": "UK",
-            "Variety": "Solstice",
-            "County": "Oxfordshire",
-            "genotype": {
-              "Sample name": "13/29",
-              "Library name": "LIB4460",
-              "Genetic group": "4"
-            },
-            "phenotype": {
-              "Av x Yr7 NIL": "3.2",
-              "Heines Kolben": "3.0",
-              "Moro": "0.0",
-              "Lee": "3.2",
-              "AVS x Yr 15": "0.0",
-              "Carstens V": "4.0",
-              "Spaldings Prolific": "4.0",
               "Clement": "3.0",
-              "Heines Peko": "4.0",
-              "Av x Yr17": "4.0",
-              "Avocet Yr6": "3.2",
-              "Host Variety": "Solstice",
-              "Cadenza": "3.0",
-              "Warrior": "2.1",
-              "Kalyansona": "4.0",
-              "Heines VII": "3.0",
-              "Solstice": "3.1",
-              "Avocet Yr24": "0.0",
-              "VPM 1": "4.0",
-              "Chinese 166": "3.1",
+              "VPM 1": "3.0",
+              "Suwon Omar": "3.0",
+              "Rendezvous": "3.0",
+              "Carstens V": "4.0",
               "Av x Yr32": "4.0",
               "Strubes Dickkopf": "4.0",
-              "Kavkaz x 4 Fed": "4.0",
-              "Vilmorin 23": "3.0",
-              "Nord Desprez": "3.5",
-              "KWS-Sterling": "2.6",
-              "Hybrid 46": "3.1",
-              "Compair": "0.0",
-              "Rendezvous": "2.8",
-              "Robigus": "3.1",
-              "Suwon Omar": "3.1",
-              "Talon": "4.0",
-              "Apache": "3.0",
-              "Claire": "3.1",
-              "Timber": "0.3",
-              "Stigg": "0.0",
-              "Crusoe": "0.0",
-              "Ambition": "0.4",
-              "Avocet Yr5": "0.0",
+              "Robigus": "3.0",
+              "Timber": "0.0",
+              "KWS-Sterling": "0.1",
+              "Warrior": "2.1",
+              "Cadenza": "0.2",
+              "Claire": "3.0",
+              "Heines VII": "3.0",
+              "Avocet Yr6": "3.5",
+              "Moro": "0.0",
+              "Apache": "0.0",
               "Vuka": "3.0"
             }
+          },
+          {
+            "Town": "Abington",
+            "_id": {
+              "$oid": "562a506b6ca5bb0fc909d905"
+            },
+            "ID": "13.0179",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Date collected": "2013-07-18",
+            "County": "Cambs",
+            "location": {
+              "latitude": 52.1178887,
+              "east_bound": 0.2550615,
+              "longitude": 0.2390541,
+              "north_bound": 52.1247396,
+              "west_bound": 0.2230467,
+              "south_bound": 52.1110367
+            },
+            "Name/Collector": "John Blackman",
+            "Library name": "LIB5295",
+            "UKCPVS ID": "13/182",
+            "Country": "UK",
+            "genotype": {
+              "Library name": "LIB5295",
+              "Genetic group": "3",
+              "Sample name": "13/182"
+            },
+            "Variety": "Crusoe",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130718",
+            "phenotype": {
+              "Avocet Yr5": "0.0",
+              "Kavkaz x 4 Fed": "4.0",
+              "Host Variety": "Crusoe",
+              "Hybrid 46": "3.0",
+              "Av x Yr7 NIL": "3.2",
+              "Heines Kolben": "3.0",
+              "Stigg": "0.0",
+              "Crusoe": "0.1",
+              "Solstice": "3.0",
+              "Av x Yr17": "4.0",
+              "Nord Desprez": "3.1",
+              "Chinese 166": "3.2",
+              "AVS x Yr 15": "0.0",
+              "Kalyansona": "3.1",
+              "Talon": "4.0",
+              "Ambition": "0.0",
+              "Vilmorin 23": "3.0",
+              "Heines Peko": "3.0",
+              "Lee": "3.1",
+              "Compair": "0.0",
+              "Spaldings Prolific": "0.0",
+              "Avocet Yr24": "0.0",
+              "Clement": "3.5",
+              "VPM 1": "3.0",
+              "Suwon Omar": "3.0",
+              "Rendezvous": "3.3",
+              "Carstens V": "4.0",
+              "Av x Yr32": "3.5",
+              "Strubes Dickkopf": "4.0",
+              "Robigus": "4.0",
+              "Timber": "0.0",
+              "KWS-Sterling": "3.0",
+              "Warrior": "1.9",
+              "Cadenza": "3.0",
+              "Claire": "3.0",
+              "Heines VII": "2.1",
+              "Avocet Yr6": "3.0",
+              "Moro": "0.0",
+              "Apache": "2.0",
+              "Vuka": "3.0"
+            }
+          },
+          {
+            "Town": "Boothby Graffoe",
+            "_id": {
+              "$oid": "562a50616ca5bb0fc909d89d"
+            },
+            "ID": "13.0023",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.119821,
+              "east_bound": -0.5162836,
+              "longitude": -0.532291,
+              "north_bound": 53.1265169,
+              "west_bound": -0.5482984,
+              "south_bound": 53.1131241
+            },
+            "County": "Lincolnshire",
+            "Name/Collector": "Rosemary Bayles",
+            "Library name": "LIB4468",
+            "UKCPVS ID": "13/23",
+            "Date collected": "2013-06-12",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Country": "UK",
+            "Variety": "KWS Santiago",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130612",
+            "genotype": {
+              "Library name": "LIB4468",
+              "Genetic group": "3",
+              "Sample name": "13/23"
+            },
+            "phenotype": {
+              "Avocet Yr5": "0.0",
+              "Kavkaz x 4 Fed": "3.0",
+              "Host Variety": "KWS Santiago",
+              "Hybrid 46": "4.0",
+              "Av x Yr7 NIL": "2.2",
+              "Heines Kolben": "3.0",
+              "Stigg": "0.0",
+              "Crusoe": "0.0",
+              "Solstice": "3.5",
+              "Av x Yr17": "3.9",
+              "Nord Desprez": "2.7",
+              "Chinese 166": "3.0",
+              "AVS x Yr 15": "0.0",
+              "Kalyansona": "3.0",
+              "Talon": "4.0",
+              "Ambition": "0.0",
+              "Vilmorin 23": "3.0",
+              "Heines Peko": "4.0",
+              "Lee": "0.7",
+              "Compair": "0.0",
+              "Spaldings Prolific": "0.0",
+              "Avocet Yr24": "0.0",
+              "Clement": "2.7",
+              "VPM 1": "4.0",
+              "Suwon Omar": "3.0",
+              "Rendezvous": "4.0",
+              "Carstens V": "4.0",
+              "Av x Yr32": "3.5",
+              "Strubes Dickkopf": "3.0",
+              "Robigus": "3.5",
+              "Timber": "0.0",
+              "KWS-Sterling": "0.0",
+              "Warrior": "0.0",
+              "Cadenza": "0.0",
+              "Claire": "2.0",
+              "Heines VII": "3.0",
+              "Avocet Yr6": "3.0",
+              "Moro": "0.0",
+              "Apache": "0.0",
+              "Vuka": "3.0"
+            }
+          },
+          {
+            "Town": "Boothby Graffoe",
+            "_id": {
+              "$oid": "562a50616ca5bb0fc909d89e"
+            },
+            "ID": "13.0024",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.119821,
+              "east_bound": -0.5162836,
+              "longitude": -0.532291,
+              "north_bound": 53.1265169,
+              "west_bound": -0.5482984,
+              "south_bound": 53.1131241
+            },
+            "County": "Lincolnshire",
+            "Name/Collector": "Rosemary Bayles",
+            "Library name": "LIB4470",
+            "UKCPVS ID": "13/24",
+            "Date collected": "2013-06-12",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Country": "UK",
+            "Variety": "KWS Kielder",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130612",
+            "genotype": {
+              "Library name": "LIB4470",
+              "Genetic group": "4",
+              "Sample name": "13/24"
+            },
+            "phenotype": {
+              "Avocet Yr5": "0.0",
+              "Kavkaz x 4 Fed": "3.2",
+              "Host Variety": "KWS Kielder",
+              "Hybrid 46": "3.0",
+              "Av x Yr7 NIL": "3.0",
+              "Heines Kolben": "3.0",
+              "Stigg": "0.0",
+              "Crusoe": "0.0",
+              "Solstice": "3.1",
+              "Av x Yr17": "3.0",
+              "Nord Desprez": "3.2",
+              "Chinese 166": "3.1",
+              "AVS x Yr 15": "0.0",
+              "Kalyansona": "3.2",
+              "Talon": "3.0",
+              "Ambition": "0.6",
+              "Vilmorin 23": "3.1",
+              "Heines Peko": "3.0",
+              "Lee": "3.0",
+              "Compair": "0.0",
+              "Spaldings Prolific": "3.0",
+              "Avocet Yr24": "0.0",
+              "Clement": "3.2",
+              "VPM 1": "3.0",
+              "Suwon Omar": "3.0",
+              "Rendezvous": "2.2",
+              "Carstens V": "3.2",
+              "Av x Yr32": "3.0",
+              "Strubes Dickkopf": "3.2",
+              "Robigus": "4.0",
+              "Timber": "0.6",
+              "KWS-Sterling": "0.2",
+              "Warrior": "1.8",
+              "Cadenza": "2.5",
+              "Claire": "2.5",
+              "Heines VII": "3.0",
+              "Avocet Yr6": "3.0",
+              "Moro": "0.0",
+              "Apache": "3.0",
+              "Vuka": "3.5"
+            }
+          },
+          {
+            "Town": "Sutton Scotney",
+            "_id": {
+              "$oid": "562a50616ca5bb0fc909d89a"
+            },
+            "ID": "13.0020",
+            "Company": "NIABTAG Sutton Scotney",
+            "location": {
+              "latitude": 51.154214,
+              "east_bound": -1.2767089,
+              "longitude": -1.335825,
+              "north_bound": 51.1970003,
+              "west_bound": -1.3777775,
+              "south_bound": 51.123026
+            },
+            "County": "Hampshire",
+            "Name/Collector": "Jane Evans",
+            "Library name": "LIB4472",
+            "UKCPVS ID": "13/20",
+            "Date collected": "2013-06-05",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Country": "UK",
+            "Variety": "KWS Rowan",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130605",
+            "genotype": {
+              "Library name": "LIB4472",
+              "Genetic group": "4",
+              "Sample name": "13/20"
+            },
+            "phenotype": {
+              "Avocet Yr5": "0.0",
+              "Kavkaz x 4 Fed": "3.0",
+              "Host Variety": "KWS Rowan",
+              "Hybrid 46": "4.0",
+              "Av x Yr7 NIL": "4.0",
+              "Heines Kolben": "3.0",
+              "Stigg": "0.0",
+              "Crusoe": "0.0",
+              "Solstice": "3.5",
+              "Av x Yr17": "3.0",
+              "Nord Desprez": "3.0",
+              "Chinese 166": "3.0",
+              "AVS x Yr 15": "0.0",
+              "Kalyansona": "3.1",
+              "Talon": "3.0",
+              "Ambition": "1.0",
+              "Vilmorin 23": "3.0",
+              "Heines Peko": "3.5",
+              "Lee": "3.0",
+              "Compair": "0.0",
+              "Spaldings Prolific": "3.0",
+              "Avocet Yr24": "0.0",
+              "Clement": "3.0",
+              "VPM 1": "3.0",
+              "Suwon Omar": "4.0",
+              "Rendezvous": "2.0",
+              "Carstens V": "4.0",
+              "Av x Yr32": "3.5",
+              "Strubes Dickkopf": "3.0",
+              "Robigus": "3.5",
+              "Timber": "0.3",
+              "KWS-Sterling": "1.8",
+              "Warrior": "2.0",
+              "Cadenza": "2.9",
+              "Claire": "3.0",
+              "Heines VII": "3.5",
+              "Avocet Yr6": "3.0",
+              "Moro": "0.0",
+              "Apache": "3.0",
+              "Vuka": "3.0"
+            }
+          },
+          {
+            "Town": "Welbourn",
+            "_id": {
+              "$oid": "562a50626ca5bb0fc909d8aa"
+            },
+            "ID": "13.0036",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 53.075441,
+              "east_bound": -0.5428356,
+              "longitude": -0.558843,
+              "north_bound": 53.0821438,
+              "west_bound": -0.5748504,
+              "south_bound": 53.0687372
+            },
+            "County": "Lincolnshire",
+            "Name/Collector": "Amelia Hubbard",
+            "Library name": "LIB4477",
+            "UKCPVS ID": "13/36",
+            "Date collected": "2013-06-14",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Postal Code": "LN5 0QG",
+            "Country": "UK",
+            "Variety": "Allez Y",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130614",
+            "genotype": {
+              "Library name": "LIB4477",
+              "Genetic group": "4",
+              "Sample name": "13/36"
+            },
+            "phenotype": {
+              "Avocet Yr5": "0.0",
+              "Kavkaz x 4 Fed": "4.0",
+              "Host Variety": "Allez- Y",
+              "Hybrid 46": "3.2",
+              "Av x Yr7 NIL": "3.2",
+              "Heines Kolben": "3.0",
+              "Stigg": "0.0",
+              "Crusoe": "0.0",
+              "Solstice": "3.0",
+              "Av x Yr17": "3.0",
+              "Nord Desprez": "4.0",
+              "Chinese 166": "3.3",
+              "AVS x Yr 15": "0.0",
+              "Kalyansona": "3.1",
+              "Talon": "4.0",
+              "Ambition": "0.1",
+              "Vilmorin 23": "4.0",
+              "Heines Peko": "3.2",
+              "Lee": "3.2",
+              "Compair": "0.0",
+              "Spaldings Prolific": "3.5",
+              "Avocet Yr24": "0.0",
+              "Clement": "3.1",
+              "VPM 1": "3.0",
+              "Suwon Omar": "4.0",
+              "Rendezvous": "3.2",
+              "Carstens V": "4.0",
+              "Av x Yr32": "3.1",
+              "Strubes Dickkopf": "3.3",
+              "Robigus": "4.0",
+              "Timber": "2.2",
+              "KWS-Sterling": "2.0",
+              "Warrior": "2.1",
+              "Cadenza": "3.0",
+              "Claire": "3.1",
+              "Heines VII": "3.0",
+              "Avocet Yr6": "4.0",
+              "Moro": "0.0",
+              "Apache": "3.0",
+              "Vuka": "3.5"
+            }
+          },
+          {
+            "Town": "Oxfordshire",
+            "_id": {
+              "$oid": "562a50626ca5bb0fc909d8a3"
+            },
+            "ID": "13.0029",
+            "Company": "NIABTAG",
+            "location": {
+              "latitude": 51.7507856,
+              "east_bound": -1.1758134,
+              "longitude": -1.2338697,
+              "north_bound": 51.7963006,
+              "west_bound": -1.3042449,
+              "south_bound": 51.7109362
+            },
+            "County": "Oxfordshire",
+            "Name/Collector": "Andrew Chell",
+            "Library name": "LIB4460",
+            "UKCPVS ID": "13/29",
+            "Date collected": "2013-06-13",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "YR",
+            "Country": "UK",
+            "Variety": "Solstice",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20130613",
+            "genotype": {
+              "Library name": "LIB4460",
+              "Genetic group": "4",
+              "Sample name": "13/29"
+            },
+            "phenotype": {
+              "Avocet Yr5": "0.0",
+              "Kavkaz x 4 Fed": "4.0",
+              "Host Variety": "Solstice",
+              "Hybrid 46": "3.1",
+              "Av x Yr7 NIL": "3.2",
+              "Heines Kolben": "3.0",
+              "Stigg": "0.0",
+              "Crusoe": "0.0",
+              "Solstice": "3.1",
+              "Av x Yr17": "4.0",
+              "Nord Desprez": "3.5",
+              "Chinese 166": "3.1",
+              "AVS x Yr 15": "0.0",
+              "Kalyansona": "4.0",
+              "Talon": "4.0",
+              "Ambition": "0.4",
+              "Vilmorin 23": "3.0",
+              "Heines Peko": "4.0",
+              "Lee": "3.2",
+              "Compair": "0.0",
+              "Spaldings Prolific": "4.0",
+              "Avocet Yr24": "0.0",
+              "Clement": "3.0",
+              "VPM 1": "4.0",
+              "Suwon Omar": "3.1",
+              "Rendezvous": "2.8",
+              "Carstens V": "4.0",
+              "Av x Yr32": "4.0",
+              "Strubes Dickkopf": "4.0",
+              "Robigus": "3.1",
+              "Timber": "0.3",
+              "KWS-Sterling": "2.6",
+              "Warrior": "2.1",
+              "Cadenza": "3.0",
+              "Claire": "3.1",
+              "Heines VII": "3.0",
+              "Avocet Yr6": "3.2",
+              "Moro": "0.0",
+              "Apache": "3.0",
+              "Vuka": "3.0"
+            }
+          },
+          {
+            "Town": "Wallingford",
+            "_id": {
+              "$oid": "562a50b66ca5bb0fc909d9a5"
+            },
+            "ID": "14.0155",
+            "Company": "NIAB",
+            "Private comments": "NIAB: 14/07",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2013-12-01",
+            "County": "Oxfordshire",
+            "location": {
+              "latitude": 51.5974177,
+              "east_bound": -1.1056635,
+              "longitude": -1.1335613,
+              "north_bound": 51.6133738,
+              "west_bound": -1.152584,
+              "south_bound": 51.5817425
+            },
+            "Library name": "LIB12486",
+            "UKCPVS ID": "14/07",
+            "Country": "UK",
+            "Variety": "KWS Kielder",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20131201",
+            "phenotype": {
+              "Benetto": "4",
+              "Batch": "2",
+              "Avocet Yr5": "0",
+              "KWS Fido": "3",
+              "No of isols tested": "2",
+              "Ambition": "0",
+              "Vilmorin 23": "3",
+              "Talon": "2.3",
+              "Library": "LIB12486",
+              "Crusoe": "0",
+              "Opata": "2.5",
+              "Stigg": "0",
+              "Heines Kolben": "2",
+              "Av x Yr7 NIL": "4",
+              "Host": "KWS Kielder",
+              "Kalyansona": "4",
+              "Nord Desprez": "3",
+              "Av x Yr17": "3.5",
+              "Solstice": "3",
+              "Chinese 166": "4",
+              "AVS x Yr 15": "0",
+              "Kavkaz x 4 Fed": "3",
+              "Hybrid 46": "2",
+              "Heines Peko": "3",
+              "Lee": "3",
+              "Compair": "0",
+              "Avocet Yr27": "*",
+              "Spaldings Prolific": "3",
+              "Dublet": "3",
+              "Avocet Yr24": "0",
+              "Clement": "3",
+              "Rendezvous": "0.2",
+              "Suwon Omar": "3",
+              "VPM 1": "2",
+              "Carstens V": "4",
+              "Av x Yr32": "3",
+              "Tribeca": "0",
+              "Robigus": "3",
+              "Strubes Dickkopf": "3.5",
+              "KWS-Sterling": "0.1",
+              "Timber": "0",
+              "Warrior": "2.1",
+              "Cadenza": "3",
+              "Claire": "2.6",
+              "Heines VII": "0",
+              "Avocet Yr6": "3.5",
+              "Moro": "0",
+              "Apache": "3",
+              "Vuka": "3.5",
+              "Grenado": "4",
+              "Brigadier": "-",
+              "Tradiro": "4",
+              "Tulus": "2"
+            }
+          },
+          {
+            "Town": "Haddon",
+            "_id": {
+              "$oid": "562a50b66ca5bb0fc909d9a4"
+            },
+            "ID": "14.0154",
+            "Private comments": "NIAB 14/08 2 of 2",
+            "Company": "NIAB",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "Date collected": "2013-12-01",
+            "County": "Cambridgeshire",
+            "location": {
+              "latitude": 52.5202937,
+              "east_bound": -0.3238716,
+              "longitude": -0.3285052,
+              "north_bound": 52.5223839,
+              "west_bound": -0.3346427,
+              "south_bound": 52.5175002
+            },
+            "UKCPVS ID": "14/08",
+            "Country": "UK",
+            "Variety": "Hereward",
+            "Date collected (compact)": "20131201",
+            "phenotype": {
+              "Benetto": "-",
+              "Batch": "1",
+              "Avocet Yr5": "0",
+              "KWS Fido": "-",
+              "No of isols tested": "3",
+              "Ambition": "0.5",
+              "Vilmorin 23": "3.5",
+              "Talon": "3",
+              "Host": "Hereward (not crusoe)",
+              "Solstice": "3",
+              "Av x Yr17": "3.5",
+              "Nord Desprez": "3.2",
+              "AVS x Yr 15": "0",
+              "Chinese 166": "3",
+              "Kalyansona": "3",
+              "Kavkaz x 4 Fed": "3",
+              "Hybrid 46": "3",
+              "Av x Yr7 NIL": "4",
+              "Heines Kolben": "2",
+              "Stigg": "-",
+              "Opata": "1",
+              "Crusoe": "0",
+              "Heines Peko": "3",
+              "Lee": "2.5",
+              "Compair": "0",
+              "Avocet Yr27": "3",
+              "Spaldings Prolific": "3",
+              "Dublet": "-",
+              "Avocet Yr24": "0",
+              "Clement": "2.2",
+              "Suwon Omar": "4",
+              "Rendezvous": "3",
+              "VPM 1": "4",
+              "Carstens V": "3",
+              "Av x Yr32": "3",
+              "Tribeca": "-",
+              "Robigus": "4",
+              "Strubes Dickkopf": "3",
+              "KWS-Sterling": "2",
+              "Timber": "0",
+              "Warrior": "0",
+              "Cadenza": "3",
+              "Claire": "3",
+              "Heines VII": "3.5",
+              "Avocet Yr6": "4",
+              "Moro": "0",
+              "Apache": "2.8",
+              "Vuka": "3",
+              "Grenado": "2.7",
+              "Brigadier": "-",
+              "Tradiro": "-",
+              "Tulus": "-"
+            }
+          },
+          {
+            "Town": "Caythorpe",
+            "_id": {
+              "$oid": "562a50b56ca5bb0fc909d9a2"
+            },
+            "ID": "14.0152",
+            "Company": "NIAB",
+            "Private comments": "NIAB: 14/16",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-01-23",
+            "County": "Lincolnshire",
+            "location": {
+              "latitude": 53.021631,
+              "east_bound": -0.5688846,
+              "longitude": -0.6045819,
+              "north_bound": 53.0322775,
+              "west_bound": -0.6114799,
+              "south_bound": 53.0174137
+            },
+            "Library name": "LIB14889",
+            "UKCPVS ID": "14/16",
+            "Country": "UK",
+            "Variety": "Victo",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140123",
+            "phenotype": {
+              "Benetto": "3",
+              "Batch": "3",
+              "Avocet Yr5": "0",
+              "KWS Fido": "3",
+              "No of isols tested": "6",
+              "Ambition": "0",
+              "Vilmorin 23": "3.1",
+              "Talon": "3",
+              "Library": "LIB14889",
+              "Crusoe": "0",
+              "Opata": "1.7",
+              "Stigg": "-",
+              "Heines Kolben": "3",
+              "Av x Yr7 NIL": "3",
+              "Host": "Victo",
+              "Kalyansona": "3.1",
+              "Nord Desprez": "3.2",
+              "Av x Yr17": "3",
+              "Solstice": "3",
+              "Chinese 166": "3",
+              "AVS x Yr 15": "0",
+              "Kavkaz x 4 Fed": "2.5",
+              "Hybrid 46": "2",
+              "Heines Peko": "3.1",
+              "Lee": "3.5",
+              "Compair": "0",
+              "Avocet Yr27": "*",
+              "Spaldings Prolific": "3",
+              "Dublet": "3",
+              "Avocet Yr24": "0",
+              "Clement": "3",
+              "Rendezvous": "0",
+              "Suwon Omar": "3",
+              "VPM 1": "2.5",
+              "Carstens V": "3",
+              "Av x Yr32": "2.2",
+              "Tribeca": "*",
+              "Robigus": "3",
+              "Strubes Dickkopf": "3",
+              "KWS-Sterling": "0",
+              "Timber": "0",
+              "Warrior": "2.9",
+              "Cadenza": "3",
+              "Claire": "2",
+              "Heines VII": "3",
+              "Avocet Yr6": "3.1",
+              "Moro": "0",
+              "Apache": "2.6",
+              "Vuka": "3.5",
+              "Grenado": "3",
+              "Brigadier": "3.1",
+              "Tradiro": "3",
+              "Tulus": "0"
+            }
+          },
+          {
+            "_id": {
+              "$oid": "562a50aa6ca5bb0fc909d938"
+            },
+            "ID": "14.0021",
+            "Private comments": "14/22",
+            "Company": "NIAB",
+            "location": {
+              "latitude": 55.378051,
+              "east_bound": 1.7627096,
+              "longitude": -3.435973,
+              "north_bound": 60.856553,
+              "west_bound": -8.6493572,
+              "south_bound": 49.8699654
+            },
+            "Library name": "LIB10886",
+            "UKCPVS ID": "14/22",
+            "Name/Collector": "Amelia Hubbard",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-03-18",
+            "Country": "UK",
+            "Variety": "Victo mix",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140318",
+            "phenotype": {
+              "Benetto": "3.5",
+              "Batch": "2",
+              "Avocet Yr5": "0",
+              "KWS Fido": "3.2",
+              "No of isols tested": "7",
+              "Ambition": "1.3",
+              "Vilmorin 23": "3",
+              "Talon": "2",
+              "Library": "LIB10886",
+              "Crusoe": "0",
+              "Opata": "2",
+              "Stigg": "0",
+              "Heines Kolben": "2",
+              "Av x Yr7 NIL": "3.1",
+              "Host": "Victo/Vuka/AC Barrie spreader",
+              "Kalyansona": "3",
+              "Nord Desprez": "3",
+              "Av x Yr17": "3",
+              "Solstice": "2.1",
+              "Chinese 166": "3",
+              "AVS x Yr 15": "0",
+              "Kavkaz x 4 Fed": "3",
+              "Hybrid 46": "2",
+              "Heines Peko": "3",
+              "Lee": "3",
+              "Compair": "0",
+              "Avocet Yr27": "3",
+              "Spaldings Prolific": "3",
+              "Dublet": "3",
+              "Avocet Yr24": "0",
+              "Clement": "3",
+              "Rendezvous": "0.2",
+              "Suwon Omar": "3",
+              "VPM 1": "2.2",
+              "Carstens V": "2.2",
+              "Av x Yr32": "3",
+              "Tribeca": "2",
+              "Robigus": "3",
+              "Strubes Dickkopf": "3",
+              "KWS-Sterling": "0.2",
+              "Timber": "0.5",
+              "Warrior": "2",
+              "Cadenza": "3",
+              "Claire": "2.5",
+              "Heines VII": "2",
+              "Avocet Yr6": "3",
+              "Moro": "0",
+              "Apache": "2",
+              "Vuka": "3.5",
+              "Grenado": "3.5",
+              "Brigadier": "-",
+              "Tradiro": "3",
+              "Tulus": "1.6"
+            }
+          },
+          {
+            "Town": "Dunmow",
+            "_id": {
+              "$oid": "562a50b76ca5bb0fc909d9b1"
+            },
+            "ID": "14.0172",
+            "Company": "NIAB",
+            "Private comments": "NIAB: 14/44",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Postal code": "CM23 5HN",
+            "Date collected": "2014-05-13",
+            "County": "Hertfordshire",
+            "location": {
+              "latitude": 51.8697435,
+              "east_bound": 0.173454780291502,
+              "longitude": 0.1724057,
+              "north_bound": 51.8709789302915,
+              "west_bound": 0.170756819708498,
+              "south_bound": 51.8682809697085
+            },
+            "Library name": "LIB12499",
+            "UKCPVS ID": "14/44",
+            "Country": "UK",
+            "Variety": "Scout",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140513",
+            "phenotype": {
+              "Benetto": "4",
+              "Batch": "4",
+              "Avocet Yr5": "0",
+              "KWS Fido": "3",
+              "No of isols tested": "9",
+              "Ambition": "0",
+              "Vilmorin 23": "3",
+              "Talon": "3",
+              "Library": "LIB12499",
+              "Crusoe": "0",
+              "Opata": "2",
+              "Stigg": "-",
+              "Heines Kolben": "2.5",
+              "Av x Yr7 NIL": "4",
+              "Host": "Scout",
+              "Kalyansona": "3",
+              "Nord Desprez": "3",
+              "Av x Yr17": "3",
+              "Solstice": "3",
+              "Chinese 166": "3",
+              "AVS x Yr 15": "0",
+              "Kavkaz x 4 Fed": "4",
+              "Hybrid 46": "2",
+              "Heines Peko": "3.1",
+              "Lee": "3",
+              "Compair": "0",
+              "Avocet Yr27": "-",
+              "Spaldings Prolific": "3",
+              "Dublet": "3",
+              "Avocet Yr24": "0",
+              "Clement": "2.1",
+              "Rendezvous": "0.3",
+              "Suwon Omar": "3.5",
+              "VPM 1": "3",
+              "Carstens V": "3",
+              "Av x Yr32": "3",
+              "Tribeca": "0",
+              "Robigus": "3",
+              "Strubes Dickkopf": "3",
+              "KWS-Sterling": "1.3",
+              "Timber": "0",
+              "Warrior": "0.3",
+              "Cadenza": "3",
+              "Claire": "3",
+              "Heines VII": "3",
+              "Avocet Yr6": "4",
+              "Moro": "0",
+              "Apache": "3",
+              "Vuka": "3.5",
+              "Grenado": "3",
+              "Brigadier": "3",
+              "Tradiro": "3",
+              "Tulus": "0.1"
+            }
+          },
+          {
+            "Town": "Telford",
+            "_id": {
+              "$oid": "562a50b76ca5bb0fc909d9b0"
+            },
+            "ID": "14.0171",
+            "Company": "NIAB",
+            "Private comments": "NIAB: 14/46",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-05-16",
+            "County": "Shropshire",
+            "location": {
+              "latitude": 52.678419,
+              "east_bound": -2.4078095,
+              "longitude": -2.445258,
+              "north_bound": 52.6831574,
+              "west_bound": -2.4823035,
+              "south_bound": 52.6530124
+            },
+            "Library name": "LIB12498",
+            "UKCPVS ID": "14/46",
+            "Country": "UK",
+            "Variety": "KWS Kielder",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Failed",
+            "Date collected (compact)": "20140516",
+            "phenotype": {
+              "Benetto": "3.5",
+              "Batch": "5",
+              "Avocet Yr5": "0",
+              "KWS Fido": "3",
+              "No of isols tested": "10",
+              "Ambition": "3",
+              "Vilmorin 23": "3.5",
+              "Talon": "3",
+              "Library": "LIB12498",
+              "Crusoe": "0",
+              "Opata": "2",
+              "Heines Kolben": "3",
+              "Av x Yr7 NIL": "3.5",
+              "Host": "KWS Kielder",
+              "Kalyansona": "3.5",
+              "Nord Desprez": "4",
+              "Av x Yr17": "3",
+              "Solstice": "3.5",
+              "Chinese 166": "3.2",
+              "AVS x Yr 15": "0",
+              "Kavkaz x 4 Fed": "3.5",
+              "Hybrid 46": "3",
+              "Heines Peko": "4",
+              "Lee": "3.5",
+              "Compair": "0",
+              "Avocet Yr27": "-",
+              "Spaldings Prolific": "3.1",
+              "Dublet": "3",
+              "Avocet Yr24": "0",
+              "Clement": "4",
+              "Suwon Omar": "3",
+              "Rendezvous": "2.1",
+              "VPM 1": "3",
+              "Carstens V": "4",
+              "Av x Yr32": "3.5",
+              "Tribeca": "1.0 one leaf",
+              "Robigus": "3.5",
+              "Strubes Dickkopf": "3",
+              "KWS-Sterling": "2.2",
+              "Timber": "2.8",
+              "Warrior": "3",
+              "Cadenza": "3",
+              "Claire": "3",
+              "Heines VII": "0",
+              "Avocet Yr6": "3.5",
+              "Moro": "0",
+              "Apache": "3",
+              "Vuka": "4",
+              "Grenado": "3",
+              "Brigadier": "3",
+              "Tradiro": "3",
+              "Tulus": "0.5"
+            }
+          },
+          {
+            "_id": {
+              "$oid": "562a50b96ca5bb0fc909d9be"
+            },
+            "ID": "14.0193",
+            "Company": "NIAB",
+            "Private comments": "NIAB: 14/56",
+            "County": "Kent",
+            "location": {
+              "latitude": 51.1961742,
+              "east_bound": 1.0510701,
+              "longitude": 1.0447069,
+              "north_bound": 51.2039176,
+              "west_bound": 1.0360411,
+              "south_bound": 51.190281
+            },
+            "Library name": "LIB14878",
+            "UKCPVS ID": "14/56",
+            "phenotype": {
+              "Benetto": "3",
+              "Batch": "5",
+              "Avocet Yr5": "0",
+              "KWS Fido": "3",
+              "No of isols tested": "11",
+              "Ambition": "0",
+              "Vilmorin 23": "3.5",
+              "Talon": "3",
+              "Library": "LIB14878",
+              "Crusoe": "0",
+              "Opata": "2",
+              "Heines Kolben": "3",
+              "Av x Yr7 NIL": "3.5",
+              "Host": "Relay",
+              "Kalyansona": "3.5",
+              "Nord Desprez": "4",
+              "Av x Yr17": "4",
+              "Solstice": "3.2",
+              "Chinese 166": "3.5",
+              "AVS x Yr 15": "0",
+              "Kavkaz x 4 Fed": "4",
+              "Hybrid 46": "2",
+              "Heines Peko": "3.5",
+              "Lee": "3.5",
+              "Compair": "0",
+              "Avocet Yr27": "-",
+              "Spaldings Prolific": "3",
+              "Dublet": "3",
+              "Avocet Yr24": "0",
+              "Clement": "3.2",
+              "Suwon Omar": "3",
+              "Rendezvous": "1.3",
+              "VPM 1": "3",
+              "Carstens V": "3.4",
+              "Av x Yr32": "3",
+              "Tribeca": "*",
+              "Robigus": "4",
+              "Strubes Dickkopf": "4",
+              "KWS-Sterling": "2",
+              "Timber": "0.2",
+              "Warrior": "2.5",
+              "Cadenza": "3",
+              "Claire": "3",
+              "Heines VII": "3",
+              "Avocet Yr6": "4",
+              "Moro": "0",
+              "Apache": "3",
+              "Vuka": "3.5",
+              "Grenado": "3.5",
+              "Brigadier": "2.2",
+              "Tradiro": "3",
+              "Tulus": "1.6"
+            },
+            "Further Location information": "Wadden Hall Farm , CT4 5PX",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Postal code": "CT4 5PX",
+            "Date collected": "2014-05-23",
+            "Country": "UK",
+            "Variety": "Relay",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140523"
+          },
+          {
+            "Town": "Sutton Scotney",
+            "_id": {
+              "$oid": "562a50bb6ca5bb0fc909d9d2"
+            },
+            "ID": "14.0219",
+            "Company": "NIAB",
+            "Private comments": "NIAB: 14/72",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "Postal code": "SO21 3NE",
+            "Date collected": "2014-06-02",
+            "County": "Hampshire",
+            "location": {
+              "latitude": 51.1679846,
+              "east_bound": -1.3209118,
+              "longitude": -1.3322212,
+              "north_bound": 51.1758942,
+              "west_bound": -1.339582,
+              "south_bound": 51.1642756
+            },
+            "UKCPVS ID": "14/72",
+            "Country": "UK",
+            "phenotype": {
+              "Benetto": "3",
+              "Batch": "4",
+              "Avocet Yr5": "0",
+              "KWS Fido": "3",
+              "No of isols tested": "13",
+              "Ambition": "0",
+              "Vilmorin 23": "3",
+              "Talon": "3.2",
+              "Host": "Warrior",
+              "Solstice": "3.1",
+              "Av x Yr17": "3",
+              "Nord Desprez": "3.5",
+              "AVS x Yr 15": "0",
+              "Chinese 166": "3",
+              "Kalyansona": "3.5",
+              "Kavkaz x 4 Fed": "3.5",
+              "Hybrid 46": "2.9",
+              "Av x Yr7 NIL": "4",
+              "Heines Kolben": "3",
+              "Stigg": "-",
+              "Opata": "2.8",
+              "Crusoe": "0",
+              "Heines Peko": "3.1",
+              "Lee": "3",
+              "Compair": "0",
+              "Avocet Yr27": "-",
+              "Spaldings Prolific": "3",
+              "Dublet": "3",
+              "Avocet Yr24": "0",
+              "Clement": "3",
+              "Suwon Omar": "4",
+              "Rendezvous": "0",
+              "VPM 1": "3",
+              "Carstens V": "4",
+              "Av x Yr32": "4",
+              "Tribeca": "0.5",
+              "Robigus": "3.1",
+              "Strubes Dickkopf": "3.2",
+              "KWS-Sterling": "1.1",
+              "Timber": "0",
+              "Warrior": "0.8",
+              "Cadenza": "3",
+              "Claire": "3",
+              "Heines VII": "2.5",
+              "Avocet Yr6": "3",
+              "Moro": "0",
+              "Apache": "3",
+              "Vuka": "4",
+              "Grenado": "3",
+              "Brigadier": "3",
+              "Tradiro": "3",
+              "Tulus": "0"
+            },
+            "Further Location information": "Norton, Sutton Scotney, Wincester SO21 3NE",
+            "Variety": "Warrior",
+            "Date collected (compact)": "20140602"
+          },
+          {
+            "Town": "Headley Hall",
+            "_id": {
+              "$oid": "562a50bb6ca5bb0fc909d9ca"
+            },
+            "ID": "14.021",
+            "Company": "NIAB",
+            "Private comments": "NIAB: 14/84",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-06-02",
+            "County": "North Yorkshire",
+            "location": {
+              "latitude": 53.8685544,
+              "east_bound": -1.3245149197085,
+              "longitude": -1.3258639,
+              "north_bound": 53.8699033802915,
+              "west_bound": -1.3272128802915,
+              "south_bound": 53.8672054197085
+            },
+            "Library name": "LIB14881",
+            "UKCPVS ID": "14/84",
+            "Country": "UK",
+            "Variety": "Relay",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140602",
+            "phenotype": {
+              "Benetto": "3",
+              "Batch": "5",
+              "Avocet Yr5": "0",
+              "KWS Fido": "3",
+              "No of isols tested": "15",
+              "Ambition": "0",
+              "Vilmorin 23": "3",
+              "Talon": "3",
+              "Library": "LIB14881",
+              "Crusoe": "0",
+              "Opata": "2.8",
+              "Heines Kolben": "3",
+              "Av x Yr7 NIL": "4",
+              "Host": "Relay",
+              "Kalyansona": "3",
+              "Nord Desprez": "3.3",
+              "Av x Yr17": "3.5",
+              "Solstice": "3",
+              "Chinese 166": "3",
+              "AVS x Yr 15": "0",
+              "Kavkaz x 4 Fed": "3",
+              "Hybrid 46": "(3.0)",
+              "Heines Peko": "3",
+              "Lee": "4",
+              "Compair": "0",
+              "Avocet Yr27": "-",
+              "Spaldings Prolific": "3",
+              "Dublet": "3",
+              "Avocet Yr24": "0",
+              "Clement": "3",
+              "Suwon Omar": "3",
+              "Rendezvous": "0.4",
+              "VPM 1": "3",
+              "Carstens V": "#",
+              "Av x Yr32": "3",
+              "Tribeca": "0",
+              "Robigus": "3",
+              "Strubes Dickkopf": "3",
+              "KWS-Sterling": "0",
+              "Timber": "1.5",
+              "Warrior": "0.5",
+              "Cadenza": "3",
+              "Claire": "3",
+              "Heines VII": "3",
+              "Avocet Yr6": "4",
+              "Moro": "0",
+              "Apache": "2.8",
+              "Vuka": "4",
+              "Grenado": "3",
+              "Brigadier": "2.9",
+              "Tradiro": "3",
+              "Tulus": "0"
+            }
+          },
+          {
+            "Town": "Wolferton",
+            "_id": {
+              "$oid": "562a50b46ca5bb0fc909d998"
+            },
+            "ID": "14.0141",
+            "Company": "NIAB",
+            "Private comments": "NIAB: 14/118",
+            "County": "Norfolk",
+            "location": {
+              "latitude": 52.827926,
+              "east_bound": 0.4720174,
+              "longitude": 0.45601,
+              "north_bound": 52.8346673,
+              "west_bound": 0.4400026,
+              "south_bound": 52.8211837
+            },
+            "Library name": "LIB12474",
+            "UKCPVS ID": "14/118",
+            "phenotype": {
+              "Benetto": "3",
+              "Batch": "7",
+              "Avocet Yr5": "0",
+              "KWS Fido": "3",
+              "No of isols tested": "20",
+              "Ambition": "0.4",
+              "Vilmorin 23": "3",
+              "Talon": "3",
+              "Library": "LIB12474",
+              "Crusoe": "0",
+              "Opata": "0.2",
+              "Heines Kolben": "3",
+              "Av x Yr7 NIL": "2.2",
+              "Host": "KWS Santiago",
+              "Kalyansona": "3",
+              "Nord Desprez": "3",
+              "Av x Yr17": "3",
+              "Solstice": "3",
+              "Chinese 166": "3",
+              "AVS x Yr 15": "0",
+              "Kavkaz x 4 Fed": "3",
+              "Hybrid 46": "3",
+              "Heines Peko": "3",
+              "Lee": "1.8",
+              "Compair": "1.9",
+              "Avocet Yr27": "2.5",
+              "Spaldings Prolific": "0",
+              "Dublet": "3",
+              "Avocet Yr24": "0",
+              "Clement": "3",
+              "Suwon Omar": "2.9",
+              "Rendezvous": "2.9",
+              "VPM 1": "3",
+              "Carstens V": "3",
+              "Av x Yr32": "3",
+              "Robigus": "3",
+              "Strubes Dickkopf": "3",
+              "KWS-Sterling": "0.1",
+              "Timber": "0",
+              "Warrior": "0.8",
+              "Cadenza": "0",
+              "Claire": "2",
+              "Heines VII": "(3.0)",
+              "Avocet Yr6": "3",
+              "Moro": "0",
+              "Apache": "0",
+              "Vuka": "4",
+              "Grenado": "3",
+              "Brigadier": "3",
+              "Tradiro": "3",
+              "Tulus": "0.2"
+            },
+            "Further Location information": "Wolferton",
+            "Date collected": "2014-06-23",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Country": "UK",
+            "Variety": "KWS Santiago",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140623"
+          },
+          {
+            "Town": "Wolferton",
+            "_id": {
+              "$oid": "562a50b46ca5bb0fc909d997"
+            },
+            "ID": "14.0139",
+            "Company": "NIAB",
+            "Private comments": "NIAB: 14/119",
+            "County": "Norfolk",
+            "location": {
+              "latitude": 52.827926,
+              "east_bound": 0.4720174,
+              "longitude": 0.45601,
+              "north_bound": 52.8346673,
+              "west_bound": 0.4400026,
+              "south_bound": 52.8211837
+            },
+            "Library name": "LIB12472",
+            "UKCPVS ID": "14/119",
+            "phenotype": {
+              "Benetto": "3",
+              "Batch": "7",
+              "Avocet Yr5": "0",
+              "KWS Fido": "3",
+              "No of isols tested": "23",
+              "Ambition": "0",
+              "Vilmorin 23": "3",
+              "Talon": "2.5",
+              "Library": "LIB12472",
+              "Crusoe": "0",
+              "Opata": "0.5",
+              "Heines Kolben": "3",
+              "Av x Yr7 NIL": "3",
+              "Host": "Jorvik",
+              "Kalyansona": "3",
+              "Nord Desprez": "3",
+              "Av x Yr17": "3",
+              "Solstice": "3",
+              "Chinese 166": "3",
+              "AVS x Yr 15": "0",
+              "Kavkaz x 4 Fed": "3",
+              "Hybrid 46": "3",
+              "Heines Peko": "3",
+              "Lee": "3",
+              "Compair": "1.9",
+              "Avocet Yr27": "3",
+              "Spaldings Prolific": "3",
+              "Dublet": "3",
+              "Avocet Yr24": "0",
+              "Clement": "3",
+              "Suwon Omar": "3",
+              "Rendezvous": "1.5",
+              "VPM 1": "2.1",
+              "Carstens V": "3",
+              "Av x Yr32": "3",
+              "Robigus": "3",
+              "Strubes Dickkopf": "3",
+              "KWS-Sterling": "0.2",
+              "Timber": "0",
+              "Warrior": "2",
+              "Cadenza": "3",
+              "Claire": "3",
+              "Heines VII": "3",
+              "Avocet Yr6": "3",
+              "Moro": "0",
+              "Apache": "2.1 poss 3",
+              "Vuka": "3.5",
+              "Grenado": "3",
+              "Brigadier": "3",
+              "Tradiro": "3",
+              "Tulus": "0.3"
+            },
+            "Further Location information": "Wolferton",
+            "Date collected": "2014-06-23",
+            "Host": "Wheat",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Country": "UK",
+            "Variety": "Jorvik",
+            "RNA-seq? (Selected/In progress/Completed/Failed)": "Completed",
+            "Date collected (compact)": "20140623"
+          },
+          {
+            "Town": "Morley",
+            "_id": {
+              "$oid": "562a50b56ca5bb0fc909d99a"
+            },
+            "ID": "14.0143",
+            "Private comments": "NIAB: 14/117",
+            "Company": "NIAB",
+            "location": {
+              "latitude": 52.5539888,
+              "east_bound": 1.0769157,
+              "longitude": 1.0396228,
+              "north_bound": 52.5681914,
+              "west_bound": 1.0220748,
+              "south_bound": 52.5354401
+            },
+            "County": "Norfolk",
+            "UKCPVS ID": "14/117",
+            "phenotype": {
+              "Benetto": "3",
+              "Batch": "7",
+              "Avocet Yr5": "0",
+              "KWS Fido": "3",
+              "No of isols tested": "24",
+              "Ambition": "0",
+              "Vilmorin 23": "4",
+              "Talon": "3",
+              "Host": "KWS Cashel",
+              "Solstice": "3",
+              "Av x Yr17": "3",
+              "Nord Desprez": "3.5",
+              "AVS x Yr 15": "0",
+              "Chinese 166": "3.5",
+              "Kalyansona": "3.5",
+              "Kavkaz x 4 Fed": "3",
+              "Hybrid 46": "3",
+              "Av x Yr7 NIL": "4",
+              "Heines Kolben": "3",
+              "Opata": "1.3",
+              "Crusoe": "0",
+              "Heines Peko": "3",
+              "Lee": "4",
+              "Compair": "3",
+              "Avocet Yr27": "3",
+              "Spaldings Prolific": "3",
+              "Dublet": "3",
+              "Avocet Yr24": "0",
+              "Clement": "3",
+              "VPM 1": "3",
+              "Suwon Omar": "3",
+              "Rendezvous": "2",
+              "Carstens V": "3",
+              "Av x Yr32": "3.5",
+              "Robigus": "3",
+              "Strubes Dickkopf": "3",
+              "KWS-Sterling": "0.1",
+              "Timber": "0.4",
+              "Warrior": "0.3",
+              "Cadenza": "3",
+              "Claire": "2.5",
+              "Heines VII": "3",
+              "Avocet Yr6": "4",
+              "Moro": "0",
+              "Apache": "3",
+              "Vuka": "3",
+              "Grenado": "3",
+              "Brigadier": "3",
+              "Tradiro": "3",
+              "Tulus": "1.8"
+            },
+            "Further Location information": "Morley",
+            "Date collected": "2014-06-23",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "Country": "UK",
+            "Variety": "KWS Cashel",
+            "Date collected (compact)": "20140623"
+          },
+          {
+            "Town": "East lothian",
+            "_id": {
+              "$oid": "562a50b46ca5bb0fc909d993"
+            },
+            "ID": "14.0133",
+            "Company": "NIAB",
+            "Private comments": "NIAB: 14/125",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Wheat",
+            "Postal code": "EH41 4JR",
+            "Date collected": "2014-06-23",
+            "County": "East Lothian",
+            "location": {
+              "latitude": 55.8841334,
+              "east_bound": -2.8052157,
+              "longitude": -2.8210238,
+              "north_bound": 55.8948776,
+              "west_bound": -2.829246,
+              "south_bound": 55.8735151
+            },
+            "UKCPVS ID": "14/125",
+            "Country": "UK",
+            "phenotype": {
+              "Benetto": "3",
+              "Batch": "8",
+              "Avocet Yr5": "0",
+              "KWS Fido": "3.1",
+              "No of isols tested": "27",
+              "Ambition": "1",
+              "Vilmorin 23": "3",
+              "Talon": "3.2",
+              "Host": "Icon",
+              "Solstice": "3.3",
+              "Av x Yr17": "3",
+              "Nord Desprez": "3.1",
+              "AVS x Yr 15": "0",
+              "Chinese 166": "3.5",
+              "Kalyansona": "3",
+              "Kavkaz x 4 Fed": "2.9",
+              "Hybrid 46": "2",
+              "Av x Yr7 NIL": "3.5",
+              "Heines Kolben": "3",
+              "Opata": "2",
+              "Crusoe": "0",
+              "Heines Peko": "3",
+              "Lee": "3.1",
+              "Compair": "2.8",
+              "Avocet Yr27": "3",
+              "Spaldings Prolific": "3",
+              "Dublet": "3.5",
+              "Avocet Yr24": "0",
+              "Clement": "3",
+              "VPM 1": "4",
+              "Suwon Omar": "3.5",
+              "Rendezvous": "2.2",
+              "Carstens V": "4",
+              "Av x Yr32": "3",
+              "Robigus": "3.3",
+              "Strubes Dickkopf": "4",
+              "KWS-Sterling": "0.9",
+              "Timber": "0.3",
+              "Warrior": "2.2",
+              "Cadenza": "2.8",
+              "Claire": "4",
+              "Heines VII": "3",
+              "Avocet Yr6": "3.2",
+              "Moro": "0",
+              "Apache": "3",
+              "Vuka": "4",
+              "Grenado": "3",
+              "Brigadier": "3.5",
+              "Tradiro": "3",
+              "Tulus": "0.7"
+            },
+            "Further Location information": "Gilchriston farm, Nr Humbie, East lothian, EH41 4JR",
+            "Variety": "Icon",
+            "Date collected (compact)": "20140623"
+          },
+          {
+            "_id": {
+              "$oid": "562a50b86ca5bb0fc909d9b6"
+            },
+            "ID": "14.0177",
+            "Private comments": "NIAB: T14/4 2 of 2",
+            "Company": "NIAB",
+            "Host": "Triticale",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Date collected": "2014-05-01",
+            "Postal code": "SO21 3NE",
+            "location": {
+              "latitude": 51.1679846,
+              "east_bound": -1.3209118,
+              "longitude": -1.3322212,
+              "north_bound": 51.1758942,
+              "west_bound": -1.339582,
+              "south_bound": 51.1642756
+            },
+            "UKCPVS ID": "T14/4",
+            "Country": "UK",
+            "Variety": "Grenado",
+            "Date collected (compact)": "20140501",
+            "phenotype": {
+              "Benetto": "3",
+              "Batch": "4",
+              "Avocet Yr5": "0",
+              "KWS Fido": "3",
+              "No of isols tested": "4",
+              "Ambition": "3",
+              "Vilmorin 23": "3",
+              "Talon": "0.3",
+              "Host": "Grenado",
+              "Solstice": "2",
+              "Av x Yr17": "3",
+              "Nord Desprez": "3",
+              "AVS x Yr 15": "0",
+              "Chinese 166": "3",
+              "Kalyansona": "3",
+              "Kavkaz x 4 Fed": "4",
+              "Hybrid 46": "2",
+              "Av x Yr7 NIL": "3",
+              "Heines Kolben": "3",
+              "Opata": "0",
+              "Crusoe": "0",
+              "Heines Peko": "3",
+              "Lee": "3",
+              "Compair": "2.9",
+              "Avocet Yr27": "-",
+              "Spaldings Prolific": "3",
+              "Dublet": "3",
+              "Avocet Yr24": "2.1",
+              "Clement": "2.9",
+              "VPM 1": "0",
+              "Suwon Omar": "3",
+              "Rendezvous": "0",
+              "Carstens V": "3",
+              "Av x Yr32": "3",
+              "Robigus": "3",
+              "Strubes Dickkopf": "3",
+              "KWS-Sterling": "0",
+              "Timber": "2",
+              "Warrior": "2.8",
+              "Cadenza": "0.4",
+              "Claire": "0",
+              "Heines VII": "2.6",
+              "Avocet Yr6": "3.5",
+              "Moro": "1.3",
+              "Apache": "0.2",
+              "Vuka": "3",
+              "Grenado": "3",
+              "Brigadier": "0",
+              "Tradiro": "3",
+              "Tulus": "2.2"
+            }
+          },
+          {
+            "Town": "Fulbourn",
+            "_id": {
+              "$oid": "562a50ba6ca5bb0fc909d9c4"
+            },
+            "ID": "14.0201",
+            "Private comments": "NIAB: T14/5",
+            "Company": "NIAB",
+            "location": {
+              "latitude": 52.18268,
+              "east_bound": 0.2404329,
+              "longitude": 0.222039,
+              "north_bound": 52.196281,
+              "west_bound": 0.1813609,
+              "south_bound": 52.1706581
+            },
+            "County": "Cambridgeshire",
+            "UKCPVS ID": "T14/5",
+            "phenotype": {
+              "Benetto": "3.5",
+              "Batch": "4",
+              "Avocet Yr5": "0",
+              "KWS Fido": "3",
+              "No of isols tested": "5",
+              "Ambition": "0.8",
+              "Vilmorin 23": "4",
+              "Talon": "3.3",
+              "Host": "Benetto",
+              "Solstice": "3.2",
+              "Av x Yr17": "3",
+              "Nord Desprez": "3.1",
+              "AVS x Yr 15": "0",
+              "Chinese 166": "3.5",
+              "Kalyansona": "3.5",
+              "Kavkaz x 4 Fed": "3",
+              "Hybrid 46": "2",
+              "Av x Yr7 NIL": "4",
+              "Heines Kolben": "3.1",
+              "Opata": "3",
+              "Crusoe": "0",
+              "Heines Peko": "3",
+              "Lee": "3",
+              "Compair": "0",
+              "Avocet Yr27": "-",
+              "Spaldings Prolific": "3",
+              "Dublet": "3",
+              "Avocet Yr24": "0",
+              "Clement": "2.3",
+              "VPM 1": "3.2",
+              "Suwon Omar": "3",
+              "Rendezvous": "2",
+              "Carstens V": "4",
+              "Av x Yr32": "3.5",
+              "Tribeca": "1",
+              "Robigus": "3.2",
+              "Strubes Dickkopf": "4",
+              "KWS-Sterling": "2",
+              "Timber": "2.3",
+              "Warrior": "3",
+              "Cadenza": "2.8",
+              "Claire": "3",
+              "Heines VII": "3",
+              "Avocet Yr6": "3",
+              "Moro": "0",
+              "Apache": "3",
+              "Vuka": "4",
+              "Grenado": "3.5",
+              "Brigadier": "3",
+              "Tradiro": "3.3",
+              "Tulus": "1.8"
+            },
+            "Further Location information": "Fulbourn",
+            "Date collected": "2014-06-02",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "Host": "Triticale",
+            "Country": "UK",
+            "Variety": "Benetto",
+            "Date collected (compact)": "20140602"
+          },
+          {
+            "Town": "Wandlebury",
+            "_id": {
+              "$oid": "562a50b56ca5bb0fc909d99e"
+            },
+            "ID": "14.0147",
+            "Private comments": "NIAB: TS14/1",
+            "Company": "NIAB",
+            "Host": "Spelta",
+            "Date collected": "2014-04-04",
+            "Rust (YR/SR/LR)": "Yellow Rust",
+            "location": {
+              "latitude": 52.0661226,
+              "east_bound": -0.742702119708498,
+              "longitude": -0.743808,
+              "north_bound": 52.0676993802915,
+              "west_bound": -0.745400080291502,
+              "south_bound": 52.0650014197085
+            },
+            "UKCPVS ID": "TS14/1",
+            "Country": "UK",
+            "Variety": "Divimar",
+            "Date collected (compact)": "20140404",
+            "phenotype": {
+              "Benetto": "3",
+              "Batch": "8",
+              "Avocet Yr5": "0",
+              "KWS Fido": "3",
+              "No of isols tested": "2",
+              "Ambition": "0",
+              "Vilmorin 23": "3.5",
+              "Talon": "3",
+              "Host": "Divimar",
+              "Solstice": "3.1",
+              "Av x Yr17": "3.2",
+              "Nord Desprez": "3",
+              "AVS x Yr 15": "0",
+              "Chinese 166": "4",
+              "Kalyansona": "3.5",
+              "Kavkaz x 4 Fed": "3",
+              "Hybrid 46": "1.5",
+              "Av x Yr7 NIL": "4",
+              "Heines Kolben": "3",
+              "Opata": "1.5",
+              "Crusoe": "0",
+              "Heines Peko": "3",
+              "Lee": "3.5",
+              "Compair": "2.3",
+              "Avocet Yr27": "2.5",
+              "Spaldings Prolific": "3",
+              "Dublet": "3",
+              "Avocet Yr24": "0",
+              "Clement": "3",
+              "VPM 1": "3",
+              "Suwon Omar": "3",
+              "Rendezvous": "2.9",
+              "Carstens V": "2.9",
+              "Av x Yr32": "3",
+              "Robigus": "3.5",
+              "Strubes Dickkopf": "3",
+              "KWS-Sterling": "1.9",
+              "Timber": "1.5",
+              "Warrior": "2.1",
+              "Cadenza": "3",
+              "Claire": "2.8",
+              "Heines VII": "3",
+              "Avocet Yr6": "3.5",
+              "Moro": "0",
+              "Apache": "2.2",
+              "Vuka": "3.5",
+              "Grenado": "3.1",
+              "Brigadier": "3",
+              "Tradiro": "3",
+              "Tulus": "0.6"
+            }
           }
-        ];
+        ]
+        ;
