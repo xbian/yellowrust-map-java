@@ -28,12 +28,13 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="input-group">
-                <input type="text" id="min" name="min" class="form-control" placeholder="Start Date" value=""/>
-                <span class="input-group-btn" style="width:0px;"></span>
-                <input type="text" id="max" name="max" class="form-control" placeholder="End Date" value=""
-                       style="margin-left:-1px"/>
-            </div>
+            <div id="slider" style="margin-left:10px;margin-right:10px;"></div>
+            <%--<div class="input-group">--%>
+                <%--<input type="text" id="min" name="min" class="form-control" placeholder="Start Date" value=""/>--%>
+                <%--<span class="input-group-btn" style="width:0px;"></span>--%>
+                <%--<input type="text" id="max" name="max" class="form-control" placeholder="End Date" value=""--%>
+                       <%--style="margin-left:-1px"/>--%>
+            <%--</div>--%>
         </div>
 
         <div class="col-md-4">
@@ -50,15 +51,6 @@
                 </span>
             </div>
         </div>
-    </div>
-    <br/>
-
-    <div class="row">
-
-        <div class="col-lg-6">
-            <div id="slider" style="margin-left:10px;margin-right:10px;"></div>
-        </div>
-
     </div>
     <br/>
 
