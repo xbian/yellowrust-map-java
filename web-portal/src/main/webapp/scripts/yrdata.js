@@ -4234,12 +4234,12 @@ var sample_list_all = [
             "ID": "14.0105",
             "Town": "Morley",
             "location": {
-              "north_bound": 43.4980229,
-              "latitude": 43.4908606,
-              "west_bound": -85.455566,
-              "longitude": -85.4439283,
-              "south_bound": 43.483625,
-              "east_bound": -85.4354029
+              "north_bound": 52.5583002,
+              "latitude": 52.5539247,
+              "west_bound": 1.0220689,
+              "longitude": 1.029127,
+              "south_bound": 52.5462202,
+              "east_bound": 1.0378962
             },
             "Further Location information": "Morley",
             "Library name": "LIB12455",
@@ -4265,12 +4265,12 @@ var sample_list_all = [
             "ID": "14.0106",
             "Town": "Morley",
             "location": {
-              "north_bound": 43.4980229,
-              "latitude": 43.4908606,
-              "west_bound": -85.455566,
-              "longitude": -85.4439283,
-              "south_bound": 43.483625,
-              "east_bound": -85.4354029
+              "north_bound": 52.5583002,
+              "latitude": 52.5539247,
+              "west_bound": 1.0220689,
+              "longitude": 1.029127,
+              "south_bound": 52.5462202,
+              "east_bound": 1.0378962
             },
             "Date collected": "2014-06-13",
             "Further Location information": "Morley",
@@ -4290,12 +4290,12 @@ var sample_list_all = [
             "ID": "14.0107",
             "Town": "Morley",
             "location": {
-              "north_bound": 43.4980229,
-              "latitude": 43.4908606,
-              "west_bound": -85.455566,
-              "longitude": -85.4439283,
-              "south_bound": 43.483625,
-              "east_bound": -85.4354029
+              "north_bound": 52.5583002,
+              "latitude": 52.5539247,
+              "west_bound": 1.0220689,
+              "longitude": 1.029127,
+              "south_bound": 52.5462202,
+              "east_bound": 1.0378962
             },
             "Date collected": "2014-06-13",
             "Further Location information": "Morley",

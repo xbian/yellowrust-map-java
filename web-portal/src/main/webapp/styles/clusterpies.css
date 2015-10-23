@@ -94,31 +94,6 @@
     border-color: gray;
 }
 
-/*marker icons*/
-.icon-1 {
-    background-image: url('http://www.iconsdb.com/icons/download/black/running-16.png');
-    background-repeat: no-repeat;
-    background-position: 0px 1px;
-}
-
-.icon-2 {
-    background-image: url('http://www.iconsdb.com/icons/download/black/bicycle-16.png');
-    background-repeat: no-repeat;
-    background-position: 1px -2px;
-}
-
-.icon-3 {
-    background-image: url('http://www.iconsdb.com/icons/download/black/motorcycle-16.png');
-    background-repeat: no-repeat;
-    background-position: 1px -2px;
-}
-
-.icon-4 {
-    background-image: url('http://www.iconsdb.com/icons/download/black/car-16.png');
-    background-repeat: no-repeat;
-    background-position: 1px -2px;
-}
-
 /*Popup*/
 .map-popup span.heading {
     display: block;
