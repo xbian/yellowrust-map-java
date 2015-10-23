@@ -121,6 +121,7 @@
                         }
                     }
                 },
+                {data: "Variety", title: "Variety", "sDefaultContent": ""},
                 {data: "Company", title: "Company", "sDefaultContent": ""},
 //                {data: "Town", title: "Town", "sDefaultContent": ""},
                 {
@@ -591,7 +592,8 @@
                     "1": "Genetic group 1",
                     "2": "Genetic group 2",
                     "3": "Genetic group 3",
-                    "4": "Genetic group 4"
+                    "4": "Genetic group 4",
+                    "5": "Genetic group 5"
 //            ,
 //            " ": "No Genotype"
                 }
