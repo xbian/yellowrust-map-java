@@ -30,10 +30,10 @@
         <div class="col-md-4">
             <div id="slider" style="margin-left:10px;margin-right:10px;"></div>
             <%--<div class="input-group">--%>
-                <%--<input type="text" id="min" name="min" class="form-control" placeholder="Start Date" value=""/>--%>
-                <%--<span class="input-group-btn" style="width:0px;"></span>--%>
-                <%--<input type="text" id="max" name="max" class="form-control" placeholder="End Date" value=""--%>
-                       <%--style="margin-left:-1px"/>--%>
+            <%--<input type="text" id="min" name="min" class="form-control" placeholder="Start Date" value=""/>--%>
+            <%--<span class="input-group-btn" style="width:0px;"></span>--%>
+            <%--<input type="text" id="max" name="max" class="form-control" placeholder="End Date" value=""--%>
+            <%--style="margin-left:-1px"/>--%>
             <%--</div>--%>
         </div>
 
@@ -74,19 +74,19 @@
 </div>
 
 <script type="text/javascript">
-    $("#slider").dateRangeSlider({
-        bounds: {
-            min: new Date(2013, 0, 1),
-            max: new Date(2014, 11, 31)
-        },
-        defaultValues:{
-            min: new Date(2013, 0, 1),
-            max: new Date(2014, 11, 31)
-        }
-    });
     var pie_view = false;
     var yrtable;
     jQuery(document).ready(function () {
+        $("#slider").dateRangeSlider({
+            bounds: {
+                min: new Date(2013, 0, 1),
+                max: new Date(2014, 11, 31)
+            },
+            defaultValues: {
+                min: new Date(2013, 0, 1),
+                max: new Date(2014, 11, 31)
+            }
+        });
         displayYRLocations(sample_list_all);
         yrtable = $('#resultTable').DataTable({
             data: sample_list_all,
@@ -159,42 +159,53 @@
             var filteredData = yrtable.rows({filter: 'applied'}).data().toArray();
             displayYRLocations(filteredData);
         });
-        $("#slider").bind("valuesChanged", function(e, data) {
 
-            $.fn.dataTableExt.afnFiltering.push(
-                    function (oSettings, aData, iDataIndex) {
-                        var dateStart = Date.parse(data.values.min) || 0;
-                        var dateEnd = Date.parse(data.values.max) || 0;
 
-                        var evalDate = Date.parse(aData[5]);
+        $("#slider").bind("userValuesChanged", function (e, data) {
+            datemin = Date.parse(data.values.min);
+            datemax = Date.parse(data.values.max);
 
-                        if (((evalDate >= dateStart && evalDate <= dateEnd) || (evalDate >= dateStart && dateEnd == 0)
-                            || (evalDate >= dateEnd && dateStart == 0)) || (dateStart == 0 && dateEnd == 0)) {
-                            return true;
-                        }
-                        else {
-                            return false;
-                        }
-
-                    });
             yrtable.draw();
         });
 
-
-        $('#min, #max').datepicker({dateFormat: 'yy-mm-dd'});
-
-        $('#min').change(function () {
-            yrtable.draw();
-        });
-        $('#max').change(function () {
-            yrtable.draw();
-        });
+//
+//        $('#min, #max').datepicker({dateFormat: 'yy-mm-dd'});
+//
+//        $('#min').change(function () {
+//            yrtable.draw();
+//        });
+//        $('#max').change(function () {
+//            yrtable.draw();
+//        });
 
         ukcpvs_only();
         mapFitBounds([[49.781264, -7.910156], [61.100789, -0.571289]]);
         renderLegend();
 
     });
+
+    var datemin = 0;
+    var datemax = 0;
+
+    $.fn.dataTableExt.afnFiltering.push(
+            function (oSettings, aData, iDataIndex) {
+                var dateStart = datemin;
+                var dateEnd = datemax;
+//                    console.log(dateStart + " " + dateEnd);
+
+                var evalDate = Date.parse(aData[5]);
+//                    console.log(evalDate);
+
+                    if (((evalDate >= dateStart && evalDate <= dateEnd) || (evalDate >= dateStart && dateEnd == 0)
+                        || (evalDate >= dateEnd && dateStart == 0)) || (dateStart == 0 && dateEnd == 0)) {
+//                if ((evalDate >= dateStart && evalDate <= dateEnd)) {
+                    return true;
+                }
+                else {
+                    return false;
+                }
+
+            });
 
     function ukcpvs_only() {
         var column = yrtable.column(2);
@@ -374,17 +385,17 @@
         return phynotype_data;
     }
 
-//    function json_table(json) {
-//        var tr;
-//        for (var i = 0; i < json.length; i++) {
-//            tr = $('<tr/>');
-//            tr.append("<td>" + json[i].User_Name + "</td>");
-//            tr.append("<td>" + json[i].score + "</td>");
-//            tr.append("<td>" + json[i].team + "</td>");
-//            $('table').append(tr);
-//
-//        }
-//    }
+    //    function json_table(json) {
+    //        var tr;
+    //        for (var i = 0; i < json.length; i++) {
+    //            tr = $('<tr/>');
+    //            tr.append("<td>" + json[i].User_Name + "</td>");
+    //            tr.append("<td>" + json[i].score + "</td>");
+    //            tr.append("<td>" + json[i].team + "</td>");
+    //            $('table').append(tr);
+    //
+    //        }
+    //    }
 
     function makeTable() {
         makeYRJSON();
