@@ -161,7 +161,7 @@
         });
 
 
-        $("#slider").bind("userValuesChanged", function (e, data) {
+        $("#slider").bind("valuesChanging", function (e, data) {
             datemin = Date.parse(data.values.min);
             datemax = Date.parse(data.values.max);
 
