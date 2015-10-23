@@ -86,6 +86,7 @@
 
     <script src="<c:url value='/scripts/jquery/datatables/js/jquery.dataTables.min.js'/>" type="text/javascript"></script>
     <link href="<c:url value='/scripts/jquery/datatables/css/jquery.dataTables.css'/>" rel="stylesheet" type="text/css">
+    <script src="<c:url value='/scripts/jquery/jqrangeslider/jQDateRangeSlider-min.js'/>" type="text/javascript"></script>
 
     <script src="<c:url value='/scripts/yrdata.js'/>" type="text/javascript"></script>
 

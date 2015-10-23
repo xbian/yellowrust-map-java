@@ -141,3 +141,8 @@ div.sectionDivider a {
     height: 12px;
     background: url(../images/toggle-down.png) no-repeat;
 }
+
+#zoom{
+    position: absolute;
+    top: 800px;
+}

@@ -14,15 +14,16 @@
 
             <div class="input-group">
                <span class="input-group-btn">
-                   <button type="button" class="btn btn-default"
-                           onclick="mapFitBounds([[49.781264,-7.910156],[61.100789, -0.571289]]);">Zoom UK
-                   </button>
-                   <button type="button" class="btn btn-default"
-                           onclick="mapFitBounds([[36.738884,-14.765625],[56.656226, 32.34375]]);">Zoom Europe
-                   </button>
+
                    <button type="button" class="btn btn-default"
                            onclick="location.href='yellowrust-map/phenotype';">Phenotype Data
                    </button>
+                <button type="button" class="btn btn-default"
+                        onclick="genotype_view();">Genotype View
+                </button>
+                <button type="button" class="btn btn-default"
+                        onclick="normal_view();">Normal View
+                </button>
                </span>
             </div>
         </div>
@@ -52,15 +53,38 @@
     </div>
     <br/>
 
+    <div class="row">
+        <div id="slider"></div>
+    </div>
+    <br/>
+
     <div id="tableWrapper">
         <table id="resultTable"></table>
     </div>
 
     <div id="legend"></div>
+    <div id="zoom">
+        <div class="input-group">
+               <span class="input-group-btn">
+        <button type="button" class="btn btn-default"
+                onclick="mapFitBounds([[49.781264,-7.910156],[61.100789, -0.571289]]);">Zoom UK
+        </button>
+        <button type="button" class="btn btn-default"
+                onclick="mapFitBounds([[36.738884,-14.765625],[56.656226, 32.34375]]);">Zoom Europe
+        </button>
+               </span>
+        </div>
+    </div>
 </div>
 
 <script type="text/javascript">
-    var pie = false;
+    $("#slider").dateRangeSlider({
+        bounds: {
+            min: new Date(2013, 0, 1),
+            max: new Date(2014, 11, 31)
+        }
+    });
+    var pie_view = false;
     var yrtable;
     jQuery(document).ready(function () {
 
@@ -181,12 +205,28 @@
         column.search('').draw();
     }
 
+    function genotype_view() {
+        pie_view = true;
+        renderLegend();
+        var column = yrtable.column(9);
+        column.search('^\\d$', true, false).draw();
+    }
+
+    function normal_view() {
+        pie_view = false;
+        renderLegend();
+        var column = yrtable.column(9);
+        column.search('').draw();
+
+    }
+
 
     var markers = new Array();
 
+
     var markersGroup = new L.MarkerClusterGroup({
-        maxClusterRadius: 2 * 30,
-        iconCreateFunction: defineClusterIcon
+//        maxClusterRadius: 2 * 30,
+//        iconCreateFunction: defineClusterIcon
     });
 
     var map = L.map('map').setView([52.621615, 10.219470], 5);
@@ -381,7 +421,13 @@
             className: myClass,
             iconSize: null
         });
-        var markerLayer = L.marker([la, lo], {title: geno, icon: myIcon}).bindPopup(note);
+        var markerLayer;
+        if (pie_view) {
+            markerLayer = L.marker([la, lo], {title: geno, icon: myIcon}).bindPopup(note);
+        }
+        else {
+            markerLayer = L.marker([la, lo], {title: geno}).bindPopup(note);
+        }
         markers.push(markerLayer);
         markersGroup.addLayer(markerLayer);
         map.addLayer(markersGroup);
@@ -389,10 +435,15 @@
 
     function removePointers() {
         map.removeLayer(markersGroup);
-        markersGroup = new L.MarkerClusterGroup({
-            maxClusterRadius: 2 * 30,
-            iconCreateFunction: defineClusterIcon
-        });
+        if (pie_view) {
+            markersGroup = new L.MarkerClusterGroup({
+                maxClusterRadius: 2 * 30,
+                iconCreateFunction: defineClusterIcon
+            });
+        }
+        else {
+            markersGroup = new L.MarkerClusterGroup();
+        }
     }
 
     function removeTable() {
@@ -522,37 +573,40 @@
     }
 
     function renderLegend() {
-        var metajson = {
-            "lookup": {
-                "1": "Genetic group 1",
-                "2": "Genetic group 2",
-                "3": "Genetic group 3",
-                "4": "Genetic group 4"
+        $('#legend').html('');
+        if (pie_view) {
+            var metajson = {
+                "lookup": {
+                    "1": "Genetic group 1",
+                    "2": "Genetic group 2",
+                    "3": "Genetic group 3",
+                    "4": "Genetic group 4"
 //            ,
 //            " ": "No Genotype"
-            }
-        };
+                }
+            };
 
-        var data = d3.entries(metajson.lookup),
-                legenddiv = d3.select('#legend');
+            var data = d3.entries(metajson.lookup),
+                    legenddiv = d3.select('#legend');
 
-        var heading = legenddiv.append('div')
-                .classed('legendheading', true)
-                .text("Genotype");
+            var heading = legenddiv.append('div')
+                    .classed('legendheading', true)
+                    .text("Genotype");
 
-        var legenditems = legenddiv.selectAll('.legenditem')
-                .data(data);
+            var legenditems = legenddiv.selectAll('.legenditem')
+                    .data(data);
 
-        legenditems
-                .enter()
-                .append('div')
-                .attr('class', function (d) {
-                          return 'category-' + d.key;
-                      })
-                .classed({'legenditem': true})
-                .text(function (d) {
-                          return d.value;
-                      });
+            legenditems
+                    .enter()
+                    .append('div')
+                    .attr('class', function (d) {
+                              return 'category-' + d.key;
+                          })
+                    .classed({'legenditem': true})
+                    .text(function (d) {
+                              return d.value;
+                          });
+        }
     }
 </script>
 
