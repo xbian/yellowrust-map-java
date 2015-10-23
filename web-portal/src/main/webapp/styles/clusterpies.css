@@ -87,6 +87,13 @@
     border-color: #f00;
 }
 
+.category-5 {
+    fill: purple;
+    stroke: #B60;
+    background: purple;
+    border-color: #B60;
+}
+
 .category- {
     fill: #ccc;
     stroke: gray;
