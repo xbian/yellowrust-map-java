@@ -2079,7 +2079,7 @@ var sample_list_all = [
             "Company": "NIABTAG Harper Adams",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Shropshire",
@@ -2104,7 +2104,7 @@ var sample_list_all = [
             "Name/Collector": "Catherine Johnson",
             "Company": "NIABTAG benniworth",
             "Town": "Childs Ercall",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQTG",
@@ -2130,7 +2130,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQTG",
@@ -2156,7 +2156,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Gloucestershire",
@@ -2181,7 +2181,7 @@ var sample_list_all = [
             "Name/Collector": "Jane Evans",
             "Company": "NIABTAG Sutton Scotney",
             "Town": "Circencester",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "North Yorkshire",
@@ -2206,7 +2206,7 @@ var sample_list_all = [
             "Name/Collector": "Peter Burgis",
             "Company": "NIABTAG Headley Hall",
             "Town": "Croft",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "North Yorkshire",
@@ -2231,7 +2231,7 @@ var sample_list_all = [
             "Name/Collector": "Peter Burgis",
             "Company": "NIABTAG",
             "Town": "Croft",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "Date is arrival date",
@@ -2257,7 +2257,7 @@ var sample_list_all = [
             "Name/Collector": "Menka Hopma",
             "Company": "NIABTAG benniworth",
             "Town": "Caythorpe",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Gloucestershire",
@@ -2282,7 +2282,7 @@ var sample_list_all = [
             "Name/Collector": "Jane Evans",
             "Company": "NIABTAG sutton scotney",
             "Town": "Circencester",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Gloucestershire",
@@ -2307,7 +2307,7 @@ var sample_list_all = [
             "Name/Collector": "Jane Evans",
             "Company": "NIABTAG sutton scotney",
             "Town": "Circencester",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Lincolnshire",
@@ -2333,7 +2333,7 @@ var sample_list_all = [
             "Country": "UK",
             "Company": "NIABTAG benniworth",
             "Town": "Caythorpe",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4458",
             "genotype": {
               "Genetic group": "4",
@@ -2364,7 +2364,7 @@ var sample_list_all = [
             "Name/Collector": "Hayley Rhodes",
             "Company": "NIABTAG benniworth",
             "Town": "Boston",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Lincolnshire",
@@ -2390,7 +2390,7 @@ var sample_list_all = [
             "Country": "UK",
             "Company": "NIABTAG benniworth",
             "Town": "Boston",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4362",
             "genotype": {
               "Genetic group": "4",
@@ -2422,7 +2422,7 @@ var sample_list_all = [
             "Country": "UK",
             "Company": "Agrii",
             "Town": "Mendlesham",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4745",
             "genotype": {
               "Genetic group": "1",
@@ -2454,7 +2454,7 @@ var sample_list_all = [
             "Country": "UK",
             "Company": "Agrii",
             "Town": "Mendlesham",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4466",
             "genotype": {
               "Genetic group": "1",
@@ -2486,7 +2486,7 @@ var sample_list_all = [
             "Country": "UK",
             "Company": "ADAS Boxworth",
             "Town": "Terrington St Clement",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4361",
             "genotype": {
               "Genetic group": "3",
@@ -2518,7 +2518,7 @@ var sample_list_all = [
             "Country": "UK",
             "Company": "NIABTAG",
             "Town": "Boothby Graffoe",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4456",
             "genotype": {
               "Genetic group": "4",
@@ -2550,7 +2550,7 @@ var sample_list_all = [
             "Country": "UK",
             "Company": "NIABTAG",
             "Town": "Boothby Graffoe",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4463",
             "genotype": {
               "Genetic group": "4",
@@ -2582,7 +2582,7 @@ var sample_list_all = [
             "Country": "UK",
             "Company": "NIABTAG Sutton Scotney",
             "Town": "Cirencester",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4360",
             "genotype": {
               "Genetic group": "1",
@@ -2614,7 +2614,7 @@ var sample_list_all = [
             "Country": "UK",
             "Company": "NIABTAG Sutton Scotney",
             "Town": "Cirencester",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4475",
             "genotype": {
               "Genetic group": "4",
@@ -2646,7 +2646,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Lincolnshire",
@@ -2673,7 +2673,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4471",
             "genotype": {
               "Genetic group": "4",
@@ -2706,7 +2706,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4476",
             "genotype": {
               "Genetic group": "3",
@@ -2739,7 +2739,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4465",
             "genotype": {
               "Genetic group": "4",
@@ -2772,7 +2772,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4482",
             "genotype": {
               "Genetic group": "4",
@@ -2805,7 +2805,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4746",
             "genotype": {
               "Genetic group": "4",
@@ -2838,7 +2838,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4474",
             "genotype": {
               "Genetic group": "3",
@@ -2871,7 +2871,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4478",
             "genotype": {
               "Genetic group": "4",
@@ -2904,7 +2904,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4481",
             "genotype": {
               "Genetic group": "4",
@@ -2936,7 +2936,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Lincolnshire",
@@ -2963,7 +2963,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4480",
             "genotype": {
               "Genetic group": "3",
@@ -2994,7 +2994,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Boston",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Lincolnshire",
@@ -3019,7 +3019,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Boston",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Lincolnshire",
@@ -3044,7 +3044,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Boston",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Lincolnshire",
@@ -3069,7 +3069,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Boston",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Norfolk",
@@ -3093,7 +3093,7 @@ var sample_list_all = [
             "UKCPVS ID": "13/50",
             "Country": "UK",
             "Company": "NIABTAG",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Town": "Morley"
           },
           {
@@ -3120,7 +3120,7 @@ var sample_list_all = [
             "Name/Collector": "Rosemary Bayles",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ",
@@ -3146,7 +3146,7 @@ var sample_list_all = [
             "Name/Collector": "Rosemary Bayles",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ",
@@ -3172,7 +3172,7 @@ var sample_list_all = [
             "Name/Collector": "Rosemary Bayles",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ",
@@ -3198,7 +3198,7 @@ var sample_list_all = [
             "Name/Collector": "Rosemary Bayles",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ",
@@ -3224,7 +3224,7 @@ var sample_list_all = [
             "Name/Collector": "Rosemary Bayles",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ",
@@ -3250,7 +3250,7 @@ var sample_list_all = [
             "Name/Collector": "Rosemary Bayles",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ",
@@ -3276,7 +3276,7 @@ var sample_list_all = [
             "Name/Collector": "Rosemary Bayles",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ",
@@ -3302,7 +3302,7 @@ var sample_list_all = [
             "Name/Collector": "Rosemary Bayles",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ",
@@ -3328,7 +3328,7 @@ var sample_list_all = [
             "Name/Collector": "Rosemary Bayles",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ",
@@ -3354,7 +3354,7 @@ var sample_list_all = [
             "Name/Collector": "Rosemary Bayles",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ",
@@ -3380,7 +3380,7 @@ var sample_list_all = [
             "Name/Collector": "Rosemary Bayles",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Yorkshire",
@@ -3405,7 +3405,7 @@ var sample_list_all = [
             "Name/Collector": "Emma Coventry",
             "Company": "NIABTAG",
             "Town": "Headley Hall",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Yorkshire",
@@ -3430,7 +3430,7 @@ var sample_list_all = [
             "Name/Collector": "Emma Coventry",
             "Company": "NIABTAG",
             "Town": "Headley Hall",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Yorkshire",
@@ -3455,7 +3455,7 @@ var sample_list_all = [
             "Name/Collector": "Emma Coventry",
             "Company": "NIABTAG",
             "Town": "Headley Hall",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Yorkshire",
@@ -3480,7 +3480,7 @@ var sample_list_all = [
             "Name/Collector": "Emma Coventry",
             "Company": "NIABTAG",
             "Town": "Headley Hall",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Yorkshire",
@@ -3506,7 +3506,7 @@ var sample_list_all = [
             "Country": "UK",
             "Company": "NIABTAG",
             "Town": "Headley Hall",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4479",
             "genotype": {
               "Genetic group": "4",
@@ -3537,7 +3537,7 @@ var sample_list_all = [
             "Name/Collector": "Emma Coventry",
             "Company": "NIABTAG",
             "Town": "Headley Hall",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Yorkshire",
@@ -3562,7 +3562,7 @@ var sample_list_all = [
             "Name/Collector": "Emma Coventry",
             "Company": "NIABTAG",
             "Town": "Headley Hall",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Yorkshire",
@@ -3587,7 +3587,7 @@ var sample_list_all = [
             "Name/Collector": "Emma Coventry",
             "Company": "NIABTAG",
             "Town": "Headley Hall",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Yorkshire",
@@ -3612,7 +3612,7 @@ var sample_list_all = [
             "Name/Collector": "Emma Coventry",
             "Company": "NIABTAG",
             "Town": "Headley Hall",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Herefordshire",
@@ -3638,7 +3638,7 @@ var sample_list_all = [
             "Company": "ADAS Rosemaund",
             "Town": "Weobley",
             "Postal Code": "HR4 8HF",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "North Yorkshire",
@@ -3663,7 +3663,7 @@ var sample_list_all = [
             "Name/Collector": "Peter Burgis",
             "Company": "NIABTAG",
             "Town": "Croft",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ",
@@ -3689,7 +3689,7 @@ var sample_list_all = [
             "Name/Collector": "Rosemary Bayles",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ",
@@ -3715,7 +3715,7 @@ var sample_list_all = [
             "Name/Collector": "Rosemary Bayles",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Warwickshire",
@@ -3740,7 +3740,7 @@ var sample_list_all = [
             "Name/Collector": "PM Woodcock",
             "Company": "Agrii",
             "Town": "Stratford upon Avon",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "Date is arrival date",
@@ -3767,7 +3767,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "Date is arrival date",
@@ -3794,7 +3794,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "Date is arrival date",
@@ -3821,7 +3821,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "Date is arrival date",
@@ -3848,7 +3848,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "Date is arrival date",
@@ -3875,7 +3875,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "Date is arrival date",
@@ -3902,7 +3902,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "Date is arrival date",
@@ -3929,7 +3929,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "Date is arrival date",
@@ -3956,7 +3956,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "Date is arrival date",
@@ -3983,7 +3983,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "Date is arrival date",
@@ -4010,7 +4010,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "Date is arrival date",
@@ -4037,7 +4037,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Cambridgeshire",
@@ -4060,7 +4060,7 @@ var sample_list_all = [
             "Host": "Wheat",
             "Country": "UK",
             "Name/Collector": "John Blackman",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Town": "Abington"
           },
           {
@@ -4086,7 +4086,7 @@ var sample_list_all = [
             "Name/Collector": "Ben Freer",
             "Company": "NIABTAG",
             "Town": "Sutton Scotney",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "North Yorkshire",
@@ -4111,7 +4111,7 @@ var sample_list_all = [
             "Name/Collector": "Peter Burgis",
             "Company": "NIABTAG Headley Hall",
             "Town": "Bugthorpe",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "North Yorkshire",
@@ -4136,7 +4136,7 @@ var sample_list_all = [
             "Name/Collector": "Peter Burgis",
             "Company": "NIABTAG Headley Hall",
             "Town": "Bugthorpe",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "North Yorkshire",
@@ -4161,7 +4161,7 @@ var sample_list_all = [
             "Name/Collector": "Peter Burgis",
             "Company": "NIABTAG Headley Hall",
             "Town": "Bugthorpe",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "North Yorkshire",
@@ -4186,7 +4186,7 @@ var sample_list_all = [
             "Name/Collector": "Peter Burgis",
             "Company": "NIABTAG Headley Hall",
             "Town": "Bugthorpe",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "North Yorkshire",
@@ -4211,7 +4211,7 @@ var sample_list_all = [
             "Name/Collector": "Peter Burgis",
             "Company": "NIABTAG Headley Hall",
             "Town": "Bugthorpe",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "North Yorkshire",
@@ -4236,7 +4236,7 @@ var sample_list_all = [
             "Name/Collector": "Peter Burgis",
             "Company": "NIABTAG Headley Hall",
             "Town": "Bugthorpe",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "North Yorkshire",
@@ -4261,7 +4261,7 @@ var sample_list_all = [
             "Name/Collector": "Peter Burgis",
             "Company": "NIABTAG Headley Hall",
             "Town": "Bugthorpe",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "North Yorkshire",
@@ -4286,7 +4286,7 @@ var sample_list_all = [
             "Name/Collector": "Peter Burgis",
             "Company": "NIABTAG Headley Hall",
             "Town": "Bugthorpe",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "North Yorkshire",
@@ -4311,7 +4311,7 @@ var sample_list_all = [
             "Name/Collector": "Peter Burgis",
             "Company": "NIABTAG Headley Hall",
             "Town": "Bugthorpe",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "North Yorkshire",
@@ -4336,7 +4336,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG Headley Hall",
             "Town": "Headley Hall",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "North Yorkshire",
@@ -4361,7 +4361,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG Headley Hall",
             "Town": "Headley Hall",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Devon",
@@ -4386,7 +4386,7 @@ var sample_list_all = [
             "Name/Collector": "Mark Wavish",
             "Company": "NIABTAG",
             "Town": "West Charleton",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Kent",
@@ -4411,7 +4411,7 @@ var sample_list_all = [
             "Name/Collector": "Roger Stewart",
             "Company": "NIABTAG Wye",
             "Town": "Wye",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Lincolnshire",
@@ -4436,7 +4436,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Caythorpe",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Lincolnshire",
@@ -4461,7 +4461,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Caythorpe",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Lincolnshire",
@@ -4486,7 +4486,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Caythorpe",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Lincolnshire",
@@ -4511,7 +4511,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Boston",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Lincolnshire",
@@ -4536,7 +4536,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Boston",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Lincolnshire",
@@ -4561,7 +4561,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Boston",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Lincolnshire",
@@ -4586,7 +4586,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Boston",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Essex",
@@ -4611,7 +4611,7 @@ var sample_list_all = [
             "Name/Collector": "Colin Patrick",
             "Company": "Agrii",
             "Town": "Stebbing",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Essex",
@@ -4636,7 +4636,7 @@ var sample_list_all = [
             "Name/Collector": "Colin Patrick",
             "Company": "Agrii",
             "Town": "Stebbing",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Essex",
@@ -4661,7 +4661,7 @@ var sample_list_all = [
             "Name/Collector": "Colin Patrick",
             "Company": "Agrii",
             "Town": "Stebbing",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Essex",
@@ -4686,7 +4686,7 @@ var sample_list_all = [
             "Name/Collector": "Colin Patrick",
             "Company": "Agrii",
             "Town": "Stebbing",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Essex",
@@ -4711,7 +4711,7 @@ var sample_list_all = [
             "Name/Collector": "Colin Patrick",
             "Company": "Agrii",
             "Town": "Stebbing",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Essex",
@@ -4736,7 +4736,7 @@ var sample_list_all = [
             "Name/Collector": "Colin Patrick",
             "Company": "Agrii",
             "Town": "Stebbing",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Essex",
@@ -4761,7 +4761,7 @@ var sample_list_all = [
             "Name/Collector": "Colin Patrick",
             "Company": "Agrii",
             "Town": "Stebbing",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Essex",
@@ -4786,7 +4786,7 @@ var sample_list_all = [
             "Name/Collector": "Colin Patrick",
             "Company": "Agrii",
             "Town": "Stebbing",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Essex",
@@ -4811,7 +4811,7 @@ var sample_list_all = [
             "Name/Collector": "Colin Patrick",
             "Company": "Agrii",
             "Town": "Stebbing",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Essex",
@@ -4836,7 +4836,7 @@ var sample_list_all = [
             "Name/Collector": "Colin Patrick",
             "Company": "Agrii",
             "Town": "Stebbing",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Oxfordshire",
@@ -4861,7 +4861,7 @@ var sample_list_all = [
             "Name/Collector": "Tunnel HQTG",
             "Company": "SGS",
             "Town": "Ackelton",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Oxfordshire",
@@ -4886,7 +4886,7 @@ var sample_list_all = [
             "Name/Collector": "Dan Pidsley",
             "Company": "SGS",
             "Town": "Ackelton",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Oxfordshire",
@@ -4911,7 +4911,7 @@ var sample_list_all = [
             "Name/Collector": "Dan Pidsley",
             "Company": "SGS",
             "Town": "Ackelton",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Oxfordshire",
@@ -4936,7 +4936,7 @@ var sample_list_all = [
             "Name/Collector": "Dan Pidsley",
             "Company": "SGS",
             "Town": "Ackelton",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Cambridgeshire",
@@ -4959,7 +4959,7 @@ var sample_list_all = [
             "Host": "Wheat",
             "Country": "UK",
             "Name/Collector": "John Blackman",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Town": "Abington"
           },
           {
@@ -4985,7 +4985,7 @@ var sample_list_all = [
             "Name/Collector": "Juliet Anderson",
             "Company": "NIABTAG Callow",
             "Town": "Callow",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Hereford",
@@ -5010,7 +5010,7 @@ var sample_list_all = [
             "Name/Collector": "Juliet Anderson",
             "Company": "NIABTAG Callow",
             "Town": "Callow",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Hereford",
@@ -5035,7 +5035,7 @@ var sample_list_all = [
             "Name/Collector": "Juliet Anderson",
             "Company": "NIABTAG Callow",
             "Town": "Callow",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Hereford",
@@ -5060,7 +5060,7 @@ var sample_list_all = [
             "Name/Collector": "Juliet Anderson",
             "Company": "NIABTAG Callow",
             "Town": "Callow",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Hereford",
@@ -5085,7 +5085,7 @@ var sample_list_all = [
             "Name/Collector": "Juliet Anderson",
             "Company": "NIABTAG Callow",
             "Town": "Callow",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Cambridgeshire",
@@ -5110,7 +5110,7 @@ var sample_list_all = [
             "Name/Collector": "Martin Hinch",
             "Company": "RAGT seeds",
             "Town": "Ickleton",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "_id": {
@@ -5134,7 +5134,7 @@ var sample_list_all = [
             "Name/Collector": "Aaron Carrick",
             "Company": "AFBI",
             "Town": "Crossnacreevy",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "_id": {
@@ -5158,7 +5158,7 @@ var sample_list_all = [
             "Name/Collector": "Aaron Carrick",
             "Company": "AFBI",
             "Town": "Crossnacreevy",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Lincolnshire",
@@ -5183,7 +5183,7 @@ var sample_list_all = [
             "Name/Collector": "Paul Fenwick",
             "Company": "Limagrain",
             "Town": "Market Rasen",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Lincolnshire",
@@ -5208,7 +5208,7 @@ var sample_list_all = [
             "Name/Collector": "Paul Fenwick",
             "Company": "Limagrain",
             "Town": "Market Rasen",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Norfolk",
@@ -5233,7 +5233,7 @@ var sample_list_all = [
             "Name/Collector": "Darryl Playford",
             "Company": "Limagrain",
             "Town": "Wolferton",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Norfolk",
@@ -5258,7 +5258,7 @@ var sample_list_all = [
             "Name/Collector": "Darryl Playford",
             "Company": "Limagrain",
             "Town": "Wolferton",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Norfolk",
@@ -5283,7 +5283,7 @@ var sample_list_all = [
             "Name/Collector": "Darryl Playford",
             "Company": "Limagrain",
             "Town": "Wolferton",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Norfolk",
@@ -5308,7 +5308,7 @@ var sample_list_all = [
             "Name/Collector": "Darryl Playford",
             "Company": "Limagrain",
             "Town": "Wolferton",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Dorset",
@@ -5333,7 +5333,7 @@ var sample_list_all = [
             "Name/Collector": "Nicola Harris",
             "Company": "Pearce Seeds",
             "Town": "Sturminster Newton",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Dorset",
@@ -5358,7 +5358,7 @@ var sample_list_all = [
             "Name/Collector": "Nicola Harris",
             "Company": "Pearce Seeds",
             "Town": "Sturminster Newton",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Dorset",
@@ -5383,7 +5383,7 @@ var sample_list_all = [
             "Name/Collector": "Nicola Harris",
             "Company": "Pearce Seeds",
             "Town": "Sturminster Newton",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Dorset",
@@ -5408,7 +5408,7 @@ var sample_list_all = [
             "Name/Collector": "Nicola Harris",
             "Company": "Pearce Seeds",
             "Town": "Sturminster Newton",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "_id": {
@@ -5433,7 +5433,7 @@ var sample_list_all = [
             "Company": "AFBI",
             "Town": "County Down",
             "Postal Code": "B76 9SH",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "_id": {
@@ -5458,7 +5458,7 @@ var sample_list_all = [
             "Company": "AFBI",
             "Town": "County Down",
             "Postal Code": "B76 9SH",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Kent",
@@ -5483,7 +5483,7 @@ var sample_list_all = [
             "Name/Collector": "Roger Stewart",
             "Company": "NIAB TAG Wye",
             "Town": "East Brabourne",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Kent",
@@ -5508,7 +5508,7 @@ var sample_list_all = [
             "Name/Collector": "Roger Stewart",
             "Company": "NIAB TAG Wye",
             "Town": "East Brabourne",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "County": "Kent",
@@ -5533,7 +5533,7 @@ var sample_list_all = [
             "Name/Collector": "Roger Stewart",
             "Company": "NIAB TAG Wye",
             "Town": "East Brabourne",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -5559,7 +5559,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -5585,7 +5585,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -5611,7 +5611,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -5637,7 +5637,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -5663,7 +5663,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -5689,7 +5689,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -5715,7 +5715,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -5741,7 +5741,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -5767,7 +5767,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -5793,7 +5793,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -5819,7 +5819,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -5845,7 +5845,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -5871,7 +5871,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -5897,7 +5897,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -5923,7 +5923,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -5949,7 +5949,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -5975,7 +5975,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -6001,7 +6001,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -6027,7 +6027,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -6053,7 +6053,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "HQ inoculated UKCPVS trials",
@@ -6079,7 +6079,7 @@ var sample_list_all = [
             "Name/Collector": "Amelia Hubbard",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR"
+            "Rust (YR/SR/LR)": "Yellow Rust"
           },
           {
             "Private comments": "vaclav.sklenar@basf.com ZZS Kujavy",
@@ -10747,7 +10747,7 @@ var sample_list_all = [
             "Country": "UK",
             "Company": "NIABTAG Sutton Scotney",
             "Town": "Cirencester",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4467",
             "genotype": {
               "Genetic group": "1",
@@ -10822,7 +10822,7 @@ var sample_list_all = [
             "Country": "UK",
             "Company": "NIABTAG",
             "Town": "Cambridge",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4457",
             "genotype": {
               "Genetic group": "1",
@@ -10896,7 +10896,7 @@ var sample_list_all = [
             "Country": "UK",
             "Company": "NIABTAG",
             "Town": "Boston",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4748",
             "genotype": {
               "Genetic group": "1",
@@ -10970,7 +10970,7 @@ var sample_list_all = [
             "Country": "UK",
             "Company": "NIABTAG",
             "Town": "Caythorpe",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB5294",
             "genotype": {
               "Genetic group": "1",
@@ -11045,7 +11045,7 @@ var sample_list_all = [
             "Country": "UK",
             "Company": "NIABTAG benniworth",
             "Town": "Caythorpe",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4459",
             "genotype": {
               "Genetic group": "3",
@@ -11117,7 +11117,7 @@ var sample_list_all = [
             "Date collected": "2013-07-18",
             "Name/Collector": "John Blackman",
             "Country": "UK",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Town": "Abington",
             "Library name": "LIB5295",
             "genotype": {
@@ -11192,7 +11192,7 @@ var sample_list_all = [
             "Country": "UK",
             "Company": "NIABTAG",
             "Town": "Boothby Graffoe",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4468",
             "genotype": {
               "Genetic group": "3",
@@ -11266,7 +11266,7 @@ var sample_list_all = [
             "Country": "UK",
             "Company": "NIABTAG",
             "Town": "Boothby Graffoe",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4470",
             "genotype": {
               "Genetic group": "4",
@@ -11340,7 +11340,7 @@ var sample_list_all = [
             "Country": "UK",
             "Company": "NIABTAG Sutton Scotney",
             "Town": "Sutton Scotney",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4472",
             "genotype": {
               "Genetic group": "4",
@@ -11415,7 +11415,7 @@ var sample_list_all = [
             "Company": "NIABTAG",
             "Town": "Welbourn",
             "Postal Code": "LN5 0QG",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4477",
             "genotype": {
               "Genetic group": "4",
@@ -11489,7 +11489,7 @@ var sample_list_all = [
             "Country": "UK",
             "Company": "NIABTAG",
             "Town": "Oxfordshire",
-            "Rust (YR/SR/LR)": "YR",
+            "Rust (YR/SR/LR)": "Yellow Rust",
             "Library name": "LIB4460",
             "genotype": {
               "Genetic group": "4",

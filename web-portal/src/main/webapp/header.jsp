@@ -89,6 +89,9 @@
     <script src="<c:url value='/scripts/jquery/jqrangeslider/jQAllRangeSliders-withRuler-min.js'/>" type="text/javascript"></script>
     <link href="<c:url value='/scripts/jquery/jqrangeslider/css/iThing.css'/>" rel="stylesheet" type="text/css">
 
+
+    <script src="<c:url value='/scripts/yrmap.js'/>" type="text/javascript"></script>
+
     <script src="<c:url value='/scripts/yrdata.js'/>" type="text/javascript"></script>
 
 
