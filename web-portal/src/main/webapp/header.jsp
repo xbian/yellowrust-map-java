@@ -16,7 +16,6 @@
     <jsp:useBean id="timestamp" class="java.util.Date" scope="request"/>
 
     <title>Yellow Rust Map</title>
-    <%--<script type="text/javascript" src="<c:url value='/scripts/scriptaculous/prototype.js'/>"></script>--%>
     <script type="text/javascript" src="<c:url value='/scripts/fluxion-ajax/fluxion-ajax-compiled.js?ts=${timestamp.time}'/>"></script>
 
     <!-- bootstrap -->
@@ -27,25 +26,9 @@
     <!-- font awesome -->
     <link href="<c:url value='/scripts/fontawesome/css/font-awesome.min.css'/>" rel="stylesheet" type="text/css">
 
-    <%--<!--Scriptaculous JS scripts below -->--%>
-    <%--<script type="text/javascript" src="<c:url value='/scripts/scriptaculous/scriptaculous.js'/>"></script>--%>
-    <%--<script type="text/javascript" src="<c:url value='/scripts/scriptaculous/activityInput.js'/>"></script>--%>
-    <%--<script type="text/javascript" src="<c:url value='/scripts/scriptaculous/effects.js'/>"></script>--%>
-    <%--<script type="text/javascript" src="<c:url value='/scripts/scriptaculous/unittest.js'/>"></script>--%>
-    <%--<script type="text/javascript" src="<c:url value='/scripts/scriptaculous/dragdrop.js'/>"></script>--%>
-    <%--<script type="text/javascript" src="<c:url value='/scripts/scriptaculous/slider.js'/>"></script>--%>
-    <%--<script type="text/javascript" src="<c:url value='/scripts/scriptaculous/builder.js'/>"></script>--%>
-    <%--<script type="text/javascript" src="<c:url value='/scripts/scriptaculous/sound.js'/>"></script>--%>
-    <%--<script type="text/javascript" src="<c:url value='/scripts/scriptaculous/controls.js'/>"></script>--%>
-
     <!-- jQuery -->
     <script type="text/javascript" src="<c:url value='/scripts/jquery/js/jquery-1.11.3.min.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/jquery/jquery-ui-1.11.4.custom/jquery-ui.min.js'/>"></script>
-    <%--<script type="text/javascript" src="<c:url value='/scripts/jquery/js/jquery.simplyCountable.js'/>"></script>--%>
-    <%--<script type="text/javascript" src="<c:url value='/scripts/jquery/js/jquery.tinysort.min.js'/>"></script>--%>
-    <%--<script type="text/javascript" src="<c:url value='/scripts/jquery/js/jquery.tablesorter.min.js'/>"></script>--%>
-    <%--<script type="text/javascript" src="<c:url value='/scripts/jquery/js/jquery.uitablefilter.js'/>"></script>--%>
-    <%--<script type="text/javascript" src="<c:url value='/scripts/jquery/js/jquery.validate.min.js'/>"></script>--%>
     <script type="text/javascript" src="<c:url value='/scripts/jquery/colorbox/jquery.colorbox-min.js'/>"></script>
     <link rel="stylesheet" href="<c:url value='/scripts/jquery/jquery-ui-1.11.4.custom/jquery-ui.min.css'/>"
           type="text/css">
@@ -63,24 +46,6 @@
 
     <!-- wis -->
     <script type="text/javascript" src="<c:url value='/scripts/wis.js?ts=${timestamp.time}'/>"></script>
-    <%--<script type="text/javascript" src="<c:url value='/scripts/external.js?ts=${timestamp.time}'/>"></script>--%>
-    <%--<script type="text/javascript" src="<c:url value='/scripts/search.js?ts=${timestamp.time}'/>"></script>--%>
-
-    <%--<!--CryptoJS-->--%>
-    <%--<script type="text/javascript" src="<c:url value='/scripts/sha1.js'/>"></script>--%>
-    <%--<script type="text/javascript" src="<c:url value='/scripts/enc-base64-min.js'/>"></script>--%>
-
-
-    <!-- give $ back to prototype -->
-    <%--<script type="text/javascript">jQuery.noConflict();</script>--%>
-
-    <%--<script type="text/javascript" src="<c:url value='/scripts/multi_select_drag_drop.js?ts=${timestamp.time}'/>"></script>--%>
-
-    <%--<link rel="shortcut icon" href="<c:url value='/styles/images/favicon.ico'/>" type="image/x-icon"/>--%>
-
-    <!--drop down menu -->
-
-    <%--<script src="<c:url value='/scripts/menus.js?ts=${timestamp.time}'/>" type="text/javascript"></script>--%>
 
     <script src="<c:url value='/scripts/d3/d3.min.js'/>" type="text/javascript"></script>
 
