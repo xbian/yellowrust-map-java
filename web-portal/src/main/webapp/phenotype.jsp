@@ -71,10 +71,9 @@
         var phenotype_data = [];
         for (i = 0; i < sample_list_all.length; i++) {
             if (sample_list_all[i]['phenotype']!=undefined){
-                phenotype_data.push(sample_list_all[i]['phenotype']);
+                phenotype_data.push(sample_list_all[i]);
             }
         }
-
         phenotype_table = jQuery('#resultTable').DataTable({
             data: phenotype_data,
             scrollX: 1150,
@@ -82,12 +81,12 @@
             scrollCollapse: true,
 //            paging: false,
             "columns": [
-                {data: "Batch", title: "Batch", "sDefaultContent": ""},
-                {data: "No of isols tested", title: "No of isols tested", "sDefaultContent": ""},
-                {data: "Isolate", title: "Isolate", "sDefaultContent": ""},
+                {data: "ID", title: "ID", "sDefaultContent": ""},
+                {data: "Variety", title: "Variety", "sDefaultContent": ""},
                 {data: "Host", title: "Host", "sDefaultContent": ""},
+                {data: "Date collected", title: "Date", "sDefaultContent": ""},
                 {
-                    data: "Chinese 166",
+                    data: "phenotype.Chinese 166",
                     title: "Chinese 166 Gene:1",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -95,7 +94,7 @@
                     }
                 },
                 {
-                    data: "Kalyansona",
+                    data: "phenotype.Kalyansona",
                     title: "Kalyansona Gene:2",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -103,7 +102,7 @@
                     }
                 },
                 {
-                    data: "Vilmorin 23",
+                    data: "phenotype.Vilmorin 23",
                     title: "Vilmorin 23 Gene:3a+",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -111,7 +110,7 @@
                     }
                 },
                 {
-                    data: "Nord Desprez",
+                    data: "phenotype.Nord Desprez",
                     title: "Nord Desprez Gene:3a+",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -119,13 +118,13 @@
                     }
                 },
                 {
-                    data: "Hybrid 46", title: "Hybrid 46 Gene:(3b)4b", "sDefaultContent": "",
+                    data: "phenotype.Hybrid 46", title: "Hybrid 46 Gene:(3b)4b", "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
                         color_coding(cellData, cell);
                     }
                 },
                 {
-                    data: "Heines Kolben",
+                    data: "phenotype.Heines Kolben",
                     title: "Heines Kolben Gene:2,6",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -133,7 +132,7 @@
                     }
                 },
                 {
-                    data: "Heines Peko",
+                    data: "phenotype.Heines Peko",
                     title: "Heines Peko Gene:2,6",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -141,7 +140,7 @@
                     }
                 },
                 {
-                    data: "Lee",
+                    data: "phenotype.Lee",
                     title: "Lee Gene:7",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -149,7 +148,7 @@
                     }
                 },
                 {
-                    data: "Av x Yr7 NIL",
+                    data: "phenotype.Av x Yr7 NIL",
                     title: "Av x Yr7 NIL Gene:7",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -157,7 +156,7 @@
                     }
                 },
                 {
-                    data: "Compair",
+                    data: "phenotype.Compair",
                     title: "Compair Gene:8",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -165,7 +164,7 @@
                     }
                 },
                 {
-                    data: "Kavkaz x 4 Fed",
+                    data: "phenotype.Kavkaz x 4 Fed",
                     title: "Kavkaz x 4 Fed Gene:9",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -173,7 +172,7 @@
                     }
                 },
                 {
-                    data: "Clement",
+                    data: "phenotype.Clement",
                     title: "Clement Gene:9",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -181,7 +180,7 @@
                     }
                 },
                 {
-                    data: "AVS x Yr 15",
+                    data: "phenotype.AVS x Yr 15",
                     title: "AVS x Yr 15 Gene:15",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -189,7 +188,7 @@
                     }
                 },
                 {
-                    data: "VPM 1",
+                    data: "phenotype.VPM 1",
                     title: "VPM 1 Gene:17",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -197,7 +196,7 @@
                     }
                 },
                 {
-                    data: "Rendezvous",
+                    data: "phenotype.Rendezvous",
                     title: "Rendezvous Gene:17",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -205,7 +204,7 @@
                     }
                 },
                 {
-                    data: "Av x Yr17",
+                    data: "phenotype.Av x Yr17",
                     title: "Av x Yr17 Gene:17",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -213,7 +212,7 @@
                     }
                 },
                 {
-                    data: "Carstens V",
+                    data: "phenotype.Carstens V",
                     title: "Carstens V Gene:32",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -221,7 +220,7 @@
                     }
                 },
                 {
-                    data: "Talon",
+                    data: "phenotype.Talon",
                     title: "Talon Gene:32",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -229,7 +228,7 @@
                     }
                 },
                 {
-                    data: "Av x Yr32",
+                    data: "phenotype.Av x Yr32",
                     title: "Av x Yr32 Gene:32",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -237,7 +236,7 @@
                     }
                 },
                 {
-                    data: "Spaldings Prolific",
+                    data: "phenotype.Spaldings Prolific",
                     title: "Spaldings Prolific Gene:sp",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -245,7 +244,7 @@
                     }
                 },
                 {
-                    data: "Robigus",
+                    data: "phenotype.Robigus",
                     title: "Robigus Gene:Rob'",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -253,7 +252,7 @@
                     }
                 },
                 {
-                    data: "Solstice",
+                    data: "phenotype.Solstice",
                     title: "Solstice Gene:\'Sol\'",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -261,7 +260,7 @@
                     }
                 },
                 {
-                    data: "Timber",
+                    data: "phenotype.Timber",
                     title: "Timber Gene:\'Tim\'",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -269,7 +268,7 @@
                     }
                 },
                 {
-                    data: "Warrior",
+                    data: "phenotype.Warrior",
                     title: "Warrior Gene:War\'",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -277,7 +276,7 @@
                     }
                 },
                 {
-                    data: "KWS-Sterling",
+                    data: "phenotype.KWS-Sterling",
                     title: "KWS-Sterling Gene:Ste\'",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -285,7 +284,7 @@
                     }
                 },
                 {
-                    data: "Cadenza",
+                    data: "phenotype.Cadenza",
                     title: "Cadenza Gene:6 7",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -293,7 +292,7 @@
                     }
                 },
                 {
-                    data: "Claire",
+                    data: "phenotype.Claire",
                     title: "Claire Gene:Claire",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -301,7 +300,7 @@
                     }
                 },
                 {
-                    data: "Crusoe",
+                    data: "phenotype.Crusoe",
                     title: "Crusoe Gene:Crusoe",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -309,7 +308,7 @@
                     }
                 },
                 {
-                    data: "Ambition",
+                    data: "phenotype.Ambition",
                     title: "Ambition Gene:Amb\'",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -317,7 +316,7 @@
                     }
                 },
                 {
-                    data: "Heines VII",
+                    data: "phenotype.Heines VII",
                     title: "Heines VII Gene:Yr2 Yr25+",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -325,7 +324,7 @@
                     }
                 },
                 {
-                    data: "Suwon Omar",
+                    data: "phenotype.Suwon Omar",
                     title: "Suwon Omar Gene:Yr(Su)",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -333,7 +332,7 @@
                     }
                 },
                 {
-                    data: "Avocet Yr5",
+                    data: "phenotype.Avocet Yr5",
                     title: "Avocet Yr5 Gene:Yr5",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -341,7 +340,7 @@
                     }
                 },
                 {
-                    data: "Avocet Yr6",
+                    data: "phenotype.Avocet Yr6",
                     title: "Avocet Yr6 Gene:Yr6",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -349,7 +348,7 @@
                     }
                 },
                 {
-                    data: "Moro",
+                    data: "phenotype.Moro",
                     title: "Moro Gene:Yr10",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -357,7 +356,7 @@
                     }
                 },
                 {
-                    data: "Avocet Yr24",
+                    data: "phenotype.Avocet Yr24",
                     title: "Avocet Yr24 Gene:Yr24",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -365,7 +364,7 @@
                     }
                 },
                 {
-                    data: "Opata",
+                    data: "phenotype.Opata",
                     title: "Opata Gene:Yr27+",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -373,7 +372,7 @@
                     }
                 },
                 {
-                    data: "Strubes Dickkopf",
+                    data: "phenotype.Strubes Dickkopf",
                     title: "Strubes Dickkopf Gene:YrSd Yr25",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -381,7 +380,7 @@
                     }
                 },
                 {
-                    data: "Avocet Yr27",
+                    data: "phenotype.Avocet Yr27",
                     title: "Avocet Yr27 Gene:Yr27",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -389,7 +388,7 @@
                     }
                 },
                 {
-                    data: "Apache",
+                    data: "phenotype.Apache",
                     title: "Apache Gene:7 17",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -397,7 +396,7 @@
                     }
                 },
                 {
-                    data: "Vuka",
+                    data: "phenotype.Vuka",
                     title: "Vuka",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -405,7 +404,7 @@
                     }
                 },
                 {
-                    data: "Grenado",
+                    data: "phenotype.Grenado",
                     title: "Grenado",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -413,7 +412,7 @@
                     }
                 },
                 {
-                    data: "Benetto",
+                    data: "phenotype.Benetto",
                     title: "Benetto",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -421,7 +420,7 @@
                     }
                 },
                 {
-                    data: "Tradiro",
+                    data: "phenotype.Tradiro",
                     title: "Tradiro",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -429,7 +428,7 @@
                     }
                 },
                 {
-                    data: "Tribeca",
+                    data: "phenotype.Tribeca",
                     title: "Tribeca",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -437,7 +436,7 @@
                     }
                 },
                 {
-                    data: "Tulus",
+                    data: "phenotype.Tulus",
                     title: "Tulus",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -445,7 +444,7 @@
                     }
                 },
                 {
-                    data: "Dublet",
+                    data: "phenotype.Dublet",
                     title: "Dublet",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -453,7 +452,7 @@
                     }
                 },
                 {
-                    data: "KWS Fido",
+                    data: "phenotype.KWS Fido",
                     title: "KWS Fido",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -461,7 +460,7 @@
                     }
                 },
                 {
-                    data: "Brigadier",
+                    data: "phenotype.Brigadier",
                     title: "Brigadier",
                     "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
@@ -469,7 +468,7 @@
                     }
                 },
                 {
-                    data: "Stigg", title: "Stigg", "sDefaultContent": "",
+                    data: "phenotype.Stigg", title: "Stigg", "sDefaultContent": "",
                     createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
                         color_coding(cellData, cell);
                     }
@@ -489,7 +488,6 @@
                 show_column(jQuery(this).val());
             });
         });
-        hide_column(0);
     });
 
     function toggle_column(index) {
