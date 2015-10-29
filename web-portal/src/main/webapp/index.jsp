@@ -1,5 +1,6 @@
 <%@ include file="header.jsp" %>
 
+<script src="<c:url value='/scripts/yrmap.js'/>" type="text/javascript"></script>
 <link href="<c:url value='/styles/clusterpies.css'/>" rel="stylesheet" type="text/css">
 
 <h2>Yellow Rust Map</h2>
