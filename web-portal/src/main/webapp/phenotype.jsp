@@ -79,6 +79,9 @@
             scrollX: 1150,
 //            "scrollY": "100%",
             scrollCollapse: true,
+            fixedColumns: {
+                leftColumns: 4
+            },
 //            paging: false,
             "columns": [
                 {data: "ID", title: "ID", "sDefaultContent": ""},
@@ -473,10 +476,7 @@
                         color_coding(cellData, cell);
                     }
                 }
-            ],
-            fixedColumns: {
-                leftColumns: 4
-            }
+            ]
         });
 
         jQuery('.toggle-vis-select').change(function () {
