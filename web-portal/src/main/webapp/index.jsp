@@ -92,6 +92,12 @@
     }).addTo(map);
 
     jQuery(document).ready(function () {
+        var filtered_data = [];
+        for (i = 0; i < sample_list_all.length; i++) {
+            if (sample_list_all[i]['location']!=undefined){
+                filtered_data.push(sample_list_all[i]);
+            }
+        }
         $("#slider").dateRangeSlider({
             bounds: {
                 min: new Date(2013, 0, 1),
@@ -102,9 +108,9 @@
                 max: new Date(2014, 11, 31)
             }
         });
-        displayYRLocations(sample_list_all);
+        displayYRLocations(filtered_data);
         yrtable = $('#resultTable').DataTable({
-            data: sample_list_all,
+            data: filtered_data,
             "columns": [
                 {data: "ID", title: "ID"},
                 {data: "Country", title: "Country", "sDefaultContent": ""},
