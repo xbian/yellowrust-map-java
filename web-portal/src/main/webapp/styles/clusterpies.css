@@ -1,7 +1,8 @@
 #legend {
-    position: absolute;
-    top: 240px;
-    left: 1130px;
+    position: relative;
+    top: -1410px;
+    /*left: 1130px;*/
+    /*right: 10px;*/
     padding: 5px;
     float:right;
     border-radius: 5px;

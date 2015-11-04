@@ -58,7 +58,8 @@
         </select>
     </div>
 </div>
-  <br/>
+<br/>
+
 <p>Scroll left/right for more columns</p>
 
 <div id="tableWrapper">
@@ -68,9 +69,13 @@
 <script type="text/javascript">
     var phenotype_table;
     jQuery(document).ready(function () {
+        var niabregex = new RegExp('^NIAB[A-z0-9._%+-\\s]*$');
+        var tagregex = new RegExp('^TAG[A-z0-9._%+-\\s]*$');
         var phenotype_data = [];
         for (i = 0; i < sample_list_all.length; i++) {
-            if (sample_list_all[i]['phenotype']!=undefined && sample_list_all[i]['UKCPVS ID']!=undefined && sample_list_all[i]['UKCPVS ID']!=''){
+            if (sample_list_all[i]['phenotype'] != undefined && sample_list_all[i]['UKCPVS ID'] != undefined && sample_list_all[i]['UKCPVS ID'] != ''
+                && (niabregex.test(sample_list_all[i]['Company']) || tagregex.test(sample_list_all[i]['Company']))
+                ){
                 phenotype_data.push(sample_list_all[i]);
             }
         }
@@ -521,7 +526,6 @@
     }
 
 </script>
-
 
 
 <%@ include file="footer.jsp" %>
