@@ -70,7 +70,7 @@
     jQuery(document).ready(function () {
         var phenotype_data = [];
         for (i = 0; i < sample_list_all.length; i++) {
-            if (sample_list_all[i]['phenotype']!=undefined){
+            if (sample_list_all[i]['phenotype']!=undefined && sample_list_all[i]['UKCPVS ID']!=undefined && sample_list_all[i]['UKCPVS ID']!=''){
                 phenotype_data.push(sample_list_all[i]);
             }
         }

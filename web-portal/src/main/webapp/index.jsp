@@ -94,7 +94,7 @@
     jQuery(document).ready(function () {
         var filtered_data = [];
         for (i = 0; i < sample_list_all.length; i++) {
-            if (sample_list_all[i]['location']!=undefined){
+            if (sample_list_all[i]['location']!=undefined && sample_list_all[i]['UKCPVS ID']!=undefined && sample_list_all[i]['UKCPVS ID']!=''){
                 filtered_data.push(sample_list_all[i]);
             }
         }
