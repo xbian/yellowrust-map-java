@@ -16,7 +16,7 @@
 .legendheading {
     position: relative;
     height: 25px;
-    padding: 5px 2px 0px 2px;
+    margin-bottom: 5px;
     font-size: larger;
     font-weight: bold;
 }

@@ -4,8 +4,17 @@
             <td width="20%" align="center"><img src="<c:url value='/images/collaborators/ukcpvs.jpg'/>"/></td>
             <td width="20%" align="center"><img src="<c:url value='/images/collaborators/niab.jpg'/>"/></td>
             <td width="20%" align="center"><img src="<c:url value='/images/collaborators/jic.jpg'/>"/></td>
+            <td width="20%" align="center"><img src="<c:url value='/images/collaborators/BBSRC.jpg'/>"/></td>
             <td width="20%" align="center"><img src="<c:url value='/images/collaborators/tgac.jpg'/>"/></td>
             <td width="20%" align="center"><img src="<c:url value='/images/collaborators/hgca.jpg'/>"/></td>
+        </tr>
+        <tr>
+            <td width="20%" align="center"><img src="<c:url value='/images/collaborators/agrii-logo.jpg'/>"/></td>
+            <td width="20%" align="center"><img src="<c:url value='/images/collaborators/BASF.png'/>"/></td>
+            <td width="20%" align="center"><img src="<c:url value='/images/collaborators/KWS_SAAT_AG_logo.jpg'/>"/></td>
+            <td width="20%" align="center"><img src="<c:url value='/images/collaborators/Limagrain%20logo.jpg'/>"/></td>
+            <td width="20%" align="center"><img src="<c:url value='/images/collaborators/ragt.png'/>"/></td>
+            <td width="20%" align="center"><img src="<c:url value='/images/collaborators/syngenta.gif'/>"/></td>
         </tr>
     </table>
 </div>
