@@ -5,14 +5,14 @@
 
 <h2>Yellow Rust Map</h2>
 
-    <div id="map"></div>
+<div id="map"></div>
 
-    <br/>
+<br/>
 
-    <div class="row">
-        <div class="col-md-4">
+<div class="row">
+    <div class="col-md-4">
 
-            <div class="input-group">
+        <div class="input-group">
                <span class="input-group-btn">
 
                    <button type="button" class="btn btn-default"
@@ -25,22 +25,22 @@
                         onclick="normal_view();">Normal View
                 </button>
                </span>
-            </div>
         </div>
-        <div class="col-md-4">
-            <div id="slider" style="margin-top:3px;margin-left:10px;margin-right:10px;z-index: 1000;"></div>
-            <%--<div class="input-group">--%>
-            <%--<input type="text" id="min" name="min" class="form-control" placeholder="Start Date" value=""/>--%>
-            <%--<span class="input-group-btn" style="width:0px;"></span>--%>
-            <%--<input type="text" id="max" name="max" class="form-control" placeholder="End Date" value=""--%>
-            <%--style="margin-left:-1px"/>--%>
-            <%--</div>--%>
-        </div>
+    </div>
+    <div class="col-md-4">
+        <div id="slider" style="margin-top:3px;margin-left:10px;margin-right:10px;z-index: 1000;"></div>
+        <%--<div class="input-group">--%>
+        <%--<input type="text" id="min" name="min" class="form-control" placeholder="Start Date" value=""/>--%>
+        <%--<span class="input-group-btn" style="width:0px;"></span>--%>
+        <%--<input type="text" id="max" name="max" class="form-control" placeholder="End Date" value=""--%>
+        <%--style="margin-left:-1px"/>--%>
+        <%--</div>--%>
+    </div>
 
-        <div class="col-md-4">
+    <div class="col-md-4">
 
-            <div class="input-group">
-                <div id="yrselect"></div>
+        <div class="input-group">
+            <div id="yrselect"></div>
                 <span class="input-group-btn ">
                 <button type="button" class="btn btn-default"
                         onclick="ukcpvs_only();">UKCPVS Only
@@ -49,18 +49,18 @@
                         onclick="ukcpvs_and_all();">ALL
                 </button>
                 </span>
-            </div>
         </div>
     </div>
-    <br/>
+</div>
+<br/>
 
-    <div id="tableWrapper" style="margin-top:-45px;">
-        <table id="resultTable"></table>
-    </div>
+<div id="tableWrapper" style="margin-top:-45px;">
+    <table id="resultTable"></table>
+</div>
 
-    <div id="legend"></div>
-    <div id="zoom">
-        <div class="input-group">
+<div id="legend"></div>
+<div id="zoom">
+    <div class="input-group">
                <span class="input-group-btn">
         <button type="button" class="btn btn-default"
                 onclick="mapFitBounds([[49.781264,-7.910156],[61.100789, -0.571289]]);">Zoom UK
@@ -69,8 +69,8 @@
                 onclick="mapFitBounds([[36.738884,-14.765625],[56.656226, 32.34375]]);">Zoom Europe
         </button>
                </span>
-        </div>
     </div>
+</div>
 
 <script type="text/javascript">
 
@@ -82,21 +82,23 @@
 
     var markers = new Array();
     var markersGroup = new L.MarkerClusterGroup({});
-    var map = L.map('map').setView([52.621615, 10.219470], 5);
+    var map = L.map('map', {zoomControl: false}).setView([52.621615, 10.219470], 5);
 
     L.tileLayer('http://otile1.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg', {
         attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
         maxZoom: 18
     }).addTo(map);
 
+    L.control.zoom({position: 'topright'}).addTo(map);
+
     jQuery(document).ready(function () {
         var niabregex = new RegExp('^NIAB[A-z0-9._%+-\\s]*$');
         var tagregex = new RegExp('^TAG[A-z0-9._%+-\\s]*$');
         var filtered_data = [];
         for (i = 0; i < sample_list_all.length; i++) {
-            if (sample_list_all[i]['location']!=undefined && sample_list_all[i]['UKCPVS ID']!=undefined && sample_list_all[i]['UKCPVS ID']!=''
+            if (sample_list_all[i]['location'] != undefined && sample_list_all[i]['UKCPVS ID'] != undefined && sample_list_all[i]['UKCPVS ID'] != ''
                 && (niabregex.test(sample_list_all[i]['Company']) || tagregex.test(sample_list_all[i]['Company']))
-            ){
+            ) {
                 filtered_data.push(sample_list_all[i]);
             }
         }

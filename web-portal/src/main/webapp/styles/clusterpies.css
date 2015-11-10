@@ -1,10 +1,9 @@
 #legend {
-    position: relative;
-    top: -1410px;
+    position: absolute;
+    top: 240px;
     /*left: 1130px;*/
     /*right: 10px;*/
     padding: 5px;
-    float:right;
     border-radius: 5px;
     z-index: 1000;
     font-size: 1em;
