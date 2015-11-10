@@ -16,6 +16,7 @@
     <jsp:useBean id="timestamp" class="java.util.Date" scope="request"/>
 
     <title>Yellow Rust Map</title>
+    <script type="text/javascript" src="<c:url value='/scripts/scriptaculous/prototype.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/fluxion-ajax/fluxion-ajax-compiled.js?ts=${timestamp.time}'/>"></script>
 
     <!-- bootstrap -->
@@ -58,6 +59,7 @@
 
 
     <script src="<c:url value='/scripts/yrdata.js'/>" type="text/javascript"></script>
+    <script type="text/javascript">jQuery.noConflict();</script>
 
 
     <script>

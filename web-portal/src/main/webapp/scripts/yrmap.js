@@ -2,7 +2,7 @@
  * Created by bianx on 29/10/2015.
  */
 
-$.fn.dataTableExt.afnFiltering.push(
+jQuery.fn.dataTableExt.afnFiltering.push(
         function (oSettings, aData, iDataIndex) {
           var dateStart = datemin;
           var dateEnd = datemax;
@@ -361,7 +361,7 @@ function serializeXmlNode(xmlNode) {
 }
 
 function renderLegend() {
-  $('#legend').html('');
+  jQuery('#legend').html('');
   if (pie_view) {
     var metajson = {
       "lookup": {

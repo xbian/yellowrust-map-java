@@ -485,11 +485,11 @@
         });
 
         jQuery('.toggle-vis-select').change(function () {
-            $("select.toggle-vis-select option:not(:selected)").each(function () {
+            jQuery("select.toggle-vis-select option:not(:selected)").each(function () {
                 hide_column(jQuery(this).val());
 
             });
-            $("select.toggle-vis-select option:selected").each(function () {
+            jQuery("select.toggle-vis-select option:selected").each(function () {
                 show_column(jQuery(this).val());
             });
         });

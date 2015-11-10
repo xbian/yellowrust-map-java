@@ -102,7 +102,7 @@
                 filtered_data.push(sample_list_all[i]);
             }
         }
-        $("#slider").dateRangeSlider({
+        jQuery("#slider").dateRangeSlider({
             bounds: {
                 min: new Date(2013, 0, 1),
                 max: new Date(2014, 11, 31)
@@ -113,7 +113,7 @@
             }
         });
         displayYRLocations(filtered_data);
-        yrtable = $('#resultTable').DataTable({
+        yrtable = jQuery('#resultTable').DataTable({
             data: filtered_data,
             "columns": [
                 {data: "ID", title: "ID"},
@@ -160,11 +160,11 @@
             ,
             initComplete: function () {
                 var column = this.api().column(3);
-                var select = $('<select class="form-control"><option value="">Select Rust Type</option></select>')
-                        .appendTo($('#yrselect').empty())
+                var select = jQuery('<select class="form-control"><option value="">Select Rust Type</option></select>')
+                        .appendTo(jQuery('#yrselect').empty())
                         .on('change', function () {
-                                var val = $.fn.dataTable.util.escapeRegex(
-                                        $(this).val()
+                                var val = jQuery.fn.dataTable.util.escapeRegex(
+                                        jQuery(this).val()
                                 );
 
                                 column
@@ -186,7 +186,7 @@
         });
 
 
-        $("#slider").bind("valuesChanging", function (e, data) {
+        jQuery("#slider").bind("valuesChanging", function (e, data) {
             datemin = Date.parse(data.values.min);
             datemax = Date.parse(data.values.max);
 
