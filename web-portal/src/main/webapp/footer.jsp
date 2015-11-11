@@ -30,6 +30,8 @@
         <%--- <fmt:formatDate value="${timestamp}" pattern="yyyy"/>--%>
         Brought to you by <a href="http://www.tgac.ac.uk/" target="_blank">The Genome Analysis Centre</a><br/>
         Powered by Grassroots API
+        <br/>
+        Contact: <a href="mailto:yellowrust@jic.ac.uk">yellowrust@jic.ac.uk</a>
     </p>
 </div>
 </body>

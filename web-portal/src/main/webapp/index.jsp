@@ -58,6 +58,12 @@
     <table id="resultTable"></table>
 </div>
 
+<div style="margin-top: 100px;"><i>We specifically ask that you do not distribute the original data from this site without our consent and please
+    redirect others to this website. Likewise, if you carry out significant analysis of the data we would encourage you
+    to contact us so it can be hosted on the website to continue to build up this resource. It is our intention to
+    publish the work of this project in a timely fashion and we welcome collaborative interaction on the project and
+    analyses.</i></div>
+
 <div id="legend"></div>
 <div id="zoom">
     <div class="input-group">
