@@ -32,6 +32,8 @@
         Powered by Grassroots API
         <br/>
         Contact: <a href="mailto:yellowrust@jic.ac.uk">yellowrust@jic.ac.uk</a>
+        <br/>
+        <img src="<c:url value='/images/cc.png'/>" />
     </p>
 </div>
 </body>
