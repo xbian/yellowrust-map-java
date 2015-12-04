@@ -80,4 +80,9 @@ public class MenuController implements ServletContextAware {
   public String phenotype() {
     return "/phenotype.jsp";
   }
+
+  @RequestMapping("/company")
+  public String company() {
+    return "/company.jsp";
+  }
 }
