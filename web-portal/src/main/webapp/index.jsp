@@ -161,7 +161,7 @@
                     }
                 },
                 {data: "Variety", title: "Variety", "sDefaultContent": ""},
-                {data: "Company", title: "Company", "sDefaultContent": ""},
+//                {data: "Company", title: "Company", "sDefaultContent": ""},
                 {
                     title: "Location info",
                     "render": function (data, type, full, meta) {
