@@ -108,7 +108,6 @@ public class WISControllerHelperService {
 
             ResponseHandler<String> handler = new BasicResponseHandler();
             String body = handler.handleResponse(response);
-            log.info(body);
 
             JSONArray jsonArray = JSONArray.fromObject(body);
             JSONArray resultsArray = JSONArray.fromObject(jsonArray.getJSONObject(0).get("results"));
@@ -121,51 +120,6 @@ public class WISControllerHelperService {
         }
         return responses;
 
-    }
-
-
-    public JSONObject stopJob(HttpSession session, JSONObject json) {
-        String uuid = json.getString("uuid");
-        String url = blastURL;
-        String result = "{" +
-                "  \"operations\": {" +
-                "    \"operationId\": 7" +
-                "  }," +
-                "  \"services\": [" +
-                "    \"" + uuid + "\"" +
-                "  ]" +
-                "}";
-
-        HttpClient httpClient = new DefaultHttpClient();
-
-        try {
-            HttpPost request = new HttpPost(url);
-            StringEntity params = new StringEntity(result);
-            request.addHeader("content-type", "application/x-www-form-urlencoded");
-            request.setEntity(params);
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        } finally {
-            httpClient.getConnectionManager().shutdown();
-        }
-        return JSONUtils.SimpleJSONResponse("ok");
-    }
-
-    public static ArrayList<String> splitEqually(String text, int size) {
-        ArrayList<String> list = new ArrayList<String>((text.length() + size - 1) / size);
-        for (int start = 0; start < text.length(); start += size) {
-            list.add(text.substring(start, Math.min(text.length(), start + size)));
-        }
-        return list;
-    }
-
-    private String parseEntity(HttpEntity entity) throws IOException {
-        if (entity != null) {
-            return EntityUtils.toString(entity, "UTF-8");
-        } else {
-            throw new IOException("Null entity in REST response");
-        }
     }
 
     public JSONObject insertYRExcel(HttpSession session, JSONObject json) {
