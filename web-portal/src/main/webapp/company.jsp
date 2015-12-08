@@ -129,7 +129,7 @@
                 'getCompanyData',
                 {
                     'url': ajaxurl,
-                    'company': ${company}
+                    'company': '${company}'
                 },
                 {
                     'doOnSuccess': function (json) {

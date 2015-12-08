@@ -91,8 +91,8 @@ public class MenuController implements ServletContextAware {
 
 
     @RequestMapping("/company/{companyname}")
-    public ModelAndView eachcompany(@PathVariable String companyName, ModelMap model) {
-        model.put("company", companyName);
+    public ModelAndView eachcompany(@PathVariable String companyname, ModelMap model) {
+        model.put("company", companyname);
         return new ModelAndView("/company.jsp", model);
     }
 }
