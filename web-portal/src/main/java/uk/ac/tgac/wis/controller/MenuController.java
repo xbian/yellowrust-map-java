@@ -24,25 +24,28 @@
 package uk.ac.tgac.wis.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.context.ServletContextAware;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.ServletContext;
 
 @Controller
 public class MenuController implements ServletContextAware {
 
-  ServletContext servletContext;
+    ServletContext servletContext;
 
-  @RequestMapping("/")
-  public String indexPage() {
-    return "/index.jsp";
-  }
+    @RequestMapping("/")
+    public String indexPage() {
+        return "/index.jsp";
+    }
 
-  @Override
-  public void setServletContext(ServletContext servletContext) {
-    this.servletContext = servletContext;
-  }
+    @Override
+    public void setServletContext(ServletContext servletContext) {
+        this.servletContext = servletContext;
+    }
 
 //
 //  @RequestMapping("/about")
@@ -76,13 +79,20 @@ public class MenuController implements ServletContextAware {
 //    return "/geo.jsp";
 //  }
 
-  @RequestMapping("/phenotype")
-  public String phenotype() {
-    return "/phenotype.jsp";
-  }
+    @RequestMapping("/phenotype")
+    public String phenotype() {
+        return "/phenotype.jsp";
+    }
 
-  @RequestMapping("/company")
-  public String company() {
-    return "/company.jsp";
-  }
+    @RequestMapping("/company")
+    public String company() {
+        return "/index.jsp";
+    }
+
+
+    @RequestMapping("/company/{companyname}")
+    public ModelAndView eachcompany(@PathVariable String companyName, ModelMap model) {
+        model.put("company", companyName);
+        return new ModelAndView("/company.jsp", model);
+    }
 }
