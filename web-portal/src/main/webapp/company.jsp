@@ -171,7 +171,7 @@
                 {
                     title: "Genotype",
                     "render": function (data, type, full, meta) {
-                        if (full['genotype'] != undefined && full['data']['genotype'] != "undefined") {
+                        if (full['data']['genotype'] != undefined && full['data']['genotype'] != "undefined") {
                             return full['data']['genotype']['Genetic group'];
                         }
                         else {
