@@ -43,30 +43,31 @@ function normal_view() {
   column.search('').draw();
 }
 
-function displayYRLocations(array) {
+function displayYRLocations_new(array) {
+    console.info('map here');
   for (i = 0; i < array.length; i++) {
-    var la = array[i]['location']['location']['latitude'];
-    var lo = array[i]['location']['location']['longitude'];
+    var la = array[i]['data']['location']['location']['latitude'];
+    var lo = array[i]['data']['location']['location']['longitude'];
     var geno = '';
 
-    if (array[i]['genotype'] != undefined && array[i]['genotype'] != "undefined") {
-      geno = array[i]['genotype']['Genetic group'];
+    if (array[i]['data']['genotype'] != undefined && array[i]['data']['genotype'] != "undefined") {
+      geno = array[i]['data']['genotype']['Genetic group'];
     }
+      var note ='';
 
-    var note = '<b>ID: </b>' + array[i]['ID'] + '<br/>'
-               + '<b>Country: </b>' + array[i]['Address']['addressCountry'] + '<br/>'
-               + '<b>UKCPVS ID: </b>' + phenotype_html_ukid(array[i]['UKCPVS ID'], array[i]['phenotype']) + '<br/>'
-               + '<b>Rust Type: </b>' + array[i]['Rust (YR/SR/LR)'] + '<br/>'
-               + '<b>Collector: </b>' + array[i]['Name/Collector'] + '<br/>'
-               + '<b>Date collected: </b>' + array[i]['Date collected']['date'] + '<br/>'
-               + '<b>Host: </b>' + array[i]['Host'] + '<br/>'
-               + '<b>RNA-seq: </b>' + array[i]['RNA-seq? (Selected/In progress/Completed/Failed)'] + '<br/>'
-               + '<b>Phenotype: </b>' + phenotype_html(array[i]['UKCPVS ID'], array[i]['phenotype']) + '<br/>'
+    var note = '<b>ID: </b>' + array[i]['data']['ID'] + '<br/>'
+               + '<b>Country: </b>' + array[i]['data']['Address']['addressCountry'] + '<br/>'
+               + '<b>UKCPVS ID: </b>' + phenotype_html_ukid(array[i]['data']['UKCPVS ID'], array[i]['data']['phenotype']) + '<br/>'
+               + '<b>Rust Type: </b>' + array[i]['data']['Rust (YR/SR/LR)'] + '<br/>'
+               + '<b>Collector: </b>' + array[i]['data']['Name/Collector']['name'] + '<br/>'
+               + '<b>Date collected: </b>' + array[i]['data']['Date collected']['date'] + '<br/>'
+               + '<b>Host: </b>' + array[i]['data']['Host'] + '<br/>'
+               + '<b>RNA-seq: </b>' + array[i]['data']['RNA-seq? (Selected/In progress/Completed/Failed)'] + '<br/>'
+               + '<b>Phenotype: </b>' + phenotype_html(array[i]['data']['UKCPVS ID'], array[i]['data']['phenotype']) + '<br/>'
                + '<b>Genotype: </b>' + geno + '<br/>'
-               + '<b>Company: </b>' + array[i]['Company'] + '<br/>'
-               + '<b>Town: </b>' + array[i]['Town'] + '<br/>'
-               + '<b>Postal code: </b>' + array[i]['Postal code'] + '<br/>'
-               + '<b>Further Location info: </b>' + array[i]['Further Location information'];
+               + '<b>Company: </b>' + array[i]['data']['Company'] + '<br/>'
+               + '<b>Town: </b>' + array[i]['data']['Address']['addressLocality']; //+ '<br/>'
+               //+ '<b>Postal code: </b>' + array[i]['data']['Postal code'] ;
     addPointer(la, lo, geno, note);
   }
 }
@@ -106,8 +107,8 @@ function phenotype_colorbox(id) {
 
 function phenotype(id) {
   var phynotype_data = "";
-  for (i = 0; i < sample_list_all.length; i++) {
-    if (id == sample_list_all[i]['UKCPVS ID']) {
+  for (i = 0; i < filtered_data.length; i++) {
+    if (id == filtered_data[i]['UKCPVS ID']) {
       phynotype_data = '<div style="margin:20px;">'
                        + '<table id="' + id + '">'
                        + '<thead><tr><th></th><th></th></tr></thead>'

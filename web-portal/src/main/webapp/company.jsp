@@ -41,14 +41,14 @@
 
         <div class="input-group">
             <div id="yrselect"></div>
-                <%--<span class="input-group-btn ">--%>
-                <%--<button type="button" class="btn btn-default"--%>
-                        <%--onclick="ukcpvs_only();">UKCPVS Only--%>
-                <%--</button>--%>
-                <%--<button type="button" class="btn btn-default"--%>
-                        <%--onclick="ukcpvs_and_all();">ALL--%>
-                <%--</button>--%>
-                <%--</span>--%>
+            <%--<span class="input-group-btn ">--%>
+            <%--<button type="button" class="btn btn-default"--%>
+            <%--onclick="ukcpvs_only();">UKCPVS Only--%>
+            <%--</button>--%>
+            <%--<button type="button" class="btn btn-default"--%>
+            <%--onclick="ukcpvs_and_all();">ALL--%>
+            <%--</button>--%>
+            <%--</span>--%>
         </div>
     </div>
 </div>
@@ -62,7 +62,8 @@
     licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. Our goal is to make the
     genotypic and phenotypic data of wheat yellow rust isolates collected across the world rapidly and broadly available
     to the scientific community. As highlighted by the BROAD institute, the genome sequencing community has adopted a
-    <a target="_blank" href="http://www.genome.gov/page.cfm?pageID=10506376">statement of principles for the distribution and use of
+    <a target="_blank" href="http://www.genome.gov/page.cfm?pageID=10506376">statement of principles for the
+        distribution and use of
         large-scale data</a>. We also follow these principles and urge users to follow them as
     well.
     <br/><br/>
@@ -90,6 +91,7 @@
 
     var pie_view = false;
     var yrtable;
+    var filtered_data = [];
 
     var datemin = 0;
     var datemax = 0;
@@ -97,8 +99,6 @@
     var markers = new Array();
     var markersGroup = new L.MarkerClusterGroup({});
     var map = L.map('map', {zoomControl: false}).setView([52.621615, 10.219470], 5);
-
-    var filtered_data = [];
 
     L.tileLayer('http://otile1.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg', {
         attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
@@ -110,7 +110,7 @@
     jQuery(document).ready(function () {
 
         getData();
-
+        mapFitBounds([[49.781264, -7.910156], [61.100789, -0.571289]]);
         jQuery("#slider").dateRangeSlider({
             bounds: {
                 min: new Date(2013, 0, 1),
@@ -121,12 +121,6 @@
                 max: new Date(2014, 11, 31)
             }
         });
-
-
-//        ukcpvs_only();
-        mapFitBounds([[49.781264, -7.910156], [61.100789, -0.571289]]);
-        renderLegend();
-
     });
 
     function getData() {
@@ -135,63 +129,64 @@
                 'getCompanyData',
                 {
                     'url': ajaxurl,
-                    'company': 'NIAB'
+                    'company': 'Agrii'
                 },
                 {
                     'doOnSuccess': function (json) {
                         filtered_data = json.data;
-                        console.info(json.data);
 
-                        displayYRLocations(filtered_data);
-                        table();
+                        produceTable(json.data);
+                        displayYRLocations_new(json.data);
+                        renderLegend();
                     }
                 }
         );
 
     }
 
-    function table(){
+    function produceTable(data) {
+        console.info('table here');
         yrtable = jQuery('#resultTable').DataTable({
-            data: filtered_data,
+            data: data,
             "columns": [
-                {data: "ID", title: "ID"},
-                {data: "Country", title: "Country", "sDefaultContent": ""},
+                {data: "data.ID", title: "ID"},
+                {data: "data.Address.addressCountry", title: "Country", "sDefaultContent": ""},
                 {
                     title: "UKCPVS ID",
                     "render": function (data, type, full, meta) {
-                        return phenotype_html_ukid(full['UKCPVS ID'], full['phenotype']);
+                        return phenotype_html_ukid(full['data']['UKCPVS ID'], full['data']['phenotype']);
                     }
                 },
-                {data: "Rust (YR/SR/LR)", title: "Rust Type", "sDefaultContent": "Unknown"},
-                {data: "Name/Collector", title: "Collector", "sDefaultContent": ""},
-                {data: "Date collected", title: "Date", "sDefaultContent": ""},
-                {data: "Host", title: "Host", "sDefaultContent": ""},
-                {data: "RNA-seq? (Selected/In progress/Completed/Failed)", title: "RNA-seq", "sDefaultContent": ""},
+                {data: "data.Rust (YR/SR/LR)", title: "Rust Type", "sDefaultContent": "Unknown"},
+                {data: "data.Name/Collector.name", title: "Collector", "sDefaultContent": ""},
+                {data: "data.Date collected.date", title: "Date", "sDefaultContent": ""},
+                {data: "data.Host", title: "Host", "sDefaultContent": ""},
+                {data: "data.RNA-seq? (Selected/In progress/Completed/Failed)", title: "RNA-seq", "sDefaultContent": ""},
                 {
                     title: "Phenotype",
                     "render": function (data, type, full, meta) {
-                        return phenotype_html(full['UKCPVS ID'], full['phenotype']);
+                        return phenotype_html(full['data']['UKCPVS ID'], full['data']['phenotype']);
                     }
                 },
                 {
                     title: "Genotype",
                     "render": function (data, type, full, meta) {
-                        if (full['genotype'] != undefined && full['genotype'] != "undefined") {
-                            return full['genotype']['Genetic group'];
+                        if (full['genotype'] != undefined && full['data']['genotype'] != "undefined") {
+                            return full['data']['genotype']['Genetic group'];
                         }
                         else {
                             return '';
                         }
                     }
                 },
-                {data: "Variety", title: "Variety", "sDefaultContent": ""},
-                {data: "Company", title: "Company", "sDefaultContent": ""},
+                {data: "data.Variety", title: "Variety", "sDefaultContent": ""},
+//                {data: "Company", title: "Company", "sDefaultContent": ""},
                 {
-                    title: "Location info",
+                    title: "Location",
                     "render": function (data, type, full, meta) {
-                        return ((full["Further Location information"] == 'undefined' || full["Further Location information"] == undefined) ? '' : full["Further Location information"])
+                        return ((full['data']['Address']["addressLocality"] == 'undefined' || full['data']['Address']["addressLocality"] == undefined) ? '' : full['data']['Address']["addressLocality"])
                                 + ' '
-                                + ((full["Postal code"] == 'undefined') || full["Postal code"] == undefined ? '' : full["Postal code"]);
+                                + ((full['data']['Address']["postalCode"] == 'undefined') || full['data']['Address']["postalCode"] == undefined ? '' : full['data']['Address']["postalCode"]);
                     }
                 }
             ]
@@ -220,7 +215,7 @@
         jQuery('#resultTable').on('search.dt', function () {
             removePointers();
             var filteredData = yrtable.rows({filter: 'applied'}).data().toArray();
-            displayYRLocations(filteredData);
+            displayYRLocations_new(filteredData);
         });
 
 

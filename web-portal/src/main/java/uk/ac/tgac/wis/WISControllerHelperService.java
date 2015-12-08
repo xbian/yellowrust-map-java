@@ -108,7 +108,7 @@ public class WISControllerHelperService {
 
             ResponseHandler<String> handler = new BasicResponseHandler();
             String body = handler.handleResponse(response);
-            log.debug(body);
+            log.info(body);
 
             JSONArray jsonArray = JSONArray.fromObject(body);
             JSONArray resultsArray = JSONArray.fromObject(jsonArray.getJSONObject(0).get("results"));
