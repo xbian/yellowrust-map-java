@@ -41,29 +41,39 @@ public class WISControllerHelperService {
 
 
     String blastURL = "http://v0214.nbi.ac.uk/wheatis";
-    String blastTestURL = "http://v0214.nbi.ac.uk:1888/grassroots/controller";
+    String yrURL = "http://v0214.nbi.ac.uk:2888/grassroots/controller";
 
 
     public JSONObject getCompanyData(HttpSession session, JSONObject json) {
         String company = json.getString("company");
         String actualCompany = "NIAB";
+        String dataSearch = "";
         if ("VCfV891KhafcbeA7WJVpd2b4fnp60BahaubwbC79UEhLKF9HIsatcBarsz3tcU0".equals(company)) {
             actualCompany = "Agrii";
+            dataSearch = "\"Company.name\": \""+actualCompany+"\"";
         } else if ("RImh0fYpAKXuBIIsWJWdLiALRDsw583jerEN7WRI5H8N22Tq5Jn9yK8NJ5jubmI".equals(company)) {
             actualCompany = "BASF";
+            dataSearch = "\"Company.name\": \""+actualCompany+"\"";
         } else if ("t8WmkblHs4TnzLl7JZon88gSf5ONawANr5NRJcXnUty5E3pgFaDZb75BGaqQOba".equals(company)) {
             actualCompany = "KWS";
+            dataSearch = "\"Company.name\": \""+actualCompany+"\"";
         } else if ("TlPRHGBXHPhDrwm095PWKDdRPARnJ9olsfgEnn5kfSfH8sOAgJSPeA5i3AZB5ZC".equals(company)) {
             actualCompany = "RAGT";
+            dataSearch = "\"Company.name\": \""+actualCompany+"\"";
         } else if ("psYzllQ5Si2vlwOcbu0j2i6g8VH9sqP7jrG2lKbqqAsTavCzUr0XG1l48sAjoXc".equals(company)) {
             actualCompany = "Limagrain";
+            dataSearch = "\"Company.name\": \""+actualCompany+"\"";
         } else if ("SEWk7D7hgZPYrXfIk3i8t5nDiKUTV72qxeQ1fvp3O4hAElaQ5BkYhYMGJahgGdw".equals(company)) {
             actualCompany = "Syngenta";
+            dataSearch = "\"Company.name\": \""+actualCompany+"\"";
         } else if ("uSGbCZ0qP9QHBcaOSZobIyfYPwb0fFu9aPIaxULmbt84OlyXiELSPJb4T6pHzAo".equals(company)) {
             actualCompany = "NIAB";
+            dataSearch = "\"Company.name\": {" +
+                    "\"$regex\": \"/^(NIAB|NIABTAG|TAG)/\"," +
+                    "\"$options\": \"i\"}";
         }
         JSONObject responses = new JSONObject();
-        String url = blastTestURL;
+        String url = yrURL;
         String result = "{" +
                 " \"services\": [" +
                 "   {" +
@@ -75,7 +85,7 @@ public class WISControllerHelperService {
                 "           \"param\": \"search\"," +
                 "           \"current_value\": {" +
                 "             \"data\": {" +
-                "               \"Company\": \""+actualCompany+"\"" +
+                dataSearch +
                 "             }" +
                 "           }," +
                 "           \"tag\": 1346851157," +

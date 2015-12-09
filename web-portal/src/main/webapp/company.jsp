@@ -188,7 +188,8 @@
                                 + ' '
                                 + ((full['data']['Address']["postalCode"] == 'undefined') || full['data']['Address']["postalCode"] == undefined ? '' : full['data']['Address']["postalCode"]);
                     }
-                }
+                },
+                {data: "data.sample_live_date.date", title: "Publish Date", "sDefaultContent": ""}
             ]
             ,
             initComplete: function () {
