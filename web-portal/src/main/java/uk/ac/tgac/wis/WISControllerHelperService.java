@@ -46,7 +46,22 @@ public class WISControllerHelperService {
 
     public JSONObject getCompanyData(HttpSession session, JSONObject json) {
         String company = json.getString("company");
-//        String key = json.getString("key");
+        String actualCompany = "NIAB";
+        if ("VCfV891KhafcbeA7WJVpd2b4fnp60BahaubwbC79UEhLKF9HIsatcBarsz3tcU0".equals(company)) {
+            actualCompany = "Agrii";
+        } else if ("RImh0fYpAKXuBIIsWJWdLiALRDsw583jerEN7WRI5H8N22Tq5Jn9yK8NJ5jubmI".equals(company)) {
+            actualCompany = "BASF";
+        } else if ("t8WmkblHs4TnzLl7JZon88gSf5ONawANr5NRJcXnUty5E3pgFaDZb75BGaqQOba".equals(company)) {
+            actualCompany = "KWS";
+        } else if ("TlPRHGBXHPhDrwm095PWKDdRPARnJ9olsfgEnn5kfSfH8sOAgJSPeA5i3AZB5ZC".equals(company)) {
+            actualCompany = "RAGT";
+        } else if ("psYzllQ5Si2vlwOcbu0j2i6g8VH9sqP7jrG2lKbqqAsTavCzUr0XG1l48sAjoXc".equals(company)) {
+            actualCompany = "Limagrain";
+        } else if ("SEWk7D7hgZPYrXfIk3i8t5nDiKUTV72qxeQ1fvp3O4hAElaQ5BkYhYMGJahgGdw".equals(company)) {
+            actualCompany = "Syngenta";
+        } else if ("uSGbCZ0qP9QHBcaOSZobIyfYPwb0fFu9aPIaxULmbt84OlyXiELSPJb4T6pHzAo".equals(company)) {
+            actualCompany = "NIAB";
+        }
         JSONObject responses = new JSONObject();
         String url = blastTestURL;
         String result = "{" +
@@ -60,7 +75,7 @@ public class WISControllerHelperService {
                 "           \"param\": \"search\"," +
                 "           \"current_value\": {" +
                 "             \"data\": {" +
-                "               \"Company\": \""+company+"\"" +
+                "               \"Company\": \""+actualCompany+"\"" +
                 "             }" +
                 "           }," +
                 "           \"tag\": 1346851157," +

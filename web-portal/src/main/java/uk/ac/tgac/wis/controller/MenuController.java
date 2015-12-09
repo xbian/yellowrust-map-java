@@ -92,7 +92,29 @@ public class MenuController implements ServletContextAware {
 
     @RequestMapping("/company/{companyname}")
     public ModelAndView eachcompany(@PathVariable String companyname, ModelMap model) {
-        model.put("company", companyname);
-        return new ModelAndView("/company.jsp", model);
+        if ("agrii".equals(companyname)) {
+            model.put("company", "VCfV891KhafcbeA7WJVpd2b4fnp60BahaubwbC79UEhLKF9HIsatcBarsz3tcU0");
+            return new ModelAndView("/company.jsp", model);
+        } else if ("basf".equals(companyname)) {
+            model.put("company", "RImh0fYpAKXuBIIsWJWdLiALRDsw583jerEN7WRI5H8N22Tq5Jn9yK8NJ5jubmI");
+            return new ModelAndView("/company.jsp", model);
+        } else if ("kws".equals(companyname)) {
+            model.put("company", "t8WmkblHs4TnzLl7JZon88gSf5ONawANr5NRJcXnUty5E3pgFaDZb75BGaqQOba");
+            return new ModelAndView("/company.jsp", model);
+        } else if ("ragt".equals(companyname)) {
+            model.put("company", "TlPRHGBXHPhDrwm095PWKDdRPARnJ9olsfgEnn5kfSfH8sOAgJSPeA5i3AZB5ZC");
+            return new ModelAndView("/company.jsp", model);
+        } else if ("limagrain".equals(companyname)) {
+            model.put("company", "psYzllQ5Si2vlwOcbu0j2i6g8VH9sqP7jrG2lKbqqAsTavCzUr0XG1l48sAjoXc");
+            return new ModelAndView("/company.jsp", model);
+        } else if ("syngenta".equals(companyname)) {
+            model.put("company", "SEWk7D7hgZPYrXfIk3i8t5nDiKUTV72qxeQ1fvp3O4hAElaQ5BkYhYMGJahgGdw");
+            return new ModelAndView("/company.jsp", model);
+        } else if ("niab".equals(companyname)) {
+            model.put("company", "uSGbCZ0qP9QHBcaOSZobIyfYPwb0fFu9aPIaxULmbt84OlyXiELSPJb4T6pHzAo");
+            return new ModelAndView("/company.jsp", model);
+        }  else {
+            return new ModelAndView("/index.jsp", model);
+        }
     }
 }
