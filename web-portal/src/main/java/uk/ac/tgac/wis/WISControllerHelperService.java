@@ -39,9 +39,8 @@ import java.util.ArrayList;
 public class WISControllerHelperService {
     protected static final Logger log = LoggerFactory.getLogger(WISControllerHelperService.class);
 
-
-    String blastURL = "http://v0214.nbi.ac.uk/wheatis";
     String yrURL = "http://v0214.nbi.ac.uk:2888/grassroots/controller";
+    String simonURL = "http://n79610.nbi.ac.uk:2888/grassroots/controller";
 
 
     public JSONObject getCompanyData(HttpSession session, JSONObject json) {
@@ -73,7 +72,7 @@ public class WISControllerHelperService {
                     "\"$options\": \"i\"}";
         }
         JSONObject responses = new JSONObject();
-        String url = yrURL;
+        String url = simonURL;
         String result = "{" +
                 " \"services\": [" +
                 "   {" +
@@ -147,31 +146,31 @@ public class WISControllerHelperService {
 
     }
 
-    public JSONObject insertYRExcel(HttpSession session, JSONObject json) {
-        String uuid = json.getString("uuid");
-        String url = blastURL;
-        String result = "{" +
-                "  \"operations\": {" +
-                "    \"operationId\": 7" +
-                "  }," +
-                "  \"services\": [" +
-                "    \"" + uuid + "\"" +
-                "  ]" +
-                "}";
-
-        HttpClient httpClient = new DefaultHttpClient();
-
-        try {
-            HttpPost request = new HttpPost(url);
-            StringEntity params = new StringEntity(result);
-            request.addHeader("content-type", "application/x-www-form-urlencoded");
-            request.setEntity(params);
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        } finally {
-            httpClient.getConnectionManager().shutdown();
-        }
-        return JSONUtils.SimpleJSONResponse("ok");
-    }
+//    public JSONObject insertYRExcel(HttpSession session, JSONObject json) {
+//        String uuid = json.getString("uuid");
+//        String url = blastURL;
+//        String result = "{" +
+//                "  \"operations\": {" +
+//                "    \"operationId\": 7" +
+//                "  }," +
+//                "  \"services\": [" +
+//                "    \"" + uuid + "\"" +
+//                "  ]" +
+//                "}";
+//
+//        HttpClient httpClient = new DefaultHttpClient();
+//
+//        try {
+//            HttpPost request = new HttpPost(url);
+//            StringEntity params = new StringEntity(result);
+//            request.addHeader("content-type", "application/x-www-form-urlencoded");
+//            request.setEntity(params);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//            return null;
+//        } finally {
+//            httpClient.getConnectionManager().shutdown();
+//        }
+//        return JSONUtils.SimpleJSONResponse("ok");
+//    }
 }
