@@ -45,7 +45,7 @@ public class WISControllerHelperService {
 
     public JSONObject getCompanyData(HttpSession session, JSONObject json) {
         String company = json.getString("company");
-        String actualCompany = "NIAB";
+        String actualCompany;
         String dataSearch = "";
         if ("VCfV891KhafcbeA7WJVpd2b4fnp60BahaubwbC79UEhLKF9HIsatcBarsz3tcU0".equals(company)) {
             actualCompany = "Agrii";
@@ -66,10 +66,8 @@ public class WISControllerHelperService {
             actualCompany = "Syngenta";
             dataSearch = "\"Company.name\": \""+actualCompany+"\"";
         } else if ("uSGbCZ0qP9QHBcaOSZobIyfYPwb0fFu9aPIaxULmbt84OlyXiELSPJb4T6pHzAo".equals(company)) {
-            actualCompany = "NIAB";
             dataSearch = "\"Company.name\": {" +
-                    "\"$regex\": \"/^(NIAB|NIABTAG|TAG)/\"," +
-                    "\"$options\": \"i\"}";
+                    "\"$regex\": \"/^(NIAB|TAG)/i\"}";
         }
         JSONObject responses = new JSONObject();
         String url = simonURL;

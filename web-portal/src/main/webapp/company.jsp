@@ -4,7 +4,7 @@
 <link href="<c:url value='/styles/clusterpies.css'/>" rel="stylesheet" type="text/css">
 
 <h2>Yellow Rust Map</h2>
-
+<div id="status"></div>
 <div id="map"></div>
 
 <br/>
@@ -124,6 +124,7 @@
     });
 
     function getData() {
+        jQuery('#status').html('<img src=\"/yellowrust-map/images/ajax-loader.gif\"/>');
         Fluxion.doAjax(
                 'wisControllerHelperService',
                 'getCompanyData',
@@ -133,10 +134,15 @@
                 },
                 {
                     'doOnSuccess': function (json) {
-                        filtered_data = json.data;
+                        jQuery('#status').html('');
+                        for (i = 0; i < json.data.length; i++) {
+                            if (json.data[i]['data']['location']['location'] != undefined) {
+                                filtered_data.push(json.data[i]);
+                            }
+                        }
 
-                        produceTable(json.data);
-                        displayYRLocations_new(json.data);
+                        produceTable(filtered_data);
+                        displayYRLocations_new(filtered_data);
                         renderLegend();
                     }
                 }
@@ -151,13 +157,8 @@
             "columns": [
                 {data: "data.ID", title: "ID"},
                 {data: "data.Address.addressCountry", title: "Country", "sDefaultContent": ""},
-                {
-                    title: "UKCPVS ID",
-                    "render": function (data, type, full, meta) {
-                        return phenotype_html_ukid(full['data']['UKCPVS ID'], full['data']['phenotype']);
-                    }
-                },
-                {data: "data.Rust (YR/SR/LR)", title: "Rust Type", "sDefaultContent": "Unknown"},
+                {data: "data.UKCPVS ID", title: "UKCPVS ID", "sDefaultContent": "Unknown"},
+                {data: "data.Disease", title: "Rust Type", "sDefaultContent": "Unknown"},
                 {data: "data.Name/Collector.name", title: "Collector", "sDefaultContent": ""},
                 {data: "data.Date collected.date", title: "Date", "sDefaultContent": ""},
                 {data: "data.Host", title: "Host", "sDefaultContent": ""},
@@ -180,15 +181,17 @@
                     }
                 },
                 {data: "data.Variety", title: "Variety", "sDefaultContent": ""},
-//                {data: "Company", title: "Company", "sDefaultContent": ""},
-                {
-                    title: "Location",
-                    "render": function (data, type, full, meta) {
-                        return ((full['data']['Address']["addressLocality"] == 'undefined' || full['data']['Address']["addressLocality"] == undefined) ? '' : full['data']['Address']["addressLocality"])
-                                + ' '
-                                + ((full['data']['Address']["postalCode"] == 'undefined') || full['data']['Address']["postalCode"] == undefined ? '' : full['data']['Address']["postalCode"]);
-                    }
-                },
+                {data: "data.Address.addressLocality", title: "Location", "sDefaultContent": ""},
+//                {
+//                    title: "Location",
+//                    "render": function (data, type, full, meta) {
+//                        return ((full['data']['Address']["addressLocality"] == 'undefined' || full['data']['Address']["addressLocality"] == undefined) ? '' : full['data']['Address']["addressLocality"])
+//                                + ' '
+//                                + ((full['data']['Address']["addressRegion"] == 'undefined') || full['data']['Address']["addressRegion"] == undefined ? '' : full['data']['Address']["postalCode"])
+//                                + ' '
+//                                + ((full['data']['Address']["postalCode"] == 'undefined') || full['data']['Address']["postalCode"] == undefined ? '' : full['data']['Address']["postalCode"]);
+//                    }
+//                },
                 {data: "data.sample_live_date.date", title: "Publish Date", "sDefaultContent": ""}
             ]
             ,
@@ -227,6 +230,7 @@
             yrtable.draw();
         });
     }
+
 
 </script>
 
