@@ -106,12 +106,12 @@
     L.control.zoom({position: 'topright'}).addTo(map);
 
     jQuery(document).ready(function () {
-        var niabregex = new RegExp('^NIAB[A-z0-9._%+-\\s]*$');
-        var tagregex = new RegExp('^TAG[A-z0-9._%+-\\s]*$');
+        var niabregex = new RegExp('^(NIAB|TAG)[A-z0-9._%+-\\s]*$');
+//        var tagregex = new RegExp('^TAG[A-z0-9._%+-\\s]*$');
         var filtered_data = [];
         for (i = 0; i < sample_list_all.length; i++) {
             if (sample_list_all[i]['location'] != undefined && sample_list_all[i]['UKCPVS ID'] != undefined && sample_list_all[i]['UKCPVS ID'] != ''
-                && (niabregex.test(sample_list_all[i]['Company']) || tagregex.test(sample_list_all[i]['Company']))
+                && niabregex.test(sample_list_all[i]['Company'])
             ) {
                 filtered_data.push(sample_list_all[i]);
             }
