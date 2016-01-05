@@ -66,8 +66,12 @@ public class WISControllerHelperService {
             actualCompany = "Syngenta";
             dataSearch = "\"Company.name\": \""+actualCompany+"\"";
         } else if ("uSGbCZ0qP9QHBcaOSZobIyfYPwb0fFu9aPIaxULmbt84OlyXiELSPJb4T6pHzAo".equals(company)) {
-            dataSearch = "\"Company.name\": {" +
-                    "\"$regex\": \"/^(NIAB|TAG)/i\"}";
+            dataSearch =
+//                    "\"Company.name\": {" +
+//                    "\"$regex\": \"/^(NIAB|TAG)/i\"}";
+        "\"Company.name\": {" +
+                "\"operator\": \"like\"," +
+                "\"value\": \"NIAB\"}";
         }
         JSONObject responses = new JSONObject();
         String url = simonURL;
