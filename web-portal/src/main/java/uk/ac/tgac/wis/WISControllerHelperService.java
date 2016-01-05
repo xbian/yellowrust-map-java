@@ -39,7 +39,7 @@ import java.util.ArrayList;
 public class WISControllerHelperService {
     protected static final Logger log = LoggerFactory.getLogger(WISControllerHelperService.class);
 
-    String yrURL = "http://v0214.nbi.ac.uk:2888/grassroots/controller";
+    String yrURL = "http://v0214.nbi.ac.uk:1888/grassroots/controller";
     String simonURL = "http://n79610.nbi.ac.uk:2888/grassroots/controller";
 
 

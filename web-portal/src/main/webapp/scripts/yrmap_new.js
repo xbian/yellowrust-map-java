@@ -44,7 +44,6 @@ function normal_view() {
 }
 
 function displayYRLocations_new(array) {
-    console.info('map here');
   for (i = 0; i < array.length; i++) {
     var la = array[i]['data']['location']['location']['latitude'];
     var lo = array[i]['data']['location']['location']['longitude'];
@@ -70,6 +69,7 @@ function displayYRLocations_new(array) {
                //+ '<b>Postal code: </b>' + array[i]['data']['Postal code'] ;
     addPointer(la, lo, geno, note);
   }
+    map.addLayer(markersGroup);
 }
 
 function phenotype_html_ukid(id, phenotype) {
@@ -216,7 +216,7 @@ function addPointer(la, lo, geno, note) {
   }
   markers.push(markerLayer);
   markersGroup.addLayer(markerLayer);
-  map.addLayer(markersGroup);
+
 }
 
 function removePointers() {

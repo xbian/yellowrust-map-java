@@ -68,7 +68,9 @@ function displayYRLocations(array) {
                + '<b>Postal code: </b>' + array[i]['Postal code'] + '<br/>'
                + '<b>Further Location info: </b>' + array[i]['Further Location information'];
     addPointer(la, lo, geno, note);
+
   }
+    map.addLayer(markersGroup);
 }
 
 function phenotype_html_ukid(id, phenotype) {
@@ -218,7 +220,6 @@ function addPointer(la, lo, geno, note) {
   }
   markers.push(markerLayer);
   markersGroup.addLayer(markerLayer);
-  map.addLayer(markersGroup);
 }
 
 function removePointers() {
