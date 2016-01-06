@@ -46,88 +46,156 @@ public class WISControllerHelperService {
     public JSONObject getCompanyData(HttpSession session, JSONObject json) {
         String company = json.getString("company");
         String actualCompany;
-        String dataSearch = "";
+        JSONObject companyName = new JSONObject();
+//        String dataSearch = "";
         if ("VCfV891KhafcbeA7WJVpd2b4fnp60BahaubwbC79UEhLKF9HIsatcBarsz3tcU0".equals(company)) {
             actualCompany = "Agrii";
-            dataSearch = "\"Company.name\": \""+actualCompany+"\"";
+//            dataSearch = "\"Company.name\": \""+actualCompany+"\"";
+            companyName.put("Company.name",actualCompany);
         } else if ("RImh0fYpAKXuBIIsWJWdLiALRDsw583jerEN7WRI5H8N22Tq5Jn9yK8NJ5jubmI".equals(company)) {
             actualCompany = "BASF";
-            dataSearch = "\"Company.name\": \""+actualCompany+"\"";
+//            dataSearch = "\"Company.name\": \""+actualCompany+"\"";
+            companyName.put("Company.name",actualCompany);
         } else if ("t8WmkblHs4TnzLl7JZon88gSf5ONawANr5NRJcXnUty5E3pgFaDZb75BGaqQOba".equals(company)) {
             actualCompany = "KWS";
-            dataSearch = "\"Company.name\": \""+actualCompany+"\"";
+//            dataSearch = "\"Company.name\": \""+actualCompany+"\"";
+            companyName.put("Company.name",actualCompany);
         } else if ("TlPRHGBXHPhDrwm095PWKDdRPARnJ9olsfgEnn5kfSfH8sOAgJSPeA5i3AZB5ZC".equals(company)) {
             actualCompany = "RAGT";
-            dataSearch = "\"Company.name\": \""+actualCompany+"\"";
+//            dataSearch = "\"Company.name\": \""+actualCompany+"\"";
+            companyName.put("Company.name",actualCompany);
         } else if ("psYzllQ5Si2vlwOcbu0j2i6g8VH9sqP7jrG2lKbqqAsTavCzUr0XG1l48sAjoXc".equals(company)) {
             actualCompany = "Limagrain";
-            dataSearch = "\"Company.name\": \""+actualCompany+"\"";
+//            dataSearch = "\"Company.name\": \""+actualCompany+"\"";
+            companyName.put("Company.name",actualCompany);
         } else if ("SEWk7D7hgZPYrXfIk3i8t5nDiKUTV72qxeQ1fvp3O4hAElaQ5BkYhYMGJahgGdw".equals(company)) {
             actualCompany = "Syngenta";
-            dataSearch = "\"Company.name\": \""+actualCompany+"\"";
+//            dataSearch = "\"Company.name\": \""+actualCompany+"\"";
+            companyName.put("Company.name",actualCompany);
         } else if ("uSGbCZ0qP9QHBcaOSZobIyfYPwb0fFu9aPIaxULmbt84OlyXiELSPJb4T6pHzAo".equals(company)) {
-            dataSearch =
+//            dataSearch =
 //                    "\"Company.name\": {" +
 //                    "\"$regex\": \"/^(NIAB|TAG)/i\"}";
-        "\"Company.name\": {" +
-                "\"operator\": \"like\"," +
-                "\"value\": \"NIAB\"}";
+//        "\"Company.name\": {" +
+//                "\"operator\": \"like\"," +
+//                "\"value\": \"NIAB\"}";
+
+            JSONObject niabSearch = new JSONObject();
+            niabSearch.put("operator","like");
+            niabSearch.put("value","NIAB");
+            companyName.put("Company.name",niabSearch);
         }
         JSONObject responses = new JSONObject();
+        JSONObject requestObject = new JSONObject();
+        JSONArray servicesArray = new JSONArray();
+
+        JSONObject service1 = new JSONObject();
+        JSONObject parameterSetObject = new JSONObject();
+        JSONArray parametersArray = new JSONArray();
+
+        JSONObject p1 = new JSONObject();
+        JSONObject searchData = new JSONObject();
+        searchData.put("data",companyName);
+
+        p1.put("param", "search");
+        p1.put("tag", 1346851157);
+        p1.put("current_value", searchData);
+        p1.put("grassroots_type", 13);
+        p1.put("type", "json");
+        p1.put("level", 7);
+        p1.put("concise", true);
+        parametersArray.add(p1);
+
+        JSONObject p2 = new JSONObject();
+
+        p2.put("param", "dump");
+        p2.put("tag", 1346847824);
+        p2.put("current_value", false);
+        p2.put("grassroots_type", 0);
+        p2.put("type", "boolean");
+        p2.put("level", 6);
+        p2.put("concise", true);
+        parametersArray.add(p2);
+
+        JSONObject p3 = new JSONObject();
+
+        p3.put("param", "collection");
+        p3.put("tag", 1346847567);
+        p3.put("current_value", "samples");
+        p3.put("grassroots_type", 5);
+        p3.put("type", "string");
+        p3.put("level", 7);
+        p3.put("concise", true);
+        parametersArray.add(p3);
+
+        parameterSetObject.put("parameters", parametersArray);
+
+        service1.put("run", true);
+        service1.put("services", "Pathogenomics Geoservice");
+
+        JSONArray groupArray = new JSONArray();
+        groupArray.add("Spreadsheet Import Parameters");
+        service1.put("groups", groupArray);
+
+        service1.put("parameter_set", parameterSetObject);
+
+        servicesArray.add(service1);
+        requestObject.put("services", servicesArray);
+
         String url = yrURL;
-        String result = "{" +
-                " \"services\": [" +
-                "   {" +
-                "     \"services\": \"Pathogenomics Geoservice\"," +
-                "     \"run\": true," +
-                "     \"parameter_set\": {" +
-                "       \"parameters\": [" +
-                "         {" +
-                "           \"param\": \"search\"," +
-                "           \"current_value\": {" +
-                "             \"data\": {" +
-                dataSearch +
-                "             }" +
-                "           }," +
-                "           \"tag\": 1346851157," +
-                "           \"type\": \"json\"," +
-                "           \"grassroots_type\": 13," +
-                "           \"level\": 7," +
-                "           \"concise\": true" +
-                "         }," +
-                "         {" +
-                "           \"param\": \"dump\"," +
-                "           \"current_value\": false," +
-                "           \"tag\": 1346847824," +
-                "           \"type\": \"boolean\"," +
-                "           \"grassroots_type\": 0," +
-                "           \"level\": 6," +
-                "           \"concise\": true" +
-                "         }," +
-                "         {" +
-                "           \"param\": \"collection\"," +
-                "           \"current_value\": \"samples\"," +
-                "           \"tag\": 1346847567," +
-                "           \"type\": \"string\"," +
-                "           \"grassroots_type\": 5," +
-                "           \"level\": 7," +
-                "           \"concise\": true" +
-                "         }" +
-                "       ]," +
-                "       \"groups\": [" +
-                "         \"Spreadsheet Import Parameters\"" +
-                "       ]" +
-                "     }" +
-                "   }" +
-                " ]" +
-                "}";
+//        String result = "{" +
+//                " \"services\": [" +
+//                "   {" +
+//                "     \"services\": \"Pathogenomics Geoservice\"," +
+//                "     \"run\": true," +
+//                "     \"parameter_set\": {" +
+//                "       \"parameters\": [" +
+//                "         {" +
+//                "           \"param\": \"search\"," +
+//                "           \"current_value\": {" +
+//                "             \"data\": {" +
+//                dataSearch +
+//                "             }" +
+//                "           }," +
+//                "           \"tag\": 1346851157," +
+//                "           \"type\": \"json\"," +
+//                "           \"grassroots_type\": 13," +
+//                "           \"level\": 7," +
+//                "           \"concise\": true" +
+//                "         }," +
+//                "         {" +
+//                "           \"param\": \"dump\"," +
+//                "           \"current_value\": false," +
+//                "           \"tag\": 1346847824," +
+//                "           \"type\": \"boolean\"," +
+//                "           \"grassroots_type\": 0," +
+//                "           \"level\": 6," +
+//                "           \"concise\": true" +
+//                "         }," +
+//                "         {" +
+//                "           \"param\": \"collection\"," +
+//                "           \"current_value\": \"samples\"," +
+//                "           \"tag\": 1346847567," +
+//                "           \"type\": \"string\"," +
+//                "           \"grassroots_type\": 5," +
+//                "           \"level\": 7," +
+//                "           \"concise\": true" +
+//                "         }" +
+//                "       ]," +
+//                "       \"groups\": [" +
+//                "         \"Spreadsheet Import Parameters\"" +
+//                "       ]" +
+//                "     }" +
+//                "   }" +
+//                " ]" +
+//                "}";
 
         HttpClient httpClient = new DefaultHttpClient();
 
 
         try {
             HttpPost request = new HttpPost(url);
-            StringEntity params = new StringEntity(result);
+            StringEntity params = new StringEntity(requestObject.toString());
             request.addHeader("content-type", "application/x-www-form-urlencoded");
             request.setEntity(params);
             HttpResponse response = httpClient.execute(request);
@@ -148,31 +216,4 @@ public class WISControllerHelperService {
 
     }
 
-//    public JSONObject insertYRExcel(HttpSession session, JSONObject json) {
-//        String uuid = json.getString("uuid");
-//        String url = blastURL;
-//        String result = "{" +
-//                "  \"operations\": {" +
-//                "    \"operationId\": 7" +
-//                "  }," +
-//                "  \"services\": [" +
-//                "    \"" + uuid + "\"" +
-//                "  ]" +
-//                "}";
-//
-//        HttpClient httpClient = new DefaultHttpClient();
-//
-//        try {
-//            HttpPost request = new HttpPost(url);
-//            StringEntity params = new StringEntity(result);
-//            request.addHeader("content-type", "application/x-www-form-urlencoded");
-//            request.setEntity(params);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//            return null;
-//        } finally {
-//            httpClient.getConnectionManager().shutdown();
-//        }
-//        return JSONUtils.SimpleJSONResponse("ok");
-//    }
 }
