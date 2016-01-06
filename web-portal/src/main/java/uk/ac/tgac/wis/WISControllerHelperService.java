@@ -80,7 +80,7 @@ public class WISControllerHelperService {
             niabSearch.put("value", "NIAB");
             companyName.put("Company.name", niabSearch);
         }
-        
+
         JSONObject responses = new JSONObject();
         JSONObject requestObject = new JSONObject();
         JSONArray servicesArray = new JSONArray();

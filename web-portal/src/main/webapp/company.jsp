@@ -151,7 +151,6 @@
     }
 
     function produceTable(data) {
-        console.info('table here');
         yrtable = jQuery('#resultTable').DataTable({
             data: data,
             "columns": [
@@ -182,16 +181,6 @@
                 },
                 {data: "data.Variety", title: "Variety", "sDefaultContent": ""},
                 {data: "data.Address.addressLocality", title: "Location", "sDefaultContent": ""},
-//                {
-//                    title: "Location",
-//                    "render": function (data, type, full, meta) {
-//                        return ((full['data']['Address']["addressLocality"] == 'undefined' || full['data']['Address']["addressLocality"] == undefined) ? '' : full['data']['Address']["addressLocality"])
-//                                + ' '
-//                                + ((full['data']['Address']["addressRegion"] == 'undefined') || full['data']['Address']["addressRegion"] == undefined ? '' : full['data']['Address']["postalCode"])
-//                                + ' '
-//                                + ((full['data']['Address']["postalCode"] == 'undefined') || full['data']['Address']["postalCode"] == undefined ? '' : full['data']['Address']["postalCode"]);
-//                    }
-//                },
                 {data: "data.sample_live_date.date", title: "Publish Date", "sDefaultContent": ""}
             ]
             ,
