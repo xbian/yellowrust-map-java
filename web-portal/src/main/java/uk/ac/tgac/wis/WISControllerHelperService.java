@@ -74,7 +74,7 @@ public class WISControllerHelperService {
                 "\"value\": \"NIAB\"}";
         }
         JSONObject responses = new JSONObject();
-        String url = simonURL;
+        String url = yrURL;
         String result = "{" +
                 " \"services\": [" +
                 "   {" +
