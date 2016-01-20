@@ -181,6 +181,13 @@
                 },
                 {data: "data.Variety", title: "Variety", "sDefaultContent": ""},
                 {data: "data.Address.addressLocality", title: "Location", "sDefaultContent": ""},
+//                {data: "data.verified", title: "Verified", "sDefaultContent": ""},
+                {
+                    title: "Verified",
+                    "render": function (data, type, full, meta) {
+                        return ((full["data"]["verified"]) ? 'Verified' : 'Preliminary');
+                    }
+                },
                 {data: "data.sample_live_date.date", title: "Publish Date", "sDefaultContent": ""}
             ]
             ,
