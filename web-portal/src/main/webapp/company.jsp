@@ -109,7 +109,7 @@
 
     jQuery(document).ready(function () {
 
-        getData();
+        getData('${company}',true);
         mapFitBounds([[49.781264, -7.910156], [61.100789, -0.571289]]);
         jQuery("#slider").dateRangeSlider({
             bounds: {
@@ -123,110 +123,8 @@
         });
     });
 
-    function getData() {
-        jQuery('#status').html('<img src=\"/yellowrust-map/images/ajax-loader.gif\"/>');
-        Fluxion.doAjax(
-                'wisControllerHelperService',
-                'getCompanyData',
-                {
-                    'url': ajaxurl,
-                    'company': '${company}'
-                },
-                {
-                    'doOnSuccess': function (json) {
-                        jQuery('#status').html('');
-                        for (i = 0; i < json.data.length; i++) {
-                            if (json.data[i]['data']['location']['location'] != undefined) {
-                                filtered_data.push(json.data[i]);
-                            }
-                        }
-
-                        produceTable(filtered_data);
-                        displayYRLocations_new(filtered_data);
-                        renderLegend();
-                    }
-                }
-        );
-
-    }
-
-    function produceTable(data) {
-        console.info("table here");
-        yrtable = jQuery('#resultTable').DataTable({
-            data: data,
-            "columns": [
-                {data: "data.ID", title: "ID"},
-                {data: "data.sample.Address.addressCountry", title: "Country", "sDefaultContent": ""},
-                {data: "data.UKCPVS ID", title: "UKCPVS ID", "sDefaultContent": "Unknown"},
-                {data: "data.sample.Disease", title: "Rust Type", "sDefaultContent": "Unknown"},
-                {data: "data.sample.Name/Collector.name", title: "Collector", "sDefaultContent": ""},
-                {data: "data.sample.Date collected.date", title: "Date", "sDefaultContent": ""},
-                {data: "data.sample.Host", title: "Host", "sDefaultContent": ""},
-                {data: "data.sample.RNA-seq? (Selected/In progress/Completed/Failed)", title: "RNA-seq", "sDefaultContent": ""},
-                {
-                    title: "Phenotype",
-                    "render": function (data, type, full, meta) {
-                        return phenotype_html(full['data']['UKCPVS ID'], full['data']['phenotype']);
-                    }
-                },
-                {
-                    title: "Genotype",
-                    "render": function (data, type, full, meta) {
-                        if (full['data']['genotype'] != undefined && full['data']['genotype'] != "undefined") {
-                            return full['data']['genotype']['Genetic group'];
-                        }
-                        else {
-                            return '';
-                        }
-                    }
-                },
-                {data: "data.sample.Variety", title: "Variety", "sDefaultContent": ""},
-                {data: "data.sample.Address.addressLocality", title: "Location", "sDefaultContent": ""},
-//                {data: "data.verified", title: "Verified", "sDefaultContent": ""},
-                {
-                    title: "Verified",
-                    "render": function (data, type, full, meta) {
-                        return ((full["data"]["verified"]) ? 'Verified' : 'Preliminary');
-                    }
-                },
-                {data: "data.sample_live_date.date", title: "Publish Date", "sDefaultContent": ""}
-            ]
-            ,
-            initComplete: function () {
-                var column = this.api().column(3);
-                var select = jQuery('<select class="form-control"><option value="">Select Rust Type</option></select>')
-                        .appendTo(jQuery('#yrselect').empty())
-                        .on('change', function () {
-                            var val = jQuery.fn.dataTable.util.escapeRegex(
-                                    jQuery(this).val()
-                            );
-
-                            column
-                                    .search(val ? '^' + val + '$' : '', true, false)
-                                    .draw();
-                        });
-
-                column.data().unique().sort().each(function (d, j) {
-                    select.append('<option value="' + d + '">' + d + '</option>')
-                });
-            }
-
-        });
-
-        jQuery('#resultTable').on('search.dt', function () {
-            removePointers();
-            var filteredData = yrtable.rows({filter: 'applied'}).data().toArray();
-            displayYRLocations_new(filteredData);
-        });
 
 
-        jQuery("#slider").bind("valuesChanging", function (e, data) {
-            datemin = Date.parse(data.values.min);
-            datemax = Date.parse(data.values.max);
-
-            yrtable.draw();
-        });
-    }
 
 
 </script>

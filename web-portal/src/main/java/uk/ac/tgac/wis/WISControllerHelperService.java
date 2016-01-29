@@ -138,7 +138,11 @@ public class WISControllerHelperService {
         servicesArray.add(service1);
         requestObject.put("services", servicesArray);
 
-        responses = sendrequest(requestObject);
+        JSONArray jsonArray = JSONArray.fromObject(sendrequest(requestObject));
+        JSONArray resultsArray = JSONArray.fromObject(jsonArray.getJSONObject(0).get("results"));
+
+        responses.put("data", resultsArray);
+
         return responses;
 
     }
@@ -170,7 +174,7 @@ public class WISControllerHelperService {
 
         p2.put("param", "dump");
         p2.put("tag", 1346847824);
-        p2.put("current_value", false);
+        p2.put("current_value", true);
         p2.put("grassroots_type", 0);
         p2.put("type", "boolean");
         p2.put("level", 6);
@@ -202,13 +206,17 @@ public class WISControllerHelperService {
         servicesArray.add(service1);
         requestObject.put("services", servicesArray);
 
-        responses = sendrequest(requestObject);
+
+        JSONArray jsonArray = JSONArray.fromObject(sendrequest(requestObject));
+        JSONArray resultsArray = JSONArray.fromObject(jsonArray.getJSONObject(0).getJSONObject("results").get("results"));
+
+        responses.put("data", resultsArray);
 
         return responses;
 
     }
 
-    public JSONObject sendrequest(JSONObject requestObject) {
+    public String sendrequest(JSONObject requestObject) {
         String url = simonURL;
 
         JSONObject responses = new JSONObject();
@@ -224,11 +232,7 @@ public class WISControllerHelperService {
             ResponseHandler<String> handler = new BasicResponseHandler();
             String body = handler.handleResponse(response);
 
-            JSONArray jsonArray = JSONArray.fromObject(body);
-            JSONArray resultsArray = JSONArray.fromObject(jsonArray.getJSONObject(0).get("results"));
-
-            responses.put("data", resultsArray);
-            return responses;
+            return body;
         } catch (Exception e) {
             e.printStackTrace();
             return null;
