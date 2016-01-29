@@ -44,9 +44,10 @@ function normal_view() {
 }
 
 function displayYRLocations_new(array) {
+    console.info("map here");
   for (i = 0; i < array.length; i++) {
-    var la = array[i]['data']['location']['location']['latitude'];
-    var lo = array[i]['data']['location']['location']['longitude'];
+    var la = array[i]['data']['sample']['location']['location']['latitude'];
+    var lo = array[i]['data']['sample']['location']['location']['longitude'];
     var geno = '';
 
     if (array[i]['data']['genotype'] != undefined && array[i]['data']['genotype'] != "undefined") {
@@ -55,18 +56,16 @@ function displayYRLocations_new(array) {
       var note ='';
 
     var note = '<b>ID: </b>' + array[i]['data']['ID'] + '<br/>'
-               + '<b>Country: </b>' + array[i]['data']['Address']['addressCountry'] + '<br/>'
+               + '<b>Country: </b>' + array[i]['data']['sample']['Address']['addressCountry'] + '<br/>'
                + '<b>UKCPVS ID: </b>' + phenotype_html_ukid(array[i]['data']['UKCPVS ID'], array[i]['data']['phenotype']) + '<br/>'
-               + '<b>Rust Type: </b>' + array[i]['data']['Rust (YR/SR/LR)'] + '<br/>'
-               + '<b>Collector: </b>' + (array[i]['data']['Name/Collector'] == undefined) ? '' : array[i]['data']['Name/Collector']['name'] + '<br/>'
-               + '<b>Date collected: </b>' + array[i]['data']['Date collected']['date'] + '<br/>'
-               + '<b>Host: </b>' + array[i]['data']['Host'] + '<br/>'
-               + '<b>RNA-seq: </b>' + array[i]['data']['RNA-seq? (Selected/In progress/Completed/Failed)'] + '<br/>'
+               + '<b>Rust Type: </b>' + array[i]['data']['sample']['Rust (YR/SR/LR)'] + '<br/>'
+               + '<b>Collector: </b>' + (array[i]['data']['sample']['Name/Collector'] == undefined) ? '' : array[i]['data']['Name/Collector']['name'] + '<br/>'
+               + '<b>Date collected: </b>' + array[i]['data']['sample']['Date collected']['date'] + '<br/>'
+               + '<b>Host: </b>' + array[i]['data']['sample']['Host'] + '<br/>'
+               + '<b>RNA-seq: </b>' + array[i]['data']['sample']['RNA-seq? (Selected/In progress/Completed/Failed)'] + '<br/>'
                + '<b>Phenotype: </b>' + phenotype_html(array[i]['data']['UKCPVS ID'], array[i]['data']['phenotype']) + '<br/>'
                + '<b>Genotype: </b>' + geno + '<br/>'
-               + '<b>Company: </b>' + array[i]['data']['Company'] + '<br/>'
-               + '<b>Town: </b>' + array[i]['data']['Address']['addressLocality']; //+ '<br/>'
-               //+ '<b>Postal code: </b>' + array[i]['data']['Postal code'] ;
+               + '<b>Town: </b>' + array[i]['data']['sample']['Address']['addressLocality']; //+ '<br/>'
     addPointer(la, lo, geno, note);
   }
     map.addLayer(markersGroup);

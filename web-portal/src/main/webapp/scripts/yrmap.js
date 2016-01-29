@@ -63,7 +63,6 @@ function displayYRLocations(array) {
                + '<b>RNA-seq: </b>' + array[i]['RNA-seq? (Selected/In progress/Completed/Failed)'] + '<br/>'
                + '<b>Phenotype: </b>' + phenotype_html(array[i]['UKCPVS ID'], array[i]['phenotype']) + '<br/>'
                + '<b>Genotype: </b>' + geno + '<br/>'
-               + '<b>Company: </b>' + array[i]['Company'] + '<br/>'
                + '<b>Town: </b>' + array[i]['Town'] + '<br/>'
                + '<b>Postal code: </b>' + array[i]['Postal code'] + '<br/>'
                + '<b>Further Location info: </b>' + array[i]['Further Location information'];

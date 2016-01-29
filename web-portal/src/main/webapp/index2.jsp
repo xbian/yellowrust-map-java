@@ -127,10 +127,9 @@
         jQuery('#status').html('<img src=\"/yellowrust-map/images/ajax-loader.gif\"/>');
         Fluxion.doAjax(
                 'wisControllerHelperService',
-                'getCompanyData',
+                'getAllPublicData',
                 {
-                    'url': ajaxurl,
-                    'company': '${company}'
+                    'url': ajaxurl
                 },
                 {
                     'doOnSuccess': function (json) {
@@ -151,7 +150,6 @@
     }
 
     function produceTable(data) {
-        console.info("table here");
         yrtable = jQuery('#resultTable').DataTable({
             data: data,
             "columns": [
