@@ -93,6 +93,8 @@ public class WISControllerHelperService {
         JSONObject searchData = new JSONObject();
         searchData.put("data", companyName);
 
+        searchData.put("ignore_live_dates", true);
+
         p1.put("param", "search");
         p1.put("tag", 1346851157);
         p1.put("current_value", searchData);
