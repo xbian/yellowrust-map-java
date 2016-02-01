@@ -93,25 +93,23 @@ public class WISControllerHelperService {
         JSONObject searchData = new JSONObject();
         searchData.put("data", companyName);
 
-        searchData.put("ignore_live_dates", true);
-
         p1.put("param", "search");
         p1.put("tag", 1346851157);
         p1.put("current_value", searchData);
         p1.put("grassroots_type", 13);
         p1.put("type", "json");
-        p1.put("level", 7);
+//        p1.put("level", 7);
         p1.put("concise", true);
         parametersArray.add(p1);
 
         JSONObject p2 = new JSONObject();
 
-        p2.put("param", "dump");
-        p2.put("tag", 1346847824);
-        p2.put("current_value", false);
+        p2.put("param", "preview");
+        p2.put("tag", 1346850902);
+        p2.put("current_value", true);
         p2.put("grassroots_type", 0);
         p2.put("type", "boolean");
-        p2.put("level", 6);
+//        p2.put("level", 6);
         p2.put("concise", true);
         parametersArray.add(p2);
 
@@ -119,10 +117,10 @@ public class WISControllerHelperService {
 
         p3.put("param", "collection");
         p3.put("tag", 1346847567);
-        p3.put("current_value", "samples");
+        p3.put("current_value", "sample");
         p3.put("grassroots_type", 5);
         p3.put("type", "string");
-        p3.put("level", 7);
+//        p3.put("level", 7);
         p3.put("concise", true);
         parametersArray.add(p3);
 
@@ -131,9 +129,9 @@ public class WISControllerHelperService {
         service1.put("run", true);
         service1.put("services", "Pathogenomics Geoservice");
 
-        JSONArray groupArray = new JSONArray();
-        groupArray.add("Spreadsheet Import Parameters");
-        service1.put("groups", groupArray);
+//        JSONArray groupArray = new JSONArray();
+//        groupArray.add("Spreadsheet Import Parameters");
+//        service1.put("groups", groupArray);
 
         service1.put("parameter_set", parameterSetObject);
 
@@ -159,27 +157,26 @@ public class WISControllerHelperService {
         JSONObject parameterSetObject = new JSONObject();
         JSONArray parametersArray = new JSONArray();
 
-//        JSONObject p1 = new JSONObject();
-//        JSONObject searchData = new JSONObject();
-////        searchData.put("data", companyName);
-//
-//        p1.put("param", "search");
-//        p1.put("tag", 1346851157);
-//        p1.put("current_value", searchData);
-//        p1.put("grassroots_type", 13);
-//        p1.put("type", "json");
-//        p1.put("level", 7);
-//        p1.put("concise", true);
-//        parametersArray.add(p1);
+
+        JSONObject p1 = new JSONObject();
+
+        p1.put("param", "dump");
+        p1.put("tag", 1346847824);
+        p1.put("current_value", true);
+        p1.put("grassroots_type", 0);
+        p1.put("type", "boolean");
+//        p1.put("level", 6);
+        p1.put("concise", true);
+        parametersArray.add(p1);
 
         JSONObject p2 = new JSONObject();
 
-        p2.put("param", "dump");
-        p2.put("tag", 1346847824);
-        p2.put("current_value", true);
+        p2.put("param", "preview");
+        p2.put("tag", 1346850902);
+        p2.put("current_value", false);
         p2.put("grassroots_type", 0);
         p2.put("type", "boolean");
-        p2.put("level", 6);
+//        p2.put("level", 6);
         p2.put("concise", true);
         parametersArray.add(p2);
 
@@ -187,10 +184,10 @@ public class WISControllerHelperService {
 
         p3.put("param", "collection");
         p3.put("tag", 1346847567);
-        p3.put("current_value", "samples");
+        p3.put("current_value", "sample");
         p3.put("grassroots_type", 5);
         p3.put("type", "string");
-        p3.put("level", 7);
+//        p3.put("level", 7);
         p3.put("concise", true);
         parametersArray.add(p3);
 
@@ -198,10 +195,10 @@ public class WISControllerHelperService {
 
         service1.put("run", true);
         service1.put("services", "Pathogenomics Geoservice");
-
-        JSONArray groupArray = new JSONArray();
-        groupArray.add("Spreadsheet Import Parameters");
-        service1.put("groups", groupArray);
+//
+//        JSONArray groupArray = new JSONArray();
+//        groupArray.add("Spreadsheet Import Parameters");
+//        service1.put("groups", groupArray);
 
         service1.put("parameter_set", parameterSetObject);
 
@@ -209,8 +206,9 @@ public class WISControllerHelperService {
         requestObject.put("services", servicesArray);
 
 
+
         JSONArray jsonArray = JSONArray.fromObject(sendrequest(requestObject));
-        JSONArray resultsArray = JSONArray.fromObject(jsonArray.getJSONObject(0).getJSONObject("results").get("results"));
+        JSONArray resultsArray = JSONArray.fromObject(jsonArray.getJSONObject(0).get("results"));
 
         responses.put("data", resultsArray);
 
