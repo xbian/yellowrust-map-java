@@ -98,7 +98,6 @@ public class WISControllerHelperService {
         p1.put("current_value", searchData);
         p1.put("grassroots_type", 13);
         p1.put("type", "json");
-//        p1.put("level", 7);
         p1.put("concise", true);
         parametersArray.add(p1);
 
@@ -109,7 +108,6 @@ public class WISControllerHelperService {
         p2.put("current_value", true);
         p2.put("grassroots_type", 0);
         p2.put("type", "boolean");
-//        p2.put("level", 6);
         p2.put("concise", true);
         parametersArray.add(p2);
 
@@ -120,7 +118,6 @@ public class WISControllerHelperService {
         p3.put("current_value", "sample");
         p3.put("grassroots_type", 5);
         p3.put("type", "string");
-//        p3.put("level", 7);
         p3.put("concise", true);
         parametersArray.add(p3);
 
@@ -128,10 +125,6 @@ public class WISControllerHelperService {
 
         service1.put("run", true);
         service1.put("services", "Pathogenomics Geoservice");
-
-//        JSONArray groupArray = new JSONArray();
-//        groupArray.add("Spreadsheet Import Parameters");
-//        service1.put("groups", groupArray);
 
         service1.put("parameter_set", parameterSetObject);
 
@@ -165,7 +158,6 @@ public class WISControllerHelperService {
         p1.put("current_value", true);
         p1.put("grassroots_type", 0);
         p1.put("type", "boolean");
-//        p1.put("level", 6);
         p1.put("concise", true);
         parametersArray.add(p1);
 
@@ -176,7 +168,6 @@ public class WISControllerHelperService {
         p2.put("current_value", false);
         p2.put("grassroots_type", 0);
         p2.put("type", "boolean");
-//        p2.put("level", 6);
         p2.put("concise", true);
         parametersArray.add(p2);
 
@@ -187,7 +178,6 @@ public class WISControllerHelperService {
         p3.put("current_value", "sample");
         p3.put("grassroots_type", 5);
         p3.put("type", "string");
-//        p3.put("level", 7);
         p3.put("concise", true);
         parametersArray.add(p3);
 
@@ -195,10 +185,6 @@ public class WISControllerHelperService {
 
         service1.put("run", true);
         service1.put("services", "Pathogenomics Geoservice");
-//
-//        JSONArray groupArray = new JSONArray();
-//        groupArray.add("Spreadsheet Import Parameters");
-//        service1.put("groups", groupArray);
 
         service1.put("parameter_set", parameterSetObject);
 
@@ -218,8 +204,6 @@ public class WISControllerHelperService {
 
     public String sendrequest(JSONObject requestObject) {
         String url = simonURL;
-
-        JSONObject responses = new JSONObject();
 
         HttpClient httpClient = new DefaultHttpClient();
         try {
