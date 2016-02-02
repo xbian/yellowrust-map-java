@@ -203,7 +203,7 @@ public class WISControllerHelperService {
     }
 
     public String sendrequest(JSONObject requestObject) {
-        String url = simonURL;
+        String url = yrURL;
 
         HttpClient httpClient = new DefaultHttpClient();
         try {
