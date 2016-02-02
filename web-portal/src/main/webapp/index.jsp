@@ -41,14 +41,14 @@
 
         <div class="input-group">
             <div id="yrselect"></div>
-            <%--<span class="input-group-btn ">--%>
-            <%--<button type="button" class="btn btn-default"--%>
-            <%--onclick="ukcpvs_only();">UKCPVS Only--%>
-            <%--</button>--%>
-            <%--<button type="button" class="btn btn-default"--%>
-            <%--onclick="ukcpvs_and_all();">ALL--%>
-            <%--</button>--%>
-            <%--</span>--%>
+            <span class="input-group-btn ">
+            <button type="button" class="btn btn-default"
+            onclick="ukcpvs_only();">UKCPVS Only
+            </button>
+            <button type="button" class="btn btn-default"
+            onclick="ukcpvs_and_all();">ALL
+            </button>
+            </span>
         </div>
     </div>
 </div>
