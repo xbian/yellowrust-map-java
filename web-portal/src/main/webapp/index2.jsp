@@ -109,7 +109,7 @@
 
     jQuery(document).ready(function () {
 
-        getData('', false);
+        getData('',false);
         mapFitBounds([[49.781264, -7.910156], [61.100789, -0.571289]]);
         jQuery("#slider").dateRangeSlider({
             bounds: {
@@ -122,6 +122,8 @@
             }
         });
     });
+
+
 
 
 

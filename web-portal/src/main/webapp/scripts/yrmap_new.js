@@ -37,11 +37,12 @@ function getData(company,isCompany) {
 function startPage(json){
     jQuery('#status').html('');
     for (i = 0; i < json.data.length; i++) {
-        if (json.data[i]['data']['sample']['location']['location'] != undefined) {
-            filtered_data.push(json.data[i]);
+        if (json.data[i]['data']['sample'] != undefined) {
+            if (json.data[i]['data']['sample']['location']['location'] != undefined) {
+                filtered_data.push(json.data[i]);
+            }
         }
     }
-
     produceTable(filtered_data);
     displayYRLocations_new(filtered_data);
     renderLegend();
