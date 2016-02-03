@@ -164,7 +164,7 @@ function genotype_view() {
     pie_view = true;
     renderLegend();
     var column = yrtable.column(9);
-    column.search('^\\d$', true, false).draw();
+    column.search('^\\d|\\d-\\d|Mixed$', true, false).draw();
 }
 
 function normal_view() {
@@ -191,16 +191,16 @@ function displayYRLocations_new(array) {
             }
         }
         var popup_note = '<b>ID: </b>' + array[i]['data']['ID'] + '<br/>'
-        + '<b>Country: </b>' + array[i]['data']['sample']['Address']['addressCountry'] + '<br/>'
-        + '<b>UKCPVS ID: </b>' + array[i]['data']['UKCPVS ID'] + '<br/>'
-        + '<b>Rust Type: </b>' + array[i]['data']['sample']['Disease'] + '<br/>'
-        + '<b>Collector: </b>' + collector + '<br/>'
-        + '<b>Date collected: </b>' + array[i]['data']['sample']['Date collected']['date'] + '<br/>'
-        + '<b>Host: </b>' + array[i]['data']['sample']['Host'] + '<br/>'
-        + '<b>RNA-seq: </b>' + array[i]['data']['sample']['RNA-seq? (Selected/In progress/Completed/Failed)'] + '<br/>'
-        + '<b>Phenotype: </b>' + phenotype_html(array[i]['data']['UKCPVS ID'], array[i]['data']['phenotype']) + '<br/>'
-        + '<b>Genotype: </b>' + geno + '<br/>'
-        + '<b>Town: </b>' + array[i]['data']['sample']['Address']['addressLocality']
+                + '<b>Country: </b>' + array[i]['data']['sample']['Address']['addressCountry'] + '<br/>'
+                + '<b>UKCPVS ID: </b>' + array[i]['data']['UKCPVS ID'] + '<br/>'
+                + '<b>Rust Type: </b>' + array[i]['data']['sample']['Disease'] + '<br/>'
+                + '<b>Collector: </b>' + collector + '<br/>'
+                + '<b>Date collected: </b>' + array[i]['data']['sample']['Date collected']['date'] + '<br/>'
+                + '<b>Host: </b>' + array[i]['data']['sample']['Host'] + '<br/>'
+                + '<b>RNA-seq: </b>' + array[i]['data']['sample']['RNA-seq? (Selected/In progress/Completed/Failed)'] + '<br/>'
+                + '<b>Phenotype: </b>' + phenotype_html(array[i]['data']['UKCPVS ID'], array[i]['data']['phenotype']) + '<br/>'
+                + '<b>Genotype: </b>' + geno + '<br/>'
+                + '<b>Town: </b>' + array[i]['data']['sample']['Address']['addressLocality']
             ;
         addPointer(la, lo, geno, popup_note);
     }
@@ -502,7 +502,10 @@ function renderLegend() {
                 "2": "Genetic group 2",
                 "3": "Genetic group 3",
                 "4": "Genetic group 4",
-                "5": "Genetic group 5"
+                "5": "Genetic group 5",
+                "1-4": "Genetic group 1-4",
+                "1-5": "Genetic group 1-5",
+                "Mixed": "Genetic group mixed"
             }
         };
 

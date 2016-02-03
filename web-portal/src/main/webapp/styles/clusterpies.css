@@ -94,6 +94,39 @@
     border-color: #B60;
 }
 
+.category-1-4 {
+    fill: -webkit-linear-gradient(pink,red);
+    fill: -o-linear-gradient(pink,red);
+    fill: -moz-linear-gradient(pink,red);
+    fill: linear-gradient(pink,red);
+    stroke: #B60;
+    background: -webkit-linear-gradient(pink,red);
+    background: -o-linear-gradient(pink,red);
+    background: -moz-linear-gradient(pink,red);
+    background: linear-gradient(pink,red);
+    border-color: #B60;
+}
+
+.category-1-5 {
+    fill: -webkit-linear-gradient(pink,purple);
+    fill: -o-linear-gradient(pink,purple);
+    fill: -moz-linear-gradient(pink,purple);
+    fill: linear-gradient(pink,purple);
+    stroke: #B60;
+    background: -webkit-linear-gradient(pink,purple);
+    background: -o-linear-gradient(pink,purple);
+    background: -moz-linear-gradient(pink,purple);
+    background: linear-gradient(pink,purple);
+    border-color: #B60;
+}
+
+.category-Mixed {
+    fill: white;
+    stroke: #B60;
+    background: white;
+    border-color: #B60;
+}
+
 .category- {
     fill: #ccc;
     stroke: gray;
