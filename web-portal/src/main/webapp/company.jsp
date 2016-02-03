@@ -114,11 +114,11 @@
         jQuery("#slider").dateRangeSlider({
             bounds: {
                 min: new Date(2013, 0, 1),
-                max: new Date(2014, 11, 31)
+                max: new Date(2015, 12, 31)
             },
             defaultValues: {
                 min: new Date(2013, 0, 1),
-                max: new Date(2014, 11, 31)
+                max: new Date(2015, 12, 31)
             }
         });
     });
