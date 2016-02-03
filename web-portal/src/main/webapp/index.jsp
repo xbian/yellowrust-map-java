@@ -96,7 +96,7 @@
     var datemin = 0;
     var datemax = 0;
 
-    var markers = new Array();
+//    var markers = new Array();
     var markersGroup = new L.MarkerClusterGroup({});
     var map = L.map('map', {zoomControl: false}).setView([52.621615, 10.219470], 5);
 

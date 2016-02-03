@@ -183,20 +183,26 @@ function displayYRLocations_new(array) {
         if (array[i]['data']['genotype'] != undefined && array[i]['data']['genotype'] != "undefined") {
             geno = array[i]['data']['genotype']['Genetic group'];
         }
-        var note = '';
+        var collector = 'N/A';
 
-        var note = '<b>ID: </b>' + array[i]['data']['ID'] + '<br/>'
+        if (array[i]['data']['sample']['Name/Collector'] != undefined) {
+            if (array[i]['data']['sample']['Name/Collector']['name'] != undefined) {
+                collector = array[i]['data']['sample']['Name/Collector']['name'];
+            }
+        }
+        var popup_note = '<b>ID: </b>' + array[i]['data']['ID'] + '<br/>'
         + '<b>Country: </b>' + array[i]['data']['sample']['Address']['addressCountry'] + '<br/>'
-        + '<b>UKCPVS ID: </b>' + phenotype_html_ukid(array[i]['data']['UKCPVS ID'], array[i]['data']['phenotype']) + '<br/>'
-        + '<b>Rust Type: </b>' + array[i]['data']['sample']['Rust (YR/SR/LR)'] + '<br/>'
-        + '<b>Collector: </b>' + (array[i]['data']['sample']['Name/Collector'] == undefined) ? '' : array[i]['data']['Name/Collector']['name'] + '<br/>'
+        + '<b>UKCPVS ID: </b>' + array[i]['data']['UKCPVS ID'] + '<br/>'
+        + '<b>Rust Type: </b>' + array[i]['data']['sample']['Disease'] + '<br/>'
+        + '<b>Collector: </b>' + collector + '<br/>'
         + '<b>Date collected: </b>' + array[i]['data']['sample']['Date collected']['date'] + '<br/>'
         + '<b>Host: </b>' + array[i]['data']['sample']['Host'] + '<br/>'
         + '<b>RNA-seq: </b>' + array[i]['data']['sample']['RNA-seq? (Selected/In progress/Completed/Failed)'] + '<br/>'
         + '<b>Phenotype: </b>' + phenotype_html(array[i]['data']['UKCPVS ID'], array[i]['data']['phenotype']) + '<br/>'
         + '<b>Genotype: </b>' + geno + '<br/>'
-        + '<b>Town: </b>' + array[i]['data']['sample']['Address']['addressLocality']; //+ '<br/>'
-        addPointer(la, lo, geno, note);
+        + '<b>Town: </b>' + array[i]['data']['sample']['Address']['addressLocality']
+            ;
+        addPointer(la, lo, geno, popup_note);
     }
     map.addLayer(markersGroup);
 }
@@ -343,7 +349,7 @@ function addPointer(la, lo, geno, note) {
     else {
         markerLayer = L.marker([la, lo], {title: geno}).bindPopup(note);
     }
-    markers.push(markerLayer);
+    //markers.push(markerLayer);
     markersGroup.addLayer(markerLayer);
 
 }
