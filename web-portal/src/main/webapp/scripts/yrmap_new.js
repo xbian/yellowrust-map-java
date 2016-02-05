@@ -503,8 +503,11 @@ function renderLegend() {
                 "3": "Genetic group 3",
                 "4": "Genetic group 4",
                 "5": "Genetic group 5",
+                "6": "Genetic group 7",
+                "7": "Genetic group 6",
                 "1-4": "Genetic group 1-4",
                 "1-5": "Genetic group 1-5",
+                "4-6": "Genetic group 4-6",
                 "Mixed": "Genetic group mixed"
             }
         };
