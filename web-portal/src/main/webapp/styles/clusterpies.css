@@ -132,6 +132,13 @@
     border-color: #ccc;
 }
 
+.category-6 {
+    fill: gray;
+    stroke: gray;
+    background: gray;
+    border-color: gray;
+}
+
 .category-7 {
     fill: yellow;
     stroke: yellow;
