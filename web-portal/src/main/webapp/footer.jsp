@@ -6,7 +6,7 @@
             <td width="20%" align="center"><img src="<c:url value='/images/collaborators/jic.jpg'/>"/></td>
             <td width="20%" align="center"><img src="<c:url value='/images/collaborators/BBSRC.jpg'/>"/></td>
             <td width="20%" align="center"><img src="<c:url value='/images/collaborators/tgac.jpg'/>"/></td>
-            <td width="20%" align="center"><img src="<c:url value='/images/collaborators/hgca.jpg'/>"/></td>
+            <td width="20%" align="center"><img src="<c:url value='/images/collaborators/ahdb.png'/>"/></td>
         </tr>
         <tr>
             <td width="20%" align="center"><img src="<c:url value='/images/collaborators/agrii-logo.jpg'/>"/></td>
