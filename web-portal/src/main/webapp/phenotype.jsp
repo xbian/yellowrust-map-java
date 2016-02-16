@@ -2,6 +2,7 @@
 
 <h2>Yellow Rust Phenotype Data</h2>
 
+<script src="<c:url value='/scripts/yrmap_new.js'/>" type="text/javascript"></script>
 <div class="row">
     <div class="col-md-4">
         Toggle column: <br/>
@@ -61,6 +62,7 @@
 <br/>
 
 <p>Scroll left/right for more columns</p>
+<div id="status"></div>
 
 <div id="tableWrapper">
     <table id="resultTable" class="phenotype"></table>
@@ -68,421 +70,31 @@
 
 <script type="text/javascript">
     var phenotype_table;
+    var phenotype_data = [];
     jQuery(document).ready(function () {
-        var niabregex = new RegExp('^NIAB[A-z0-9._%+-\\s]*$');
-        var tagregex = new RegExp('^TAG[A-z0-9._%+-\\s]*$');
-        var phenotype_data = [];
-        for (i = 0; i < sample_list_all.length; i++) {
-            if (sample_list_all[i]['phenotype'] != undefined && sample_list_all[i]['UKCPVS ID'] != undefined && sample_list_all[i]['UKCPVS ID'] != ''
-                && (niabregex.test(sample_list_all[i]['Company']) || tagregex.test(sample_list_all[i]['Company']))
-                ){
-                phenotype_data.push(sample_list_all[i]);
-            }
-        }
-        phenotype_table = jQuery('#resultTable').DataTable({
-            data: phenotype_data,
-            scrollX: 1150,
-//            "scrollY": "100%",
-            scrollCollapse: true,
-            fixedColumns: {
-                leftColumns: 4
-            },
-//            paging: false,
-            "columns": [
-                {data: "ID", title: "ID", "sDefaultContent": ""},
-                {data: "Variety", title: "Variety", "sDefaultContent": ""},
-                {data: "Host", title: "Host", "sDefaultContent": ""},
-                {data: "Date collected", title: "Date", "sDefaultContent": ""},
+        jQuery('#status').html('<img src=\"/yellowrust-map/images/ajax-loader.gif\"/>');
+        Fluxion.doAjax(
+                'wisControllerHelperService',
+                'getAllPublicData',
                 {
-                    data: "phenotype.Chinese 166",
-                    title: "Chinese 166 Gene:1",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
+                    'url': ajaxurl
                 },
                 {
-                    data: "phenotype.Kalyansona",
-                    title: "Kalyansona Gene:2",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Vilmorin 23",
-                    title: "Vilmorin 23 Gene:3a+",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Nord Desprez",
-                    title: "Nord Desprez Gene:3a+",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Hybrid 46", title: "Hybrid 46 Gene:(3b)4b", "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Heines Kolben",
-                    title: "Heines Kolben Gene:2,6",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Heines Peko",
-                    title: "Heines Peko Gene:2,6",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Lee",
-                    title: "Lee Gene:7",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Av x Yr7 NIL",
-                    title: "Av x Yr7 NIL Gene:7",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Compair",
-                    title: "Compair Gene:8",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Kavkaz x 4 Fed",
-                    title: "Kavkaz x 4 Fed Gene:9",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Clement",
-                    title: "Clement Gene:9",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.AVS x Yr 15",
-                    title: "AVS x Yr 15 Gene:15",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.VPM 1",
-                    title: "VPM 1 Gene:17",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Rendezvous",
-                    title: "Rendezvous Gene:17",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Av x Yr17",
-                    title: "Av x Yr17 Gene:17",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Carstens V",
-                    title: "Carstens V Gene:32",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Talon",
-                    title: "Talon Gene:32",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Av x Yr32",
-                    title: "Av x Yr32 Gene:32",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Spaldings Prolific",
-                    title: "Spaldings Prolific Gene:sp",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Robigus",
-                    title: "Robigus Gene:Rob'",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Solstice",
-                    title: "Solstice Gene:\'Sol\'",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Timber",
-                    title: "Timber Gene:\'Tim\'",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Warrior",
-                    title: "Warrior Gene:War\'",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.KWS-Sterling",
-                    title: "KWS-Sterling Gene:Ste\'",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Cadenza",
-                    title: "Cadenza Gene:6 7",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Claire",
-                    title: "Claire Gene:Claire",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Crusoe",
-                    title: "Crusoe Gene:Crusoe",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Ambition",
-                    title: "Ambition Gene:Amb\'",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Heines VII",
-                    title: "Heines VII Gene:Yr2 Yr25+",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Suwon Omar",
-                    title: "Suwon Omar Gene:Yr(Su)",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Avocet Yr5",
-                    title: "Avocet Yr5 Gene:Yr5",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Avocet Yr6",
-                    title: "Avocet Yr6 Gene:Yr6",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Moro",
-                    title: "Moro Gene:Yr10",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Avocet Yr24",
-                    title: "Avocet Yr24 Gene:Yr24",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Opata",
-                    title: "Opata Gene:Yr27+",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Strubes Dickkopf",
-                    title: "Strubes Dickkopf Gene:YrSd Yr25",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Avocet Yr27",
-                    title: "Avocet Yr27 Gene:Yr27",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Apache",
-                    title: "Apache Gene:7 17",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Vuka",
-                    title: "Vuka",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Grenado",
-                    title: "Grenado",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Benetto",
-                    title: "Benetto",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Tradiro",
-                    title: "Tradiro",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Tribeca",
-                    title: "Tribeca",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Tulus",
-                    title: "Tulus",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Dublet",
-                    title: "Dublet",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.KWS Fido",
-                    title: "KWS Fido",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Brigadier",
-                    title: "Brigadier",
-                    "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
-                    }
-                },
-                {
-                    data: "phenotype.Stigg", title: "Stigg", "sDefaultContent": "",
-                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-                        color_coding(cellData, cell);
+                    'doOnSuccess': function (json) {
+                        for (i = 0; i < json.data.length; i++) {
+                            if (json.data[i]['data']['phenotype'] != undefined && json.data[i]['data']['sample'] != undefined) {
+                                if (json.data[i]['data']['sample']['location'] != undefined) {
+                                    phenotype_data.push(json.data[i]);
+                                }
+                            }
+                        }
+                        jQuery('#status').html('');
+                        show_table();
+                        console.info(phenotype_data);
                     }
                 }
-            ]
-        });
+        );
+
 
         jQuery('.toggle-vis-select').change(function () {
             jQuery("select.toggle-vis-select option:not(:selected)").each(function () {
@@ -494,6 +106,412 @@
             });
         });
     });
+
+
+    function show_table(){
+        phenotype_table = jQuery('#resultTable').DataTable({
+            data: phenotype_data,
+            scrollX: 1150,
+            scrollCollapse: true,
+            fixedColumns: {
+                leftColumns: 4
+            },
+            "columns": [
+                {data: "data.ID", title: "ID", "sDefaultContent": ""},
+                {data: "data.sample.Variety", title: "Variety", "sDefaultContent": ""},
+                {data: "data.sample.Host", title: "Host", "sDefaultContent": ""},
+                {data: "data.sample.Date collected.date", title: "Date", "sDefaultContent": ""},
+                {
+                    data: "data.phenotype.Chinese 166",
+                    title: "Chinese 166 Gene:1",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Kalyansona",
+                    title: "Kalyansona Gene:2",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Vilmorin 23",
+                    title: "Vilmorin 23 Gene:3a+",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Nord Desprez",
+                    title: "Nord Desprez Gene:3a+",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Hybrid 46", title: "Hybrid 46 Gene:(3b)4b", "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Heines Kolben",
+                    title: "Heines Kolben Gene:2,6",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Heines Peko",
+                    title: "Heines Peko Gene:2,6",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Lee",
+                    title: "Lee Gene:7",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Av x Yr7 NIL",
+                    title: "Av x Yr7 NIL Gene:7",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Compair",
+                    title: "Compair Gene:8",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Kavkaz x 4 Fed",
+                    title: "Kavkaz x 4 Fed Gene:9",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Clement",
+                    title: "Clement Gene:9",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.AVS x Yr 15",
+                    title: "AVS x Yr 15 Gene:15",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.VPM 1",
+                    title: "VPM 1 Gene:17",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Rendezvous",
+                    title: "Rendezvous Gene:17",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Av x Yr17",
+                    title: "Av x Yr17 Gene:17",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Carstens V",
+                    title: "Carstens V Gene:32",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Talon",
+                    title: "Talon Gene:32",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Av x Yr32",
+                    title: "Av x Yr32 Gene:32",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Spaldings Prolific",
+                    title: "Spaldings Prolific Gene:sp",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Robigus",
+                    title: "Robigus Gene:Rob'",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Solstice",
+                    title: "Solstice Gene:\'Sol\'",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Timber",
+                    title: "Timber Gene:\'Tim\'",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Warrior",
+                    title: "Warrior Gene:War\'",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.KWS-Sterling",
+                    title: "KWS-Sterling Gene:Ste\'",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Cadenza",
+                    title: "Cadenza Gene:6 7",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Claire",
+                    title: "Claire Gene:Claire",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Crusoe",
+                    title: "Crusoe Gene:Crusoe",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Ambition",
+                    title: "Ambition Gene:Amb\'",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Heines VII",
+                    title: "Heines VII Gene:Yr2 Yr25+",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Suwon Omar",
+                    title: "Suwon Omar Gene:Yr(Su)",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Avocet Yr5",
+                    title: "Avocet Yr5 Gene:Yr5",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Avocet Yr6",
+                    title: "Avocet Yr6 Gene:Yr6",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Moro",
+                    title: "Moro Gene:Yr10",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Avocet Yr24",
+                    title: "Avocet Yr24 Gene:Yr24",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Opata",
+                    title: "Opata Gene:Yr27+",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Strubes Dickkopf",
+                    title: "Strubes Dickkopf Gene:YrSd Yr25",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Avocet Yr27",
+                    title: "Avocet Yr27 Gene:Yr27",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Apache",
+                    title: "Apache Gene:7 17",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Vuka",
+                    title: "Vuka",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Grenado",
+                    title: "Grenado",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Benetto",
+                    title: "Benetto",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Tradiro",
+                    title: "Tradiro",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Tribeca",
+                    title: "Tribeca",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Tulus",
+                    title: "Tulus",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Dublet",
+                    title: "Dublet",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.KWS Fido",
+                    title: "KWS Fido",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Brigadier",
+                    title: "Brigadier",
+                    "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                },
+                {
+                    data: "data.phenotype.Stigg", title: "Stigg", "sDefaultContent": "",
+                    createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
+                        color_coding(cellData, cell);
+                    }
+                }
+            ]
+        });
+    }
 
     function toggle_column(index) {
         var column = phenotype_table.column(index);

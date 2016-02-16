@@ -31,7 +31,7 @@
         Brought to you by <a href="http://www.tgac.ac.uk/" target="_blank">The Genome Analysis Centre</a><br/>
         Powered by Grassroots API
         <br/>
-        Contact: <a href="mailto:yellowrust@jic.ac.uk">yellowrust@jic.ac.uk</a>
+        Contact: <a href="mailto:yellow.rust@jic.ac.uk">yellow.rust@jic.ac.uk</a>
         <br/>
         <img src="<c:url value='/images/cc.png'/>" />
     </p>

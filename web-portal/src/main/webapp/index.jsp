@@ -14,10 +14,9 @@
 
         <div class="input-group">
                <span class="input-group-btn">
-
-                   <%--<button type="button" class="btn btn-default"--%>
-                           <%--onclick="location.href='yellowrust-map/phenotype';">Phenotype Data--%>
-                   <%--</button>--%>
+                   <button type="button" class="btn btn-default"
+                           onclick="location.href='yellowrust-map/phenotype';">Phenotype Data
+                   </button>
                 <button type="button" class="btn btn-default"
                         onclick="genotype_view();">Genotype View
                 </button>
