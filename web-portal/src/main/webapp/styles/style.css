@@ -156,3 +156,9 @@ div.sectionDivider a {
     height: 50px;
     margin-bottom: 50px;
 }
+
+#status img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -72,7 +72,7 @@
     var phenotype_table;
     var phenotype_data = [];
     jQuery(document).ready(function () {
-        jQuery('#status').html('<img src=\"/yellowrust-map/images/ajax-loader.gif\"/>');
+        jQuery('#status').html('<img src=\"/yellowrust-map/images/loading_spinner.gif\"/>');
         Fluxion.doAjax(
                 'wisControllerHelperService',
                 'getAllPublicData',
@@ -83,14 +83,11 @@
                     'doOnSuccess': function (json) {
                         for (i = 0; i < json.data.length; i++) {
                             if (json.data[i]['data']['phenotype'] != undefined && json.data[i]['data']['sample'] != undefined) {
-                                if (json.data[i]['data']['sample']['location'] != undefined) {
-                                    phenotype_data.push(json.data[i]);
-                                }
+                                        phenotype_data.push(json.data[i]);
                             }
                         }
                         jQuery('#status').html('');
                         show_table();
-                        console.info(phenotype_data);
                     }
                 }
         );

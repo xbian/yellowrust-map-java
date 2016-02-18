@@ -59,7 +59,7 @@
 
 
 
-    <script src="<c:url value='/scripts/yrdata.js'/>" type="text/javascript"></script>
+    <%--<script src="<c:url value='/scripts/yrdata.js'/>" type="text/javascript"></script>--%>
     <script type="text/javascript">jQuery.noConflict();</script>
 
 

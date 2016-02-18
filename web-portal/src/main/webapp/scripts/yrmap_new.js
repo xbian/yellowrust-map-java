@@ -3,7 +3,7 @@
  */
 
 function getData(company, isCompany) {
-    jQuery('#status').html('<img src=\"/yellowrust-map/images/ajax-loader.gif\"/>');
+    jQuery('#status').html('<img src=\"/yellowrust-map/images/loading_spinner.gif\"/>');
     if (isCompany) {
         Fluxion.doAjax(
             'wisControllerHelperService',
