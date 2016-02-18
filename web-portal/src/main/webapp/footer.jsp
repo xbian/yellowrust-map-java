@@ -26,12 +26,12 @@
     <br/>
 
     <p>
+        Contact: <a href="mailto:yellow.rust@jic.ac.uk">yellow.rust@jic.ac.uk</a>
+        <br/>
         &copy; 2015
         - <fmt:formatDate value="${timestamp}" pattern="yyyy"/>
         Brought to you by <a href="http://www.tgac.ac.uk/" target="_blank">The Genome Analysis Centre</a><br/>
         Powered by Grassroots API
-        <br/>
-        Contact: <a href="mailto:yellow.rust@jic.ac.uk">yellow.rust@jic.ac.uk</a>
         <br/>
         <img src="<c:url value='/images/cc.png'/>" />
     </p>
