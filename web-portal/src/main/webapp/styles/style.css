@@ -162,3 +162,8 @@ div.sectionDivider a {
     margin-left: auto;
     margin-right: auto;
 }
+
+#feedback {
+    float: right;
+    margin-top: -20px;
+}
