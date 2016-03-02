@@ -15,9 +15,11 @@
 
         <div class="input-group">
                <span class="input-group-btn">
-                   <button type="button" class="btn btn-default"
-                           onclick="location.href='yellowrust-map/phenotype';">Phenotype Data
-                   </button>
+<c:if test="${empty query}">
+    <button type="button" class="btn btn-default"
+            onclick="location.href='yellowrust-map/phenotype';">Phenotype Data
+    </button>
+</c:if>
                 <button type="button" class="btn btn-default"
                         onclick="genotype_view();">Genotype View
                 </button>
@@ -43,10 +45,10 @@
             <div id="yrselect"></div>
             <span class="input-group-btn ">
             <button type="button" class="btn btn-default"
-            onclick="ukcpvs_only();">UKCPVS Only
+                    onclick="ukcpvs_only();">UKCPVS Only
             </button>
             <button type="button" class="btn btn-default"
-            onclick="ukcpvs_and_all();">ALL
+                    onclick="ukcpvs_and_all();">ALL
             </button>
             </span>
         </div>
@@ -96,7 +98,7 @@
     var datemin = 0;
     var datemax = 0;
 
-//    var markers = new Array();
+    //    var markers = new Array();
     var markersGroup = new L.MarkerClusterGroup({});
     var map = L.map('map', {zoomControl: false}).setView([52.621615, 10.219470], 5);
 
@@ -108,12 +110,12 @@
     L.control.zoom({position: 'topright'}).addTo(map);
 
     jQuery(document).ready(function () {
-        if (${query}!=null){
-            getSearchData('${query}');
-        }
-        else{
+        <%--var searchquery = '${query}';--%>
+        <%--if (searchquery !== 'null'){--%>
+            <%--getSearchData('${query}');--%>
+        <%--}else{--%>
             getData('', false);
-        }
+//        }
         mapFitBounds([[49.781264, -7.910156], [61.100789, -0.571289]]);
         jQuery("#slider").dateRangeSlider({
             bounds: {
@@ -126,9 +128,6 @@
             }
         });
     });
-
-
-
 
 
 </script>
