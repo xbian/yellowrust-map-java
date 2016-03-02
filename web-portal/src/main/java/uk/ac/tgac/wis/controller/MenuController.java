@@ -42,42 +42,17 @@ public class MenuController implements ServletContextAware {
         return "/index.jsp";
     }
 
+
+    @RequestMapping("/search/{query}")
+    public ModelAndView query(@PathVariable String query, ModelMap model) {
+        model.put("query", query);
+        return new ModelAndView("/index.jsp", model);
+    }
+
     @Override
     public void setServletContext(ServletContext servletContext) {
         this.servletContext = servletContext;
     }
-
-//
-//  @RequestMapping("/about")
-//  public String about() {
-//    return "/about.jsp";
-//  }
-//
-//  @RequestMapping("/contact")
-//  public String contact() {
-//    return "/contact.jsp";
-//  }
-//
-//  @RequestMapping("/indexer")
-//  public String indexer() {
-//    return "/indexer.jsp";
-//  }
-//
-//  @RequestMapping("/services")
-//  public String services() {
-//    return "/services.jsp";
-//  }
-//
-//
-//  @RequestMapping("/blast")
-//  public String grassRootBlast() {
-//    return "/blast.jsp";
-//  }
-//
-//  @RequestMapping("/yellowrustmap")
-//  public String yellowRustMap() {
-//    return "/geo.jsp";
-//  }
 
     @RequestMapping("/phenotype")
     public String phenotype() {

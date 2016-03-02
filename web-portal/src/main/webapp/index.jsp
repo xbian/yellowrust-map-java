@@ -108,8 +108,12 @@
     L.control.zoom({position: 'topright'}).addTo(map);
 
     jQuery(document).ready(function () {
-
-        getData('',false);
+        if (${query}!=null){
+            getSearchData('${query}');
+        }
+        else{
+            getData('', false);
+        }
         mapFitBounds([[49.781264, -7.910156], [61.100789, -0.571289]]);
         jQuery("#slider").dateRangeSlider({
             bounds: {

@@ -34,6 +34,24 @@ function getData(company, isCompany) {
     }
 }
 
+function getSearchData(query){
+    jQuery('#status').html('<img src=\"/yellowrust-map/images/loading_spinner.gif\"/>');
+    Fluxion.doAjax(
+        'wisControllerHelperService',
+        'getSearchData',
+        {
+            'url': ajaxurl,
+            'query': query
+        },
+        {
+            'doOnSuccess': function (json) {
+                startPage(json, true);
+            }
+        }
+    );
+
+}
+
 function startPage(json, isCompany) {
     jQuery('#status').html('');
     for (i = 0; i < json.data.length; i++) {
