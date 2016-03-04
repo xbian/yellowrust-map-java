@@ -108,7 +108,19 @@ function produceTable(data, isCompany) {
                     return ((full["data"]["verified"]) ? 'Verified' : 'Preliminary');
                 }
             },
+            {
+                title: "Bam",
+                "render": function (data, type, full, meta) {
+                    if (full['data']['file'] != undefined && full['data']['file'] != "undefined") {
+                        return '<a href=\"'+full['data']['file']['bam']+'\">BAM</a>';
+                    }
+                    else {
+                        return '';
+                    }
+                }
+            },
             {data: "data.sample_live_date.date", title: "Publish Date", "sDefaultContent": ""}
+
         ]
         ,
         initComplete: function () {
@@ -147,8 +159,11 @@ function produceTable(data, isCompany) {
     });
 
     if (!isCompany) {
-        yrtable.column(13).visible(false);
+        yrtable.column(14).visible(false);
     }
+    //else {
+    //    yrtable.column(13).visible(false);
+    //}
 }
 
 jQuery.fn.dataTableExt.afnFiltering.push(
