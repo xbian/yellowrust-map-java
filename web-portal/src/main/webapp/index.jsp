@@ -15,11 +15,11 @@
 
         <div class="input-group">
                <span class="input-group-btn">
-<c:if test="${empty query}">
-    <button type="button" class="btn btn-default"
-            onclick="location.href='yellowrust-map/phenotype';">Phenotype Data
-    </button>
-</c:if>
+                <c:if test="${empty query}">
+                    <button type="button" class="btn btn-default"
+                            onclick="location.href='yellowrust-map/phenotype';">Phenotype Data
+                    </button>
+                </c:if>
                 <button type="button" class="btn btn-default"
                         onclick="genotype_view();">Genotype View
                 </button>
@@ -110,12 +110,14 @@
     L.control.zoom({position: 'topright'}).addTo(map);
 
     jQuery(document).ready(function () {
-        <%--var searchquery = '${query}';--%>
-        <%--if (searchquery !== 'null'){--%>
-            <%--getSearchData('${query}');--%>
-        <%--}else{--%>
-            getData('', false);
-//        }
+        <c:choose>
+        <c:when test="${empty query}">
+        getData('', false);
+        </c:when>
+        <c:otherwise>
+        getSearchData('${query}');
+        </c:otherwise>
+        </c:choose>
         mapFitBounds([[49.781264, -7.910156], [61.100789, -0.571289]]);
         jQuery("#slider").dateRangeSlider({
             bounds: {
