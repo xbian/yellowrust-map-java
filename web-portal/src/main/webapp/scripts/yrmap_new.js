@@ -77,11 +77,11 @@ function produceTable(data, isCompany) {
             {data: "data.sample.Name/Collector.name", title: "Collector", "sDefaultContent": ""},
             {data: "data.sample.Date collected.date", title: "Date", "sDefaultContent": ""},
             {data: "data.sample.Host", title: "Host", "sDefaultContent": ""},
-            {
-                data: "data.sample.RNA-seq? (Selected/In progress/Completed/Failed)",
-                title: "RNA-seq",
-                "sDefaultContent": ""
-            },
+            //{
+            //    data: "data.sample.RNA-seq? (Selected/In progress/Completed/Failed)",
+            //    title: "RNA-seq",
+            //    "sDefaultContent": ""
+            //},
             {
                 title: "Phenotype",
                 "render": function (data, type, full, meta) {
@@ -159,11 +159,8 @@ function produceTable(data, isCompany) {
     });
 
     if (!isCompany) {
-        yrtable.column(14).visible(false);
+        yrtable.column(13).visible(false);
     }
-    //else {
-    //    yrtable.column(13).visible(false);
-    //}
 }
 
 jQuery.fn.dataTableExt.afnFiltering.push(

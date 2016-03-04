@@ -56,7 +56,7 @@
 </div>
 <br/>
 
-<div id="tableWrapper" style="margin-top:-45px;">
+<div id="tableWrapper" style="margin-top:-45px;margin-left:-10px;">
     <table id="resultTable"></table>
 </div>
 

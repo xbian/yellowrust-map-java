@@ -39,10 +39,10 @@ import java.util.ArrayList;
 public class WISControllerHelperService {
     protected static final Logger log = LoggerFactory.getLogger(WISControllerHelperService.class);
 
-    String yrURL = "http://v0214.nbi.ac.uk:1888/grassroots/controller";
+    String testURL = "http://v0214.nbi.ac.uk:1888/grassroots/controller";
     String simonURL = "http://n79610.nbi.ac.uk:8080/grassroots/controller";
 
-    String activeURL = simonURL;
+    String activeURL = testURL;
 
 
     public JSONObject getCompanyData(HttpSession session, JSONObject json) {
