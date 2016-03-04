@@ -109,10 +109,10 @@ function produceTable(data, isCompany) {
                 }
             },
             {
-                title: "Bam",
+                title: "File",
                 "render": function (data, type, full, meta) {
-                    if (full['data']['file'] != undefined && full['data']['file'] != "undefined") {
-                        return '<a href=\"'+full['data']['file']['bam']+'\">BAM</a>';
+                    if (full['data']['files'] != undefined && full['data']['files'] != "undefined") {
+                        return '<a href=\"http://opendata.tgac.ac.uk/field_pathogenomics/'+full['data']['files']['bam']+'\">BAM</a>';
                     }
                     else {
                         return '';

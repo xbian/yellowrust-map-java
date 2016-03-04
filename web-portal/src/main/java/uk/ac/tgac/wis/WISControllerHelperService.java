@@ -42,6 +42,8 @@ public class WISControllerHelperService {
     String yrURL = "http://v0214.nbi.ac.uk:1888/grassroots/controller";
     String simonURL = "http://n79610.nbi.ac.uk:8080/grassroots/controller";
 
+    String activeURL = simonURL;
+
 
     public JSONObject getCompanyData(HttpSession session, JSONObject json) {
         String company = json.getString("company");
@@ -203,7 +205,7 @@ public class WISControllerHelperService {
     }
 
     public String sendrequest(JSONObject requestObject) {
-        String url = yrURL;
+        String url = activeURL;
 
         HttpClient httpClient = new DefaultHttpClient();
         try {
