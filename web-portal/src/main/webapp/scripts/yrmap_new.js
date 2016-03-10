@@ -193,14 +193,14 @@ function ukcpvs_and_all() {
 function genotype_view() {
     pie_view = true;
     renderLegend();
-    var column = yrtable.column(9);
+    var column = yrtable.column(8);
     column.search('^\\d|\\d-\\d|Mixed$', true, false).draw();
 }
 
 function normal_view() {
     pie_view = false;
     renderLegend();
-    var column = yrtable.column(9);
+    var column = yrtable.column(8);
     column.search('').draw();
 }
 
