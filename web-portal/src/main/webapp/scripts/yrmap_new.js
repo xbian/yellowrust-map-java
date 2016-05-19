@@ -112,7 +112,7 @@ function produceTable(data, isCompany) {
                 title: "File",
                 "render": function (data, type, full, meta) {
                     if (full['data']['files'] != undefined && full['data']['files'] != "undefined") {
-                        return '<a href=\"http://opendata.tgac.ac.uk/field_pathogenomics/'+full['data']['files']['bam']+'\">BAM</a>';
+                        return '<a href=\"http://opendata.tgac.ac.uk/field_pathogenomics/'+full['data']['files']['bam']+'.gz\">BAM</a>';
                     }
                     else {
                         return '';
