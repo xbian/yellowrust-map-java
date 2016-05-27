@@ -34,7 +34,7 @@ function getData(company, isCompany) {
     }
 }
 
-function getSearchData(query){
+function getSearchData(query) {
     jQuery('#status').html('<img src=\"/yellowrust-map/images/loading_spinner.gif\"/>');
     Fluxion.doAjax(
         'wisControllerHelperService',
@@ -112,7 +112,7 @@ function produceTable(data, isCompany) {
                 title: "File",
                 "render": function (data, type, full, meta) {
                     if (full['data']['files'] != undefined && full['data']['files'] != "undefined") {
-                        return '<a href=\"http://opendata.tgac.ac.uk/field_pathogenomics/'+full['data']['files']['bam']+'.gz\">BAM</a>';
+                        return '<a href=\"http://opendata.tgac.ac.uk/field_pathogenomics/' + full['data']['files']['bam'] + '.gz\">BAM</a>';
                     }
                     else {
                         return '';
@@ -142,6 +142,13 @@ function produceTable(data, isCompany) {
             });
         }
 
+    });
+
+    jQuery('#resultTable tbody').on('click', 'tr', function () {
+        var data = yrtable.row(this).data();
+        var la = data['data']['sample']['location']['location']['latitude'];
+        var lo = data['data']['sample']['location']['location']['longitude'];
+        map.setView([la, lo], 16, {animate: true});
     });
 
     jQuery('#resultTable').on('search.dt', function () {
