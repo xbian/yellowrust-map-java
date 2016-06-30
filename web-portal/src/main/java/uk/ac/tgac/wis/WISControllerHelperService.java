@@ -39,10 +39,10 @@ import java.util.ArrayList;
 public class WISControllerHelperService {
     protected static final Logger log = LoggerFactory.getLogger(WISControllerHelperService.class);
 
-    String testURL = "http://v0214.nbi.ac.uk:1888/grassroots/controller";
     String simonURL = "http://n79610.nbi.ac.uk:8080/grassroots/controller";
+    String testURL = "https://wheatis.tgac.ac.uk/grassroots-test/0/controller";
 
-    String activeURL = testURL;
+    String activeURL = simonURL;
 
 
     public JSONObject getCompanyData(HttpSession session, JSONObject json) {
@@ -96,45 +96,39 @@ public class WISControllerHelperService {
         searchData.put("data", companyName);
 
         p1.put("param", "search");
-        p1.put("tag", 1346851157);
         p1.put("current_value", searchData);
         p1.put("grassroots_type", 13);
-        p1.put("type", "json");
         p1.put("concise", true);
         parametersArray.add(p1);
 
         JSONObject p2 = new JSONObject();
 
         p2.put("param", "preview");
-        p2.put("tag", 1346850902);
         p2.put("current_value", true);
         p2.put("grassroots_type", 0);
-        p2.put("type", "boolean");
         p2.put("concise", true);
         parametersArray.add(p2);
 
         JSONObject p3 = new JSONObject();
 
         p3.put("param", "collection");
-        p3.put("tag", 1346847567);
         p3.put("current_value", "sample");
         p3.put("grassroots_type", 5);
-        p3.put("type", "string");
         p3.put("concise", true);
         parametersArray.add(p3);
 
         parameterSetObject.put("parameters", parametersArray);
 
         service1.put("run", true);
-        service1.put("services", "Pathogenomics Geoservice");
+        service1.put("service", "Pathogenomics Geoservice");
 
         service1.put("parameter_set", parameterSetObject);
 
         servicesArray.add(service1);
         requestObject.put("services", servicesArray);
 
-        JSONArray jsonArray = JSONArray.fromObject(sendrequest(requestObject));
-        JSONArray resultsArray = JSONArray.fromObject(jsonArray.getJSONObject(0).get("results"));
+        JSONObject jsonObject = JSONObject.fromObject(sendrequest(requestObject));
+        JSONArray resultsArray = jsonObject.getJSONArray("results").getJSONObject(0).getJSONArray("results");
 
         responses.put("data", resultsArray);
 
@@ -155,48 +149,37 @@ public class WISControllerHelperService {
 
         JSONObject p1 = new JSONObject();
 
-        p1.put("param", "dump");
-        p1.put("tag", 1346847824);
+        p1.put("param", "Dump data");
         p1.put("current_value", true);
         p1.put("grassroots_type", 0);
-        p1.put("type", "boolean");
-        p1.put("concise", true);
         parametersArray.add(p1);
 
         JSONObject p2 = new JSONObject();
 
         p2.put("param", "preview");
-        p2.put("tag", 1346850902);
         p2.put("current_value", false);
         p2.put("grassroots_type", 0);
-        p2.put("type", "boolean");
-        p2.put("concise", true);
         parametersArray.add(p2);
 
         JSONObject p3 = new JSONObject();
 
-        p3.put("param", "collection");
-        p3.put("tag", 1346847567);
+        p3.put("param", "Collection");
         p3.put("current_value", "sample");
         p3.put("grassroots_type", 5);
-        p3.put("type", "string");
-        p3.put("concise", true);
         parametersArray.add(p3);
 
         parameterSetObject.put("parameters", parametersArray);
 
         service1.put("run", true);
-        service1.put("services", "Pathogenomics Geoservice");
+        service1.put("service", "Pathogenomics Geoservice");
 
         service1.put("parameter_set", parameterSetObject);
 
         servicesArray.add(service1);
         requestObject.put("services", servicesArray);
 
-
-
-        JSONArray jsonArray = JSONArray.fromObject(sendrequest(requestObject));
-        JSONArray resultsArray = JSONArray.fromObject(jsonArray.getJSONObject(0).get("results"));
+        JSONObject jsonObject = JSONObject.fromObject(sendrequest(requestObject));
+        JSONArray resultsArray = jsonObject.getJSONArray("results").getJSONObject(0).getJSONArray("results");
 
         responses.put("data", resultsArray);
 
