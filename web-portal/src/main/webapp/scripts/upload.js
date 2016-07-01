@@ -1,6 +1,8 @@
 /**
  * Created by bianx on 01/07/2016.
  */
+var filecontent = '';
+
 function handleFileSelect(evt) {
     evt.stopPropagation();
     evt.preventDefault();
@@ -21,7 +23,6 @@ function handleFileSelect(evt) {
         r.onload = function (e) {
             var contents = e.target.result;
             filecontent = contents;
-            alert(contents);
         };
         r.readAsText(f);
     }
