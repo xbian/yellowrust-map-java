@@ -29,7 +29,24 @@
     });
     function uploadFPFile(){
         var file_type = jQuery('input[name=filetype]:checked').val();
-        jQuery('#statusdiv').html(filecontent);
+
+
+        Utils.ui.disableButton('button');
+
+        Fluxion.doAjax(
+                'wisControllerHelperService',
+                'uploadFile',
+                {
+                    'file_content': filecontent,
+                    'file_type': file_type,
+                    'url': ajaxurl
+                },
+                {
+                    'doOnSuccess': function (json) {
+                        jQuery('#statusdiv').html("Done");
+                    }
+                }
+        );
     }
 
 

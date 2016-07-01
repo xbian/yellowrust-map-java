@@ -187,6 +187,60 @@ public class WISControllerHelperService {
 
     }
 
+    public JSONObject uploadFile(HttpSession session, JSONObject json) {
+
+        String file_content = json.getString("file_content");
+        String file_type = json.getString("file_type");
+
+        JSONObject responses = new JSONObject();
+        JSONObject requestObject = new JSONObject();
+        JSONArray servicesArray = new JSONArray();
+
+        JSONObject service1 = new JSONObject();
+        JSONObject parameterSetObject = new JSONObject();
+        JSONArray parametersArray = new JSONArray();
+
+
+        JSONObject p1 = new JSONObject();
+
+        p1.put("param", "Collection");
+        p1.put("current_value", file_type);
+        p1.put("grassroots_type", 5);
+        parametersArray.add(p1);
+
+        JSONObject p2 = new JSONObject();
+
+        p2.put("param", "Data delimiter");
+        p2.put("current_value", ",");
+        p2.put("grassroots_type", 9);
+        parametersArray.add(p2);
+
+        JSONObject p3 = new JSONObject();
+
+        p3.put("param", "Upload");
+        p3.put("current_value", "sample");
+        p3.put("grassroots_type", 14);
+        parametersArray.add(p3);
+
+        parameterSetObject.put("parameters", parametersArray);
+
+        service1.put("run", true);
+        service1.put("service", "Pathogenomics Geoservice");
+
+        service1.put("parameter_set", parameterSetObject);
+
+        servicesArray.add(service1);
+        requestObject.put("services", servicesArray);
+
+        JSONObject jsonObject = JSONObject.fromObject(sendrequest(requestObject));
+        JSONArray resultsArray = jsonObject.getJSONArray("results").getJSONObject(0).getJSONArray("results");
+
+        responses.put("data", resultsArray);
+
+        return responses;
+
+    }
+
     public String sendrequest(JSONObject requestObject) {
         String url = activeURL;
 
