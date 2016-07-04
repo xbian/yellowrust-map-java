@@ -43,7 +43,7 @@
                 },
                 {
                     'doOnSuccess': function (json) {
-                        jQuery('#statusdiv').html("Done");
+                        jQuery('#statusdiv').html(json.data);
                     }
                 }
         );
