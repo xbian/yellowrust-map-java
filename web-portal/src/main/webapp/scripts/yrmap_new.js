@@ -1,7 +1,6 @@
 /**
  * Created by bianx on 29/10/2015.
  */
-
 function getData(company, isCompany) {
     jQuery('#status').html('<img src=\"/yellowrust-map/images/loading_spinner.gif\"/>');
     if (isCompany) {
@@ -55,7 +54,7 @@ function getSearchData(query) {
 function startPage(json, isCompany) {
     jQuery('#status').html('');
     for (i = 0; i < json.data.length; i++) {
-        if (json.data[i]['data']['sample'] != undefined) {
+        if (json.data[i]['data']['sample'] != undefined && json.data[i]['data']['ID']) {
             if (json.data[i]['data']['sample']['location']['location'] != undefined) {
                 filtered_data.push(json.data[i]);
             }
@@ -70,7 +69,7 @@ function produceTable(data, isCompany) {
     yrtable = jQuery('#resultTable').DataTable({
         data: data,
         "columns": [
-            {data: "data.ID", title: "ID"},
+            {data: "data.ID", title: "ID", "sDefaultContent": ""},
             {data: "data.sample.Address.addressCountry", title: "Country", "sDefaultContent": ""},
             {data: "data.UKCPVS ID", title: "UKCPVS ID", "sDefaultContent": "Unknown"},
             {data: "data.sample.Disease", title: "Rust Type", "sDefaultContent": "Unknown"},
@@ -85,14 +84,25 @@ function produceTable(data, isCompany) {
             {
                 title: "Phenotype",
                 "render": function (data, type, full, meta) {
-                    return phenotype_html(full['data']['UKCPVS ID'], full['data']['phenotype']);
+                    if (full['data']['phenotype'] != undefined && full['data']['phenotype'] != "undefined"
+                        && full['data']['UKCPVS ID'] != undefined && full['data']['UKCPVS ID'] != "undefined") {
+                        return phenotype_html(full['data']['UKCPVS ID'], full['data']['phenotype']);
+                    }
+                    else {
+                        return '';
+                    }
                 }
             },
             {
                 title: "Genotype",
                 "render": function (data, type, full, meta) {
                     if (full['data']['genotype'] != undefined && full['data']['genotype'] != "undefined") {
-                        return full['data']['genotype']['Genetic group'];
+                        if (full['data']['genotype']['Genetic group'] != undefined && full['data']['genotype']['Genetic group'] != "undefined") {
+                            return full['data']['genotype']['Genetic group'];
+                        }
+                        else {
+                            return '';
+                        }
                     }
                     else {
                         return '';
@@ -242,6 +252,8 @@ function displayYRLocations_new(array) {
         addPointer(la, lo, geno, popup_note);
     }
     map.addLayer(markersGroup);
+
+
 }
 
 function phenotype_html_ukid(id, phenotype) {

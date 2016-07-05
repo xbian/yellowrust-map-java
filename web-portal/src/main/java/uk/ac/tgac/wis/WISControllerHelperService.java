@@ -40,7 +40,7 @@ public class WISControllerHelperService {
     protected static final Logger log = LoggerFactory.getLogger(WISControllerHelperService.class);
 
     String simonURL = "http://n79610.nbi.ac.uk:8080/grassroots/controller";
-    String testURL = "https://wheatis.tgac.ac.uk/grassroots-test/0/controller";
+    String testURL = "https://wheatis.tgac.ac.uk/grassroots-test/2/controller";
 
     String activeURL = testURL;
 
@@ -95,26 +95,23 @@ public class WISControllerHelperService {
         JSONObject searchData = new JSONObject();
         searchData.put("data", companyName);
 
-        p1.put("param", "search");
+        p1.put("param", "Search");
         p1.put("current_value", searchData);
         p1.put("grassroots_type", 13);
-        p1.put("concise", true);
         parametersArray.add(p1);
 
         JSONObject p2 = new JSONObject();
 
-        p2.put("param", "preview");
+        p2.put("param", "Preview");
         p2.put("current_value", true);
         p2.put("grassroots_type", 0);
-        p2.put("concise", true);
         parametersArray.add(p2);
 
         JSONObject p3 = new JSONObject();
 
-        p3.put("param", "collection");
+        p3.put("param", "Collection");
         p3.put("current_value", "sample");
         p3.put("grassroots_type", 5);
-        p3.put("concise", true);
         parametersArray.add(p3);
 
         parameterSetObject.put("parameters", parametersArray);
@@ -156,8 +153,8 @@ public class WISControllerHelperService {
 
         JSONObject p2 = new JSONObject();
 
-        p2.put("param", "preview");
-        p2.put("current_value", false);
+        p2.put("param", "Preview");
+        p2.put("current_value", true);
         p2.put("grassroots_type", 0);
         parametersArray.add(p2);
 
