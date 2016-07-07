@@ -153,6 +153,20 @@
     border-color: #B60;
 }
 
+.category-4-1 {
+    fill: black;
+    stroke: #B60;
+    background: black;
+    border-color: #B60;
+}
+
+.category-5-1 {
+    fill: purple;
+    stroke: #B60;
+    background: purple;
+    border-color: #B60;
+}
+
 .category-Mixed {
     fill: white;
     stroke: white;
