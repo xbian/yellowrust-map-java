@@ -2,6 +2,8 @@
 
 <script src="<c:url value='/scripts/yrmap_new.js'/>" type="text/javascript"></script>
 <link href="<c:url value='/styles/clusterpies.css'/>" rel="stylesheet" type="text/css">
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfaIGEqJlpQCsZxQ6iud1Zru76A16heo0"></script>
+<script src="<c:url value='/scripts/leaflet-google.js'/>"></script>
 
 <h2>Yellow Rust Map</h2>
 <div id="status"></div>
@@ -102,10 +104,13 @@
     var markersGroup = new L.MarkerClusterGroup({});
     var map = L.map('map', {zoomControl: false}).setView([52.621615, 10.219470], 5);
 
-    L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
-        maxZoom: 18
-    }).addTo(map);
+//    L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+//        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+//        maxZoom: 18
+//    }).addTo(map);
+
+    var googleLayer = new L.Google('ROADMAP');
+    map.addLayer(googleLayer);
 
     L.control.zoom({position: 'topright'}).addTo(map);
 
