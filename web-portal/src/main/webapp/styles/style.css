@@ -181,10 +181,10 @@ div.sectionDivider a {
     width: 30%
 }
 
-.leaflet-map-pane {
-    z-index: 2 !important;
-}
+/*.leaflet-map-pane {*/
+    /*z-index: 2 !important;*/
+/*}*/
 
-.leaflet-google-layer {
-    z-index: 1 !important;
-}
+/*.leaflet-google-layer {*/
+    /*z-index: 1 !important;*/
+/*}*/

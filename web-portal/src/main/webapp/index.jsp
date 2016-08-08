@@ -2,8 +2,8 @@
 
 <script src="<c:url value='/scripts/yrmap_new.js'/>" type="text/javascript"></script>
 <link href="<c:url value='/styles/clusterpies.css'/>" rel="stylesheet" type="text/css">
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfaIGEqJlpQCsZxQ6iud1Zru76A16heo0"></script>
-<script src="<c:url value='/scripts/leaflet-google.js'/>"></script>
+<%--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfaIGEqJlpQCsZxQ6iud1Zru76A16heo0"></script>--%>
+<%--<script src="<c:url value='/scripts/leaflet-google.js'/>"></script>--%>
 
 <h2>Yellow Rust Map</h2>
 <div id="status"></div>
@@ -108,9 +108,23 @@
 //        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
 //        maxZoom: 18
 //    }).addTo(map);
-
-    var googleLayer = new L.Google('ROADMAP');
-    map.addLayer(googleLayer);
+    L.tileLayer('http://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/{scheme}/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
+        attribution: 'Map &copy; 2016 <a href="http://developer.here.com">HERE</a>',
+        subdomains: '1234',
+        base: 'base',
+        type: 'maptile',
+        scheme: 'pedestrian.day',
+        app_id: '1yM5jhYmACdjFG39Q7yP',
+        app_code: 'ZAuXzelqWvL92h_jjEY_pA',
+        mapID: 'newest',
+        maxZoom: 20,
+        language: 'eng',
+        format: 'png8',
+        size: '256'
+    }).addTo(map);;
+//
+//    var googleLayer = new L.Google('ROADMAP');
+//    map.addLayer(googleLayer);
 
     L.control.zoom({position: 'topright'}).addTo(map);
 
