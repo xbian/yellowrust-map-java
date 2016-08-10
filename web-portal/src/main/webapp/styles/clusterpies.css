@@ -92,6 +92,7 @@
     stroke: #B60;
     background: purple;
     border-color: #B60;
+    color: #ccc;
 }
 
 .category-1-4 {
@@ -118,6 +119,7 @@
     background: -moz-linear-gradient(pink,purple);
     background: linear-gradient(pink,purple);
     border-color: pink;
+    color: darkblue;
 }
 .category-4-6 {
     fill: -webkit-linear-gradient(red,gray);
@@ -130,6 +132,7 @@
     background: -moz-linear-gradient(red,gray);
     background: linear-gradient(red,gray);
     border-color: #ccc;
+    color: #ccc;
 }
 
 .category-6 {
@@ -137,6 +140,7 @@
     stroke: gray;
     background: gray;
     border-color: gray;
+    color: #ccc;
 }
 
 .category-7 {
@@ -154,10 +158,16 @@
 }
 
 .category-4-1 {
-    fill: black;
-    stroke: #B60;
-    background: black;
-    border-color: #B60;
+    fill: -webkit-linear-gradient(pink,red);
+    fill: -o-linear-gradient(pink,red);
+    fill: -moz-linear-gradient(pink,red);
+    fill: linear-gradient(pink,red);
+    stroke: pink;
+    background: -webkit-linear-gradient(pink,red);
+    background: -o-linear-gradient(pink,red);
+    background: -moz-linear-gradient(pink,red);
+    background: linear-gradient(pink,red);
+    border-color: pink;
 }
 
 .category-5-1 {
@@ -165,6 +175,7 @@
     stroke: #B60;
     background: purple;
     border-color: #B60;
+    color: #ccc;
 }
 
 .category-Mixed {
