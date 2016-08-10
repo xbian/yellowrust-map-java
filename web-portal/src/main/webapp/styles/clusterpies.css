@@ -60,35 +60,71 @@
 
 /*marker categories*/
 
-.category-1 .pie-1 {
+.category-1 {
     fill: pink;
     stroke: #B60;
     background: pink;
     border-color: #B60;
 }
 
-.category-2 .pie-2 {
+.pie-1 {
+    fill: pink;
+    stroke: #B60;
+    background: pink;
+    border-color: #B60;
+}
+
+.category-2 {
     fill: #BFB;
     stroke: #070;
     background: #BFB;
     border-color: #070;
 }
 
-.category-3 .pie-3 {
+.pie-2 {
+    fill: #BFB;
+    stroke: #070;
+    background: #BFB;
+    border-color: #070;
+}
+
+.category-3 {
     fill: #9DF;
     stroke: #007;
     background: #9DF;
     border-color: #007;
 }
 
-.category-4 .pie-4 {
+.pie-3 {
+    fill: #9DF;
+    stroke: #007;
+    background: #9DF;
+    border-color: #007;
+}
+
+.category-4 {
     fill: #F88;
     stroke: #f00;
     background: #F88;
     border-color: #f00;
 }
 
-.category-5 .pie-5 {
+.pie-4 {
+    fill: #F88;
+    stroke: #f00;
+    background: #F88;
+    border-color: #f00;
+}
+
+.category-5 {
+    fill: purple;
+    stroke: #B60;
+    background: purple;
+    border-color: #B60;
+    color: #ccc;
+}
+
+.pie-5 {
     fill: purple;
     stroke: #B60;
     background: purple;
@@ -97,15 +133,15 @@
 }
 
 .category-1-5 {
-    fill: -webkit-linear-gradient(pink,purple);
-    fill: -o-linear-gradient(pink,purple);
-    fill: -moz-linear-gradient(pink,purple);
-    fill: linear-gradient(pink,purple);
+    fill: -webkit-linear-gradient(pink, purple);
+    fill: -o-linear-gradient(pink, purple);
+    fill: -moz-linear-gradient(pink, purple);
+    fill: linear-gradient(pink, purple);
     stroke: pink;
-    background: -webkit-linear-gradient(pink,purple);
-    background: -o-linear-gradient(pink,purple);
-    background: -moz-linear-gradient(pink,purple);
-    background: linear-gradient(pink,purple);
+    background: -webkit-linear-gradient(pink, purple);
+    background: -o-linear-gradient(pink, purple);
+    background: -moz-linear-gradient(pink, purple);
+    background: linear-gradient(pink, purple);
     border-color: pink;
     color: darkblue;
 }
@@ -119,15 +155,15 @@
 }
 
 .category-4-6 {
-    fill: -webkit-linear-gradient(red,gray);
-    fill: -o-linear-gradient(red,gray);
-    fill: -moz-linear-gradient(red,gray);
-    fill: linear-gradient(red,gray);
+    fill: -webkit-linear-gradient(red, gray);
+    fill: -o-linear-gradient(red, gray);
+    fill: -moz-linear-gradient(red, gray);
+    fill: linear-gradient(red, gray);
     stroke: #ccc;
-    background: -webkit-linear-gradient(red,gray);
-    background: -o-linear-gradient(red,gray);
-    background: -moz-linear-gradient(red,gray);
-    background: linear-gradient(red,gray);
+    background: -webkit-linear-gradient(red, gray);
+    background: -o-linear-gradient(red, gray);
+    background: -moz-linear-gradient(red, gray);
+    background: linear-gradient(red, gray);
     border-color: #ccc;
     color: #ccc;
 }
@@ -140,8 +176,7 @@
     color: #ccc;
 }
 
-
-.category-6 .pie-6{
+.category-6 {
     fill: gray;
     stroke: gray;
     background: gray;
@@ -149,14 +184,36 @@
     color: #ccc;
 }
 
-.category-7 .pie-7 {
+.pie-6 {
+    fill: gray;
+    stroke: gray;
+    background: gray;
+    border-color: gray;
+    color: #ccc;
+}
+
+.category-7 {
     fill: yellow;
     stroke: yellow;
     background: yellow;
     border-color: yellow;
 }
 
-.category-8 .pie-8 {
+.pie-7 {
+    fill: yellow;
+    stroke: yellow;
+    background: yellow;
+    border-color: yellow;
+}
+
+.category-8 {
+    fill: brown;
+    stroke: #B60;
+    background: brown;
+    border-color: #B60;
+}
+
+.pie-8 {
     fill: brown;
     stroke: #B60;
     background: brown;
@@ -164,15 +221,15 @@
 }
 
 .category-4-1 {
-    fill: -webkit-linear-gradient(pink,red);
-    fill: -o-linear-gradient(pink,red);
-    fill: -moz-linear-gradient(pink,red);
-    fill: linear-gradient(pink,red);
+    fill: -webkit-linear-gradient(pink, red);
+    fill: -o-linear-gradient(pink, red);
+    fill: -moz-linear-gradient(pink, red);
+    fill: linear-gradient(pink, red);
     stroke: pink;
-    background: -webkit-linear-gradient(pink,red);
-    background: -o-linear-gradient(pink,red);
-    background: -moz-linear-gradient(pink,red);
-    background: linear-gradient(pink,red);
+    background: -webkit-linear-gradient(pink, red);
+    background: -o-linear-gradient(pink, red);
+    background: -moz-linear-gradient(pink, red);
+    background: linear-gradient(pink, red);
     border-color: pink;
 }
 
@@ -183,7 +240,7 @@
     border-color: pink;
 }
 
-.category-5-1 .pie-5-1{
+.category-5-1 {
     fill: purple;
     stroke: #B60;
     background: purple;
@@ -191,14 +248,36 @@
     color: #ccc;
 }
 
-.category-Mixed .pie-Mixed{
+.pie-5-1 {
+    fill: purple;
+    stroke: #B60;
+    background: purple;
+    border-color: #B60;
+    color: #ccc;
+}
+
+.category-Mixed  {
     fill: white;
     stroke: white;
     background: white;
     border-color: white;
 }
 
-.category- .pie-{
+.pie-Mixed {
+    fill: white;
+    stroke: white;
+    background: white;
+    border-color: white;
+}
+
+.category- {
+    fill: #ccc;
+    stroke: gray;
+    background: #ccc;
+    border-color: gray;
+}
+
+.pie- {
     fill: #ccc;
     stroke: gray;
     background: #ccc;
