@@ -462,7 +462,7 @@ function defineClusterIcon(cluster) {
             pieLabel: n,
             pieLabelClass: 'marker-cluster-pie-label',
             pathClassFunc: function (d) {
-                return "category-" + d.data.key;
+                return "pie-" + d.data.key;
             }
 //                    ,
 //                    pathTitleFunc: function (d) {

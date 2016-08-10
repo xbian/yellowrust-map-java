@@ -60,52 +60,40 @@
 
 /*marker categories*/
 
-.category-1 {
+.category-1 .pie-1 {
     fill: pink;
     stroke: #B60;
     background: pink;
     border-color: #B60;
 }
 
-.category-2 {
+.category-2 .pie-2 {
     fill: #BFB;
     stroke: #070;
     background: #BFB;
     border-color: #070;
 }
 
-.category-3 {
+.category-3 .pie-3 {
     fill: #9DF;
     stroke: #007;
     background: #9DF;
     border-color: #007;
 }
-.category-4 {
+
+.category-4 .pie-4 {
     fill: #F88;
     stroke: #f00;
     background: #F88;
     border-color: #f00;
 }
 
-.category-5 {
+.category-5 .pie-5 {
     fill: purple;
     stroke: #B60;
     background: purple;
     border-color: #B60;
     color: #ccc;
-}
-
-.category-1-4 {
-    fill: -webkit-linear-gradient(pink,red);
-    fill: -o-linear-gradient(pink,red);
-    fill: -moz-linear-gradient(pink,red);
-    fill: linear-gradient(pink,red);
-    stroke: pink;
-    background: -webkit-linear-gradient(pink,red);
-    background: -o-linear-gradient(pink,red);
-    background: -moz-linear-gradient(pink,red);
-    background: linear-gradient(pink,red);
-    border-color: pink;
 }
 
 .category-1-5 {
@@ -121,6 +109,15 @@
     border-color: pink;
     color: darkblue;
 }
+
+.pie-1-5 {
+    fill: purple;
+    stroke: #B60;
+    background: purple;
+    border-color: #B60;
+    color: #ccc;
+}
+
 .category-4-6 {
     fill: -webkit-linear-gradient(red,gray);
     fill: -o-linear-gradient(red,gray);
@@ -135,7 +132,16 @@
     color: #ccc;
 }
 
-.category-6 {
+.pie-4-6 {
+    fill: gray;
+    stroke: gray;
+    background: gray;
+    border-color: red;
+    color: #ccc;
+}
+
+
+.category-6 .pie-6{
     fill: gray;
     stroke: gray;
     background: gray;
@@ -143,14 +149,14 @@
     color: #ccc;
 }
 
-.category-7 {
+.category-7 .pie-7 {
     fill: yellow;
     stroke: yellow;
     background: yellow;
     border-color: yellow;
 }
 
-.category-8 {
+.category-8 .pie-8 {
     fill: brown;
     stroke: #B60;
     background: brown;
@@ -170,7 +176,14 @@
     border-color: pink;
 }
 
-.category-5-1 {
+.pie-4-1 {
+    fill: red;
+    stroke: pink;
+    background: red;
+    border-color: pink;
+}
+
+.category-5-1 .pie-5-1{
     fill: purple;
     stroke: #B60;
     background: purple;
@@ -178,14 +191,14 @@
     color: #ccc;
 }
 
-.category-Mixed {
+.category-Mixed .pie-Mixed{
     fill: white;
     stroke: white;
     background: white;
     border-color: white;
 }
 
-.category- {
+.category- .pie-{
     fill: #ccc;
     stroke: gray;
     background: #ccc;
