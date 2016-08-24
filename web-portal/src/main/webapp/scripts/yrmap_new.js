@@ -119,14 +119,10 @@ function produceTable(data, isCompany) {
                 }
             },
             {
-                title: "File",
+                title: "File request",
                 "render": function (data, type, full, meta) {
-                    if (full['data']['files'] != undefined && full['data']['files'] != "undefined") {
-                        return '<a href=\"http://opendata.tgac.ac.uk/field_pathogenomics/' + full['data']['files']['bam'] + '.gz\">BAM</a>';
-                    }
-                    else {
-                        return '';
-                    }
+                    return '<input type="checkbox" id="' + full['data']['ID'] + '" onclick="checkFileBox(\'' + full['data']['ID'] + '\');"/>';
+
                 }
             },
             {data: "data.sample_live_date.date", title: "Publish Date", "sDefaultContent": ""}
@@ -584,4 +580,20 @@ function renderLegend() {
                 return d.value;
             });
     }
+}
+
+
+function checkFileBox(div_id) {
+    if (document.getElementById(div_id).checked){
+        bam_list.push(div_id);
+        console.log("add:"+div_id);
+    } else {
+        bam_list.splice(bam_list.indexOf(div_id),1);
+        console.log("remove:"+div_id);
+    }
+
+}
+
+function sendEmail() {
+    window.location = 'mailto:Diane.Saunders@earlham.ac.uk?subject=Bam file request&body=Samples: ' + bam_list.join(', ');
 }

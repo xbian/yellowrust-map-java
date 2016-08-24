@@ -52,6 +52,9 @@
             <button type="button" class="btn btn-default"
                     onclick="ukcpvs_and_all();">ALL
             </button>
+            <button type="button" class="btn btn-default"
+                    onclick="sendEmail();">Request File
+            </button>
             </span>
         </div>
     </div>
@@ -96,6 +99,8 @@
     var pie_view = false;
     var yrtable;
     var filtered_data = [];
+
+    var bam_list = [];
 
     var datemin = 0;
     var datemax = 0;
