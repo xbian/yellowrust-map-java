@@ -7,7 +7,10 @@
 
 <h2>Yellow Rust Map</h2>
 <div id="status"></div>
-<div id="feedback"><a href="mailto:yellow.rust@jic.ac.uk">Feedback</a> | <a href="/pathogenomics/descriptions.html">Details</a></div>
+<div id="feedback">
+    <%--<a href="mailto:yellow.rust@jic.ac.uk">Feedback</a>--%>
+    <a href="https://www.surveymonkey.co.uk/r/KYJJQH2" target="_blank">Survey</a> 
+    | <a href="/pathogenomics/descriptions.html">Details</a></div>
 <div id="map"></div>
 
 <br/>
