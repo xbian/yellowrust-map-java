@@ -40,7 +40,7 @@ public class WISControllerHelperService {
     protected static final Logger log = LoggerFactory.getLogger(WISControllerHelperService.class);
 
     String simonURL = "http://n79610.nbi.ac.uk:8080/grassroots/controller";
-    String testURL = "https://wheatis.tgac.ac.uk/grassroots-test/2/controller";
+    String testURL = "https://wheatis.tgac.ac.uk/grassroots-test/0/controller";
 
     String activeURL = testURL;
 
