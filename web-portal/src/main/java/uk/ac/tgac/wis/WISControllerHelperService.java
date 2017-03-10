@@ -41,7 +41,8 @@ public class WISControllerHelperService {
 
     String simonURL = "http://n79610.nbi.ac.uk:8080/grassroots/controller";
     String testURL = "https://wheatis.tgac.ac.uk/grassroots-test/2/controller";
-    String activeURL = testURL;
+    String test2016URL = "https://wheatis.tgac.ac.uk/grassroots-test/0/controller";
+    String activeURL = test2016URL;
 
 
     public JSONObject getCompanyData(HttpSession session, JSONObject json) {
