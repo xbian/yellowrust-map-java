@@ -154,7 +154,7 @@ public class WISControllerHelperService {
         JSONObject p2 = new JSONObject();
 
         p2.put("param", "Preview");
-        p2.put("current_value", true);
+        p2.put("current_value", false);
         p2.put("grassroots_type", 0);
         parametersArray.add(p2);
 
