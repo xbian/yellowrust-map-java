@@ -42,7 +42,8 @@ public class WISControllerHelperService {
     String simonURL = "http://n79610.nbi.ac.uk:8080/grassroots/controller";
     String testURL = "https://wheatis.tgac.ac.uk/grassroots-test/2/controller";
     String test2016URL = "https://wheatis.tgac.ac.uk/grassroots-test/0/controller";
-    String activeURL = testURL;
+    String g2URL = "https://grassroots.tools/grassroots-test/2/controller";
+    String activeURL = g2URL;
 
 
     public JSONObject getCompanyData(HttpSession session, JSONObject json) {
@@ -97,27 +98,27 @@ public class WISControllerHelperService {
 
         p1.put("param", "Search");
         p1.put("current_value", searchData);
-        p1.put("grassroots_type", 13);
+        p1.put("grassroots_type", "params:json");
         parametersArray.add(p1);
 
         JSONObject p2 = new JSONObject();
 
         p2.put("param", "Preview");
         p2.put("current_value", true);
-        p2.put("grassroots_type", 0);
+        p2.put("grassroots_type", "xsd:boolean");
         parametersArray.add(p2);
 
         JSONObject p3 = new JSONObject();
 
         p3.put("param", "Collection");
         p3.put("current_value", "sample");
-        p3.put("grassroots_type", 5);
+        p3.put("grassroots_type", "xsd:string");
         parametersArray.add(p3);
 
         parameterSetObject.put("parameters", parametersArray);
 
         service1.put("run", true);
-        service1.put("service", "Pathogenomics Geoservice");
+        service1.put("service_name", "Pathogenomics Geoservice");
 
         service1.put("parameter_set", parameterSetObject);
 
@@ -148,27 +149,27 @@ public class WISControllerHelperService {
 
         p1.put("param", "Dump data");
         p1.put("current_value", true);
-        p1.put("grassroots_type", 0);
+        p1.put("grassroots_type", "xsd:boolean");
         parametersArray.add(p1);
 
         JSONObject p2 = new JSONObject();
 
         p2.put("param", "Preview");
         p2.put("current_value", false);
-        p2.put("grassroots_type", 0);
+        p2.put("grassroots_type", "xsd:boolean");
         parametersArray.add(p2);
 
         JSONObject p3 = new JSONObject();
 
         p3.put("param", "Collection");
         p3.put("current_value", "sample");
-        p3.put("grassroots_type", 5);
+        p3.put("grassroots_type", "xsd:string");
         parametersArray.add(p3);
 
         parameterSetObject.put("parameters", parametersArray);
 
         service1.put("run", true);
-        service1.put("service", "Pathogenomics Geoservice");
+        service1.put("service_name", "Pathogenomics Geoservice");
 
         service1.put("parameter_set", parameterSetObject);
 
@@ -202,27 +203,27 @@ public class WISControllerHelperService {
 
         p1.put("param", "Collection");
         p1.put("current_value", file_type);
-        p1.put("grassroots_type", 5);
+        p1.put("grassroots_type", "xsd:string");
         parametersArray.add(p1);
 
         JSONObject p2 = new JSONObject();
 
         p2.put("param", "Data delimiter");
         p2.put("current_value", ",");
-        p2.put("grassroots_type", 9);
+        p2.put("grassroots_type", "params:character");
         parametersArray.add(p2);
 
         JSONObject p3 = new JSONObject();
 
         p3.put("param", "Upload");
         p3.put("current_value", "sample");
-        p3.put("grassroots_type", 14);
+        p3.put("grassroots_type", "params:tabular");
         parametersArray.add(p3);
 
         parameterSetObject.put("parameters", parametersArray);
 
         service1.put("run", true);
-        service1.put("service", "Pathogenomics Geoservice");
+        service1.put("service_name", "Pathogenomics Geoservice");
 
         service1.put("parameter_set", parameterSetObject);
 
