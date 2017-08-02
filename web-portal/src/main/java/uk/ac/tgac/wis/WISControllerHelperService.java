@@ -117,7 +117,7 @@ public class WISControllerHelperService {
 
         parameterSetObject.put("parameters", parametersArray);
 
-        service1.put("run", true);
+        service1.put("start_service", true);
         service1.put("service_name", "Pathogenomics Geoservice");
 
         service1.put("parameter_set", parameterSetObject);
@@ -168,7 +168,7 @@ public class WISControllerHelperService {
 
         parameterSetObject.put("parameters", parametersArray);
 
-        service1.put("run", true);
+        service1.put("start_service", true);
         service1.put("service_name", "Pathogenomics Geoservice");
 
         service1.put("parameter_set", parameterSetObject);
@@ -222,7 +222,7 @@ public class WISControllerHelperService {
 
         parameterSetObject.put("parameters", parametersArray);
 
-        service1.put("run", true);
+        service1.put("start_service", true);
         service1.put("service_name", "Pathogenomics Geoservice");
 
         service1.put("parameter_set", parameterSetObject);
