@@ -102,6 +102,28 @@
     border-color: #007;
 }
 
+.category-2-3 {
+    fill: -webkit-linear-gradient(#070, #007);
+    fill: -o-linear-gradient(#070, #007);
+    fill: -moz-linear-gradient(#070, #007);
+    fill: linear-gradient(#070, #007);
+    stroke: #070;
+    background: -webkit-linear-gradient(#070, #007);
+    background: -o-linear-gradient(#070, #007);
+    background: -moz-linear-gradient(#070, #007);
+    background: linear-gradient(#070, #007);
+    border-color: #070;
+    color: #007;
+}
+
+.pie-2-3 {
+    fill: #007;
+    stroke: #070;
+    background:  #007;
+    border-color: #070;
+    color: #ccc;
+}
+
 .category-4 {
     fill: #F88;
     stroke: #f00;

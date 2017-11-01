@@ -88,6 +88,9 @@ public class MenuController implements ServletContextAware {
         } else if ("niab".equals(companyname)) {
             model.put("company", "uSGbCZ0qP9QHBcaOSZobIyfYPwb0fFu9aPIaxULmbt84OlyXiELSPJb4T6pHzAo");
             return new ModelAndView("/company.jsp", model);
+        }   else if ("adminview".equals(companyname)) {
+            model.put("company", "gGbXo54Ytw21EftdFU9VyPPMnuQAshYzS7XpTDU4yIut9B9BGwPfGWR1SOCtI9h");
+            return new ModelAndView("/company.jsp", model);
         }  else {
             return new ModelAndView("/index.jsp", model);
         }

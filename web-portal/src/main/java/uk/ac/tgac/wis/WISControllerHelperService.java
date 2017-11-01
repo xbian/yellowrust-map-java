@@ -47,94 +47,105 @@ public class WISControllerHelperService {
 
 
     public JSONObject getCompanyData(HttpSession session, JSONObject json) {
+
         String company = json.getString("company");
+        //admin view
+        if ("gGbXo54Ytw21EftdFU9VyPPMnuQAshYzS7XpTDU4yIut9B9BGwPfGWR1SOCtI9h".equals(company)) {
+            return getAllData(true);
+        } else {
 
-        String actualCompany;
+            String actualCompany;
 
-        JSONObject companyName = new JSONObject();
+            JSONObject companyName = new JSONObject();
 
-        if ("VCfV891KhafcbeA7WJVpd2b4fnp60BahaubwbC79UEhLKF9HIsatcBarsz3tcU0".equals(company)) {
-            actualCompany = "Agrii";
-            companyName.put("sample.Company.name", actualCompany);
+            if ("VCfV891KhafcbeA7WJVpd2b4fnp60BahaubwbC79UEhLKF9HIsatcBarsz3tcU0".equals(company)) {
+                actualCompany = "Agrii";
+                companyName.put("sample.Company.name", actualCompany);
 
-        } else if ("RImh0fYpAKXuBIIsWJWdLiALRDsw583jerEN7WRI5H8N22Tq5Jn9yK8NJ5jubmI".equals(company)) {
-            actualCompany = "BASF";
-            companyName.put("sample.Company.name", actualCompany);
+            } else if ("RImh0fYpAKXuBIIsWJWdLiALRDsw583jerEN7WRI5H8N22Tq5Jn9yK8NJ5jubmI".equals(company)) {
+                actualCompany = "BASF";
+                companyName.put("sample.Company.name", actualCompany);
 
-        } else if ("t8WmkblHs4TnzLl7JZon88gSf5ONawANr5NRJcXnUty5E3pgFaDZb75BGaqQOba".equals(company)) {
-            actualCompany = "KWS";
-            companyName.put("sample.Company.name", actualCompany);
+            } else if ("t8WmkblHs4TnzLl7JZon88gSf5ONawANr5NRJcXnUty5E3pgFaDZb75BGaqQOba".equals(company)) {
+                actualCompany = "KWS";
+                companyName.put("sample.Company.name", actualCompany);
 
-        } else if ("TlPRHGBXHPhDrwm095PWKDdRPARnJ9olsfgEnn5kfSfH8sOAgJSPeA5i3AZB5ZC".equals(company)) {
-            actualCompany = "RAGT";
-            companyName.put("sample.Company.name", actualCompany);
+            } else if ("TlPRHGBXHPhDrwm095PWKDdRPARnJ9olsfgEnn5kfSfH8sOAgJSPeA5i3AZB5ZC".equals(company)) {
+                actualCompany = "RAGT";
+                companyName.put("sample.Company.name", actualCompany);
 
-        } else if ("psYzllQ5Si2vlwOcbu0j2i6g8VH9sqP7jrG2lKbqqAsTavCzUr0XG1l48sAjoXc".equals(company)) {
-            actualCompany = "Limagrain";
-            companyName.put("sample.Company.name", actualCompany);
+            } else if ("psYzllQ5Si2vlwOcbu0j2i6g8VH9sqP7jrG2lKbqqAsTavCzUr0XG1l48sAjoXc".equals(company)) {
+                actualCompany = "Limagrain";
+                companyName.put("sample.Company.name", actualCompany);
 
-        } else if ("SEWk7D7hgZPYrXfIk3i8t5nDiKUTV72qxeQ1fvp3O4hAElaQ5BkYhYMGJahgGdw".equals(company)) {
-            actualCompany = "Syngenta";
-            companyName.put("sample.Company.name", actualCompany);
+            } else if ("SEWk7D7hgZPYrXfIk3i8t5nDiKUTV72qxeQ1fvp3O4hAElaQ5BkYhYMGJahgGdw".equals(company)) {
+                actualCompany = "Syngenta";
+                companyName.put("sample.Company.name", actualCompany);
 
-        } else if ("uSGbCZ0qP9QHBcaOSZobIyfYPwb0fFu9aPIaxULmbt84OlyXiELSPJb4T6pHzAo".equals(company)) {
-            JSONObject niabSearch = new JSONObject();
-            niabSearch.put("operator", "like");
-            niabSearch.put("value", "NIAB");
-            companyName.put("sample.Company.name", niabSearch);
+            } else if ("uSGbCZ0qP9QHBcaOSZobIyfYPwb0fFu9aPIaxULmbt84OlyXiELSPJb4T6pHzAo".equals(company)) {
+                JSONObject niabSearch = new JSONObject();
+                niabSearch.put("operator", "like");
+                niabSearch.put("value", "NIAB");
+                companyName.put("sample.Company.name", niabSearch);
+            }
+
+            JSONObject responses = new JSONObject();
+            JSONObject requestObject = new JSONObject();
+            JSONArray servicesArray = new JSONArray();
+
+            JSONObject service1 = new JSONObject();
+            JSONObject parameterSetObject = new JSONObject();
+            JSONArray parametersArray = new JSONArray();
+
+            JSONObject p1 = new JSONObject();
+            JSONObject searchData = new JSONObject();
+            searchData.put("data", companyName);
+
+            p1.put("param", "Search");
+            p1.put("current_value", searchData);
+            p1.put("grassroots_type", "params:json");
+            parametersArray.add(p1);
+
+            JSONObject p2 = new JSONObject();
+
+            p2.put("param", "Preview");
+            p2.put("current_value", true);
+            p2.put("grassroots_type", "xsd:boolean");
+            parametersArray.add(p2);
+
+            JSONObject p3 = new JSONObject();
+
+            p3.put("param", "Collection");
+            p3.put("current_value", "sample");
+            p3.put("grassroots_type", "xsd:string");
+            parametersArray.add(p3);
+
+            parameterSetObject.put("parameters", parametersArray);
+
+            service1.put("start_service", true);
+            service1.put("service_name", "Pathogenomics Geoservice");
+
+            service1.put("parameter_set", parameterSetObject);
+
+            servicesArray.add(service1);
+            requestObject.put("services", servicesArray);
+
+            JSONObject jsonObject = JSONObject.fromObject(sendrequest(requestObject));
+            JSONArray resultsArray = jsonObject.getJSONArray("results").getJSONObject(0).getJSONArray("results");
+
+            responses.put("data", resultsArray);
+
+            return responses;
         }
-
-        JSONObject responses = new JSONObject();
-        JSONObject requestObject = new JSONObject();
-        JSONArray servicesArray = new JSONArray();
-
-        JSONObject service1 = new JSONObject();
-        JSONObject parameterSetObject = new JSONObject();
-        JSONArray parametersArray = new JSONArray();
-
-        JSONObject p1 = new JSONObject();
-        JSONObject searchData = new JSONObject();
-        searchData.put("data", companyName);
-
-        p1.put("param", "Search");
-        p1.put("current_value", searchData);
-        p1.put("grassroots_type", "params:json");
-        parametersArray.add(p1);
-
-        JSONObject p2 = new JSONObject();
-
-        p2.put("param", "Preview");
-        p2.put("current_value", true);
-        p2.put("grassroots_type", "xsd:boolean");
-        parametersArray.add(p2);
-
-        JSONObject p3 = new JSONObject();
-
-        p3.put("param", "Collection");
-        p3.put("current_value", "sample");
-        p3.put("grassroots_type", "xsd:string");
-        parametersArray.add(p3);
-
-        parameterSetObject.put("parameters", parametersArray);
-
-        service1.put("start_service", true);
-        service1.put("service_name", "Pathogenomics Geoservice");
-
-        service1.put("parameter_set", parameterSetObject);
-
-        servicesArray.add(service1);
-        requestObject.put("services", servicesArray);
-
-        JSONObject jsonObject = JSONObject.fromObject(sendrequest(requestObject));
-        JSONArray resultsArray = jsonObject.getJSONArray("results").getJSONObject(0).getJSONArray("results");
-
-        responses.put("data", resultsArray);
-
-        return responses;
 
     }
 
     public JSONObject getAllPublicData(HttpSession session, JSONObject json) {
+        return getAllData(false);
+
+    }
+
+    public JSONObject getAllData(Boolean preview){
 
         JSONObject responses = new JSONObject();
         JSONObject requestObject = new JSONObject();
@@ -155,7 +166,7 @@ public class WISControllerHelperService {
         JSONObject p2 = new JSONObject();
 
         p2.put("param", "Preview");
-        p2.put("current_value", false);
+        p2.put("current_value", preview);
         p2.put("grassroots_type", "xsd:boolean");
         parametersArray.add(p2);
 
@@ -178,11 +189,10 @@ public class WISControllerHelperService {
 
         JSONObject jsonObject = JSONObject.fromObject(sendrequest(requestObject));
         JSONArray resultsArray = jsonObject.getJSONArray("results").getJSONObject(0).getJSONArray("results");
-
+        System.out.println(resultsArray.size());
         responses.put("data", resultsArray);
 
         return responses;
-
     }
 
     public JSONObject uploadFile(HttpSession session, JSONObject json) {
