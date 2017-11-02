@@ -239,9 +239,17 @@ function displayYRLocations_new(array) {
             if (array[i]['data']['sample']['Address']['addressCountry'] != undefined) {
                 country = array[i]['data']['sample']['Address']['addressCountry'];
             }
+            if (array[i]['data']['sample']['Address']['addressCountry'] == undefined){
+                console.log("no country: " + array[i]['data']['ID']);
+            }
             if (array[i]['data']['sample']['Address']['addressLocality'] != undefined) {
                 town = array[i]['data']['sample']['Address']['addressLocality'];
             }
+            if (array[i]['data']['sample']['Address']['addressLocality'] == undefined){
+                console.log("no locality: " + array[i]['data']['ID']);
+            }
+        } else {
+            console.log("no address: " + array[i]['data']['ID']);
         }
         var popup_note = '<b>ID: </b>' + array[i]['data']['ID'] + '<br/>'
                 + '<b>Country: </b>' + country + '<br/>'
