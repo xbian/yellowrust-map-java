@@ -222,6 +222,8 @@ function displayYRLocations_new(array) {
         var la = array[i]['data']['sample']['location']['location']['latitude'];
         var lo = array[i]['data']['sample']['location']['location']['longitude'];
         var geno = '';
+        var country = '';
+        var town = '';
 
         if (array[i]['data']['genotype'] != undefined && array[i]['data']['genotype'] != "undefined") {
             geno = array[i]['data']['genotype']['Genetic group'];
@@ -233,8 +235,16 @@ function displayYRLocations_new(array) {
                 collector = array[i]['data']['sample']['Name/Collector']['name'];
             }
         }
+        if (array[i]['data']['sample']['Address'] != undefined) {
+            if (array[i]['data']['sample']['Address']['addressCountry'] != undefined) {
+                country = array[i]['data']['sample']['Address']['addressCountry'];
+            }
+            if (array[i]['data']['sample']['Address']['addressLocality'] != undefined) {
+                town = array[i]['data']['sample']['Address']['addressLocality'];
+            }
+        }
         var popup_note = '<b>ID: </b>' + array[i]['data']['ID'] + '<br/>'
-                + '<b>Country: </b>' + array[i]['data']['sample']['Address']['addressCountry'] + '<br/>'
+                + '<b>Country: </b>' + country + '<br/>'
                 + '<b>UKCPVS ID: </b>' + array[i]['data']['UKCPVS ID'] + '<br/>'
                 + '<b>Rust Type: </b>' + array[i]['data']['sample']['Disease'] + '<br/>'
                 + '<b>Collector: </b>' + collector + '<br/>'
@@ -243,7 +253,7 @@ function displayYRLocations_new(array) {
                 + '<b>RNA-seq: </b>' + array[i]['data']['sample']['RNA-seq? (Selected/In progress/Completed/Failed)'] + '<br/>'
                 + '<b>Phenotype: </b>' + phenotype_html(array[i]['data']['UKCPVS ID'], array[i]['data']['phenotype']) + '<br/>'
                 + '<b>Genotype: </b>' + geno + '<br/>'
-                + '<b>Town: </b>' + array[i]['data']['sample']['Address']['addressLocality']
+                + '<b>Town: </b>' + town
             ;
         addPointer(la, lo, geno, popup_note);
     }

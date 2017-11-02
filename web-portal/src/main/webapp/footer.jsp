@@ -35,7 +35,7 @@
             <td width="20%" align="center"><img src="<c:url value='/images/collaborators/niab.jpg'/>"/></td>
             <td width="20%" align="center"><img src="<c:url value='/images/collaborators/jic.jpg'/>"/></td>
             <td width="20%" align="center"><img src="<c:url value='/images/collaborators/BBSRC.jpg'/>"/></td>
-            <td width="20%" align="center"><img src="<c:url value='/images/earlham-institure-logo.png  '/>"/></td>
+            <td width="20%" align="center"><img src="<c:url value='/images/collaborators/earlham-institure-logo.png'/>"/></td>
             <td width="20%" align="center"><img src="<c:url value='/images/collaborators/ahdb.png'/>"/></td>
         </tr>
         <tr>
