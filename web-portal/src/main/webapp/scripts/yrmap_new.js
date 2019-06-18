@@ -174,6 +174,8 @@ function produceTable(data, isCompany) {
     if (!isCompany) {
         yrtable.column(13).visible(false);
     }
+
+    yrtable.column(4).visible(false);
 }
 
 jQuery.fn.dataTableExt.afnFiltering.push(

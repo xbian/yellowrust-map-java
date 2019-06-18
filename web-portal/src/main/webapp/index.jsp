@@ -112,24 +112,24 @@
     var markersGroup = new L.MarkerClusterGroup({});
     var map = L.map('map', {zoomControl: false}).setView([52.621615, 10.219470], 5);
 
-//    L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-//        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
-//        maxZoom: 18
-//    }).addTo(map);
-    L.tileLayer('https://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/{scheme}/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
-        attribution: 'Map &copy; 2016 <a href="http://developer.here.com">HERE</a>',
-        subdomains: '1234',
-        base: 'base',
-        type: 'maptile',
-        scheme: 'pedestrian.day',
-        app_id: '1yM5jhYmACdjFG39Q7yP',
-        app_code: 'ZAuXzelqWvL92h_jjEY_pA',
-        mapID: 'newest',
-        maxZoom: 20,
-        language: 'eng',
-        format: 'png8',
-        size: '256'
-    }).addTo(map);;
+   L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+       attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+       maxZoom: 18
+   }).addTo(map);
+//     L.tileLayer('https://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/{scheme}/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
+//         attribution: 'Map &copy; 2016 <a href="http://developer.here.com">HERE</a>',
+//         subdomains: '1234',
+//         base: 'base',
+//         type: 'maptile',
+//         scheme: 'pedestrian.day',
+//         app_id: '1yM5jhYmACdjFG39Q7yP',
+//         app_code: 'ZAuXzelqWvL92h_jjEY_pA',
+//         mapID: 'newest',
+//         maxZoom: 20,
+//         language: 'eng',
+//         format: 'png8',
+//         size: '256'
+//     }).addTo(map);
 //
 //    var googleLayer = new L.Google('ROADMAP');
 //    map.addLayer(googleLayer);
