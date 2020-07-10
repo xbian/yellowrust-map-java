@@ -3,51 +3,54 @@
  */
 function getData(company, isCompany) {
     jQuery('#status').html('<img src=\"/yellowrust-map/images/loading_spinner.gif\"/>');
-    if (isCompany) {
-        Fluxion.doAjax(
-            'wisControllerHelperService',
-            'getCompanyData',
-            {
-                'url': ajaxurl,
-                'company': company
-            },
-            {
-                'doOnSuccess': function (json) {
-                    startPage(json, true);
-                }
-            }
-        );
-    } else {
-        Fluxion.doAjax(
-            'wisControllerHelperService',
-            'getAllPublicData',
-            {
-                'url': ajaxurl
-            },
-            {
-                'doOnSuccess': function (json) {
-                    startPage(json, false);
-                }
-            }
-        );
-    }
+    // if (isCompany) {
+    //     Fluxion.doAjax(
+    //         'wisControllerHelperService',
+    //         'getCompanyData',
+    //         {
+    //             'url': ajaxurl,
+    //             'company': company
+    //         },
+    //         {
+    //             'doOnSuccess': function (json) {
+    //                 startPage(json, true);
+    //             }
+    //         }
+    //     );
+    // } else {
+    //     Fluxion.doAjax(
+    //         'wisControllerHelperService',
+    //         'getAllPublicData',
+    //         {
+    //             'url': ajaxurl
+    //         },
+    //         {
+    //             'doOnSuccess': function (json) {
+    //                 startPage(json, false);
+    //             }
+    //         }
+    //     );
+    // }
+
+    startPage(yr_response, false);
 }
 
 function getSearchData(query) {
     jQuery('#status').html('<img src=\"/yellowrust-map/images/loading_spinner.gif\"/>');
-    Fluxion.doAjax(
-        'wisControllerHelperService',
-        'getSearchData',
-        {
-            'url': ajaxurl,
-            'query': query
-        },
-        {
-            'doOnSuccess': function (json) {
-                startPage(json, true);
-            }
-        }
-    );
+    // Fluxion.doAjax(
+    //     'wisControllerHelperService',
+    //     'getSearchData',
+    //     {
+    //         'url': ajaxurl,
+    //         'query': query
+    //     },
+    //     {
+    //         'doOnSuccess': function (json) {
+    //             startPage(json, true);
+    //         }
+    //     }
+    // );
+    startPage(yr_response, true);
 
 }
 

@@ -1,6 +1,7 @@
 <%@ include file="header.jsp" %>
 
 <script src="<c:url value='/scripts/yrmap_new.js'/>" type="text/javascript"></script>
+<script src="<c:url value='/scripts/yr_response.js'/>" type="text/javascript"></script>
 <link href="<c:url value='/styles/clusterpies.css'/>" rel="stylesheet" type="text/css">
 <%--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfaIGEqJlpQCsZxQ6iud1Zru76A16heo0"></script>--%>
 <%--<script src="<c:url value='/scripts/leaflet-google.js'/>"></script>--%>
@@ -113,7 +114,7 @@
     var map = L.map('map', {zoomControl: false}).setView([52.621615, 10.219470], 5);
 
    L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-       attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+       attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
        maxZoom: 18
    }).addTo(map);
 //     L.tileLayer('https://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/{scheme}/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
